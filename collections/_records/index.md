@@ -16,5 +16,5 @@ layout: default
 ![Entity Relationship Diagram][erd]
 
 
-[erd]: {% link /assets/spec/record-relationships.png %}         
+[erd]: {{ /assets/spec/record-relationships.png | relative_url }}         
         
