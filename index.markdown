@@ -10,4 +10,4 @@ layout: default
 [Dimensions](./dimensions)
 
 You can also download the [Word specification]({{ 'assets/spec/specification.docx' | relative_url }}) and 
-[list of categories]({{ 'assets/spec/specification-dimensions.xlsx' | relative_url }}) in Excel2.
+[list of categories]({{ 'assets/spec/specification-dimensions.xlsx' | relative_url }}) in Excel.
