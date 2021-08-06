@@ -11,3 +11,10 @@ layout: default
  * [employment_entry](employment_entry.html)
  * [employment_sustain](employment_sustain.html)
  * [date_last_seen](date_last_seen.html)
+
+
+![Entity Relationship Diagram][erd]
+
+
+[erd]: {% link /assets/spec/record-relationships.png %}         
+        
