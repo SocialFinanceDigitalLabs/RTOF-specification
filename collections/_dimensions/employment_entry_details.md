@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: PT 0-15 hours per week
@@ -10,5 +10,5 @@ dimension:
   - description: null
     value: Government employment & training programme
   id: employment_entry_details
-layout: record
+layout: dimension
 ---

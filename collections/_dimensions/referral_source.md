@@ -1,6 +1,6 @@
 ---
-dimension:
+dimensions:
   dimensions: []
   id: referral_source
-layout: record
+layout: dimension
 ---

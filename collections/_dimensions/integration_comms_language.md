@@ -1,8 +1,8 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: tbc
   id: integration_comms_language
-layout: record
+layout: dimension
 ---

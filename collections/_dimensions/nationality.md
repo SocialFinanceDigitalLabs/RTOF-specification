@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: Andorra
     value: AD
@@ -500,5 +500,5 @@ dimension:
   - description: Zimbabwe
     value: ZW
   id: nationality
-layout: record
+layout: dimension
 ---

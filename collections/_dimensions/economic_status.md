@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: PT 0-15 hours per week
@@ -24,5 +24,5 @@ dimension:
   - description: null
     value: Retired
   id: economic_status
-layout: record
+layout: dimension
 ---

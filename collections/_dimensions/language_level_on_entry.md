@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: Below formal levels
@@ -18,5 +18,5 @@ dimension:
   - description: null
     value: Beyond Level 2
   id: language_level_on_entry
-layout: record
+layout: dimension
 ---

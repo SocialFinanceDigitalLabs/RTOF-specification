@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: No care responsibilities
@@ -10,5 +10,5 @@ dimension:
   - description: null
     value: Only care responsibilities within UK and outside HH
   id: current_family_composition
-layout: record
+layout: dimension
 ---

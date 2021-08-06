@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: Below formal levels
@@ -14,5 +14,5 @@ dimension:
   - description: null
     value: Unknown
   id: highest_qualification_achieved
-layout: record
+layout: dimension
 ---

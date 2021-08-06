@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: 0-4
@@ -10,5 +10,5 @@ dimension:
   - description: null
     value: Caring responsibilities for an adult
   id: current_dependents_uk
-layout: record
+layout: dimension
 ---

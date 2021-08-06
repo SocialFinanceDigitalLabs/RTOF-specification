@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: Creation
@@ -8,5 +8,5 @@ dimension:
   - description: null
     value: 12 month
   id: integration_outcome_type
-layout: record
+layout: dimension
 ---

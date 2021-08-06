@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: Man
@@ -12,5 +12,5 @@ dimension:
   - description: null
     value: Prefer not to say
   id: gender
-layout: record
+layout: dimension
 ---

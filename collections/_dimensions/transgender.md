@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: null
     value: Identify as transgender
@@ -8,5 +8,5 @@ dimension:
   - description: null
     value: Prefer not to say
   id: transgender
-layout: record
+layout: dimension
 ---

@@ -1,5 +1,5 @@
 ---
-dimension:
+dimensions:
   dimensions:
   - description: Successful formal recognition and/or comparison of qualifications
       or skills
@@ -29,5 +29,5 @@ dimension:
       s employment goals"
     value: another specified activity
   id: employment_outcome_type
-layout: record
+layout: dimension
 ---
