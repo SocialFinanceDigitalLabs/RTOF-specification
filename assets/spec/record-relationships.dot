@@ -1,0 +1,366 @@
+graph {
+    graph [rankdir=RL];
+    node [label="\N",
+        shape=plaintext
+    ];
+    edge [color=gray50,
+        minlen=2,
+        style=dashed
+    ];
+
+
+
+"person" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">person</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">ni_number</TD>
+            <TD ALIGN="CENTER">NINO</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">temp_ni_number</TD>
+            <TD ALIGN="CENTER">NINO</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">date_of_birth</TD>
+            <TD ALIGN="CENTER">YYYY-MM</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">gender</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">dispersal_area</TD>
+            <TD ALIGN="CENTER">String</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">date_started_service</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"housing_entry" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">housing_entry</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">housing_entry_date</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">housing_entry_accomodation</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"housing_sustain" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">housing_sustain</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">housing_sustainment_date</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"baseline" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">baseline</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">nationality</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">referral_source</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">transgender</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">living_status</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">current_family_composition</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">current_dependents_uk</TD>
+            <TD ALIGN="CENTER">List</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">date_arrived_in_uk</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">date_asylum_status_granted</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">language_level_on_entry</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">highest_qualification_achieved</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">age_finished_study</TD>
+            <TD ALIGN="CENTER">integer</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employed_in_home_country</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">occupation_type</TD>
+            <TD ALIGN="CENTER">Free Text (short)</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">occupation_sector</TD>
+            <TD ALIGN="CENTER">Free Text (short)</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">occupation_goal</TD>
+            <TD ALIGN="CENTER">Free Text (short)</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">economic_status</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">housing_baseline_accommodation</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"integration_plan" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">integration_plan</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">integration_outcome_achieved_date</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">integration_outcome_type</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">integration_social</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">integration_comms_language</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">integration_digital</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"employment_intermediate" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">employment_intermediate</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">date_intermediate_employment_outcome</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">intermediate_employment_outcome_type</TD>
+            <TD ALIGN="CENTER">List</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"employment_entry" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">employment_entry</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_entry_outcome_type</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">date_employment_entry</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_entry_details</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_entry_occupation</TD>
+            <TD ALIGN="CENTER">Free Text (short)</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_entry_sector</TD>
+            <TD ALIGN="CENTER">Free Text (short)</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"employment_sustain" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">employment_sustain</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_sustainment_date</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+"date_last_seen" [label=<<FONT FACE="Helvetica">
+    <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
+        <TR>
+            <TD COLSPAN="3"><B><FONT POINT-SIZE="16">date_last_seen</FONT></B></TD>
+        </TR>
+        
+        <TR>
+            <TD>PK</TD>
+            <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">date_last_seen</TD>
+            <TD ALIGN="CENTER">Date</TD>
+        </TR>
+    </TABLE>
+</FONT>>];
+
+
+
+"housing_entry" -- "person" [taillabel="0,1", headlabel="1"];
+
+"baseline" -- "person" [taillabel="0,1", headlabel="1"];
+
+"date_last_seen" -- "person" [taillabel="0,1", headlabel="1"];
+
+"housing_sustain" -- "person" [taillabel="0,1", headlabel="1"];
+
+"employment_entry" -- "person" [taillabel="0,1", headlabel="1"];
+
+"employment_sustain" -- "person" [taillabel="0,1", headlabel="1"];
+
+"integration_plan" -- "person" [taillabel="0..N", headlabel="1"];
+
+"employment_intermediate" -- "person" [taillabel="0,1", headlabel="1"];
+
+
+}
