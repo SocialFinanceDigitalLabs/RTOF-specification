@@ -99,22 +99,6 @@ record:
     type: String
     validation:
       required: true
-  - comments: Categories TBC after engagement with the selected providers
-    description: Where the participant was referred to your service from. Select one
-      of the given options (if unknown please select 'Other'). To be collected at
-      enrolment.
-    dimensions:
-      dimensions: []
-      id: referral_source
-    foreign_keys: null
-    id: referral_source
-    name: Referral source
-    primary_key: false
-    sample_generator: null
-    type: Categorical
-    validation:
-      dimension: referral_source
-      required: true
   - comments: null
     description: Date of participant enrolment onto the program. Month and Year of
       enrolment required. To be collected once at enrolment.
