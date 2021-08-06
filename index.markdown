@@ -9,5 +9,5 @@ layout: default
 
 [Dimensions](./dimensions)
 
-You can also download the [Word specification]({% link assets/spec/specification.docx | prepend:site.baseurl %}) and 
-[list of categories]({% link assets/spec/specification-dimensions.xlsx | prepend:site.baseurl %}) in Excel2.
+You can also download the [Word specification]({{ 'assets/spec/specification.docx' | relative_url }}) and 
+[list of categories]({{ 'assets/spec/specification-dimensions.xlsx' | relative_url }}) in Excel2.
