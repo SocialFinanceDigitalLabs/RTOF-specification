@@ -13,8 +13,5 @@ layout: default
  * [date_last_seen](date_last_seen.html)
 
 
-![Entity Relationship Diagram][erd]
-
-
-[erd]: {{ '/assets/spec/record-relationships.png' | relative_url }}         
+{% include record-relationships.svg %}
         

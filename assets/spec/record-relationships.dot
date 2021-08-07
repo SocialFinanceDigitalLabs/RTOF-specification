@@ -10,7 +10,7 @@ graph {
 
 
 
-"person" [label=<<FONT FACE="Helvetica">
+"person" [id="person", fillcolor="#b3e2cd", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">person</FONT></B></TD>
@@ -55,7 +55,7 @@ graph {
 </FONT>>];
 
 
-"housing_entry" [label=<<FONT FACE="Helvetica">
+"housing_entry" [id="housing_entry", fillcolor="#fdcdac", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">housing_entry</FONT></B></TD>
@@ -80,7 +80,7 @@ graph {
 </FONT>>];
 
 
-"housing_sustain" [label=<<FONT FACE="Helvetica">
+"housing_sustain" [id="housing_sustain", fillcolor="#fdcdac", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">housing_sustain</FONT></B></TD>
@@ -100,7 +100,7 @@ graph {
 </FONT>>];
 
 
-"baseline" [label=<<FONT FACE="Helvetica">
+"baseline" [id="baseline", fillcolor="#cbd5e8", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">baseline</FONT></B></TD>
@@ -200,7 +200,7 @@ graph {
 </FONT>>];
 
 
-"integration_plan" [label=<<FONT FACE="Helvetica">
+"integration_plan" [id="integration_plan", fillcolor="#cbd5e8", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">integration_plan</FONT></B></TD>
@@ -240,7 +240,7 @@ graph {
 </FONT>>];
 
 
-"employment_intermediate" [label=<<FONT FACE="Helvetica">
+"employment_intermediate" [id="employment_intermediate", fillcolor="#f4cae4", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">employment_intermediate</FONT></B></TD>
@@ -265,7 +265,7 @@ graph {
 </FONT>>];
 
 
-"employment_entry" [label=<<FONT FACE="Helvetica">
+"employment_entry" [id="employment_entry", fillcolor="#f4cae4", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">employment_entry</FONT></B></TD>
@@ -305,7 +305,7 @@ graph {
 </FONT>>];
 
 
-"employment_sustain" [label=<<FONT FACE="Helvetica">
+"employment_sustain" [id="employment_sustain", fillcolor="#f4cae4", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">employment_sustain</FONT></B></TD>
@@ -325,7 +325,7 @@ graph {
 </FONT>>];
 
 
-"date_last_seen" [label=<<FONT FACE="Helvetica">
+"date_last_seen" [id="date_last_seen", fillcolor="#e6f5c9", style="filled", label=<<FONT FACE="Helvetica">
     <TABLE BORDER="0" CELLBORDER="1" CELLPADDING="4" CELLSPACING="0">
         <TR>
             <TD COLSPAN="3"><B><FONT POINT-SIZE="16">date_last_seen</FONT></B></TD>
@@ -346,21 +346,21 @@ graph {
 
 
 
-"housing_entry" -- "person" [taillabel="0,1", headlabel="1"];
+"housing_entry" -- "person" [taillabel="0,1", headlabel="1", id="housing_entry--person"];
 
-"baseline" -- "person" [taillabel="0,1", headlabel="1"];
+"baseline" -- "person" [taillabel="0,1", headlabel="1", id="baseline--person"];
 
-"date_last_seen" -- "person" [taillabel="0,1", headlabel="1"];
+"date_last_seen" -- "person" [taillabel="0,1", headlabel="1", id="date_last_seen--person"];
 
-"housing_sustain" -- "person" [taillabel="0,1", headlabel="1"];
+"housing_sustain" -- "person" [taillabel="0,1", headlabel="1", id="housing_sustain--person"];
 
-"employment_entry" -- "person" [taillabel="0,1", headlabel="1"];
+"employment_entry" -- "person" [taillabel="0,1", headlabel="1", id="employment_entry--person"];
 
-"employment_sustain" -- "person" [taillabel="0,1", headlabel="1"];
+"employment_sustain" -- "person" [taillabel="0,1", headlabel="1", id="employment_sustain--person"];
 
-"integration_plan" -- "person" [taillabel="0..N", headlabel="1"];
+"integration_plan" -- "person" [taillabel="0..N", headlabel="1", id="integration_plan--person"];
 
-"employment_intermediate" -- "person" [taillabel="0,1", headlabel="1"];
+"employment_intermediate" -- "person" [taillabel="0,1", headlabel="1", id="employment_intermediate--person"];
 
 
 }
