@@ -213,13 +213,13 @@ graph {
         </TR>
         <TR>
             <TD>PK</TD>
-            <TD ALIGN="LEFT">integration_outcome_achieved_date</TD>
-            <TD ALIGN="CENTER">Date</TD>
+            <TD ALIGN="LEFT">integration_outcome_type</TD>
+            <TD ALIGN="CENTER">Categorical</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">integration_outcome_type</TD>
-            <TD ALIGN="CENTER">Categorical</TD>
+            <TD ALIGN="LEFT">integration_outcome_achieved_date</TD>
+            <TD ALIGN="CENTER">Date</TD>
         </TR>
         <TR>
             <TD></TD>

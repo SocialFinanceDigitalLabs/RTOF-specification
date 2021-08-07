@@ -23,23 +23,6 @@ record:
       required: true
       unique: true
   - comments: null
-    description: Date of integration plan outcome achievement. To be collected at
-      each outcome submission.
-    dimensions: null
-    foreign_keys: null
-    id: integration_outcome_achieved_date
-    name: Date integration plan outcome acheived
-    primary_key: true
-    sample_generator:
-      args:
-        end_date: +2y
-        start_date: +2m
-      method: date_between
-    type: Date
-    validation:
-      date_after: date_started_service
-      required: true
-  - comments: null
     description: Selection of which integration outcome has been achieved. To be collected
       at each outcome submission.
     dimensions:
@@ -54,11 +37,28 @@ record:
     foreign_keys: null
     id: integration_outcome_type
     name: Integration outcome type
-    primary_key: false
+    primary_key: true
     sample_generator: null
     type: Categorical
     validation:
       dimension: integration_outcome_type
+      required: true
+  - comments: null
+    description: Date of integration plan outcome achievement. To be collected at
+      each outcome submission.
+    dimensions: null
+    foreign_keys: null
+    id: integration_outcome_achieved_date
+    name: Date integration plan outcome acheived
+    primary_key: false
+    sample_generator:
+      args:
+        end_date: +2y
+        start_date: +2m
+      method: date_between
+    type: Date
+    validation:
+      date_after: date_started_service
       required: true
   - comments: TBC on categories - waiting for engagement with providers
     description: tbc. To be collected at each outcome submission.

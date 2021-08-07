@@ -227,14 +227,14 @@
 <polygon fill="none" stroke="black" points="103.75,-910.3 103.75,-935.3 131.75,-935.3 131.75,-910.3 103.75,-910.3"/>
 <text text-anchor="start" x="108.75" y="-919.1" font-family="Helvetica,sans-Serif" font-size="14.00">PK</text>
 <polygon fill="none" stroke="black" points="131.75,-910.3 131.75,-935.3 391.75,-935.3 391.75,-910.3 131.75,-910.3"/>
-<text text-anchor="start" x="136.75" y="-919.1" font-family="Helvetica,sans-Serif" font-size="14.00">integration_outcome_achieved_date</text>
+<text text-anchor="start" x="136.75" y="-919.1" font-family="Helvetica,sans-Serif" font-size="14.00">integration_outcome_type</text>
 <polygon fill="none" stroke="black" points="391.75,-910.3 391.75,-935.3 480.75,-935.3 480.75,-910.3 391.75,-910.3"/>
-<text text-anchor="start" x="419.75" y="-919.1" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
+<text text-anchor="start" x="396.75" y="-919.1" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
 <polygon fill="none" stroke="black" points="103.75,-885.3 103.75,-910.3 131.75,-910.3 131.75,-885.3 103.75,-885.3"/>
 <polygon fill="none" stroke="black" points="131.75,-885.3 131.75,-910.3 391.75,-910.3 391.75,-885.3 131.75,-885.3"/>
-<text text-anchor="start" x="136.75" y="-894.1" font-family="Helvetica,sans-Serif" font-size="14.00">integration_outcome_type</text>
+<text text-anchor="start" x="136.75" y="-894.1" font-family="Helvetica,sans-Serif" font-size="14.00">integration_outcome_achieved_date</text>
 <polygon fill="none" stroke="black" points="391.75,-885.3 391.75,-910.3 480.75,-910.3 480.75,-885.3 391.75,-885.3"/>
-<text text-anchor="start" x="396.75" y="-894.1" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<text text-anchor="start" x="419.75" y="-894.1" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
 <polygon fill="none" stroke="black" points="103.75,-860.3 103.75,-885.3 131.75,-885.3 131.75,-860.3 103.75,-860.3"/>
 <polygon fill="none" stroke="black" points="131.75,-860.3 131.75,-885.3 391.75,-885.3 391.75,-860.3 131.75,-860.3"/>
 <text text-anchor="start" x="136.75" y="-869.1" font-family="Helvetica,sans-Serif" font-size="14.00">integration_social</text>
