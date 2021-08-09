@@ -18,6 +18,7 @@ record:
     name: Unique person identifier
     primary_key: true
     sample_generator: null
+    status: Decided
     type: string
     validation:
       required: true
@@ -36,6 +37,7 @@ record:
     name: Type of employment entry outcome
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Categorical
     validation:
       dimension: employment_entry_outcome_type
@@ -53,6 +55,7 @@ record:
         end_date: null
         start_date: null
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_started_service
@@ -77,6 +80,7 @@ record:
     name: Details of paid employment
     primary_key: false
     sample_generator: null
+    status: Pending consideration
     type: Categorical
     validation:
       dimension: employment_entry_details
@@ -90,6 +94,7 @@ record:
     name: Occupation type
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255
@@ -103,6 +108,7 @@ record:
     name: Sector
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255

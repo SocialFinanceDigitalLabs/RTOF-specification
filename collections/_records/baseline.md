@@ -17,6 +17,7 @@ record:
     name: Unique person identifier
     primary_key: true
     sample_generator: null
+    status: Decided
     type: string
     validation:
       required: true
@@ -531,11 +532,12 @@ record:
     name: Nationality
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Categorical
     validation:
       dimension: nationality
       required: true
-  - comments: the categories for this are still to be decided and will be a product
+  - comments: The categories for this are still to be decided and will be a product
       of engagement with frontline providers during mobilistion.
     description: The referral source that led the participant to RTOF.
     dimensions:
@@ -546,6 +548,7 @@ record:
     name: Referral source
     primary_key: false
     sample_generator: null
+    status: Blocked
     type: Categorical
     validation:
       dimension: referral_source
@@ -569,6 +572,7 @@ record:
     name: Transgender
     primary_key: false
     sample_generator: null
+    status: Pending consideration
     type: Categorical
     validation:
       dimension: transgender
@@ -589,12 +593,15 @@ record:
     name: Living status
     primary_key: false
     sample_generator: null
+    status: Pending consideration
     type: Categorical
     validation:
       dimension: living_status
       required: true
   - comments: This is seeks to understand whether dependencies are currently in the
-      UK or living in same HH.
+      UK or living in same HH. JF - How does this relate to question above? It's unclear
+      what it means and why we're asking for this info. TR - James - does this replace
+      the old 'family composition' Q?"
     description: Selection of one of four given categories. To be collected once and
       submitted within 3 months of enrolment.
     dimensions:
@@ -613,13 +620,19 @@ record:
     name: Current family composition
     primary_key: false
     sample_generator: null
+    status: Pending consideration
     type: Categorical
     validation:
       dimension: current_family_composition
       required: true
   - comments: null
     description: Selection of each option that applies to the participant. To be collected
-      once and submitted within 3 months of enrolment.
+      once and submitted within 3 months of enrolment. JF - '0-4' option is unhelpful
+      for analysis. If this is an online questionaire, would be better to have this
+      as a routed question (only if with caring reponsibilities) and change to "1-4".
+      Or add a 'no kids' option." TR - I think 0-4 here is an age bracket rather than
+      a number of children. Agree re routing - that's for CRM providers/implementers
+      to organise but it's certainly what we'd reccomend to them.
     dimensions:
       dimensions:
       - description: null
@@ -636,6 +649,7 @@ record:
     name: Current dependents in UK
     primary_key: false
     sample_generator: null
+    status: Pending consideration
     type: List
     validation:
       dimension: current_dependents_uk
@@ -654,6 +668,7 @@ record:
         end_date: -2m
         start_date: -2y
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_of_birth
@@ -672,6 +687,7 @@ record:
         end_date: -2m
         start_date: -1y
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_arrived_in_uk
@@ -705,6 +721,7 @@ record:
     name: Language level on entry
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Categorical
     validation:
       dimension: language_level_on_entry
@@ -734,6 +751,7 @@ record:
     name: Highest qualification  level achieved
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Categorical
     validation:
       dimension: highest_qualification_achieved
@@ -747,6 +765,7 @@ record:
     name: Age when finished study
     primary_key: false
     sample_generator: null
+    status: Pending consideration
     type: integer
     validation: {}
   - comments: Simple yes / no selection. To confirm whether this refers to 'ever employed
@@ -766,6 +785,7 @@ record:
     name: Employed in home country
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Categorical
     validation:
       dimension: employed_in_home_country
@@ -780,6 +800,7 @@ record:
     name: Occupation type
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255
@@ -793,6 +814,7 @@ record:
     name: Sector
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255
@@ -806,10 +828,15 @@ record:
     name: Occupation goal at baseline
     primary_key: false
     sample_generator: null
+    status: Pending consideration
     type: Free Text (short)
     validation:
       character_limit: 255
-  - comments: null
+  - comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status in home
+      country? Suggest change ''unpaid work...'' to voluntary work (to include either
+      for family or not) Clarify that sick/disabled relates to reason for unemployment
+      (if this is the case) These comments also apply to other references to emplyment
+      type'
     description: Selection of a single category describing the employment status of
       the participant prior to entering RTOF. To be collected once and submitted within
       3 months of enrolment.
@@ -843,6 +870,7 @@ record:
     name: Main economic status at baseline
     primary_key: false
     sample_generator: null
+    status: Work in progress
     type: Categorical
     validation:
       dimension: economic_status
@@ -860,6 +888,7 @@ record:
     name: Accommodation type
     primary_key: false
     sample_generator: null
+    status: Work in progress
     type: Categorical
     validation:
       dimension: housing_baseline_accommodation

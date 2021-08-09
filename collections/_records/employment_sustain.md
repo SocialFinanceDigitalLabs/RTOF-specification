@@ -17,6 +17,7 @@ record:
     name: Unique person identifier
     primary_key: true
     sample_generator: null
+    status: Decided
     type: string
     validation:
       required: true
@@ -35,6 +36,7 @@ record:
         end_date: +3y
         start_date: +1y
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_employment_entry

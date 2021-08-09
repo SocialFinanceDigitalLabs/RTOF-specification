@@ -17,6 +17,7 @@ record:
     name: Unique person identifier
     primary_key: true
     sample_generator: null
+    status: Decided
     type: string
     validation:
       required: true
@@ -34,6 +35,7 @@ record:
         end_date: +2y
         start_date: +6m
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_started_service
@@ -50,6 +52,7 @@ record:
     name: Accomodation type
     primary_key: false
     sample_generator: null
+    status: Work in progress
     type: Categorical
     validation:
       dimension: housing_entry_accomodation

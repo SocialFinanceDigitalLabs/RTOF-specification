@@ -18,6 +18,7 @@ record:
     name: Unique person identifier
     primary_key: true
     sample_generator: null
+    status: Decided
     type: string
     validation:
       required: true
@@ -39,6 +40,7 @@ record:
     name: Integration outcome type
     primary_key: true
     sample_generator: null
+    status: Decided
     type: Categorical
     validation:
       dimension: integration_outcome_type
@@ -56,6 +58,7 @@ record:
         end_date: +2y
         start_date: +2m
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_started_service
@@ -72,6 +75,7 @@ record:
     name: Social bonds / bridges / links
     primary_key: false
     sample_generator: null
+    status: Blocked
     type: Categorical
     validation:
       dimension: integration_social
@@ -88,6 +92,7 @@ record:
     name: Language and communication
     primary_key: false
     sample_generator: null
+    status: Blocked
     type: Categorical
     validation:
       dimension: integration_comms_language
@@ -104,6 +109,7 @@ record:
     name: Digital skills
     primary_key: false
     sample_generator: null
+    status: Blocked
     type: Categorical
     validation:
       dimension: integration_digital

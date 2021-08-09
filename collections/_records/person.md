@@ -14,6 +14,7 @@ record:
     name: Unique person identifier
     primary_key: true
     sample_generator: null
+    status: Decided
     type: string
     validation:
       required: true
@@ -27,6 +28,7 @@ record:
     name: NI Number
     primary_key: false
     sample_generator: null
+    status: decided
     type: NINO
     validation:
       required: true
@@ -43,10 +45,14 @@ record:
     name: Temp NI number
     primary_key: false
     sample_generator: null
+    status: Decided
     type: NINO
     validation:
       unique: true
-  - comments: null
+  - comments: JF - 'Change to age' TR - 'Would be good to understand who (at HO?)
+      wants age rather than age bracket - what's the purpose? Palladium and Ecorys
+      both happy with bracketing and obviously it minimises the disclosiveness of
+      the data.'
     description: Date of birth of participant. To be collected once at enrolment
     dimensions: null
     foreign_keys: null
@@ -58,6 +64,7 @@ record:
         end_date: -18y
         start_date: -65y
       method: date_between
+    status: Pending consideration
     type: YYYY-MM
     validation:
       required: true
@@ -83,6 +90,7 @@ record:
     name: Gender
     primary_key: false
     sample_generator: null
+    status: Decided
     type: Categorical
     validation:
       dimension: gender
@@ -96,6 +104,7 @@ record:
     name: Dispersal area
     primary_key: false
     sample_generator: null
+    status: Decided
     type: String
     validation:
       required: true
@@ -112,6 +121,7 @@ record:
         end_date: -18y
         start_date: -65y
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_asylum_status_granted
