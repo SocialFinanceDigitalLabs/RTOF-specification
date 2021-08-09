@@ -28,7 +28,7 @@ record:
     name: NI Number
     primary_key: false
     sample_generator: null
-    status: decided
+    status: Decided
     type: NINO
     validation:
       required: true
