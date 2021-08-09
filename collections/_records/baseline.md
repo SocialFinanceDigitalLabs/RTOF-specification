@@ -603,33 +603,27 @@ record:
     validation:
       dimension: living_status
       required: true
-  - comments: This is seeks to understand whether dependencies are currently in the
-      UK or living in same HH. JF - How does this relate to question above? It's unclear
-      what it means and why we're asking for this info. TR - James - does this replace
-      the old 'family composition' Q?"
-    description: Selection of one of four given categories. To be collected once and
-      submitted within 3 months of enrolment.
+  - comments: null
+    description: Do you currently have any dependents in the UK? Yes / No to understand
+      whether the participant has any depedents curently in the UK. To be collected
+      once and submitted within 3 months of enrolment.
     dimensions:
       dimensions:
       - description: null
-        value: No care responsibilities
+        value: 'Yes'
       - description: null
-        value: Only care responsibilities outside UK
-      - description: null
-        value: Any care responsibilities within UK and in same HH
-      - description: null
-        value: Only care responsibilities within UK and outside HH
-      id: current_family_composition
+        value: 'No'
+      id: current_dependents_uk
     foreign_keys: null
-    id: current_family_composition
+    id: current_dependents_uk
     latest_comments: tbc with Ecorys, Palladium and HO
-    name: Current family composition
+    name: Current dependents in UK
     primary_key: false
     sample_generator: null
-    status: Pending consideration
+    status: pending consideration
     type: Categorical
     validation:
-      dimension: current_family_composition
+      dimension: current_dependents_uk
       required: true
   - comments: null
     description: Selection of each option that applies to the participant. To be collected
@@ -644,9 +638,9 @@ record:
         value: 11-17
       - description: null
         value: Caring responsibilities for an adult
-      id: current_dependents_uk
+      id: current_number_of_dependents_uk
     foreign_keys: null
-    id: current_dependents_uk
+    id: current_number_of_dependents_uk
     latest_comments: tbc with Ecorys, Palladium and HO
     name: Current dependents in UK
     primary_key: false
@@ -654,7 +648,7 @@ record:
     status: Pending consideration
     type: List
     validation:
-      dimension: current_dependents_uk
+      dimension: current_number_of_dependents_uk
       required: true
   - comments: To confirm alternative collection route if an integration plan is not
       submitted [eg. Provider caseload review]
@@ -878,11 +872,8 @@ record:
       id: economic_status
     foreign_keys: null
     id: economic_status
-    latest_comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status
-      in home country? Suggest change ''unpaid work...'' to voluntary work (to include
-      either for family or not) Clarify that sick/disabled relates to reason for unemployment
-      (if this is the case) These comments also apply to other references to emplyment
-      type'
+    latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
+      assessment
     name: Main economic status at baseline
     primary_key: false
     sample_generator: null

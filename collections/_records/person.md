@@ -60,10 +60,8 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_of_birth
-    latest_comments: JF - 'Change to age' TR - 'Would be good to understand who (at
-      HO?) wants age rather than age bracket - what's the purpose? Palladium and Ecorys
-      both happy with bracketing and obviously it minimises the disclosiveness of
-      the data.'
+    latest_comments: Deleted 'MM' collection, just to collect age (year of birth)
+      - to confirm if this satisfies HO requirements
     name: Date of birth
     primary_key: false
     sample_generator:
@@ -72,7 +70,7 @@ record:
         start_date: -65y
       method: date_between
     status: Pending consideration
-    type: YYYY-MM
+    type: YYYY
     validation:
       required: true
   - comments: null
