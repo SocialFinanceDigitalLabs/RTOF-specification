@@ -11,6 +11,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: unique_id
+    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
@@ -25,6 +26,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: ni_number
+    latest_comments: null
     name: NI Number
     primary_key: false
     sample_generator: null
@@ -42,6 +44,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: temp_ni_number
+    latest_comments: null
     name: Temp NI number
     primary_key: false
     sample_generator: null
@@ -57,6 +60,10 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_of_birth
+    latest_comments: JF - 'Change to age' TR - 'Would be good to understand who (at
+      HO?) wants age rather than age bracket - what's the purpose? Palladium and Ecorys
+      both happy with bracketing and obviously it minimises the disclosiveness of
+      the data.'
     name: Date of birth
     primary_key: false
     sample_generator:
@@ -87,6 +94,7 @@ record:
       id: gender
     foreign_keys: null
     id: gender
+    latest_comments: null
     name: Gender
     primary_key: false
     sample_generator: null
@@ -101,6 +109,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: dispersal_area
+    latest_comments: null
     name: Dispersal area
     primary_key: false
     sample_generator: null
@@ -114,6 +123,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_started_service
+    latest_comments: null
     name: Date started with service
     primary_key: false
     sample_generator:

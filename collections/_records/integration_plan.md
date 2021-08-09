@@ -15,6 +15,7 @@ record:
     - field: unique_id
       record: person
     id: unique_id
+    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
@@ -37,6 +38,7 @@ record:
       id: integration_outcome_type
     foreign_keys: null
     id: integration_outcome_type
+    latest_comments: null
     name: Integration outcome type
     primary_key: true
     sample_generator: null
@@ -51,6 +53,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: integration_outcome_achieved_date
+    latest_comments: null
     name: Date integration plan outcome acheived
     primary_key: false
     sample_generator:
@@ -72,6 +75,7 @@ record:
       id: integration_social
     foreign_keys: null
     id: integration_social
+    latest_comments: tbc - Ecorys to confirm categories after provider engagement
     name: Social bonds / bridges / links
     primary_key: false
     sample_generator: null
@@ -89,6 +93,7 @@ record:
       id: integration_comms_language
     foreign_keys: null
     id: integration_comms_language
+    latest_comments: tbc - Ecorys to confirm categories after provider engagement
     name: Language and communication
     primary_key: false
     sample_generator: null
@@ -106,6 +111,7 @@ record:
       id: integration_digital
     foreign_keys: null
     id: integration_digital
+    latest_comments: tbc - Ecorys to confirm categories after provider engagement
     name: Digital skills
     primary_key: false
     sample_generator: null

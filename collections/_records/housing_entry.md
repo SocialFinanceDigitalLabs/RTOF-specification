@@ -14,6 +14,7 @@ record:
     - field: unique_id
       record: person
     id: unique_id
+    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
@@ -28,6 +29,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: housing_entry_date
+    latest_comments: null
     name: Date of housing entry
     primary_key: false
     sample_generator:
@@ -49,6 +51,8 @@ record:
       id: housing_entry_accomodation
     foreign_keys: null
     id: housing_entry_accomodation
+    latest_comments: tbc - same comments as 'housing_baseline_accommodation', categories
+      to align
     name: Accomodation type
     primary_key: false
     sample_generator: null

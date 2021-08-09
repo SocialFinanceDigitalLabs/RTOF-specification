@@ -14,6 +14,7 @@ record:
     - field: unique_id
       record: person
     id: unique_id
+    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
@@ -529,6 +530,7 @@ record:
       id: nationality
     foreign_keys: null
     id: nationality
+    latest_comments: null
     name: Nationality
     primary_key: false
     sample_generator: null
@@ -545,6 +547,7 @@ record:
       id: referral_source
     foreign_keys: null
     id: referral_source
+    latest_comments: Categories tbc after provider engagement
     name: Referral source
     primary_key: false
     sample_generator: null
@@ -569,6 +572,7 @@ record:
       id: transgender
     foreign_keys: null
     id: transgender
+    latest_comments: tbc with Ecorys, Palladium and HO
     name: Transgender
     primary_key: false
     sample_generator: null
@@ -590,6 +594,7 @@ record:
       id: living_status
     foreign_keys: null
     id: living_status
+    latest_comments: tbc with Ecorys, Palladium and HO
     name: Living status
     primary_key: false
     sample_generator: null
@@ -617,6 +622,7 @@ record:
       id: current_family_composition
     foreign_keys: null
     id: current_family_composition
+    latest_comments: tbc with Ecorys, Palladium and HO
     name: Current family composition
     primary_key: false
     sample_generator: null
@@ -646,6 +652,7 @@ record:
       id: current_dependents_uk
     foreign_keys: null
     id: current_dependents_uk
+    latest_comments: tbc with Ecorys, Palladium and HO
     name: Current dependents in UK
     primary_key: false
     sample_generator: null
@@ -661,6 +668,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_arrived_in_uk
+    latest_comments: null
     name: Date arrived in UK
     primary_key: false
     sample_generator:
@@ -680,6 +688,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_asylum_status_granted
+    latest_comments: null
     name: Date asylum status granted
     primary_key: false
     sample_generator:
@@ -718,6 +727,7 @@ record:
       id: language_level_on_entry
     foreign_keys: null
     id: language_level_on_entry
+    latest_comments: null
     name: Language level on entry
     primary_key: false
     sample_generator: null
@@ -748,6 +758,7 @@ record:
       id: highest_qualification_achieved
     foreign_keys: null
     id: highest_qualification_achieved
+    latest_comments: null
     name: Highest qualification  level achieved
     primary_key: false
     sample_generator: null
@@ -762,6 +773,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: age_finished_study
+    latest_comments: tbc with Ecorys, Palladium and HO
     name: Age when finished study
     primary_key: false
     sample_generator: null
@@ -782,6 +794,7 @@ record:
       id: employed_in_home_country
     foreign_keys: null
     id: employed_in_home_country
+    latest_comments: null
     name: Employed in home country
     primary_key: false
     sample_generator: null
@@ -797,6 +810,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: occupation_type
+    latest_comments: null
     name: Occupation type
     primary_key: false
     sample_generator: null
@@ -811,6 +825,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: occupation_sector
+    latest_comments: null
     name: Sector
     primary_key: false
     sample_generator: null
@@ -825,6 +840,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: occupation_goal
+    latest_comments: tbc with Ecorys, Palladium and HO
     name: Occupation goal at baseline
     primary_key: false
     sample_generator: null
@@ -867,6 +883,11 @@ record:
       id: economic_status
     foreign_keys: null
     id: economic_status
+    latest_comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status
+      in home country? Suggest change ''unpaid work...'' to voluntary work (to include
+      either for family or not) Clarify that sick/disabled relates to reason for unemployment
+      (if this is the case) These comments also apply to other references to emplyment
+      type'
     name: Main economic status at baseline
     primary_key: false
     sample_generator: null
@@ -885,6 +906,7 @@ record:
       id: housing_baseline_accommodation
     foreign_keys: null
     id: housing_baseline_accommodation
+    latest_comments: tbc by Ecorys re. Value for Money assessment
     name: Accommodation type
     primary_key: false
     sample_generator: null
