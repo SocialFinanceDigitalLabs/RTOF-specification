@@ -626,8 +626,9 @@ record:
       dimension: current_dependents_uk
       required: true
   - comments: null
-    description: Selection of each option that applies to the participant. To be collected
-      once and submitted within 3 months of enrolment.
+    description: If answered Yes to 'current dependents UK'. Selection of each option
+      that applies to the participant. To be collected once and submitted within 3
+      months of enrolment.
     dimensions:
       dimensions:
       - description: null
@@ -649,7 +650,6 @@ record:
     type: List
     validation:
       dimension: current_number_of_dependents_uk
-      required: true
   - comments: To confirm alternative collection route if an integration plan is not
       submitted [eg. Provider caseload review]
     description: Date participant entered the UK, relating to their latest and current
