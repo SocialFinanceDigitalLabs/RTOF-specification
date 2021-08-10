@@ -33,7 +33,7 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">date_of_birth</TD>
+            <TD ALIGN="LEFT">year_of_birth</TD>
             <TD ALIGN="CENTER">YYYY</TD>
         </TR>
         <TR>

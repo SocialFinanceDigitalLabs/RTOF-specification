@@ -56,13 +56,13 @@ record:
       wants age rather than age bracket - what's the purpose? Palladium and Ecorys
       both happy with bracketing and obviously it minimises the disclosiveness of
       the data.'
-    description: Date of birth of participant. To be collected once at enrolment
+    description: Year of birth of participant. To be collected once at enrolment
     dimensions: null
     foreign_keys: null
-    id: date_of_birth
-    latest_comments: Deleted 'MM' collection, just to collect age (year of birth)
-      - to confirm if this satisfies HO requirements
-    name: Date of birth
+    id: year_of_birth
+    latest_comments: Deleted 'Month of birth' collection, just to collect age (year
+      of birth) - to confirm if this satisfies HO requirements
+    name: Year of birth
     primary_key: false
     sample_generator:
       args:
