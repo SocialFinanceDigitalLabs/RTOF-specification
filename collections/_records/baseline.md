@@ -620,7 +620,7 @@ record:
     name: Current dependents in UK
     primary_key: false
     sample_generator: null
-    status: pending consideration
+    status: Pending consideration
     type: Categorical
     validation:
       dimension: current_dependents_uk
