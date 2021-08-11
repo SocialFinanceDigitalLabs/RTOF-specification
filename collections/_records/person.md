@@ -96,7 +96,7 @@ record:
     name: Gender
     primary_key: false
     sample_generator: null
-    status: Decided
+    status: Pending consideration
     type: Categorical
     validation:
       dimension: gender
