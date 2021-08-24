@@ -35,6 +35,95 @@ record:
 
         '
       id: required
+  - comments: Minimum data collection required to understand enrolment
+    description: UK National Insurance number. Must be unique. To be collected at
+      enrolment into the program. All upper case and no spaces [regular expressions
+      for NiNos]
+    dimensions: null
+    foreign_keys: null
+    id: ni_number
+    latest_comments: null
+    name: NI Number
+    primary_key: false
+    sample_generator: null
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation:
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''required: true'' must be present in the data record,
+        and must have a non-blank value. It is short-hand
+
+        for ''notnull: true'' and ''notblank: true''.
+
+        '
+      id: required
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''unique: true'' should be unique within the dataset
+        for this provider.
+
+        '
+      id: unique
+    - args:
+      - help: true/false value indicating if the current field is a national insurance
+          number
+        name: enabled
+        type: boolean
+      description: 'UK National Insurance Number - uppercase with all whitespace removed.
+        Validated according to format given in
+
+        https://github.com/dwp/nino-format-validation
+
+        '
+      id: national_insurance_number
+  - comments: null
+    description: This field is only relevant if a participant has a temporary NINO.
+      In these cases, you should submit the temporary NINO, in this persons form,
+      leaving the ni_number field blank, until the participant receives a permanent
+      NINO. Once a permanent NINO has been received this form should be updated. All
+      upper case and no spaces [regular expressions for NiNos]
+    dimensions: null
+    foreign_keys: null
+    id: temp_ni_number
+    latest_comments: null
+    name: Temp NI number
+    primary_key: false
+    sample_generator: null
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation:
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''unique: true'' should be unique within the dataset
+        for this provider.
+
+        '
+      id: unique
+    - args:
+      - help: true/false value indicating if the current field is a national insurance
+          number
+        name: enabled
+        type: boolean
+      description: 'UK National Insurance Number - uppercase with all whitespace removed.
+        Validated according to format given in
+
+        https://github.com/dwp/nino-format-validation
+
+        '
+      id: national_insurance_number
   - comments: To ensure we use the same categories HO use for data collection
     description: Nationality of participant. A list of nationalities are provided.
       Must select one of the given categories, please see nationality descriptions
@@ -116,12 +205,13 @@ record:
   - comments: null
     description: Do you identify as transgender? A question which follows on from
       the question in the person data form, with 'identify as transgender', 'do not
-      identify as transgender' or 'prefer not to say'. To be collected once and submitted
-      within 3 months of enrolment.
+      identify as transgender' or 'prefer not to say'. This is a non-mandatory data
+      field, people have the option to ask this question, but are not forced to answer
+      To be collected once and submitted within 3 months of enrolment.
     dimensions: null
     foreign_keys: null
     id: transgender
-    latest_comments: tbc with Ecorys, Palladium and HO
+    latest_comments: tbc with Ecorys and Palladium
     name: Transgender
     primary_key: false
     sample_generator: null
@@ -131,17 +221,6 @@ record:
         type must have a `dimension` validator indicating the set of allowed values.
       id: categorical
     validation:
-    - args:
-      - help: true/false value indicating if the current field is required
-        name: enabled
-        type: boolean
-      description: 'A field with ''required: true'' must be present in the data record,
-        and must have a non-blank value. It is short-hand
-
-        for ''notnull: true'' and ''notblank: true''.
-
-        '
-      id: required
     - args:
       - help: The ID of the category that this list has to be a member of.
         name: category_id
@@ -199,11 +278,11 @@ record:
     dimensions: null
     foreign_keys: null
     id: current_dependents_uk
-    latest_comments: tbc with Ecorys, Palladium and HO
+    latest_comments: null
     name: Current dependents in UK
     primary_key: false
     sample_generator: null
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -237,9 +316,9 @@ record:
       months of enrolment.
     dimensions: null
     foreign_keys: null
-    id: current_number_of_dependents_uk
+    id: age_profile_of_dependents_uk
     latest_comments: tbc with Ecorys, Palladium and HO
-    name: Current dependents in UK
+    name: Age profile of dependents in UK
     primary_key: false
     sample_generator: null
     status: Pending consideration
@@ -439,11 +518,11 @@ record:
     dimensions: null
     foreign_keys: null
     id: age_finished_study
-    latest_comments: tbc with Ecorys, Palladium and HO
+    latest_comments: null
     name: Age when finished study
     primary_key: false
     sample_generator: null
-    status: Pending consideration
+    status: Decided
     type:
       description: An integer as defined by the JSON Schema `integer` type.
       id: integer
@@ -490,8 +569,9 @@ record:
       id: dimension
   - comments: To confirm word limit (and possibly add a suggestion ie. Teacher)
     description: If answered 'Yes' to employed in home country field, state job role
-      [e.g. teacher] of their last employment. Max word count 10 words. To be collected
-      once and submitted within 3 months of enrolment.
+      of their last employment. Max word count 10 words. To be collected once and
+      submitted within 3 months of enrolment. For some providers this may be a categorical
+      data field - please confirm with your nominated data lead.
     dimensions: null
     foreign_keys: null
     id: occupation_type
@@ -515,8 +595,9 @@ record:
       id: character_limit
   - comments: To confirm word limit (and possibly add a suggestion ie. Education)
     description: If answered 'Yes' to employed in home country field, state the sector
-      [eg. education] of their last employment. Max word count 10 words. To be collected
-      once and submitted within 3 months of enrolment.
+      of their last employment. Max word count 10 words. To be collected once and
+      submitted within 3 months of enrolment. For some providers this may be a categorical
+      data field - please confirm with your nominated data lead.
     dimensions: null
     foreign_keys: null
     id: occupation_sector
@@ -541,15 +622,16 @@ record:
   - comments: null
     description: All participants to be asked what their employment goals. This can
       be sector, job role or employment-type. To be collected once and submitted within
-      3 months of enrolment.
+      3 months of enrolment. For some providers this may be a categorical data field
+      - please confirm with your nominated data lead.
     dimensions: null
     foreign_keys: null
     id: occupation_goal
-    latest_comments: tbc with Ecorys, Palladium and HO
+    latest_comments: null
     name: Occupation goal at baseline
     primary_key: false
     sample_generator: null
-    status: Pending consideration
+    status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
         type.
@@ -575,7 +657,7 @@ record:
     foreign_keys: null
     id: economic_status
     latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
-      assessment
+      assessment - decision due 31 August
     name: Main economic status at baseline
     primary_key: false
     sample_generator: null
@@ -613,7 +695,8 @@ record:
     dimensions: null
     foreign_keys: null
     id: housing_baseline_accommodation
-    latest_comments: tbc by Ecorys re. Value for Money assessment
+    latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
+      assessment - decision due 31 August
     name: Accommodation type
     primary_key: false
     sample_generator: null

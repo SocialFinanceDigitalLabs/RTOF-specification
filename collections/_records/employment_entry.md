@@ -162,6 +162,8 @@ record:
   - comments: null
     description: State participants employment type for the achievement of entry to
       employment outcome. To be collected once at entry to employment outcome submission.
+      For some providers this may be a categorical data field - please confirm with
+      your nominated data lead.
     dimensions: null
     foreign_keys: null
     id: employment_entry_occupation
@@ -197,6 +199,8 @@ record:
   - comments: null
     description: State the participants employment sector for the achievement of entry
       to employment outcome. To be collected once at entry to employment outcome submission.
+      For some providers this may be a categorical data field - please confirm with
+      your nominated data lead.
     dimensions: null
     foreign_keys: null
     id: employment_entry_sector
