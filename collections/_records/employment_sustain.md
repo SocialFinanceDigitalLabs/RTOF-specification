@@ -14,11 +14,9 @@ record:
     - field: unique_id
       record: person
     id: unique_id
-    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
-    status: Decided
     type: string
     validation:
       required: true
@@ -30,7 +28,6 @@ record:
     dimensions: null
     foreign_keys: null
     id: employment_sustainment_date
-    latest_comments: null
     name: Date employment sustainment outcome achieved
     primary_key: false
     sample_generator:
@@ -38,7 +35,6 @@ record:
         end_date: +3y
         start_date: +1y
       method: date_between
-    status: Decided
     type: Date
     validation:
       date_after: date_employment_entry

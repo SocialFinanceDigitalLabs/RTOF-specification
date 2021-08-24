@@ -14,11 +14,9 @@ record:
     - field: unique_id
       record: person
     id: unique_id
-    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
-    status: Decided
     type: string
     validation:
       required: true
@@ -530,16 +528,14 @@ record:
       id: nationality
     foreign_keys: null
     id: nationality
-    latest_comments: null
     name: Nationality
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Categorical
     validation:
       dimension: nationality
       required: true
-  - comments: The categories for this are still to be decided and will be a product
+  - comments: the categories for this are still to be decided and will be a product
       of engagement with frontline providers during mobilistion.
     description: The referral source that led the participant to RTOF.
     dimensions:
@@ -547,11 +543,9 @@ record:
       id: referral_source
     foreign_keys: null
     id: referral_source
-    latest_comments: Categories tbc after provider engagement
     name: Referral source
     primary_key: false
     sample_generator: null
-    status: Blocked
     type: Categorical
     validation:
       dimension: referral_source
@@ -572,11 +566,9 @@ record:
       id: transgender
     foreign_keys: null
     id: transgender
-    latest_comments: tbc with Ecorys, Palladium and HO
     name: Transgender
     primary_key: false
     sample_generator: null
-    status: Pending consideration
     type: Categorical
     validation:
       dimension: transgender
@@ -594,41 +586,40 @@ record:
       id: living_status
     foreign_keys: null
     id: living_status
-    latest_comments: tbc with Ecorys, Palladium and HO
     name: Living status
     primary_key: false
     sample_generator: null
-    status: Pending consideration
     type: Categorical
     validation:
       dimension: living_status
       required: true
-  - comments: null
-    description: Do you currently have any dependents in the UK? Yes / No to understand
-      whether the participant has any depedents curently in the UK. To be collected
-      once and submitted within 3 months of enrolment.
+  - comments: This is seeks to understand whether dependencies are currently in the
+      UK or living in same HH.
+    description: Selection of one of four given categories. To be collected once and
+      submitted within 3 months of enrolment.
     dimensions:
       dimensions:
       - description: null
-        value: 'Yes'
+        value: No care responsibilities
       - description: null
-        value: 'No'
-      id: current_dependents_uk
+        value: Only care responsibilities outside UK
+      - description: null
+        value: Any care responsibilities within UK and in same HH
+      - description: null
+        value: Only care responsibilities within UK and outside HH
+      id: current_family_composition
     foreign_keys: null
-    id: current_dependents_uk
-    latest_comments: tbc with Ecorys, Palladium and HO
-    name: Current dependents in UK
+    id: current_family_composition
+    name: Current family composition
     primary_key: false
     sample_generator: null
-    status: Pending consideration
     type: Categorical
     validation:
-      dimension: current_dependents_uk
+      dimension: current_family_composition
       required: true
   - comments: null
-    description: If answered Yes to 'current dependents UK'. Selection of each option
-      that applies to the participant. To be collected once and submitted within 3
-      months of enrolment.
+    description: Selection of each option that applies to the participant. To be collected
+      once and submitted within 3 months of enrolment.
     dimensions:
       dimensions:
       - description: null
@@ -639,17 +630,16 @@ record:
         value: 11-17
       - description: null
         value: Caring responsibilities for an adult
-      id: current_number_of_dependents_uk
+      id: current_dependents_uk
     foreign_keys: null
-    id: current_number_of_dependents_uk
-    latest_comments: tbc with Ecorys, Palladium and HO
+    id: current_dependents_uk
     name: Current dependents in UK
     primary_key: false
     sample_generator: null
-    status: Pending consideration
     type: List
     validation:
-      dimension: current_number_of_dependents_uk
+      dimension: current_dependents_uk
+      required: true
   - comments: To confirm alternative collection route if an integration plan is not
       submitted [eg. Provider caseload review]
     description: Date participant entered the UK, relating to their latest and current
@@ -657,7 +647,6 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_arrived_in_uk
-    latest_comments: null
     name: Date arrived in UK
     primary_key: false
     sample_generator:
@@ -665,7 +654,6 @@ record:
         end_date: -2m
         start_date: -2y
       method: date_between
-    status: Decided
     type: Date
     validation:
       date_after: date_of_birth
@@ -677,7 +665,6 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_asylum_status_granted
-    latest_comments: null
     name: Date asylum status granted
     primary_key: false
     sample_generator:
@@ -685,7 +672,6 @@ record:
         end_date: -2m
         start_date: -1y
       method: date_between
-    status: Decided
     type: Date
     validation:
       date_after: date_arrived_in_uk
@@ -716,11 +702,9 @@ record:
       id: language_level_on_entry
     foreign_keys: null
     id: language_level_on_entry
-    latest_comments: null
     name: Language level on entry
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Categorical
     validation:
       dimension: language_level_on_entry
@@ -747,11 +731,9 @@ record:
       id: highest_qualification_achieved
     foreign_keys: null
     id: highest_qualification_achieved
-    latest_comments: null
     name: Highest qualification  level achieved
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Categorical
     validation:
       dimension: highest_qualification_achieved
@@ -762,11 +744,9 @@ record:
     dimensions: null
     foreign_keys: null
     id: age_finished_study
-    latest_comments: tbc with Ecorys, Palladium and HO
     name: Age when finished study
     primary_key: false
     sample_generator: null
-    status: Pending consideration
     type: integer
     validation: {}
   - comments: Simple yes / no selection. To confirm whether this refers to 'ever employed
@@ -783,11 +763,9 @@ record:
       id: employed_in_home_country
     foreign_keys: null
     id: employed_in_home_country
-    latest_comments: null
     name: Employed in home country
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Categorical
     validation:
       dimension: employed_in_home_country
@@ -799,11 +777,9 @@ record:
     dimensions: null
     foreign_keys: null
     id: occupation_type
-    latest_comments: null
     name: Occupation type
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255
@@ -814,11 +790,9 @@ record:
     dimensions: null
     foreign_keys: null
     id: occupation_sector
-    latest_comments: null
     name: Sector
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255
@@ -829,19 +803,13 @@ record:
     dimensions: null
     foreign_keys: null
     id: occupation_goal
-    latest_comments: tbc with Ecorys, Palladium and HO
     name: Occupation goal at baseline
     primary_key: false
     sample_generator: null
-    status: Pending consideration
     type: Free Text (short)
     validation:
       character_limit: 255
-  - comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status in home
-      country? Suggest change ''unpaid work...'' to voluntary work (to include either
-      for family or not) Clarify that sick/disabled relates to reason for unemployment
-      (if this is the case) These comments also apply to other references to emplyment
-      type'
+  - comments: null
     description: Selection of a single category describing the employment status of
       the participant prior to entering RTOF. To be collected once and submitted within
       3 months of enrolment.
@@ -872,12 +840,9 @@ record:
       id: economic_status
     foreign_keys: null
     id: economic_status
-    latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
-      assessment
     name: Main economic status at baseline
     primary_key: false
     sample_generator: null
-    status: Work in progress
     type: Categorical
     validation:
       dimension: economic_status
@@ -892,11 +857,9 @@ record:
       id: housing_baseline_accommodation
     foreign_keys: null
     id: housing_baseline_accommodation
-    latest_comments: tbc by Ecorys re. Value for Money assessment
     name: Accommodation type
     primary_key: false
     sample_generator: null
-    status: Work in progress
     type: Categorical
     validation:
       dimension: housing_baseline_accommodation

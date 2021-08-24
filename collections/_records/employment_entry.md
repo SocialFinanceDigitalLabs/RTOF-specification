@@ -15,11 +15,9 @@ record:
     - field: unique_id
       record: person
     id: unique_id
-    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
-    status: Decided
     type: string
     validation:
       required: true
@@ -35,11 +33,9 @@ record:
       id: employment_entry_outcome_type
     foreign_keys: null
     id: employment_entry_outcome_type
-    latest_comments: null
     name: Type of employment entry outcome
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Categorical
     validation:
       dimension: employment_entry_outcome_type
@@ -50,7 +46,6 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_employment_entry
-    latest_comments: null
     name: Date entered employment
     primary_key: false
     sample_generator:
@@ -58,7 +53,6 @@ record:
         end_date: null
         start_date: null
       method: date_between
-    status: Decided
     type: Date
     validation:
       date_after: date_started_service
@@ -80,12 +74,9 @@ record:
       id: employment_entry_details
     foreign_keys: null
     id: employment_entry_details
-    latest_comments: tbc - same comments as baseline 'economic_status', categories
-      to align
     name: Details of paid employment
     primary_key: false
     sample_generator: null
-    status: Pending consideration
     type: Categorical
     validation:
       dimension: employment_entry_details
@@ -96,11 +87,9 @@ record:
     dimensions: null
     foreign_keys: null
     id: employment_entry_occupation
-    latest_comments: null
     name: Occupation type
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255
@@ -111,11 +100,9 @@ record:
     dimensions: null
     foreign_keys: null
     id: employment_entry_sector
-    latest_comments: null
     name: Sector
     primary_key: false
     sample_generator: null
-    status: Decided
     type: Free Text (short)
     validation:
       character_limit: 255

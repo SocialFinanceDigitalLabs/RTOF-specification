@@ -33,8 +33,8 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">year_of_birth</TD>
-            <TD ALIGN="CENTER">YYYY</TD>
+            <TD ALIGN="LEFT">date_of_birth</TD>
+            <TD ALIGN="CENTER">YYYY-MM</TD>
         </TR>
         <TR>
             <TD></TD>
@@ -133,12 +133,12 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">current_dependents_uk</TD>
+            <TD ALIGN="LEFT">current_family_composition</TD>
             <TD ALIGN="CENTER">Categorical</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">current_number_of_dependents_uk</TD>
+            <TD ALIGN="LEFT">current_dependents_uk</TD>
             <TD ALIGN="CENTER">List</TD>
         </TR>
         <TR>
