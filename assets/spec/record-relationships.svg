@@ -33,9 +33,9 @@
 <text text-anchor="start" x="801.79" y="-580.05" font-family="Helvetica,sans-Serif" font-size="14.00">NINO</text>
 <polygon fill="none" stroke="black" points="593.79,-546.25 593.79,-571.25 621.79,-571.25 621.79,-546.25 593.79,-546.25"/>
 <polygon fill="none" stroke="black" points="621.79,-546.25 621.79,-571.25 775.79,-571.25 775.79,-546.25 621.79,-546.25"/>
-<text text-anchor="start" x="626.79" y="-555.05" font-family="Helvetica,sans-Serif" font-size="14.00">date_of_birth</text>
+<text text-anchor="start" x="626.79" y="-555.05" font-family="Helvetica,sans-Serif" font-size="14.00">year_of_birth</text>
 <polygon fill="none" stroke="black" points="775.79,-546.25 775.79,-571.25 864.79,-571.25 864.79,-546.25 775.79,-546.25"/>
-<text text-anchor="start" x="789.79" y="-555.05" font-family="Helvetica,sans-Serif" font-size="14.00">YYYY&#45;MM</text>
+<text text-anchor="start" x="803.29" y="-555.05" font-family="Helvetica,sans-Serif" font-size="14.00">YYYY</text>
 <polygon fill="none" stroke="black" points="593.79,-521.25 593.79,-546.25 621.79,-546.25 621.79,-521.25 593.79,-521.25"/>
 <polygon fill="none" stroke="black" points="621.79,-521.25 621.79,-546.25 775.79,-546.25 775.79,-521.25 621.79,-521.25"/>
 <text text-anchor="start" x="626.79" y="-530.05" font-family="Helvetica,sans-Serif" font-size="14.00">gender</text>
@@ -110,100 +110,100 @@
 <!-- baseline -->
 <g id="baseline" class="node">
 <title>baseline</title>
-<polygon fill="#cbd5e8" stroke="transparent" points="940.29,-1361.49 526.29,-1361.49 526.29,-875.49 940.29,-875.49 940.29,-1361.49"/>
-<polygon fill="none" stroke="black" points="534.29,-1329.49 534.29,-1357.49 932.29,-1357.49 932.29,-1329.49 534.29,-1329.49"/>
-<text text-anchor="start" x="695.79" y="-1340.69" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">baseline</text>
-<polygon fill="none" stroke="black" points="534.29,-1304.49 534.29,-1329.49 562.29,-1329.49 562.29,-1304.49 534.29,-1304.49"/>
-<text text-anchor="start" x="539.29" y="-1313.29" font-family="Helvetica,sans-Serif" font-size="14.00">PK</text>
-<polygon fill="none" stroke="black" points="562.29,-1304.49 562.29,-1329.49 810.29,-1329.49 810.29,-1304.49 562.29,-1304.49"/>
-<text text-anchor="start" x="567.29" y="-1313.29" font-family="Helvetica,sans-Serif" font-size="14.00">unique_id</text>
-<polygon fill="none" stroke="black" points="810.29,-1304.49 810.29,-1329.49 932.29,-1329.49 932.29,-1304.49 810.29,-1304.49"/>
-<text text-anchor="start" x="850.79" y="-1313.29" font-family="Helvetica,sans-Serif" font-size="14.00">string</text>
-<polygon fill="none" stroke="black" points="534.29,-1279.49 534.29,-1304.49 562.29,-1304.49 562.29,-1279.49 534.29,-1279.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1279.49 562.29,-1304.49 810.29,-1304.49 810.29,-1279.49 562.29,-1279.49"/>
-<text text-anchor="start" x="567.29" y="-1288.29" font-family="Helvetica,sans-Serif" font-size="14.00">nationality</text>
-<polygon fill="none" stroke="black" points="810.29,-1279.49 810.29,-1304.49 932.29,-1304.49 932.29,-1279.49 810.29,-1279.49"/>
-<text text-anchor="start" x="831.79" y="-1288.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-1254.49 534.29,-1279.49 562.29,-1279.49 562.29,-1254.49 534.29,-1254.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1254.49 562.29,-1279.49 810.29,-1279.49 810.29,-1254.49 562.29,-1254.49"/>
-<text text-anchor="start" x="567.29" y="-1263.29" font-family="Helvetica,sans-Serif" font-size="14.00">referral_source</text>
-<polygon fill="none" stroke="black" points="810.29,-1254.49 810.29,-1279.49 932.29,-1279.49 932.29,-1254.49 810.29,-1254.49"/>
-<text text-anchor="start" x="831.79" y="-1263.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-1229.49 534.29,-1254.49 562.29,-1254.49 562.29,-1229.49 534.29,-1229.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1229.49 562.29,-1254.49 810.29,-1254.49 810.29,-1229.49 562.29,-1229.49"/>
-<text text-anchor="start" x="567.29" y="-1238.29" font-family="Helvetica,sans-Serif" font-size="14.00">transgender</text>
-<polygon fill="none" stroke="black" points="810.29,-1229.49 810.29,-1254.49 932.29,-1254.49 932.29,-1229.49 810.29,-1229.49"/>
-<text text-anchor="start" x="831.79" y="-1238.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-1204.49 534.29,-1229.49 562.29,-1229.49 562.29,-1204.49 534.29,-1204.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1204.49 562.29,-1229.49 810.29,-1229.49 810.29,-1204.49 562.29,-1204.49"/>
-<text text-anchor="start" x="567.29" y="-1213.29" font-family="Helvetica,sans-Serif" font-size="14.00">living_status</text>
-<polygon fill="none" stroke="black" points="810.29,-1204.49 810.29,-1229.49 932.29,-1229.49 932.29,-1204.49 810.29,-1204.49"/>
-<text text-anchor="start" x="831.79" y="-1213.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-1179.49 534.29,-1204.49 562.29,-1204.49 562.29,-1179.49 534.29,-1179.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1179.49 562.29,-1204.49 810.29,-1204.49 810.29,-1179.49 562.29,-1179.49"/>
-<text text-anchor="start" x="567.29" y="-1188.29" font-family="Helvetica,sans-Serif" font-size="14.00">current_family_composition</text>
-<polygon fill="none" stroke="black" points="810.29,-1179.49 810.29,-1204.49 932.29,-1204.49 932.29,-1179.49 810.29,-1179.49"/>
-<text text-anchor="start" x="831.79" y="-1188.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-1154.49 534.29,-1179.49 562.29,-1179.49 562.29,-1154.49 534.29,-1154.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1154.49 562.29,-1179.49 810.29,-1179.49 810.29,-1154.49 562.29,-1154.49"/>
-<text text-anchor="start" x="567.29" y="-1163.29" font-family="Helvetica,sans-Serif" font-size="14.00">current_dependents_uk</text>
-<polygon fill="none" stroke="black" points="810.29,-1154.49 810.29,-1179.49 932.29,-1179.49 932.29,-1154.49 810.29,-1154.49"/>
-<text text-anchor="start" x="858.79" y="-1163.29" font-family="Helvetica,sans-Serif" font-size="14.00">List</text>
-<polygon fill="none" stroke="black" points="534.29,-1129.49 534.29,-1154.49 562.29,-1154.49 562.29,-1129.49 534.29,-1129.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1129.49 562.29,-1154.49 810.29,-1154.49 810.29,-1129.49 562.29,-1129.49"/>
-<text text-anchor="start" x="567.29" y="-1138.29" font-family="Helvetica,sans-Serif" font-size="14.00">date_arrived_in_uk</text>
-<polygon fill="none" stroke="black" points="810.29,-1129.49 810.29,-1154.49 932.29,-1154.49 932.29,-1129.49 810.29,-1129.49"/>
-<text text-anchor="start" x="854.79" y="-1138.29" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
-<polygon fill="none" stroke="black" points="534.29,-1104.49 534.29,-1129.49 562.29,-1129.49 562.29,-1104.49 534.29,-1104.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1104.49 562.29,-1129.49 810.29,-1129.49 810.29,-1104.49 562.29,-1104.49"/>
-<text text-anchor="start" x="567.29" y="-1113.29" font-family="Helvetica,sans-Serif" font-size="14.00">date_asylum_status_granted</text>
-<polygon fill="none" stroke="black" points="810.29,-1104.49 810.29,-1129.49 932.29,-1129.49 932.29,-1104.49 810.29,-1104.49"/>
-<text text-anchor="start" x="854.79" y="-1113.29" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
-<polygon fill="none" stroke="black" points="534.29,-1079.49 534.29,-1104.49 562.29,-1104.49 562.29,-1079.49 534.29,-1079.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1079.49 562.29,-1104.49 810.29,-1104.49 810.29,-1079.49 562.29,-1079.49"/>
-<text text-anchor="start" x="567.29" y="-1088.29" font-family="Helvetica,sans-Serif" font-size="14.00">language_level_on_entry</text>
-<polygon fill="none" stroke="black" points="810.29,-1079.49 810.29,-1104.49 932.29,-1104.49 932.29,-1079.49 810.29,-1079.49"/>
-<text text-anchor="start" x="831.79" y="-1088.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-1054.49 534.29,-1079.49 562.29,-1079.49 562.29,-1054.49 534.29,-1054.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1054.49 562.29,-1079.49 810.29,-1079.49 810.29,-1054.49 562.29,-1054.49"/>
-<text text-anchor="start" x="567.29" y="-1063.29" font-family="Helvetica,sans-Serif" font-size="14.00">highest_qualification_achieved</text>
-<polygon fill="none" stroke="black" points="810.29,-1054.49 810.29,-1079.49 932.29,-1079.49 932.29,-1054.49 810.29,-1054.49"/>
-<text text-anchor="start" x="831.79" y="-1063.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-1029.49 534.29,-1054.49 562.29,-1054.49 562.29,-1029.49 534.29,-1029.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1029.49 562.29,-1054.49 810.29,-1054.49 810.29,-1029.49 562.29,-1029.49"/>
-<text text-anchor="start" x="567.29" y="-1038.29" font-family="Helvetica,sans-Serif" font-size="14.00">age_finished_study</text>
-<polygon fill="none" stroke="black" points="810.29,-1029.49 810.29,-1054.49 932.29,-1054.49 932.29,-1029.49 810.29,-1029.49"/>
-<text text-anchor="start" x="846.29" y="-1038.29" font-family="Helvetica,sans-Serif" font-size="14.00">integer</text>
-<polygon fill="none" stroke="black" points="534.29,-1004.49 534.29,-1029.49 562.29,-1029.49 562.29,-1004.49 534.29,-1004.49"/>
-<polygon fill="none" stroke="black" points="562.29,-1004.49 562.29,-1029.49 810.29,-1029.49 810.29,-1004.49 562.29,-1004.49"/>
-<text text-anchor="start" x="567.29" y="-1013.29" font-family="Helvetica,sans-Serif" font-size="14.00">employed_in_home_country</text>
-<polygon fill="none" stroke="black" points="810.29,-1004.49 810.29,-1029.49 932.29,-1029.49 932.29,-1004.49 810.29,-1004.49"/>
-<text text-anchor="start" x="831.79" y="-1013.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-979.49 534.29,-1004.49 562.29,-1004.49 562.29,-979.49 534.29,-979.49"/>
-<polygon fill="none" stroke="black" points="562.29,-979.49 562.29,-1004.49 810.29,-1004.49 810.29,-979.49 562.29,-979.49"/>
-<text text-anchor="start" x="567.29" y="-988.29" font-family="Helvetica,sans-Serif" font-size="14.00">occupation_type</text>
-<polygon fill="none" stroke="black" points="810.29,-979.49 810.29,-1004.49 932.29,-1004.49 932.29,-979.49 810.29,-979.49"/>
-<text text-anchor="start" x="815.29" y="-988.29" font-family="Helvetica,sans-Serif" font-size="14.00">Free Text (short)</text>
-<polygon fill="none" stroke="black" points="534.29,-954.49 534.29,-979.49 562.29,-979.49 562.29,-954.49 534.29,-954.49"/>
-<polygon fill="none" stroke="black" points="562.29,-954.49 562.29,-979.49 810.29,-979.49 810.29,-954.49 562.29,-954.49"/>
-<text text-anchor="start" x="567.29" y="-963.29" font-family="Helvetica,sans-Serif" font-size="14.00">occupation_sector</text>
-<polygon fill="none" stroke="black" points="810.29,-954.49 810.29,-979.49 932.29,-979.49 932.29,-954.49 810.29,-954.49"/>
-<text text-anchor="start" x="815.29" y="-963.29" font-family="Helvetica,sans-Serif" font-size="14.00">Free Text (short)</text>
-<polygon fill="none" stroke="black" points="534.29,-929.49 534.29,-954.49 562.29,-954.49 562.29,-929.49 534.29,-929.49"/>
-<polygon fill="none" stroke="black" points="562.29,-929.49 562.29,-954.49 810.29,-954.49 810.29,-929.49 562.29,-929.49"/>
-<text text-anchor="start" x="567.29" y="-938.29" font-family="Helvetica,sans-Serif" font-size="14.00">occupation_goal</text>
-<polygon fill="none" stroke="black" points="810.29,-929.49 810.29,-954.49 932.29,-954.49 932.29,-929.49 810.29,-929.49"/>
-<text text-anchor="start" x="815.29" y="-938.29" font-family="Helvetica,sans-Serif" font-size="14.00">Free Text (short)</text>
-<polygon fill="none" stroke="black" points="534.29,-904.49 534.29,-929.49 562.29,-929.49 562.29,-904.49 534.29,-904.49"/>
-<polygon fill="none" stroke="black" points="562.29,-904.49 562.29,-929.49 810.29,-929.49 810.29,-904.49 562.29,-904.49"/>
-<text text-anchor="start" x="567.29" y="-913.29" font-family="Helvetica,sans-Serif" font-size="14.00">economic_status</text>
-<polygon fill="none" stroke="black" points="810.29,-904.49 810.29,-929.49 932.29,-929.49 932.29,-904.49 810.29,-904.49"/>
-<text text-anchor="start" x="831.79" y="-913.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
-<polygon fill="none" stroke="black" points="534.29,-879.49 534.29,-904.49 562.29,-904.49 562.29,-879.49 534.29,-879.49"/>
-<polygon fill="none" stroke="black" points="562.29,-879.49 562.29,-904.49 810.29,-904.49 810.29,-879.49 562.29,-879.49"/>
-<text text-anchor="start" x="567.29" y="-888.29" font-family="Helvetica,sans-Serif" font-size="14.00">housing_baseline_accommodation</text>
-<polygon fill="none" stroke="black" points="810.29,-879.49 810.29,-904.49 932.29,-904.49 932.29,-879.49 810.29,-879.49"/>
-<text text-anchor="start" x="831.79" y="-888.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="#cbd5e8" stroke="transparent" points="943.79,-1361.49 522.79,-1361.49 522.79,-875.49 943.79,-875.49 943.79,-1361.49"/>
+<polygon fill="none" stroke="black" points="531.29,-1329.49 531.29,-1357.49 936.29,-1357.49 936.29,-1329.49 531.29,-1329.49"/>
+<text text-anchor="start" x="696.29" y="-1340.69" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">baseline</text>
+<polygon fill="none" stroke="black" points="531.29,-1304.49 531.29,-1329.49 559.29,-1329.49 559.29,-1304.49 531.29,-1304.49"/>
+<text text-anchor="start" x="536.29" y="-1313.29" font-family="Helvetica,sans-Serif" font-size="14.00">PK</text>
+<polygon fill="none" stroke="black" points="559.29,-1304.49 559.29,-1329.49 814.29,-1329.49 814.29,-1304.49 559.29,-1304.49"/>
+<text text-anchor="start" x="564.29" y="-1313.29" font-family="Helvetica,sans-Serif" font-size="14.00">unique_id</text>
+<polygon fill="none" stroke="black" points="814.29,-1304.49 814.29,-1329.49 936.29,-1329.49 936.29,-1304.49 814.29,-1304.49"/>
+<text text-anchor="start" x="854.79" y="-1313.29" font-family="Helvetica,sans-Serif" font-size="14.00">string</text>
+<polygon fill="none" stroke="black" points="531.29,-1279.49 531.29,-1304.49 559.29,-1304.49 559.29,-1279.49 531.29,-1279.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1279.49 559.29,-1304.49 814.29,-1304.49 814.29,-1279.49 559.29,-1279.49"/>
+<text text-anchor="start" x="564.29" y="-1288.29" font-family="Helvetica,sans-Serif" font-size="14.00">nationality</text>
+<polygon fill="none" stroke="black" points="814.29,-1279.49 814.29,-1304.49 936.29,-1304.49 936.29,-1279.49 814.29,-1279.49"/>
+<text text-anchor="start" x="835.79" y="-1288.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-1254.49 531.29,-1279.49 559.29,-1279.49 559.29,-1254.49 531.29,-1254.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1254.49 559.29,-1279.49 814.29,-1279.49 814.29,-1254.49 559.29,-1254.49"/>
+<text text-anchor="start" x="564.29" y="-1263.29" font-family="Helvetica,sans-Serif" font-size="14.00">referral_source</text>
+<polygon fill="none" stroke="black" points="814.29,-1254.49 814.29,-1279.49 936.29,-1279.49 936.29,-1254.49 814.29,-1254.49"/>
+<text text-anchor="start" x="835.79" y="-1263.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-1229.49 531.29,-1254.49 559.29,-1254.49 559.29,-1229.49 531.29,-1229.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1229.49 559.29,-1254.49 814.29,-1254.49 814.29,-1229.49 559.29,-1229.49"/>
+<text text-anchor="start" x="564.29" y="-1238.29" font-family="Helvetica,sans-Serif" font-size="14.00">transgender</text>
+<polygon fill="none" stroke="black" points="814.29,-1229.49 814.29,-1254.49 936.29,-1254.49 936.29,-1229.49 814.29,-1229.49"/>
+<text text-anchor="start" x="835.79" y="-1238.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-1204.49 531.29,-1229.49 559.29,-1229.49 559.29,-1204.49 531.29,-1204.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1204.49 559.29,-1229.49 814.29,-1229.49 814.29,-1204.49 559.29,-1204.49"/>
+<text text-anchor="start" x="564.29" y="-1213.29" font-family="Helvetica,sans-Serif" font-size="14.00">living_status</text>
+<polygon fill="none" stroke="black" points="814.29,-1204.49 814.29,-1229.49 936.29,-1229.49 936.29,-1204.49 814.29,-1204.49"/>
+<text text-anchor="start" x="835.79" y="-1213.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-1179.49 531.29,-1204.49 559.29,-1204.49 559.29,-1179.49 531.29,-1179.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1179.49 559.29,-1204.49 814.29,-1204.49 814.29,-1179.49 559.29,-1179.49"/>
+<text text-anchor="start" x="564.29" y="-1188.29" font-family="Helvetica,sans-Serif" font-size="14.00">current_dependents_uk</text>
+<polygon fill="none" stroke="black" points="814.29,-1179.49 814.29,-1204.49 936.29,-1204.49 936.29,-1179.49 814.29,-1179.49"/>
+<text text-anchor="start" x="835.79" y="-1188.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-1154.49 531.29,-1179.49 559.29,-1179.49 559.29,-1154.49 531.29,-1154.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1154.49 559.29,-1179.49 814.29,-1179.49 814.29,-1154.49 559.29,-1154.49"/>
+<text text-anchor="start" x="564.29" y="-1163.29" font-family="Helvetica,sans-Serif" font-size="14.00">current_number_of_dependents_uk</text>
+<polygon fill="none" stroke="black" points="814.29,-1154.49 814.29,-1179.49 936.29,-1179.49 936.29,-1154.49 814.29,-1154.49"/>
+<text text-anchor="start" x="862.79" y="-1163.29" font-family="Helvetica,sans-Serif" font-size="14.00">List</text>
+<polygon fill="none" stroke="black" points="531.29,-1129.49 531.29,-1154.49 559.29,-1154.49 559.29,-1129.49 531.29,-1129.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1129.49 559.29,-1154.49 814.29,-1154.49 814.29,-1129.49 559.29,-1129.49"/>
+<text text-anchor="start" x="564.29" y="-1138.29" font-family="Helvetica,sans-Serif" font-size="14.00">date_arrived_in_uk</text>
+<polygon fill="none" stroke="black" points="814.29,-1129.49 814.29,-1154.49 936.29,-1154.49 936.29,-1129.49 814.29,-1129.49"/>
+<text text-anchor="start" x="858.79" y="-1138.29" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
+<polygon fill="none" stroke="black" points="531.29,-1104.49 531.29,-1129.49 559.29,-1129.49 559.29,-1104.49 531.29,-1104.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1104.49 559.29,-1129.49 814.29,-1129.49 814.29,-1104.49 559.29,-1104.49"/>
+<text text-anchor="start" x="564.29" y="-1113.29" font-family="Helvetica,sans-Serif" font-size="14.00">date_asylum_status_granted</text>
+<polygon fill="none" stroke="black" points="814.29,-1104.49 814.29,-1129.49 936.29,-1129.49 936.29,-1104.49 814.29,-1104.49"/>
+<text text-anchor="start" x="858.79" y="-1113.29" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
+<polygon fill="none" stroke="black" points="531.29,-1079.49 531.29,-1104.49 559.29,-1104.49 559.29,-1079.49 531.29,-1079.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1079.49 559.29,-1104.49 814.29,-1104.49 814.29,-1079.49 559.29,-1079.49"/>
+<text text-anchor="start" x="564.29" y="-1088.29" font-family="Helvetica,sans-Serif" font-size="14.00">language_level_on_entry</text>
+<polygon fill="none" stroke="black" points="814.29,-1079.49 814.29,-1104.49 936.29,-1104.49 936.29,-1079.49 814.29,-1079.49"/>
+<text text-anchor="start" x="835.79" y="-1088.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-1054.49 531.29,-1079.49 559.29,-1079.49 559.29,-1054.49 531.29,-1054.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1054.49 559.29,-1079.49 814.29,-1079.49 814.29,-1054.49 559.29,-1054.49"/>
+<text text-anchor="start" x="564.29" y="-1063.29" font-family="Helvetica,sans-Serif" font-size="14.00">highest_qualification_achieved</text>
+<polygon fill="none" stroke="black" points="814.29,-1054.49 814.29,-1079.49 936.29,-1079.49 936.29,-1054.49 814.29,-1054.49"/>
+<text text-anchor="start" x="835.79" y="-1063.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-1029.49 531.29,-1054.49 559.29,-1054.49 559.29,-1029.49 531.29,-1029.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1029.49 559.29,-1054.49 814.29,-1054.49 814.29,-1029.49 559.29,-1029.49"/>
+<text text-anchor="start" x="564.29" y="-1038.29" font-family="Helvetica,sans-Serif" font-size="14.00">age_finished_study</text>
+<polygon fill="none" stroke="black" points="814.29,-1029.49 814.29,-1054.49 936.29,-1054.49 936.29,-1029.49 814.29,-1029.49"/>
+<text text-anchor="start" x="850.29" y="-1038.29" font-family="Helvetica,sans-Serif" font-size="14.00">integer</text>
+<polygon fill="none" stroke="black" points="531.29,-1004.49 531.29,-1029.49 559.29,-1029.49 559.29,-1004.49 531.29,-1004.49"/>
+<polygon fill="none" stroke="black" points="559.29,-1004.49 559.29,-1029.49 814.29,-1029.49 814.29,-1004.49 559.29,-1004.49"/>
+<text text-anchor="start" x="564.29" y="-1013.29" font-family="Helvetica,sans-Serif" font-size="14.00">employed_in_home_country</text>
+<polygon fill="none" stroke="black" points="814.29,-1004.49 814.29,-1029.49 936.29,-1029.49 936.29,-1004.49 814.29,-1004.49"/>
+<text text-anchor="start" x="835.79" y="-1013.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-979.49 531.29,-1004.49 559.29,-1004.49 559.29,-979.49 531.29,-979.49"/>
+<polygon fill="none" stroke="black" points="559.29,-979.49 559.29,-1004.49 814.29,-1004.49 814.29,-979.49 559.29,-979.49"/>
+<text text-anchor="start" x="564.29" y="-988.29" font-family="Helvetica,sans-Serif" font-size="14.00">occupation_type</text>
+<polygon fill="none" stroke="black" points="814.29,-979.49 814.29,-1004.49 936.29,-1004.49 936.29,-979.49 814.29,-979.49"/>
+<text text-anchor="start" x="819.29" y="-988.29" font-family="Helvetica,sans-Serif" font-size="14.00">Free Text (short)</text>
+<polygon fill="none" stroke="black" points="531.29,-954.49 531.29,-979.49 559.29,-979.49 559.29,-954.49 531.29,-954.49"/>
+<polygon fill="none" stroke="black" points="559.29,-954.49 559.29,-979.49 814.29,-979.49 814.29,-954.49 559.29,-954.49"/>
+<text text-anchor="start" x="564.29" y="-963.29" font-family="Helvetica,sans-Serif" font-size="14.00">occupation_sector</text>
+<polygon fill="none" stroke="black" points="814.29,-954.49 814.29,-979.49 936.29,-979.49 936.29,-954.49 814.29,-954.49"/>
+<text text-anchor="start" x="819.29" y="-963.29" font-family="Helvetica,sans-Serif" font-size="14.00">Free Text (short)</text>
+<polygon fill="none" stroke="black" points="531.29,-929.49 531.29,-954.49 559.29,-954.49 559.29,-929.49 531.29,-929.49"/>
+<polygon fill="none" stroke="black" points="559.29,-929.49 559.29,-954.49 814.29,-954.49 814.29,-929.49 559.29,-929.49"/>
+<text text-anchor="start" x="564.29" y="-938.29" font-family="Helvetica,sans-Serif" font-size="14.00">occupation_goal</text>
+<polygon fill="none" stroke="black" points="814.29,-929.49 814.29,-954.49 936.29,-954.49 936.29,-929.49 814.29,-929.49"/>
+<text text-anchor="start" x="819.29" y="-938.29" font-family="Helvetica,sans-Serif" font-size="14.00">Free Text (short)</text>
+<polygon fill="none" stroke="black" points="531.29,-904.49 531.29,-929.49 559.29,-929.49 559.29,-904.49 531.29,-904.49"/>
+<polygon fill="none" stroke="black" points="559.29,-904.49 559.29,-929.49 814.29,-929.49 814.29,-904.49 559.29,-904.49"/>
+<text text-anchor="start" x="564.29" y="-913.29" font-family="Helvetica,sans-Serif" font-size="14.00">economic_status</text>
+<polygon fill="none" stroke="black" points="814.29,-904.49 814.29,-929.49 936.29,-929.49 936.29,-904.49 814.29,-904.49"/>
+<text text-anchor="start" x="835.79" y="-913.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
+<polygon fill="none" stroke="black" points="531.29,-879.49 531.29,-904.49 559.29,-904.49 559.29,-879.49 531.29,-879.49"/>
+<polygon fill="none" stroke="black" points="559.29,-879.49 559.29,-904.49 814.29,-904.49 814.29,-879.49 559.29,-879.49"/>
+<text text-anchor="start" x="564.29" y="-888.29" font-family="Helvetica,sans-Serif" font-size="14.00">housing_baseline_accommodation</text>
+<polygon fill="none" stroke="black" points="814.29,-879.49 814.29,-904.49 936.29,-904.49 936.29,-879.49 814.29,-879.49"/>
+<text text-anchor="start" x="835.79" y="-888.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
 </g>
 <!-- baseline&#45;&#45;person -->
 <g id="baseline&#45;&#45;person" class="edge">

@@ -14,9 +14,11 @@ record:
     - field: unique_id
       record: person
     id: unique_id
+    latest_comments: null
     name: Unique person identifier
     primary_key: true
     sample_generator: null
+    status: Decided
     type: string
     validation:
       required: true
@@ -27,6 +29,7 @@ record:
     dimensions: null
     foreign_keys: null
     id: date_intermediate_employment_outcome
+    latest_comments: null
     name: Date achieved intermediate outcome
     primary_key: false
     sample_generator:
@@ -34,6 +37,7 @@ record:
         end_date: +2y
         start_date: +2m
       method: date_between
+    status: Decided
     type: Date
     validation:
       date_after: date_started_service
@@ -74,9 +78,11 @@ record:
       id: employment_outcome_type
     foreign_keys: null
     id: intermediate_employment_outcome_type
+    latest_comments: null
     name: Type of intermediate outcome
     primary_key: false
     sample_generator: null
+    status: Decided
     type: List
     validation:
       dimension: employment_outcome_type
