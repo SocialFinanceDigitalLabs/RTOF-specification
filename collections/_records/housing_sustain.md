@@ -20,11 +20,30 @@ record:
     sample_generator: null
     status: Decided
     type:
-      description: A string
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
       id: string
     validation:
-      required: true
-      unique: true
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''required: true'' must be present in the data record,
+        and must have a non-blank value. It is short-hand
+
+        for ''notnull: true'' and ''notblank: true''.
+
+        '
+      id: required
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''unique: true'' should be unique within the dataset
+        for this provider.
+
+        '
+      id: unique
   - comments: null
     description: Date of housing sustainment outcome achieved. To be collected once
       at housing sustainment outcome submission.
@@ -41,10 +60,34 @@ record:
       method: date_between
     status: Decided
     type:
-      description: A string
-      id: Date
+      description: Represents a single date. JSON Schema has no direct date representation,
+        but can be considered a restriction on string to match the ISO-8601 format,
+        e.g. 2021-07-20
+      id: date
     validation:
-      date_after: housing_entry_date
-      required: true
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''required: true'' must be present in the data record,
+        and must have a non-blank value. It is short-hand
+
+        for ''notnull: true'' and ''notblank: true''.
+
+        '
+      id: required
+    - args:
+      - help: The ID of the field that this date has to be after
+        items:
+          type: string
+        name: field_id
+        type: array
+      description: 'Only used for fields of type date, this validator ensures that
+        the provided value is after the date indicated. When
+
+        multiple
+
+        '
+      id: date_after
   id: housing_sustain
 ---

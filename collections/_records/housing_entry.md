@@ -20,11 +20,30 @@ record:
     sample_generator: null
     status: Decided
     type:
-      description: A string
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
       id: string
     validation:
-      required: true
-      unique: true
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''required: true'' must be present in the data record,
+        and must have a non-blank value. It is short-hand
+
+        for ''notnull: true'' and ''notblank: true''.
+
+        '
+      id: required
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''unique: true'' should be unique within the dataset
+        for this provider.
+
+        '
+      id: unique
   - comments: null
     description: Date of housing entry outcome achieved. To be collected once at entry
       to housing outcome submission.
@@ -41,18 +60,38 @@ record:
       method: date_between
     status: Decided
     type:
-      description: A string
-      id: Date
+      description: Represents a single date. JSON Schema has no direct date representation,
+        but can be considered a restriction on string to match the ISO-8601 format,
+        e.g. 2021-07-20
+      id: date
     validation:
-      date_after: date_started_service
-      required: true
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''required: true'' must be present in the data record,
+        and must have a non-blank value. It is short-hand
+
+        for ''notnull: true'' and ''notblank: true''.
+
+        '
+      id: required
+    - args:
+      - help: The ID of the field that this date has to be after
+        items:
+          type: string
+        name: field_id
+        type: array
+      description: 'Only used for fields of type date, this validator ensures that
+        the provided value is after the date indicated. When
+
+        multiple
+
+        '
+      id: date_after
   - comments: tbc - once selected, the categories will align with baseline collection
     description: tbc
-    dimensions:
-      dimensions:
-      - description: null
-        value: tbc
-      id: housing_entry_accomodation
+    dimensions: null
     foreign_keys: null
     id: housing_entry_accomodation
     latest_comments: tbc - same comments as 'housing_baseline_accommodation', categories
@@ -62,10 +101,31 @@ record:
     sample_generator: null
     status: Work in progress
     type:
-      description: null
-      id: Categorical
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      id: categorical
     validation:
-      dimension: housing_entry_accomodation
-      required: true
+    - args:
+      - help: true/false value indicating if the current field is required
+        name: enabled
+        type: boolean
+      description: 'A field with ''required: true'' must be present in the data record,
+        and must have a non-blank value. It is short-hand
+
+        for ''notnull: true'' and ''notblank: true''.
+
+        '
+      id: required
+    - args:
+      - help: The ID of the category that this list has to be a member of.
+        name: category_id
+        type: string
+      description: 'Only used for fields of type categorical, this validator ensures
+        that the provided value is part of category
+
+        list identified.
+
+        '
+      id: dimension
   id: housing_entry
 ---
