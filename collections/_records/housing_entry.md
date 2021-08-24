@@ -19,7 +19,9 @@ record:
     primary_key: true
     sample_generator: null
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -38,7 +40,9 @@ record:
         start_date: +6m
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true
@@ -57,7 +61,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Work in progress
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: housing_entry_accomodation
       required: true

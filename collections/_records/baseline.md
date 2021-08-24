@@ -19,7 +19,9 @@ record:
     primary_key: true
     sample_generator: null
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
   - comments: To ensure we use the same categories HO use for data collection
@@ -535,7 +537,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: nationality
       required: true
@@ -552,7 +556,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Blocked
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: referral_source
       required: true
@@ -577,7 +583,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: transgender
       required: true
@@ -599,7 +607,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: living_status
       required: true
@@ -621,7 +631,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: current_dependents_uk
       required: true
@@ -647,7 +659,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: List
+    type:
+      description: null
+      id: List
     validation:
       dimension: current_number_of_dependents_uk
   - comments: To confirm alternative collection route if an integration plan is not
@@ -666,7 +680,9 @@ record:
         start_date: -2y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_of_birth
       required: true
@@ -686,7 +702,9 @@ record:
         start_date: -1y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_arrived_in_uk
       required: true
@@ -721,7 +739,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: language_level_on_entry
       required: true
@@ -752,7 +772,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: highest_qualification_achieved
       required: true
@@ -767,7 +789,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: integer
+    type:
+      description: null
+      id: integer
     validation: {}
   - comments: Simple yes / no selection. To confirm whether this refers to 'ever employed
       in home country' or 'within a given time period before arriving in the UK' [explain
@@ -788,7 +812,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: employed_in_home_country
       required: true
@@ -804,7 +830,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Free Text (short)
+    type:
+      description: null
+      id: Free Text (short)
     validation:
       character_limit: 255
   - comments: To confirm word limit (and possibly add a suggestion ie. Education)
@@ -819,7 +847,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Free Text (short)
+    type:
+      description: null
+      id: Free Text (short)
     validation:
       character_limit: 255
   - comments: null
@@ -834,7 +864,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: Free Text (short)
+    type:
+      description: null
+      id: Free Text (short)
     validation:
       character_limit: 255
   - comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status in home
@@ -878,7 +910,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Work in progress
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: economic_status
       required: true
@@ -897,7 +931,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Work in progress
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: housing_baseline_accommodation
       required: true

@@ -8,7 +8,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
   - comments: Minimum data collection required to understand enrolment
@@ -19,7 +21,8 @@
     name: NI Number
     primary_key: false
     status: Decided
-    type: NINO
+    type:
+      id: NINO
     validation:
       required: true
       unique: true
@@ -32,7 +35,8 @@
     name: Temp NI number
     primary_key: false
     status: Decided
-    type: NINO
+    type:
+      id: NINO
     validation:
       unique: true
   - comments: JF - 'Change to age' TR - 'Would be good to understand who (at HO?)
@@ -51,7 +55,8 @@
         start_date: -65y
       method: date_between
     status: Pending consideration
-    type: YYYY
+    type:
+      id: YYYY
     validation:
       required: true
   - description: Gender of participant. Must be one of the five categories provided.
@@ -69,7 +74,8 @@
     name: Gender
     primary_key: false
     status: Pending consideration
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: gender
       required: true
@@ -80,7 +86,9 @@
     name: Dispersal area
     primary_key: false
     status: Decided
-    type: String
+    type:
+      description: A String
+      id: String
     validation:
       required: true
   - description: Date of participant enrolment onto the program. Month and Year of
@@ -94,7 +102,9 @@
         start_date: -65y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_asylum_status_granted
       required: true
@@ -113,7 +123,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -128,7 +140,9 @@
         start_date: +6m
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true
@@ -144,7 +158,8 @@
     name: Accomodation type
     primary_key: false
     status: Work in progress
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: housing_entry_accomodation
       required: true
@@ -163,7 +178,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -178,7 +195,9 @@
         start_date: +1y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: housing_entry_date
       required: true
@@ -198,7 +217,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
   - comments: To ensure we use the same categories HO use for data collection
@@ -711,7 +732,8 @@
     name: Nationality
     primary_key: false
     status: Decided
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: nationality
       required: true
@@ -726,7 +748,8 @@
     name: Referral source
     primary_key: false
     status: Blocked
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: referral_source
       required: true
@@ -745,7 +768,8 @@
     name: Transgender
     primary_key: false
     status: Pending consideration
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: transgender
       required: true
@@ -762,7 +786,8 @@
     name: Living status
     primary_key: false
     status: Pending consideration
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: living_status
       required: true
@@ -779,7 +804,8 @@
     name: Current dependents in UK
     primary_key: false
     status: Pending consideration
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: current_dependents_uk
       required: true
@@ -798,7 +824,8 @@
     name: Current dependents in UK
     primary_key: false
     status: Pending consideration
-    type: List
+    type:
+      id: List
     validation:
       dimension: current_number_of_dependents_uk
   - comments: To confirm alternative collection route if an integration plan is not
@@ -814,7 +841,9 @@
         start_date: -2y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_of_birth
       required: true
@@ -831,7 +860,9 @@
         start_date: -1y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_arrived_in_uk
       required: true
@@ -855,7 +886,8 @@
     name: Language level on entry
     primary_key: false
     status: Decided
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: language_level_on_entry
       required: true
@@ -877,7 +909,8 @@
     name: Highest qualification  level achieved
     primary_key: false
     status: Decided
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: highest_qualification_achieved
       required: true
@@ -888,7 +921,8 @@
     name: Age when finished study
     primary_key: false
     status: Pending consideration
-    type: integer
+    type:
+      id: integer
     validation: {}
   - comments: Simple yes / no selection. To confirm whether this refers to 'ever employed
       in home country' or 'within a given time period before arriving in the UK' [explain
@@ -904,7 +938,8 @@
     name: Employed in home country
     primary_key: false
     status: Decided
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: employed_in_home_country
       required: true
@@ -916,7 +951,8 @@
     name: Occupation type
     primary_key: false
     status: Decided
-    type: Free Text (short)
+    type:
+      id: Free Text (short)
     validation:
       character_limit: 255
   - comments: To confirm word limit (and possibly add a suggestion ie. Education)
@@ -927,7 +963,8 @@
     name: Sector
     primary_key: false
     status: Decided
-    type: Free Text (short)
+    type:
+      id: Free Text (short)
     validation:
       character_limit: 255
   - description: All participants to be asked what their employment goals. This can
@@ -938,7 +975,8 @@
     name: Occupation goal at baseline
     primary_key: false
     status: Pending consideration
-    type: Free Text (short)
+    type:
+      id: Free Text (short)
     validation:
       character_limit: 255
   - comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status in home
@@ -969,7 +1007,8 @@
     name: Main economic status at baseline
     primary_key: false
     status: Work in progress
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: economic_status
       required: true
@@ -985,7 +1024,8 @@
     name: Accommodation type
     primary_key: false
     status: Work in progress
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: housing_baseline_accommodation
       required: true
@@ -1005,7 +1045,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -1021,7 +1063,8 @@
     name: Integration outcome type
     primary_key: true
     status: Decided
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: integration_outcome_type
       required: true
@@ -1036,7 +1079,9 @@
         start_date: +2m
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true
@@ -1051,7 +1096,8 @@
     name: Social bonds / bridges / links
     primary_key: false
     status: Blocked
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: integration_social
       required: true
@@ -1066,7 +1112,8 @@
     name: Language and communication
     primary_key: false
     status: Blocked
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: integration_comms_language
       required: true
@@ -1081,7 +1128,8 @@
     name: Digital skills
     primary_key: false
     status: Blocked
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: integration_digital
       required: true
@@ -1100,7 +1148,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -1116,7 +1166,9 @@
         start_date: +2m
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true
@@ -1158,7 +1210,8 @@
     name: Type of intermediate outcome
     primary_key: false
     status: Decided
-    type: List
+    type:
+      id: List
     validation:
       dimension: employment_outcome_type
       required: true
@@ -1178,7 +1231,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
   - description: Employment entry can either be an employment outcome or self-employment
@@ -1192,7 +1247,8 @@
     name: Type of employment entry outcome
     primary_key: false
     status: Decided
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: employment_entry_outcome_type
       required: true
@@ -1207,7 +1263,9 @@
         start_date: null
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true
@@ -1227,7 +1285,8 @@
     name: Details of paid employment
     primary_key: false
     status: Pending consideration
-    type: Categorical
+    type:
+      id: Categorical
     validation:
       dimension: employment_entry_details
       required: true
@@ -1237,7 +1296,8 @@
     name: Occupation type
     primary_key: false
     status: Decided
-    type: Free Text (short)
+    type:
+      id: Free Text (short)
     validation:
       character_limit: 255
       required: true
@@ -1247,7 +1307,8 @@
     name: Sector
     primary_key: false
     status: Decided
-    type: Free Text (short)
+    type:
+      id: Free Text (short)
     validation:
       character_limit: 255
       required: true
@@ -1266,7 +1327,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -1282,7 +1345,9 @@
         start_date: +1y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_employment_entry
       required: true
@@ -1301,7 +1366,9 @@
     name: Unique person identifier
     primary_key: true
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -1319,7 +1386,9 @@
         start_date: null
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true

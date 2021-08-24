@@ -20,7 +20,9 @@ record:
     primary_key: true
     sample_generator: null
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
   - comments: null
@@ -40,7 +42,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: employment_entry_outcome_type
       required: true
@@ -59,7 +63,9 @@ record:
         start_date: null
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true
@@ -86,7 +92,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: employment_entry_details
       required: true
@@ -101,7 +109,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Free Text (short)
+    type:
+      description: null
+      id: Free Text (short)
     validation:
       character_limit: 255
       required: true
@@ -116,7 +126,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: Free Text (short)
+    type:
+      description: null
+      id: Free Text (short)
     validation:
       character_limit: 255
       required: true

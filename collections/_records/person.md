@@ -16,7 +16,9 @@ record:
     primary_key: true
     sample_generator: null
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
   - comments: Minimum data collection required to understand enrolment
@@ -31,7 +33,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: NINO
+    type:
+      description: null
+      id: NINO
     validation:
       required: true
       unique: true
@@ -49,7 +53,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: NINO
+    type:
+      description: null
+      id: NINO
     validation:
       unique: true
   - comments: JF - 'Change to age' TR - 'Would be good to understand who (at HO?)
@@ -70,7 +76,9 @@ record:
         start_date: -65y
       method: date_between
     status: Pending consideration
-    type: YYYY
+    type:
+      description: null
+      id: YYYY
     validation:
       required: true
   - comments: null
@@ -97,7 +105,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Pending consideration
-    type: Categorical
+    type:
+      description: null
+      id: Categorical
     validation:
       dimension: gender
       required: true
@@ -112,7 +122,9 @@ record:
     primary_key: false
     sample_generator: null
     status: Decided
-    type: String
+    type:
+      description: A String
+      id: String
     validation:
       required: true
   - comments: null
@@ -130,7 +142,9 @@ record:
         start_date: -65y
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_asylum_status_granted
       required: true

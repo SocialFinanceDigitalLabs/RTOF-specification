@@ -19,7 +19,9 @@ record:
     primary_key: true
     sample_generator: null
     status: Decided
-    type: string
+    type:
+      description: A string
+      id: string
     validation:
       required: true
       unique: true
@@ -40,7 +42,9 @@ record:
         start_date: null
       method: date_between
     status: Decided
-    type: Date
+    type:
+      description: A string
+      id: Date
     validation:
       date_after: date_started_service
       required: true

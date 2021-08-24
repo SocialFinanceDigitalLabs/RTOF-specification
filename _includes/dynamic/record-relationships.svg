@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="auto" viewBox="0.00 0.00 1455.05 1369.49">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1365.49)">
 <title>%3</title>
-<a href="./person.html"><g id="person" class="node">
+<a href="{{ '/records/person.html' | relative_url }}"><g id="person" class="node">
 <title>person</title>
 <polygon fill="#b3e2cd" stroke="transparent" points="872.29,-678.75 585.29,-678.75 585.29,-467.75 872.29,-467.75 872.29,-678.75" />
 <polygon fill="none" stroke="black" points="593.79,-646.25 593.79,-674.25 864.79,-674.25 864.79,-646.25 593.79,-646.25" />
@@ -44,7 +44,7 @@
 <text text-anchor="start" x="803.79" y="-480.05" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
 </g>
 
-</a><a href="./housing_entry.html"><g id="housing_entry" class="node">
+</a><a href="{{ '/records/housing_entry.html' | relative_url }}"><g id="housing_entry" class="node">
 <title>housing_entry</title>
 <polygon fill="#fdcdac" stroke="transparent" points="1447.05,-628.75 1101.05,-628.75 1101.05,-517.75 1447.05,-517.75 1447.05,-628.75" />
 <polygon fill="none" stroke="black" points="1109.05,-596.25 1109.05,-624.25 1439.05,-624.25 1439.05,-596.25 1109.05,-596.25" />
@@ -67,14 +67,14 @@
 <text text-anchor="start" x="1355.05" y="-530.05" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
 </g>
 
-</a><a href="./housing_entry--person.html"><g id="housing_entry--person" class="edge">
+</a><a href="{{ '/records/housing_entry--person.html' | relative_url }}"><g id="housing_entry--person" class="edge">
 <title>housing_entry--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M1100.78,-573.25C1027.18,-573.25 942.4,-573.25 872.38,-573.25" />
 <text text-anchor="middle" x="877.38" y="-577.05" font-family="Times,serif" font-size="14.00">1</text>
 <text text-anchor="middle" x="1089.28" y="-577.05" font-family="Times,serif" font-size="14.00">0,1</text>
 </g>
 
-</a><a href="./housing_sustain.html"><g id="housing_sustain" class="node">
+</a><a href="{{ '/records/housing_sustain.html' | relative_url }}"><g id="housing_sustain" class="node">
 <title>housing_sustain</title>
 <polygon fill="#fdcdac" stroke="transparent" points="1285.77,-974.59 993.77,-974.59 993.77,-888.59 1285.77,-888.59 1285.77,-974.59" />
 <polygon fill="none" stroke="black" points="1001.77,-942.59 1001.77,-970.59 1277.77,-970.59 1277.77,-942.59 1001.77,-942.59" />
@@ -92,14 +92,14 @@
 <text text-anchor="start" x="1235.77" y="-901.39" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
 </g>
 
-</a><a href="./housing_sustain--person.html"><g id="housing_sustain--person" class="edge">
+</a><a href="{{ '/records/housing_sustain--person.html' | relative_url }}"><g id="housing_sustain--person" class="edge">
 <title>housing_sustain--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M1090.19,-888.36C1031.06,-836.8 930.12,-748.8 849.93,-678.87" />
 <text text-anchor="middle" x="844.93" y="-682.67" font-family="Times,serif" font-size="14.00">1</text>
 <text text-anchor="middle" x="1078.69" y="-877.16" font-family="Times,serif" font-size="14.00">0,1</text>
 </g>
 
-</a><a href="./baseline.html"><g id="baseline" class="node">
+</a><a href="{{ '/records/baseline.html' | relative_url }}"><g id="baseline" class="node">
 <title>baseline</title>
 <polygon fill="#cbd5e8" stroke="transparent" points="943.79,-1361.49 522.79,-1361.49 522.79,-875.49 943.79,-875.49 943.79,-1361.49" />
 <polygon fill="none" stroke="black" points="531.29,-1329.49 531.29,-1357.49 936.29,-1357.49 936.29,-1329.49 531.29,-1329.49" />
@@ -197,14 +197,14 @@
 <text text-anchor="start" x="835.79" y="-888.29" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
 </g>
 
-</a><a href="./baseline--person.html"><g id="baseline--person" class="edge">
+</a><a href="{{ '/records/baseline--person.html' | relative_url }}"><g id="baseline--person" class="edge">
 <title>baseline--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M731.28,-875.37C730.71,-806.5 730.12,-735.1 729.66,-679.01" />
 <text text-anchor="middle" x="724.66" y="-682.81" font-family="Times,serif" font-size="14.00">1</text>
 <text text-anchor="middle" x="719.78" y="-864.17" font-family="Times,serif" font-size="14.00">0,1</text>
 </g>
 
-</a><a href="./integration_plan.html"><g id="integration_plan" class="node">
+</a><a href="{{ '/records/integration_plan.html' | relative_url }}"><g id="integration_plan" class="node">
 <title>integration_plan</title>
 <polygon fill="#cbd5e8" stroke="transparent" points="488.25,-992.3 95.25,-992.3 95.25,-806.3 488.25,-806.3 488.25,-992.3" />
 <polygon fill="none" stroke="black" points="103.75,-960.3 103.75,-988.3 480.75,-988.3 480.75,-960.3 103.75,-960.3" />
@@ -243,14 +243,14 @@
 <text text-anchor="start" x="396.75" y="-819.1" font-family="Helvetica,sans-Serif" font-size="14.00">Categorical</text>
 </g>
 
-</a><a href="./integration_plan--person.html"><g id="integration_plan--person" class="edge">
+</a><a href="{{ '/records/integration_plan--person.html' | relative_url }}"><g id="integration_plan--person" class="edge">
 <title>integration_plan--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M416.69,-806.08C469.92,-766.37 532.28,-719.85 587.21,-678.87" />
 <text text-anchor="middle" x="582.21" y="-682.67" font-family="Times,serif" font-size="14.00">1</text>
 <text text-anchor="middle" x="401.19" y="-794.88" font-family="Times,serif" font-size="14.00">0..N</text>
 </g>
 
-</a><a href="./employment_intermediate.html"><g id="employment_intermediate" class="node">
+</a><a href="{{ '/records/employment_intermediate.html' | relative_url }}"><g id="employment_intermediate" class="node">
 <title>employment_intermediate</title>
 <polygon fill="#f4cae4" stroke="transparent" points="391,-515.09 0,-515.09 0,-404.09 391,-404.09 391,-515.09" />
 <polygon fill="none" stroke="black" points="8.5,-482.59 8.5,-510.59 383.5,-510.59 383.5,-482.59 8.5,-482.59" />
@@ -273,14 +273,14 @@
 <text text-anchor="start" x="345.5" y="-416.39" font-family="Helvetica,sans-Serif" font-size="14.00">List</text>
 </g>
 
-</a><a href="./employment_intermediate--person.html"><g id="employment_intermediate--person" class="edge">
+</a><a href="{{ '/records/employment_intermediate--person.html' | relative_url }}"><g id="employment_intermediate--person" class="edge">
 <title>employment_intermediate--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M391.05,-501.26C455.26,-514.95 525.4,-529.9 585.04,-542.61" />
 <text text-anchor="middle" x="580.04" y="-546.41" font-family="Times,serif" font-size="14.00">1</text>
 <text text-anchor="middle" x="402.55" y="-505.06" font-family="Times,serif" font-size="14.00">0,1</text>
 </g>
 
-</a><a href="./employment_entry.html"><g id="employment_entry" class="node">
+</a><a href="{{ '/records/employment_entry.html' | relative_url }}"><g id="employment_entry" class="node">
 <title>employment_entry</title>
 <polygon fill="#f4cae4" stroke="transparent" points="676.07,-186 265.07,-186 265.07,0 676.07,0 676.07,-186" />
 <polygon fill="none" stroke="black" points="273.57,-154 273.57,-182 668.57,-182 668.57,-154 273.57,-154" />
@@ -318,14 +318,14 @@
 <text text-anchor="start" x="551.57" y="-12.8" font-family="Helvetica,sans-Serif" font-size="14.00">Free Text (short)</text>
 </g>
 
-</a><a href="./employment_entry--person.html"><g id="employment_entry--person" class="edge">
+</a><a href="{{ '/records/employment_entry--person.html' | relative_url }}"><g id="employment_entry--person" class="edge">
 <title>employment_entry--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M520.66,-186.17C564,-266.77 626.64,-383.27 671.87,-467.38" />
 <text text-anchor="middle" x="666.87" y="-456.18" font-family="Times,serif" font-size="14.00">1</text>
 <text text-anchor="middle" x="509.16" y="-189.97" font-family="Times,serif" font-size="14.00">0,1</text>
 </g>
 
-</a><a href="./employment_sustain.html"><g id="employment_sustain" class="node">
+</a><a href="{{ '/records/employment_sustain.html' | relative_url }}"><g id="employment_sustain" class="node">
 <title>employment_sustain</title>
 <polygon fill="#f4cae4" stroke="transparent" points="1057.55,-97.27 734.55,-97.27 734.55,-11.27 1057.55,-11.27 1057.55,-97.27" />
 <polygon fill="none" stroke="black" points="743.05,-65.27 743.05,-93.27 1050.05,-93.27 1050.05,-65.27 743.05,-65.27" />
@@ -343,14 +343,14 @@
 <text text-anchor="start" x="1008.05" y="-24.07" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
 </g>
 
-</a><a href="./employment_sustain--person.html"><g id="employment_sustain--person" class="edge">
+</a><a href="{{ '/records/employment_sustain--person.html' | relative_url }}"><g id="employment_sustain--person" class="edge">
 <title>employment_sustain--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M882.07,-97.62C856.05,-178.38 799.46,-353.95 762.8,-467.7" />
 <text text-anchor="middle" x="757.8" y="-456.5" font-family="Times,serif" font-size="14.00">1</text>
 <text text-anchor="middle" x="870.57" y="-101.42" font-family="Times,serif" font-size="14.00">0,1</text>
 </g>
 
-</a><a href="./date_last_seen.html"><g id="date_last_seen" class="node">
+</a><a href="{{ '/records/date_last_seen.html' | relative_url }}"><g id="date_last_seen" class="node">
 <title>date_last_seen</title>
 <polygon fill="#e6f5c9" stroke="transparent" points="1270.12,-290.59 1062.12,-290.59 1062.12,-204.59 1270.12,-204.59 1270.12,-290.59" />
 <polygon fill="none" stroke="black" points="1070.12,-258.59 1070.12,-286.59 1262.12,-286.59 1262.12,-258.59 1070.12,-258.59" />
@@ -368,7 +368,7 @@
 <text text-anchor="start" x="1220.12" y="-217.39" font-family="Helvetica,sans-Serif" font-size="14.00">Date</text>
 </g>
 
-</a><a href="./date_last_seen--person.html"><g id="date_last_seen--person" class="edge">
+</a><a href="{{ '/records/date_last_seen--person.html' | relative_url }}"><g id="date_last_seen--person" class="edge">
 <title>date_last_seen--person</title>
 <path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M1108.05,-290.84C1047.75,-335.73 951.15,-407.67 870.54,-467.7" />
 <text text-anchor="middle" x="865.54" y="-456.5" font-family="Times,serif" font-size="14.00">1</text>
