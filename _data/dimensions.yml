@@ -145,10 +145,6 @@
   - value: Beyond Level 2
   id: language_level_on_entry
 - dimensions:
-  - value: Single
-  - value: Couple
-  id: living_status
-- dimensions:
   - description: Andorra
     value: AD
   - description: United Arab Emirates

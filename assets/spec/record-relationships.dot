@@ -128,11 +128,6 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">living_status</TD>
-            <TD ALIGN="CENTER">categorical</TD>
-        </TR>
-        <TR>
-            <TD></TD>
             <TD ALIGN="LEFT">current_dependents_uk</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>

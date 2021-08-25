@@ -559,41 +559,6 @@
 
         '
       id: dimension
-  - description: Selection of either single or couple. Couple includes living with
-      more than one individual. To be collected once and submitted within 3 months
-      of enrolment.
-    id: living_status
-    latest_comments: tbc with Ecorys, Palladium and HO
-    name: Living status
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      id: categorical
-    validation:
-    - args:
-      - help: true/false value indicating if the current field is required
-        name: enabled
-        type: boolean
-      description: 'A field with ''required: true'' must be present in the data record,
-        and must have a non-blank value. It is short-hand
-
-        for ''notnull: true'' and ''notblank: true''.
-
-        '
-      id: required
-    - args:
-      - help: The ID of the category that this list has to be a member of.
-        name: category_id
-        type: string
-      description: 'Only used for fields of type categorical, this validator ensures
-        that the provided value is part of category
-
-        list identified.
-
-        '
-      id: dimension
   - description: Do you currently have any dependents in the UK? Yes / No to understand
       whether the participant has any depedents curently in the UK. To be collected
       once and submitted within 3 months of enrolment.
