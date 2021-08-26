@@ -18,7 +18,6 @@ record:
     latest_comments: null
     name: Unique person identifier
     primary_key: true
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
@@ -48,13 +47,20 @@ record:
   - comments: null
     description: Selection of which integration outcome has been achieved. To be collected
       at each outcome submission.
-    dimensions: null
+    dimensions:
+      dimensions:
+      - description: null
+        value: Creation
+      - description: null
+        value: 6 month
+      - description: null
+        value: 12 month
+      id: integration_outcome_type
     foreign_keys: null
     id: integration_outcome_type
     latest_comments: null
     name: Integration outcome type
     primary_key: true
-    sample_generator: null
     status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
@@ -92,11 +98,6 @@ record:
     latest_comments: null
     name: Date integration plan outcome acheived
     primary_key: false
-    sample_generator:
-      args:
-        end_date: +2y
-        start_date: +2m
-      method: date_between
     status: Decided
     type:
       description: Represents a single date. JSON Schema has no direct date representation,
@@ -130,13 +131,16 @@ record:
       id: date_after
   - comments: TBC on categories - waiting for engagement with providers
     description: tbc. To be collected at each outcome submission.
-    dimensions: null
+    dimensions:
+      dimensions:
+      - description: null
+        value: tbc
+      id: integration_social
     foreign_keys: null
     id: integration_social
     latest_comments: tbc - Ecorys to confirm categories after provider engagement
     name: Social bonds / bridges / links
     primary_key: false
-    sample_generator: null
     status: Blocked
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
@@ -167,13 +171,16 @@ record:
       id: dimension
   - comments: TBC on categories - waiting for engagement with providers
     description: tbc. To be collected at each outcome submission.
-    dimensions: null
+    dimensions:
+      dimensions:
+      - description: null
+        value: tbc
+      id: integration_comms_language
     foreign_keys: null
     id: integration_comms_language
     latest_comments: tbc - Ecorys to confirm categories after provider engagement
     name: Language and communication
     primary_key: false
-    sample_generator: null
     status: Blocked
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
@@ -204,13 +211,16 @@ record:
       id: dimension
   - comments: TBC on categories - waiting for engagement with providers
     description: tbc. To be collected at each outcome submission.
-    dimensions: null
+    dimensions:
+      dimensions:
+      - description: null
+        value: tbc
+      id: integration_digital
     foreign_keys: null
     id: integration_digital
     latest_comments: tbc - Ecorys to confirm categories after provider engagement
     name: Digital skills
     primary_key: false
-    sample_generator: null
     status: Blocked
     type:
       description: Restricted to a set of fixed values. Represented as a string, this

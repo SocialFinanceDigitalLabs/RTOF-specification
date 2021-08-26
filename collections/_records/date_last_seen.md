@@ -17,7 +17,6 @@ record:
     latest_comments: null
     name: Unique person identifier
     primary_key: true
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
@@ -55,11 +54,6 @@ record:
     latest_comments: null
     name: Date last seen
     primary_key: false
-    sample_generator:
-      args:
-        end_date: null
-        start_date: null
-      method: date_between
     status: Decided
     type:
       description: Represents a single date. JSON Schema has no direct date representation,

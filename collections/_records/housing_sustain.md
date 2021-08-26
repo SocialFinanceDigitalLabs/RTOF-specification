@@ -17,7 +17,6 @@ record:
     latest_comments: null
     name: Unique person identifier
     primary_key: true
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
@@ -53,11 +52,6 @@ record:
     latest_comments: null
     name: Date housing sustainment achieved
     primary_key: false
-    sample_generator:
-      args:
-        end_date: +3y
-        start_date: +1y
-      method: date_between
     status: Decided
     type:
       description: Represents a single date. JSON Schema has no direct date representation,

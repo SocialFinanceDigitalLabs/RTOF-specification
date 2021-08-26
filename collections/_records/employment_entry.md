@@ -18,7 +18,6 @@ record:
     latest_comments: null
     name: Unique person identifier
     primary_key: true
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
@@ -39,13 +38,18 @@ record:
   - comments: null
     description: Employment entry can either be an employment outcome or self-employment
       outcome. To be collected once at entry to employment outcome submission.
-    dimensions: null
+    dimensions:
+      dimensions:
+      - description: null
+        value: Employment
+      - description: null
+        value: Self-employment
+      id: employment_entry_outcome_type
     foreign_keys: null
     id: employment_entry_outcome_type
     latest_comments: null
     name: Type of employment entry outcome
     primary_key: false
-    sample_generator: null
     status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
@@ -83,11 +87,6 @@ record:
     latest_comments: null
     name: Date entered employment
     primary_key: false
-    sample_generator:
-      args:
-        end_date: null
-        start_date: null
-      method: date_between
     status: Decided
     type:
       description: Represents a single date. JSON Schema has no direct date representation,
@@ -123,14 +122,23 @@ record:
     description: Selection of a single category describing the type of employment
       participant is entering for the employment outcome achievement. To be collected
       once at entry to employment outcome submission.
-    dimensions: null
+    dimensions:
+      dimensions:
+      - description: null
+        value: PT 0-15 hours per week
+      - description: null
+        value: PT 16-30 hours per week
+      - description: null
+        value: FT 31 hours +
+      - description: null
+        value: Government employment & training programme
+      id: employment_entry_details
     foreign_keys: null
     id: employment_entry_details
     latest_comments: tbc - same comments as baseline 'economic_status', categories
       to align
     name: Details of paid employment
     primary_key: false
-    sample_generator: null
     status: Pending consideration
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
@@ -170,7 +178,6 @@ record:
     latest_comments: null
     name: Occupation type
     primary_key: false
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
@@ -207,7 +214,6 @@ record:
     latest_comments: null
     name: Sector
     primary_key: false
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`

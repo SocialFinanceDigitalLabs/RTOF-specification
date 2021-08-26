@@ -1,11 +1,10 @@
-git_committed_date: 2021-08-25 10:41 GMT
-git_committer_email: james.hearn@socialfinance.org.uk
-git_committer_name: JamesHearn2
+git_committed_date: 2021-08-26 08:08 GMT
+git_committer_email: kaj@k-si.com
+git_committer_name: Kaj Siebert
 git_dirty: false
-git_hexsha: f68d9eeac247b4b04974b891cbcc93e0b09f8e5e
-git_msg: 'Removal of living_status data field from baseline form in line with provider
-  feedback and confirmation from Palladium
+git_hexsha: a2e1f6f5b7f3f2f13f75b0739e80eb0cf3a1a89b
+git_msg: 'Fix 9d43d9a8 renaming image
 
   '
 git_tags: []
-git_version: f68d9ee
+git_version: a2e1f6f

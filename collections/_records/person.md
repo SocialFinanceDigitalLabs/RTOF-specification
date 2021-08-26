@@ -14,7 +14,6 @@ record:
     latest_comments: null
     name: Unique person identifier
     primary_key: true
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
@@ -43,11 +42,6 @@ record:
     latest_comments: null
     name: Year of birth
     primary_key: false
-    sample_generator:
-      args:
-        end_date: -18y
-        start_date: -65y
-      method: date_between
     status: Decided
     type:
       description: Represents a single (gregorian) year. Again, there is no JSON Schema
@@ -70,13 +64,24 @@ record:
     description: Gender of participant. Must be one of the five categories provided.
       To be collected once at enrolment. Note there is a follow-up gender question
       as part of the baseline data collection.
-    dimensions: null
+    dimensions:
+      dimensions:
+      - description: null
+        value: Man
+      - description: null
+        value: Woman
+      - description: null
+        value: Non-binary
+      - description: null
+        value: Other
+      - description: null
+        value: Prefer not to say
+      id: gender
     foreign_keys: null
     id: gender
     latest_comments: null
     name: Gender
     primary_key: false
-    sample_generator: null
     status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
@@ -114,7 +119,6 @@ record:
     latest_comments: null
     name: Dispersal area
     primary_key: false
-    sample_generator: null
     status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
@@ -141,11 +145,6 @@ record:
     latest_comments: null
     name: Date started with service
     primary_key: false
-    sample_generator:
-      args:
-        end_date: -18y
-        start_date: -65y
-      method: date_between
     status: Decided
     type:
       description: Represents a single date. JSON Schema has no direct date representation,
