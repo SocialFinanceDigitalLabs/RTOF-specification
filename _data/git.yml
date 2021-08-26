@@ -1,10 +1,10 @@
-git_committed_date: 2021-08-26 08:08 GMT
+git_committed_date: 2021-08-26 12:45 GMT
 git_committer_email: kaj@k-si.com
 git_committer_name: Kaj Siebert
 git_dirty: false
-git_hexsha: a2e1f6f5b7f3f2f13f75b0739e80eb0cf3a1a89b
-git_msg: 'Fix 9d43d9a8 renaming image
+git_hexsha: 5695c586bf16a89f4d9410c7815102ff54b4ab45
+git_msg: 'Fixed a few minor inconsistencies such as NI being required
 
   '
 git_tags: []
-git_version: a2e1f6f
+git_version: 5695c58
