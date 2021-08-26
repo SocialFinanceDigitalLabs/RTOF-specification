@@ -1,8 +1,4 @@
 ---
-dimensions:
-  dimensions:
-  - description: null
-    value: tbc
-  id: integration_digital
 layout: dimension
+dimension_id: integration_digital
 ---

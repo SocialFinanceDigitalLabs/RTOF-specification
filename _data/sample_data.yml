@@ -1,0 +1,251 @@
+baseline:
+- age_finished_study: 14
+  age_profile_of_dependents_uk:
+  - 0-4
+  current_dependents_uk: 'No'
+  date_arrived_in_uk: &id001 2021-11-16
+  date_asylum_status_granted: *id001
+  economic_status: PT 0-15 hours per week
+  employed_in_home_country: 'No'
+  highest_qualification_achieved: Below formal levels
+  housing_baseline_accommodation: tbc
+  language_level_on_entry: Level 2
+  nationality: IQ
+  ni_number: child
+  occupation_goal: kid
+  occupation_sector: toward
+  occupation_type: system
+  referral_source: null
+  temp_ni_number: court
+  transgender: Prefer not to say
+  unique_id: YOJA-NRUD-FUXJ-3533
+- age_finished_study: 27
+  age_profile_of_dependents_uk:
+  - Caring responsibilities for an adult
+  current_dependents_uk: 'Yes'
+  date_arrived_in_uk: &id002 2021-12-22
+  date_asylum_status_granted: *id002
+  economic_status: Looking after family/home
+  employed_in_home_country: 'Yes'
+  highest_qualification_achieved: Below formal levels
+  housing_baseline_accommodation: tbc
+  language_level_on_entry: Level 2
+  nationality: NG
+  ni_number: rate
+  occupation_goal: close
+  occupation_sector: address
+  occupation_type: give
+  referral_source: null
+  temp_ni_number: really
+  transgender: Identify as transgender
+  unique_id: JSPQ-MSBP-HXZM-6834
+- age_finished_study: 65
+  age_profile_of_dependents_uk:
+  - 11-17
+  current_dependents_uk: 'No'
+  date_arrived_in_uk: &id003 2021-12-31
+  date_asylum_status_granted: *id003
+  economic_status: Unemployed (but looking/available for work)
+  employed_in_home_country: 'Yes'
+  highest_qualification_achieved: Below formal levels
+  housing_baseline_accommodation: tbc
+  language_level_on_entry: Entry level 3
+  nationality: ES
+  ni_number: increase
+  occupation_goal: room
+  occupation_sector: plan
+  occupation_type: performance
+  referral_source: null
+  temp_ni_number: add
+  transgender: Do not identify as Transgender
+  unique_id: HIDZ-TFLJ-CFFI-0704
+- age_finished_study: 50
+  age_profile_of_dependents_uk:
+  - 11-17
+  current_dependents_uk: 'No'
+  date_arrived_in_uk: &id004 2022-08-18
+  date_asylum_status_granted: *id004
+  economic_status: Retired
+  employed_in_home_country: 'Yes'
+  highest_qualification_achieved: Below formal levels
+  housing_baseline_accommodation: tbc
+  language_level_on_entry: Entry level 1
+  nationality: LC
+  ni_number: agent
+  occupation_goal: say
+  occupation_sector: surface
+  occupation_type: night
+  referral_source: null
+  temp_ni_number: time
+  transgender: Do not identify as Transgender
+  unique_id: DAJM-KNZG-IDIX-7577
+employment_entry:
+- date_employment_entry: 2022-10-19
+  employment_entry_details: PT 16-30 hours per week
+  employment_entry_occupation: join
+  employment_entry_outcome_type: Employment
+  employment_entry_sector: price
+  unique_id: YOJA-NRUD-FUXJ-3533
+- date_employment_entry: 2022-11-06
+  employment_entry_details: PT 16-30 hours per week
+  employment_entry_occupation: member
+  employment_entry_outcome_type: Employment
+  employment_entry_sector: interest
+  unique_id: JSPQ-MSBP-HXZM-6834
+- date_employment_entry: 2022-11-10
+  employment_entry_details: PT 0-15 hours per week
+  employment_entry_occupation: everything
+  employment_entry_outcome_type: Self-employment
+  employment_entry_sector: focus
+  unique_id: HIDZ-TFLJ-CFFI-0704
+- date_employment_entry: 2022-09-30
+  employment_entry_details: Government employment & training programme
+  employment_entry_occupation: personal
+  employment_entry_outcome_type: Self-employment
+  employment_entry_sector: even
+  unique_id: DAJM-KNZG-IDIX-7577
+employment_intermediate:
+- date_intermediate_employment_outcome: 2023-02-18
+  intermediate_employment_outcome_type:
+  - work experience
+  unique_id: YOJA-NRUD-FUXJ-3533
+- date_intermediate_employment_outcome: 2022-11-20
+  intermediate_employment_outcome_type:
+  - business plan for self-employment
+  unique_id: JSPQ-MSBP-HXZM-6834
+- date_intermediate_employment_outcome: 2022-11-26
+  intermediate_employment_outcome_type:
+  - Internship
+  unique_id: HIDZ-TFLJ-CFFI-0704
+- date_intermediate_employment_outcome: 2023-01-03
+  intermediate_employment_outcome_type:
+  - qualifications or skills
+  unique_id: DAJM-KNZG-IDIX-7577
+employment_sustain:
+- employment_sustainment_date: 2023-07-21
+  unique_id: JSPQ-MSBP-HXZM-6834
+- employment_sustainment_date: 2023-06-23
+  unique_id: HIDZ-TFLJ-CFFI-0704
+- employment_sustainment_date: 2023-05-02
+  unique_id: DAJM-KNZG-IDIX-7577
+housing_entry:
+- housing_entry_accomodation: tbc
+  housing_entry_date: 2022-11-15
+  unique_id: JSPQ-MSBP-HXZM-6834
+- housing_entry_accomodation: tbc
+  housing_entry_date: 2022-11-17
+  unique_id: HIDZ-TFLJ-CFFI-0704
+- housing_entry_accomodation: tbc
+  housing_entry_date: 2023-01-14
+  unique_id: DAJM-KNZG-IDIX-7577
+housing_sustain:
+- housing_sustainment_date: 2023-06-28
+  unique_id: JSPQ-MSBP-HXZM-6834
+- housing_sustainment_date: 2023-05-18
+  unique_id: HIDZ-TFLJ-CFFI-0704
+integration_plan:
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2022-10-19
+  integration_outcome_type: Creation
+  integration_social: tbc
+  unique_id: YOJA-NRUD-FUXJ-3533
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-04-29
+  integration_outcome_type: 6 month
+  integration_social: tbc
+  unique_id: YOJA-NRUD-FUXJ-3533
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-11-07
+  integration_outcome_type: 12 month
+  integration_social: tbc
+  unique_id: YOJA-NRUD-FUXJ-3533
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2022-11-06
+  integration_outcome_type: Creation
+  integration_social: tbc
+  unique_id: JSPQ-MSBP-HXZM-6834
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2022-11-10
+  integration_outcome_type: Creation
+  integration_social: tbc
+  unique_id: HIDZ-TFLJ-CFFI-0704
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-05-07
+  integration_outcome_type: 6 month
+  integration_social: tbc
+  unique_id: HIDZ-TFLJ-CFFI-0704
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2022-09-30
+  integration_outcome_type: Creation
+  integration_social: tbc
+  unique_id: DAJM-KNZG-IDIX-7577
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-04-30
+  integration_outcome_type: 6 month
+  integration_social: tbc
+  unique_id: DAJM-KNZG-IDIX-7577
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-11-08
+  integration_outcome_type: 12 month
+  integration_social: tbc
+  unique_id: DAJM-KNZG-IDIX-7577
+person:
+- date_started_service: 2022-08-26
+  dispersal_area: safe
+  gender: Man
+  unique_id: YOPU-MZGD-PAMN-1417
+  year_of_birth: 1998
+- date_started_service: 2022-08-08
+  dispersal_area: south
+  gender: Woman
+  unique_id: AAAU-RAMV-GNXA-3915
+  year_of_birth: 1993
+- date_started_service: 2022-05-03
+  dispersal_area: war
+  gender: Non-binary
+  unique_id: YOJA-NRUD-FUXJ-3533
+  year_of_birth: 1965
+- date_started_service: 2022-04-13
+  dispersal_area: hit
+  gender: Woman
+  unique_id: JSPQ-MSBP-HXZM-6834
+  year_of_birth: 1985
+- date_started_service: 2022-07-29
+  dispersal_area: particular
+  gender: Prefer not to say
+  unique_id: DYFQ-MLPX-APBJ-5178
+  year_of_birth: 1999
+- date_started_service: 2021-12-05
+  dispersal_area: identify
+  gender: Man
+  unique_id: RRHM-QLSL-OIVR-8303
+  year_of_birth: 1998
+- date_started_service: 2022-09-10
+  dispersal_area: ability
+  gender: Non-binary
+  unique_id: GNBP-LSRG-QNPL-8288
+  year_of_birth: 1985
+- date_started_service: 2022-08-02
+  dispersal_area: thought
+  gender: Man
+  unique_id: AZHU-FRSF-CZRZ-9579
+  year_of_birth: 1974
+- date_started_service: 2021-11-02
+  dispersal_area: realize
+  gender: Woman
+  unique_id: HIDZ-TFLJ-CFFI-0704
+  year_of_birth: 1992
+- date_started_service: 2022-01-23
+  dispersal_area: police
+  gender: Woman
+  unique_id: DAJM-KNZG-IDIX-7577
+  year_of_birth: 1991
