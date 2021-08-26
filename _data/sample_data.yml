@@ -1,74 +1,69 @@
 baseline:
 - age_finished_study: null
   current_dependents_uk: 'Yes'
-  date_arrived_in_uk: &id001 2022-04-08
-  date_asylum_status_granted: *id001
-  economic_status: Temporarily sick/injured
-  employed_in_home_country: 'Yes'
-  highest_qualification_achieved: Level 1-2
-  housing_baseline_accommodation: tbc
-  language_level_on_entry: Below formal levels
-  nationality: VG
-  occupation_goal: while
-  occupation_sector: commercial
-  referral_source: null
-  unique_id: XZ-74
-- age_profile_of_dependents_uk:
-  - 11-17
-  current_dependents_uk: 'Yes'
-  date_arrived_in_uk: &id002 2022-05-27
-  date_asylum_status_granted: *id002
-  economic_status: FT 31 hours +
-  employed_in_home_country: 'Yes'
-  highest_qualification_achieved: Level 5+
-  housing_baseline_accommodation: tbc
-  language_level_on_entry: Below formal levels
-  nationality: AF
-  ni_number: WJ425954A
-  occupation_goal: visit
-  occupation_type: dinner
-  referral_source: null
-  unique_id: FU-81
-- age_profile_of_dependents_uk:
-  - Caring responsibilities for an adult
-  current_dependents_uk: 'Yes'
-  date_arrived_in_uk: &id003 2021-12-11
-  date_asylum_status_granted: *id003
-  economic_status: Government employment & training programme
+  date_arrived_in_uk: 2017-11-30
+  date_asylum_status_granted: 2020-12-14
+  economic_status: PT 16-30 hours per week
   employed_in_home_country: 'No'
   highest_qualification_achieved: Level 3-4
   housing_baseline_accommodation: tbc
-  language_level_on_entry: Beyond Level 2
+  language_level_on_entry: Level 1
+  nationality: VG
+  occupation_goal: smile
+  occupation_type: kitchen
+  referral_source: null
+  unique_id: XZ-74
+- age_finished_study: 18
+  age_profile_of_dependents_uk: 0-4, 5-11
+  current_dependents_uk: 'Yes'
+  date_arrived_in_uk: 2017-08-18
+  date_asylum_status_granted: 2021-06-28
+  economic_status: PT 0-15 hours per week
+  employed_in_home_country: 'Yes'
+  highest_qualification_achieved: Unknown
+  housing_baseline_accommodation: tbc
+  language_level_on_entry: Level 1
+  nationality: AF
+  ni_number: WJ425954A
+  occupation_sector: case
+  occupation_type: visit
+  referral_source: null
+  unique_id: FU-81
+- age_finished_study: null
+  age_profile_of_dependents_uk: 0-4, 11-17, Caring responsibilities for an adult
+  current_dependents_uk: 'Yes'
+  date_arrived_in_uk: 2018-11-19
+  date_asylum_status_granted: 2021-05-25
+  economic_status: FT 31 hours +
+  employed_in_home_country: 'No'
+  highest_qualification_achieved: Below formal levels
+  housing_baseline_accommodation: tbc
+  language_level_on_entry: Level 2
   nationality: KE
   ni_number: XK649345B
-  occupation_sector: player
-  occupation_type: bill
   referral_source: null
   unique_id: SP-44
-- age_finished_study: null
-  age_profile_of_dependents_uk:
-  - Caring responsibilities for an adult
+- age_profile_of_dependents_uk: 0-4, 11-17, Caring responsibilities for an adult
   current_dependents_uk: 'No'
-  date_arrived_in_uk: &id004 2022-01-08
-  date_asylum_status_granted: *id004
-  economic_status: Long term sick or disabled
-  employed_in_home_country: 'Yes'
-  highest_qualification_achieved: Level 3-4
+  date_arrived_in_uk: 2019-01-26
+  date_asylum_status_granted: 2020-12-23
+  economic_status: Unemployed (but looking/available for work)
+  employed_in_home_country: 'No'
+  highest_qualification_achieved: Level 1-2
   housing_baseline_accommodation: tbc
-  language_level_on_entry: Beyond Level 2
+  language_level_on_entry: Level 1
   nationality: CF
   ni_number: GC904275D
-  occupation_type: generation
   referral_source: null
   transgender: Do not identify as Transgender
   unique_id: OV-51
-- age_finished_study: 23
+- age_finished_study: null
   current_dependents_uk: 'No'
-  date_arrived_in_uk: &id005 2022-03-24
-  date_asylum_status_granted: *id005
+  date_arrived_in_uk: 2019-02-26
+  date_asylum_status_granted: 2021-05-18
   economic_status: Self employed
   employed_in_home_country: 'Yes'
-  highest_qualification_achieved: Unknown
+  highest_qualification_achieved: Level 3-4
   housing_baseline_accommodation: tbc
   language_level_on_entry: Below formal levels
   nationality: PA
@@ -80,17 +75,16 @@ baseline:
   unique_id: MU-99
 - age_finished_study: null
   current_dependents_uk: 'Yes'
-  date_arrived_in_uk: &id006 2022-04-11
-  date_asylum_status_granted: *id006
-  economic_status: Looking after family/home
-  employed_in_home_country: 'No'
+  date_arrived_in_uk: 2020-03-14
+  date_asylum_status_granted: 2021-08-23
+  economic_status: Unemployed (but looking/available for work)
+  employed_in_home_country: 'Yes'
   highest_qualification_achieved: Level 1-2
   housing_baseline_accommodation: tbc
-  language_level_on_entry: Entry level 3
+  language_level_on_entry: Level 1
   nationality: KI
-  occupation_goal: event
-  occupation_sector: friend
-  occupation_type: sport
+  occupation_goal: mention
+  occupation_sector: event
   referral_source: null
   transgender: Identify as transgender
   unique_id: LS-07
@@ -142,37 +136,35 @@ employment_entry:
   unique_id: LS-07
 employment_intermediate:
 - date_intermediate_employment_outcome: 2023-04-20
-  intermediate_employment_outcome_type:
-  - work experience
+  intermediate_employment_outcome_type: employability
   unique_id: XZ-74
 - date_intermediate_employment_outcome: 2023-05-11
-  intermediate_employment_outcome_type:
-  - qualifications or skills
+  intermediate_employment_outcome_type: ''
   unique_id: FU-81
 - date_intermediate_employment_outcome: 2023-04-05
-  intermediate_employment_outcome_type:
-  - qualifications or skills
+  intermediate_employment_outcome_type: ''
   unique_id: SP-44
 - date_intermediate_employment_outcome: 2023-06-22
-  intermediate_employment_outcome_type:
-  - Internship
+  intermediate_employment_outcome_type: Registered business for self-employment
   unique_id: OV-51
 - date_intermediate_employment_outcome: 2023-05-16
-  intermediate_employment_outcome_type:
-  - mentoring and/or coaching
+  intermediate_employment_outcome_type: ''
   unique_id: MU-99
 - date_intermediate_employment_outcome: 2023-06-10
-  intermediate_employment_outcome_type:
-  - business plan for self-employment
+  intermediate_employment_outcome_type: work experience, Volunteering
   unique_id: LS-07
 employment_sustain:
+- employment_sustainment_date: 2023-08-30
+  unique_id: XZ-74
 - employment_sustainment_date: 2023-07-06
   unique_id: FU-81
 - employment_sustainment_date: 2023-08-01
   unique_id: SP-44
+- employment_sustainment_date: 2023-05-21
+  unique_id: OV-51
 - employment_sustainment_date: 2023-05-27
   unique_id: MU-99
-- employment_sustainment_date: 2023-06-28
+- employment_sustainment_date: 2023-10-09
   unique_id: LS-07
 housing_entry:
 - housing_entry_accomodation: tbc
