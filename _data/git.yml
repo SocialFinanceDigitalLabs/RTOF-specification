@@ -1,10 +1,10 @@
-git_committed_date: 2021-08-27 09:01 GMT
+git_committed_date: 2021-09-01 16:14 GMT
 git_committer_email: kaj@k-si.com
 git_committer_name: Kaj Siebert
 git_dirty: false
-git_hexsha: 8ce31fe198585e5f2a6eb02dc19fddcaf022cd7f
-git_msg: 'Add CI to readme
+git_hexsha: 5bed4da49963e6f17d9987a81a0c9b19ba3f60f6
+git_msg: 'Build samples as part of workflow
 
   '
 git_tags: []
-git_version: 8ce31fe
+git_version: 5bed4da
