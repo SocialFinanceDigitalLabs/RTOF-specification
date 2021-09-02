@@ -491,19 +491,6 @@
 
           '
         id: national_insurance_number
-  - description: This field is only relevant if a participant has a temporary NINO.
-      In these cases, you should submit the temporary NINO, in this persons form,
-      leaving the ni_number field blank, until the participant receives a permanent
-      NINO. Once a permanent NINO has been received this form should be updated.
-    id: temp_ni_number
-    name: Temp NI number
-    primary_key: false
-    status: Decided
-    type:
-      description: A string of Unicode characters as defined by the JSON Schema `string`
-        type.
-      id: string
-    validation: []
   - comments: To ensure we use the same categories HO use for data collection
     description: Nationality of participant. A list of nationalities are provided.
       Must select one of the given categories, please see nationality descriptions

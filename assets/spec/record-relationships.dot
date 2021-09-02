@@ -108,11 +108,6 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">temp_ni_number</TD>
-            <TD ALIGN="CENTER">string</TD>
-        </TR>
-        <TR>
-            <TD></TD>
             <TD ALIGN="LEFT">nationality</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
