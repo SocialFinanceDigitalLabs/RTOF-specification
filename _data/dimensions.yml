@@ -1,4 +1,10 @@
 - dimensions:
+  - value: 0-4
+  - value: 5-11
+  - value: 11-17
+  - value: Caring responsibilities for an adult
+  id: age_profile_of_dependents_uk
+- dimensions:
   - value: 'Yes'
   - value: 'No'
   id: current_dependents_uk
@@ -9,38 +15,35 @@
   - value: Only care responsibilities within UK and outside HH
   id: current_family_composition
 - dimensions:
-  - value: 0-4
-  - value: 5-11
-  - value: 11-17
-  - value: Caring responsibilities for an adult
-  id: current_number_of_dependents_uk
+  - value: In formal education or training (for example, registered in college or
+      university, an apprenticeship, or a government employment and training programme.
+      This may be combined with paid employment)
+  - value: Not in formal education or training (i.e. not formally registered)
+  id: education_training_status
 - dimensions:
-  - value: PT 0-15 hours per week
-  - value: PT 16-30 hours per week
-  - value: FT 31 hours +
-  - value: Self employed
-  - value: Government employment & training programme
-  - value: Unpaid work for relatives business
-  - value: Unemployed (but looking/available for work)
-  - value: Looking after family/home
-  - value: Temporarily sick/injured
-  - value: Long term sick or disabled
-  - value: Retired
-  id: economic_status
+  - value: In formal education or training (for example, registered in college or
+      university, an apprenticeship, or a government employment and training programme.
+      This may be combined with paid employment)
+  - value: Not in formal education or training (i.e. not formally registered)
+  id: education_training_status_entry
 - dimensions:
   - value: 'Yes'
   - value: 'No'
   id: employed_in_home_country
 - dimensions:
-  - value: PT 0-15 hours per week
-  - value: PT 16-30 hours per week
-  - value: FT 31 hours +
-  - value: Government employment & training programme
-  id: employment_entry_details
-- dimensions:
   - value: Employment
   - value: Self-employment
   id: employment_entry_outcome_type
+- dimensions:
+  - value: Working as an employee on a permanent contract (or on leave from employment,
+      for example maternity or paternity leave)
+  - value: Working as an employee on a temporary contract
+  - value: Working as an employee on a zero hours contract
+  - value: Working as an employee cash in hand
+  - value: Self employed or freelance (Freelance means that you are self-employed
+      and work for different companies or people on particular pieces of work)
+  - value: Other
+  id: employment_entry_status
 - dimensions:
   - description: Successful formal recognition and/or comparison of qualifications
       or skills
@@ -71,6 +74,20 @@
     value: another specified activity
   id: employment_outcome_type
 - dimensions:
+  - value: Working as an employee on a permanent contract (or on leave from employment,
+      for example maternity or paternity leave)
+  - value: Working as an employee on a temporary contract
+  - value: Working as an employee on a zero hours contract
+  - value: Working as an employee cash in hand
+  - value: Self employed or freelance (Freelance means that you are self-employed
+      and work for different companies or people on particular pieces of work)
+  - value: Unemployed and looking/available for work immediately (in the next two
+      weeks)
+  - value: Unemployed and NOT looking/available for work immediately (for example,
+      retired, looking after family or long term sick or disabled)
+  - value: Other
+  id: employment_status
+- dimensions:
   - value: Man
   - value: Woman
   - value: Non-binary
@@ -86,10 +103,28 @@
   - value: Unknown
   id: highest_qualification_achieved
 - dimensions:
+  - value: 0 to 7 hours
+  - value: 8 to 15 hours
+  - value: 16 to 30 hours
+  - value: 31 to 48 hours
+  - value: 49 or more hours
+  - value: Don't know
+  id: hours_of_employment
+- dimensions:
+  - value: 0 to 7 hours
+  - value: 8 to 15 hours
+  - value: 16 to 30 hours
+  - value: 31 to 48 hours
+  - value: 49 or more hours
+  - value: Don't know
+  id: hours_of_employment_entry
+- dimensions:
   - value: tbc
   id: housing_baseline_accommodation
 - dimensions:
-  - value: tbc
+  - value: Renting - private sector
+  - value: Renting - Local authority or housing association
+  - value: Other safe and secure accommodation
   id: housing_entry_accomodation
 - dimensions:
   - value: tbc
@@ -644,6 +679,11 @@
   - description: Zimbabwe
     value: ZW
   id: nationality
+- dimensions:
+  - value: 'Yes'
+  - value: 'No'
+  - value: Don't know
+  id: prior_employment
 - dimensions:
   - value: tbc
   id: referral_source

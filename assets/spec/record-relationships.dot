@@ -178,7 +178,22 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">economic_status</TD>
+            <TD ALIGN="LEFT">prior_employment</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">hours_of_employment</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">eduction_training_status</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
@@ -278,7 +293,17 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">employment_entry_details</TD>
+            <TD ALIGN="LEFT">employment_entry_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">hours_of_employment_entry</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">eduction_training_status_entry</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>

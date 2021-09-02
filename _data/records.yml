@@ -274,17 +274,20 @@
           '
         id: date_after
   - comments: tbc - once selected, the categories will align with baseline collection
-    description: tbc
     dimensions:
       dimensions:
-      - value: tbc
+      - value: Renting - private sector
+      - value: Renting - Local authority or housing association
+      - value: Other safe and secure accommodation
       id: housing_entry_accomodation
     id: housing_entry_accomodation
-    latest_comments: tbc - same comments as 'housing_baseline_accommodation', categories
-      to align
+    latest_comments: Safe and secure accommodation - defined by compliance with the
+      Decent Homes Standard including the absence of category 1 and 2 hazards under
+      the Housing and Health and Safety Rating System, and with all relevant gas,
+      electricity and fire safety checks in place.
     name: Accomodation type
     primary_key: false
-    status: Work in progress
+    status: Pending consideration
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -414,9 +417,9 @@
           '
         id: date_after
   id: housing_sustain
-- description: 'This form outlines the required baseline data for all service users,
+- description: This form outlines the required baseline data for all service users,
     the data is to be collected across interactions with participants and submitted
-    either when submitting form: integration_plan or within 3 months after enrolment.'
+    within 3 months of enrolment.
   fields:
   - comments: Minimum data collection required to understand enrolment
     description: Person identifier provided in the person form. This can be a NINO
@@ -1179,7 +1182,7 @@
       - value: 5-11
       - value: 11-17
       - value: Caring responsibilities for an adult
-      id: current_number_of_dependents_uk
+      id: age_profile_of_dependents_uk
     id: age_profile_of_dependents_uk
     latest_comments: tbc with Ecorys, Palladium and HO
     name: Age profile of dependents in UK
@@ -1193,8 +1196,8 @@
       extends: string
       id: list
     validation:
-    - args: current_number_of_dependents_uk
-      description: dimension(current_number_of_dependents_uk)
+    - args: age_profile_of_dependents_uk
+      description: dimension(age_profile_of_dependents_uk)
       id: dimension
       rule:
         args:
@@ -1547,6 +1550,53 @@
 
           '
         id: character_limit
+  - description: Since arriving in the UK, have you ever undertaken any paid employment?
+    dimensions:
+      dimensions:
+      - value: 'Yes'
+      - value: 'No'
+      - value: Don't know
+      id: prior_employment
+    id: prior_employment
+    name: Prior employment
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: prior_employment
+      description: dimension(prior_employment)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
   - comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status in home
       country? Suggest change ''unpaid work...'' to voluntary work (to include either
       for family or not) Clarify that sick/disabled relates to reason for unemployment
@@ -1557,21 +1607,23 @@
       3 months of enrolment.
     dimensions:
       dimensions:
-      - value: PT 0-15 hours per week
-      - value: PT 16-30 hours per week
-      - value: FT 31 hours +
-      - value: Self employed
-      - value: Government employment & training programme
-      - value: Unpaid work for relatives business
-      - value: Unemployed (but looking/available for work)
-      - value: Looking after family/home
-      - value: Temporarily sick/injured
-      - value: Long term sick or disabled
-      - value: Retired
-      id: economic_status
-    id: economic_status
-    latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
-      assessment - decision due 31 August
+      - value: Working as an employee on a permanent contract (or on leave from employment,
+          for example maternity or paternity leave)
+      - value: Working as an employee on a temporary contract
+      - value: Working as an employee on a zero hours contract
+      - value: Working as an employee cash in hand
+      - value: Self employed or freelance (Freelance means that you are self-employed
+          and work for different companies or people on particular pieces of work)
+      - value: Unemployed and looking/available for work immediately (in the next
+          two weeks)
+      - value: Unemployed and NOT looking/available for work immediately (for example,
+          retired, looking after family or long term sick or disabled)
+      - value: Other
+      id: employment_status
+    id: employment_status
+    latest_comments: What is your current employment status? Source - https://www.ons.gov.uk/census/censustransformationprogramme/questiondevelopment/economicactivityandhoursworkedquestiondevelopmentforcensus2021#questions-recommended-for-census-2021
+      . Required to assess movement from unemployment to employment and to cross reference
+      against admin data sets
     name: Main economic status at baseline
     primary_key: false
     status: Work in progress
@@ -1596,8 +1648,111 @@
 
           '
         id: required
-    - args: economic_status
-      description: dimension(economic_status)
+    - args: employment_status
+      description: dimension(employment_status)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: In your main job, how many hours a week do you usually work? (Include
+      paid and unpaid overtime). For employed and self-employed.
+    dimensions:
+      dimensions:
+      - value: 0 to 7 hours
+      - value: 8 to 15 hours
+      - value: 16 to 30 hours
+      - value: 31 to 48 hours
+      - value: 49 or more hours
+      - value: Don't know
+      id: hours_of_employment
+    id: hours_of_employment
+    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+      questions are MECE / required for CBA
+    name: Hours of employment
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: hours_of_employment
+      description: dimension(hours_of_employment)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: What is your education status?
+    dimensions:
+      dimensions:
+      - value: In formal education or training (for example, registered in college
+          or university, an apprenticeship, or a government employment and training
+          programme. This may be combined with paid employment)
+      - value: Not in formal education or training (i.e. not formally registered)
+      id: education_training_status
+    id: eduction_training_status
+    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+      questions are MECE
+    name: Eduction / training status
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: education_training_status
+      description: dimension(education_training_status)
       id: dimension
       rule:
         args:
@@ -2238,20 +2393,20 @@
 
           '
         id: date_after
-  - description: Selection of a single category describing the type of employment
-      participant is entering for the employment outcome achievement. To be collected
-      once at entry to employment outcome submission.
+  - description: What is your current employment status?
     dimensions:
       dimensions:
-      - value: PT 0-15 hours per week
-      - value: PT 16-30 hours per week
-      - value: FT 31 hours +
-      - value: Government employment & training programme
-      id: employment_entry_details
-    id: employment_entry_details
-    latest_comments: tbc - same comments as baseline 'economic_status', categories
-      to align
-    name: Details of paid employment
+      - value: Working as an employee on a permanent contract (or on leave from employment,
+          for example maternity or paternity leave)
+      - value: Working as an employee on a temporary contract
+      - value: Working as an employee on a zero hours contract
+      - value: Working as an employee cash in hand
+      - value: Self employed or freelance (Freelance means that you are self-employed
+          and work for different companies or people on particular pieces of work)
+      - value: Other
+      id: employment_entry_status
+    id: employment_entry_status
+    name: Employment entry status
     primary_key: false
     status: Pending consideration
     type:
@@ -2275,8 +2430,111 @@
 
           '
         id: required
-    - args: employment_entry_details
-      description: dimension(employment_entry_details)
+    - args: employment_entry_status
+      description: dimension(employment_entry_status)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: In your main job, how many hours a week do you usually work? (Include
+      paid and unpaid overtime). For employed and self-employed.
+    dimensions:
+      dimensions:
+      - value: 0 to 7 hours
+      - value: 8 to 15 hours
+      - value: 16 to 30 hours
+      - value: 31 to 48 hours
+      - value: 49 or more hours
+      - value: Don't know
+      id: hours_of_employment_entry
+    id: hours_of_employment_entry
+    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+      questions are MECE / required for CBA
+    name: Hours of employment
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: hours_of_employment_entry
+      description: dimension(hours_of_employment_entry)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: What is your education status?
+    dimensions:
+      dimensions:
+      - value: In formal education or training (for example, registered in college
+          or university, an apprenticeship, or a government employment and training
+          programme. This may be combined with paid employment)
+      - value: Not in formal education or training (i.e. not formally registered)
+      id: education_training_status_entry
+    id: eduction_training_status_entry
+    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+      questions are MECE
+    name: Eduction / training status
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: education_training_status_entry
+      description: dimension(education_training_status_entry)
       id: dimension
       rule:
         args:
