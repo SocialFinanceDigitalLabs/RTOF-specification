@@ -718,7 +718,17 @@
   - value: Don't know
   id: prior_employment
 - dimensions:
-  - value: tbc
+  - value: LA
+  - value: Home Office
+  - value: Local VCS
+  - value: Primary Care
+  - value: Other Health
+  - value: HO Asylum Housing Providers (e.g. Serco)
+  - value: Migrant Help
+  - value: Self-referrals
+  - value: DWP
+  - value: Peer to peer referrals
+  - value: Other
   id: referral_source
 - dimensions:
   - value: Identify as transgender
