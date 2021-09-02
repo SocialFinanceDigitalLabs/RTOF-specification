@@ -1,11 +1,10 @@
-git_committed_date: 2021-09-02 13:39 GMT
+git_committed_date: 2021-09-02 16:17 GMT
 git_committer_email: james.hearn@socialfinance.org.uk
 git_committer_name: JamesHearn2
 git_dirty: false
-git_hexsha: 3d1a346da9e72c2b46f7bfd7fda748be3cb04ede
-git_msg: 'Addition of employment status, hours, wage and training status to employment
-  sustainment record
+git_hexsha: ab48867296fa581856d933b37d3e00e9822dfa94
+git_msg: 'Udpate housing entry comments  based on latest discussions
 
   '
 git_tags: []
-git_version: 3d1a346
+git_version: ab48867

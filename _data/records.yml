@@ -273,8 +273,7 @@
 
           '
         id: date_after
-  - comments: tbc - once selected, the categories will align with baseline collection
-    dimensions:
+  - dimensions:
       dimensions:
       - value: Renting - private sector
       - value: Renting - Local authority or housing association
@@ -285,7 +284,7 @@
       Decent Homes Standard including the absence of category 1 and 2 hazards under
       the Housing and Health and Safety Rating System, and with all relevant gas,
       electricity and fire safety checks in place.
-    name: Accomodation type
+    name: Accomodation type entry
     primary_key: false
     status: Pending consideration
     type:
@@ -416,6 +415,57 @@
 
           '
         id: date_after
+  - comments: tbc - once selected, the categories will align with baseline collection
+    dimensions:
+      dimensions:
+      - value: Renting - private sector
+      - value: Renting - Local authority or housing association
+      - value: Other safe and secure accommodation
+      id: housing_sustain_accomodation
+    id: housing_sustain_accomodation
+    latest_comments: Safe and secure accommodation - defined by compliance with the
+      Decent Homes Standard including the absence of category 1 and 2 hazards under
+      the Housing and Health and Safety Rating System, and with all relevant gas,
+      electricity and fire safety checks in place.
+    name: Accomodation type sustainment
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: housing_sustain_accomodation
+      description: dimension(housing_sustain_accomodation)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
   id: housing_sustain
 - description: This form outlines the required baseline data for all service users,
     the data is to be collected across interactions with participants and submitted
@@ -1040,18 +1090,15 @@
 
           '
         id: dimension
-  - comments: The categories for this are still to be decided and will be a product
-      of engagement with frontline providers during mobilistion.
-    description: The referral source that led the participant to RTOF.
+  - description: The referral source that led the participant to RTOF.
     dimensions:
       dimensions:
       - value: tbc
       id: referral_source
     id: referral_source
-    latest_comments: Categories tbc after provider engagement
     name: Referral source
     primary_key: false
-    status: Blocked
+    status: Pending consideration
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -1100,7 +1147,6 @@
       - value: Prefer not to say
       id: transgender
     id: transgender
-    latest_comments: tbc with Ecorys and Palladium
     name: Transgender
     primary_key: false
     status: Pending consideration
@@ -1184,7 +1230,6 @@
       - value: Caring responsibilities for an adult
       id: age_profile_of_dependents_uk
     id: age_profile_of_dependents_uk
-    latest_comments: tbc with Ecorys, Palladium and HO
     name: Age profile of dependents in UK
     primary_key: false
     status: Pending consideration
@@ -1626,7 +1671,7 @@
       against admin data sets
     name: Main economic status at baseline
     primary_key: false
-    status: Work in progress
+    status: Pending consideration
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -1811,19 +1856,19 @@
 
           '
         id: dimension
-  - comments: Ecorys to provide details. To be collected once and submitted within
-      3 months of enrolment.
+  - comments: Safe and secure accommodation - defined by compliance with the Decent
+      Homes Standard including the absence of category 1 and 2 hazards under the Housing
+      and Health and Safety Rating System, and with all relevant gas, electricity
+      and fire safety checks in place.
     description: tbc
     dimensions:
       dimensions:
       - value: tbc
       id: housing_baseline_accommodation
     id: housing_baseline_accommodation
-    latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
-      assessment - decision due 31 August
-    name: Accommodation type
+    name: Accommodation type baseline
     primary_key: false
-    status: Work in progress
+    status: Pending considation
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.

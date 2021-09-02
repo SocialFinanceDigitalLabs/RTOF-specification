@@ -155,6 +155,11 @@
   - value: Other safe and secure accommodation
   id: housing_entry_accomodation
 - dimensions:
+  - value: Renting - private sector
+  - value: Renting - Local authority or housing association
+  - value: Other safe and secure accommodation
+  id: housing_sustain_accomodation
+- dimensions:
   - value: tbc
   id: integration_comms_language
 - dimensions:

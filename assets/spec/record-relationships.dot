@@ -86,6 +86,11 @@ graph {
             <TD ALIGN="LEFT">housing_sustainment_date</TD>
             <TD ALIGN="CENTER">date</TD>
         </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">housing_sustain_accomodation</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
     </TABLE>
 </FONT>>];
 
