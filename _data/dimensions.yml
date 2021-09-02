@@ -644,8 +644,7 @@
   - description: Zimbabwe
     value: ZW
   id: nationality
-- dimensions:
-  - value: tbc
+- dimensions: []
   id: referral_source
 - dimensions:
   - value: Identify as transgender

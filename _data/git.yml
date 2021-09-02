@@ -1,10 +1,10 @@
-git_committed_date: 2021-09-01 16:14 GMT
+git_committed_date: 2021-08-26 08:08 GMT
 git_committer_email: kaj@k-si.com
 git_committer_name: Kaj Siebert
 git_dirty: false
-git_hexsha: 5bed4da49963e6f17d9987a81a0c9b19ba3f60f6
-git_msg: 'Build samples as part of workflow
+git_hexsha: a2e1f6f5b7f3f2f13f75b0739e80eb0cf3a1a89b
+git_msg: 'Fix 9d43d9a8 renaming image
 
   '
 git_tags: []
-git_version: 5bed4da
+git_version: a2e1f6f
