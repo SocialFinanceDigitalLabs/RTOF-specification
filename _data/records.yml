@@ -1716,6 +1716,51 @@
 
           '
         id: dimension
+  - description: Estimated hourly wage
+    dimensions:
+      dimensions:
+      - value: tbc
+      id: wage_baseline
+    id: wage_baseline
+    name: Wage baseline
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: wage_baseline
+      description: dimension(wage_baseline)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
   - description: What is your education status?
     dimensions:
       dimensions:
@@ -1802,6 +1847,58 @@
         id: required
     - args: housing_baseline_accommodation
       description: dimension(housing_baseline_accommodation)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - comments: More information - https://www.gov.uk/guidance/homelessness-data-notes-and-definitions
+      and https://www.legislation.gov.uk/ukpga/1996/52/section/175?view=plain
+    description: "Statutory homelessness requires a household to be unintentionally\
+      \ homeless AND demonstrate a priority category need, such as dependent children.\
+      \ Non-statutory homelessness may include single homeless people without specific\
+      \ vulnerabilities, or those people who don\u2019t approach their local authority\
+      \ for help."
+    dimensions:
+      dimensions:
+      - value: Statutory homelessness (i.e. main duty/priority group)
+      - value: Non-statutory homelessness (i.e. NOT main duty/priority group)
+      id: homelessness_baseline
+    id: homelessness_baseline
+    name: Homelessness status baseline
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: homelessness_baseline
+      description: dimension(homelessness_baseline)
       id: dimension
       rule:
         args:
@@ -2498,6 +2595,51 @@
 
           '
         id: dimension
+  - description: Estimated hourly wage
+    dimensions:
+      dimensions:
+      - value: tbc
+      id: wage_employment_entry
+    id: wage_employment_entry
+    name: Wage employment entry
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: wage_employment_entry
+      description: dimension(wage_employment_entry)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
   - description: What is your education status?
     dimensions:
       dimensions:
@@ -2721,6 +2863,286 @@
 
           '
         id: date_after
+  - description: What is your current employment status?
+    dimensions:
+      dimensions:
+      - value: Working as an employee on a permanent contract (or on leave from employment,
+          for example maternity or paternity leave)
+      - value: Working as an employee on a temporary contract
+      - value: Working as an employee on a zero hours contract
+      - value: Working as an employee cash in hand
+      - value: Self employed or freelance (Freelance means that you are self-employed
+          and work for different companies or people on particular pieces of work)
+      - value: Other
+      id: employment_sustain_status
+    id: employment_sustain_status
+    name: Employment status at sustainment outcome
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: employment_sustain_status
+      description: dimension(employment_sustain_status)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: In your main job, how many hours a week do you usually work? (Include
+      paid and unpaid overtime). For employed and self-employed.
+    dimensions:
+      dimensions:
+      - value: 0 to 7 hours
+      - value: 8 to 15 hours
+      - value: 16 to 30 hours
+      - value: 31 to 48 hours
+      - value: 49 or more hours
+      - value: Don't know
+      id: hours_of_employment_sustain
+    id: hours_of_employment_sustain
+    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+      questions are MECE / required for CBA
+    name: Hours of employment at sustain
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: hours_of_employment_sustain
+      description: dimension(hours_of_employment_sustain)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: Estimated hourly wage
+    dimensions:
+      dimensions:
+      - value: tbc
+      id: wage_employment_sustain
+    id: wage_employment_sustain
+    name: Wage employment at sustain
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: wage_employment_sustain
+      description: dimension(wage_employment_sustain)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: What is your education status?
+    dimensions:
+      dimensions:
+      - value: In formal education or training (for example, registered in college
+          or university, an apprenticeship, or a government employment and training
+          programme. This may be combined with paid employment)
+      - value: Not in formal education or training (i.e. not formally registered)
+      id: education_training_status_sustain
+    id: eduction_training_status_sustain
+    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+      questions are MECE
+    name: Eduction / training status at sustain
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: education_training_status_sustain
+      description: dimension(education_training_status_sustain)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: State participants employment type for the achievement of entry to
+      employment outcome. To be collected once at entry to employment outcome submission.
+      For some providers this may be a categorical data field - please confirm with
+      your nominated data lead.
+    id: employment_susatin_occupation
+    name: Occupation type
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: 255
+      description: character_limit(255)
+      id: character_limit
+      rule:
+        args:
+        - help: The number of characters
+          name: characters
+          type: integer
+        description: 'Maximum number of unicode characters in string.
+
+          '
+        id: character_limit
+  - description: State the participants employment sector for the achievement of entry
+      to employment outcome. To be collected once at entry to employment outcome submission.
+      For some providers this may be a categorical data field - please confirm with
+      your nominated data lead.
+    id: employment_sustain_sector
+    name: Sector
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+    - args: 255
+      description: character_limit(255)
+      id: character_limit
+      rule:
+        args:
+        - help: The number of characters
+          name: characters
+          type: integer
+        description: 'Maximum number of unicode characters in string.
+
+          '
+        id: character_limit
   id: employment_sustain
 - description: This form outlines the required data for participants who are no longer
     engaged with the service. Data should be collected during the annual caseload

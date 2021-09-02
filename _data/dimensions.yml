@@ -27,6 +27,12 @@
   - value: Not in formal education or training (i.e. not formally registered)
   id: education_training_status_entry
 - dimensions:
+  - value: In formal education or training (for example, registered in college or
+      university, an apprenticeship, or a government employment and training programme.
+      This may be combined with paid employment)
+  - value: Not in formal education or training (i.e. not formally registered)
+  id: education_training_status_sustain
+- dimensions:
   - value: 'Yes'
   - value: 'No'
   id: employed_in_home_country
@@ -88,6 +94,16 @@
   - value: Other
   id: employment_status
 - dimensions:
+  - value: Working as an employee on a permanent contract (or on leave from employment,
+      for example maternity or paternity leave)
+  - value: Working as an employee on a temporary contract
+  - value: Working as an employee on a zero hours contract
+  - value: Working as an employee cash in hand
+  - value: Self employed or freelance (Freelance means that you are self-employed
+      and work for different companies or people on particular pieces of work)
+  - value: Other
+  id: employment_sustain_status
+- dimensions:
   - value: Man
   - value: Woman
   - value: Non-binary
@@ -102,6 +118,10 @@
   - value: Level 5+
   - value: Unknown
   id: highest_qualification_achieved
+- dimensions:
+  - value: Statutory homelessness (i.e. main duty/priority group)
+  - value: Non-statutory homelessness (i.e. NOT main duty/priority group)
+  id: homelessness_baseline
 - dimensions:
   - value: 0 to 7 hours
   - value: 8 to 15 hours
@@ -118,6 +138,14 @@
   - value: 49 or more hours
   - value: Don't know
   id: hours_of_employment_entry
+- dimensions:
+  - value: 0 to 7 hours
+  - value: 8 to 15 hours
+  - value: 16 to 30 hours
+  - value: 31 to 48 hours
+  - value: 49 or more hours
+  - value: Don't know
+  id: hours_of_employment_sustain
 - dimensions:
   - value: tbc
   id: housing_baseline_accommodation
@@ -692,3 +720,12 @@
   - value: Do not identify as Transgender
   - value: Prefer not to say
   id: transgender
+- dimensions:
+  - value: tbc
+  id: wage_baseline
+- dimensions:
+  - value: tbc
+  id: wage_employment_entry
+- dimensions:
+  - value: tbc
+  id: wage_employment_sustain

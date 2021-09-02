@@ -1,117 +1,111 @@
-unique_id,employment_sustainment_date
-OI-95,2023-06-02
-NC-50,2023-06-20
-YE-22,2023-08-12
-MQ-65,2023-05-22
-PX-91,2023-07-01
-SM-80,2023-07-15
-IQ-46,2023-06-07
-TP-61,2023-06-29
-TH-04,2023-07-09
-GR-89,2023-07-13
-XJ-30,2023-09-26
-HJ-30,2023-08-25
-FR-32,2023-10-16
-EK-31,2023-08-13
-NX-24,2023-08-04
-VT-52,2023-09-24
-WO-05,2023-10-21
-YB-48,2023-07-10
-IR-72,2023-07-31
-BM-47,2023-06-23
-CO-79,2023-07-12
-TB-65,2023-08-05
-TU-66,2023-10-18
-BV-44,2023-07-31
-RC-47,2023-08-04
-QE-87,2023-06-06
-NC-92,2023-05-27
-IE-36,2023-06-24
-ER-49,2023-07-16
-QY-57,2023-09-03
-IH-55,2023-09-04
-OK-48,2023-09-03
-RU-93,2023-08-24
-LH-51,2023-06-30
-TW-24,2023-06-09
-XZ-64,2023-07-04
-PW-39,2023-05-24
-MY-59,2023-07-16
-NK-01,2023-08-25
-NP-58,2023-06-29
-ZU-68,2023-05-24
-UD-58,2023-09-17
-WP-03,2023-09-20
-BT-33,2023-10-08
-UY-35,2023-06-18
-ZE-33,2023-07-06
-BV-15,2023-09-05
-SK-08,2023-09-03
-SH-39,2023-08-13
-GW-96,2023-09-01
-ML-72,2023-08-07
-CI-95,2023-06-01
-NF-02,2023-07-29
-RZ-80,2023-07-31
-PU-72,2023-08-18
-CI-06,2023-07-11
-KP-35,2023-07-20
-SD-59,2023-08-19
-IZ-65,2023-10-19
-YO-84,2023-07-28
-LV-57,2023-10-01
-VY-94,2023-06-14
-JG-10,2023-05-30
-HO-08,2023-06-02
-IZ-82,2023-10-10
-YX-65,2023-06-20
-NO-28,2023-08-06
-GI-37,2023-09-01
-KE-25,2023-09-14
-UO-51,2023-06-06
-CH-98,2023-08-20
-ER-31,2023-07-11
-XO-91,2023-08-04
-GR-39,2023-09-11
-VA-02,2023-05-22
-CA-39,2023-09-02
-RQ-16,2023-06-15
-PL-32,2023-07-23
-NJ-06,2023-10-17
-YT-55,2023-09-03
-QT-08,2023-08-25
-FL-95,2023-07-23
-NT-23,2023-06-20
-QF-17,2023-09-15
-WU-26,2023-10-20
-AC-67,2023-07-06
-RK-10,2023-06-06
-LD-35,2023-07-04
-UN-56,2023-10-09
-AN-42,2023-06-02
-DE-06,2023-05-23
-BK-31,2023-07-03
-VS-79,2023-06-14
-LA-02,2023-08-23
-ZC-27,2023-09-08
-II-65,2023-07-22
-LI-97,2023-05-23
-MV-90,2023-08-18
-NO-57,2023-07-23
-HT-17,2023-10-13
-CJ-72,2023-08-28
-KO-42,2023-08-24
-JF-37,2023-08-31
-GJ-27,2023-07-26
-GI-24,2023-08-30
-EX-67,2023-10-07
-MY-01,2023-07-30
-GE-80,2023-06-18
-IO-08,2023-06-22
-TM-93,2023-08-11
-LC-44,2023-09-26
-MO-26,2023-09-18
-VP-17,2023-05-23
-IR-67,2023-06-09
-RZ-14,2023-07-23
-OJ-44,2023-09-08
+unique_id,employment_sustainment_date,employment_sustain_status,hours_of_employment_sustain,wage_employment_sustain,eduction_training_status_sustain,employment_susatin_occupation,employment_sustain_sector
+OI-95,2023-06-01,Working as an employee on a zero hours contract,49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),third,officer
+ZN-36,2023-08-06,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",teacher,action
+PQ-18,2023-07-15,Working as an employee on a temporary contract,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),message,federal
+OV-36,2023-03-15,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),31 to 48 hours,tbc,Not in formal education or training (i.e. not formally registered),sit,evidence
+EW-12,2023-05-07,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",0 to 7 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",nice,heart
+PD-64,2023-07-16,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",international,movie
+VX-79,2023-04-17,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),recognize,activity
+QH-71,2023-04-08,Working as an employee cash in hand,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),quite,factor
+LO-28,2023-05-03,Working as an employee cash in hand,Don't know,tbc,Not in formal education or training (i.e. not formally registered),medical,eight
+QW-79,2023-03-27,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",16 to 30 hours,tbc,Not in formal education or training (i.e. not formally registered),more,lose
+FR-44,2023-03-24,Working as an employee on a zero hours contract,0 to 7 hours,tbc,Not in formal education or training (i.e. not formally registered),drop,let
+SV-60,2023-07-12,Other,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",act,these
+OH-72,2023-04-28,Working as an employee on a zero hours contract,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),return,gun
+IY-69,2023-03-20,Other,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",modern,number
+BH-46,2023-05-08,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),31 to 48 hours,tbc,Not in formal education or training (i.e. not formally registered),treat,exist
+NE-19,2023-06-10,Working as an employee cash in hand,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),matter,right
+ZF-87,2023-04-29,Working as an employee on a zero hours contract,49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",push,allow
+GX-04,2023-06-07,Working as an employee on a temporary contract,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",reason,statement
+DH-27,2023-04-18,Working as an employee on a temporary contract,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",beyond,side
+XG-53,2023-08-08,Other,49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",know,occur
+IV-31,2023-05-11,Working as an employee on a zero hours contract,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",generation,receive
+KK-61,2023-07-24,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",throughout,long
+BS-03,2023-07-10,Working as an employee cash in hand,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),southern,list
+FH-80,2023-06-14,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",he,two
+VB-60,2023-06-21,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",nothing,occur
+WF-56,2023-04-26,Working as an employee on a temporary contract,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",pattern,language
+UL-64,2023-05-02,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),another,certain
+ZH-35,2023-06-23,Working as an employee on a zero hours contract,49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),second,other
+YH-33,2023-04-22,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",fund,factor
+WJ-26,2023-05-03,Other,16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",lot,actually
+GV-61,2023-08-01,Working as an employee on a zero hours contract,Don't know,tbc,Not in formal education or training (i.e. not formally registered),more,share
+DK-94,2023-06-14,Working as an employee on a temporary contract,49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",usually,upon
+IB-96,2023-06-26,Working as an employee on a temporary contract,0 to 7 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",officer,either
+OM-84,2023-07-13,Working as an employee on a zero hours contract,0 to 7 hours,tbc,Not in formal education or training (i.e. not formally registered),responsibility,let
+YG-73,2023-07-13,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",31 to 48 hours,tbc,Not in formal education or training (i.e. not formally registered),site,third
+HC-62,2023-03-24,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",direction,trial
+GX-48,2023-07-04,Working as an employee on a zero hours contract,49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",condition,only
+ZY-23,2023-06-12,Working as an employee on a zero hours contract,31 to 48 hours,tbc,Not in formal education or training (i.e. not formally registered),model,wish
+XF-78,2023-07-25,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",middle,impact
+YE-20,2023-06-21,Other,49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),draw,according
+JE-60,2023-06-05,Working as an employee on a zero hours contract,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",since,level
+SW-98,2023-08-05,Working as an employee cash in hand,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",hair,alone
+RQ-28,2023-06-26,Working as an employee cash in hand,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",share,along
+VL-23,2023-04-12,Other,0 to 7 hours,tbc,Not in formal education or training (i.e. not formally registered),idea,my
+XM-27,2023-05-20,Working as an employee on a temporary contract,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),issue,business
+IP-07,2023-04-18,Working as an employee cash in hand,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),experience,take
+UY-21,2023-07-10,Working as an employee on a zero hours contract,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",modern,number
+WL-61,2023-03-29,Working as an employee on a temporary contract,49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",resource,want
+SZ-02,2023-03-24,Other,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",whom,risk
+OS-52,2023-07-26,Working as an employee on a temporary contract,49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",individual,left
+TX-24,2023-03-26,Other,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",reflect,war
+ST-34,2023-07-04,Working as an employee on a temporary contract,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",son,majority
+SW-56,2023-05-14,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",31 to 48 hours,tbc,Not in formal education or training (i.e. not formally registered),chair,anyone
+PE-39,2023-04-13,Other,31 to 48 hours,tbc,Not in formal education or training (i.e. not formally registered),say,point
+DE-42,2023-04-07,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",its,test
+VH-49,2023-05-18,Working as an employee cash in hand,0 to 7 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",up,opportunity
+ZW-58,2023-07-30,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),speech,never
+AL-33,2023-07-28,Working as an employee on a temporary contract,Don't know,tbc,Not in formal education or training (i.e. not formally registered),into,including
+NF-59,2023-04-14,Other,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",understand,you
+QO-31,2023-04-24,Working as an employee on a temporary contract,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",voice,town
+FA-77,2023-05-04,Working as an employee cash in hand,16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",sell,central
+XF-86,2023-05-27,Working as an employee cash in hand,Don't know,tbc,Not in formal education or training (i.e. not formally registered),particular,car
+BU-17,2023-03-31,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",improve,play
+VN-87,2023-04-28,Working as an employee on a temporary contract,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),outside,find
+ML-10,2023-04-09,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",matter,role
+PQ-26,2023-04-19,Working as an employee on a temporary contract,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",wife,anyone
+JD-49,2023-03-31,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",present,edge
+MC-20,2023-07-14,Other,49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),our,cause
+EZ-73,2023-05-11,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",sister,plan
+DV-64,2023-04-24,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",0 to 7 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",evening,voice
+AG-37,2023-06-25,Working as an employee cash in hand,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",recently,Congress
+KY-52,2023-04-20,Working as an employee on a zero hours contract,16 to 30 hours,tbc,Not in formal education or training (i.e. not formally registered),old,kind
+PU-82,2023-05-15,Working as an employee cash in hand,16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",agent,ability
+QA-12,2023-07-23,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),Don't know,tbc,Not in formal education or training (i.e. not formally registered),well,scene
+DN-60,2023-05-27,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",16 to 30 hours,tbc,Not in formal education or training (i.e. not formally registered),kid,think
+UT-03,2023-07-03,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",16 to 30 hours,tbc,Not in formal education or training (i.e. not formally registered),customer,charge
+NF-65,2023-05-10,Working as an employee cash in hand,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",far,outside
+RO-35,2023-05-30,Working as an employee on a zero hours contract,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",same,whose
+UT-73,2023-04-09,Working as an employee on a zero hours contract,Don't know,tbc,Not in formal education or training (i.e. not formally registered),seek,why
+UG-26,2023-05-25,Working as an employee on a zero hours contract,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",threat,themselves
+TD-21,2023-07-21,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",speak,on
+KJ-67,2023-07-29,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",wait,government
+WZ-99,2023-06-16,Working as an employee on a temporary contract,16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",recently,summer
+FZ-53,2023-05-31,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),charge,provide
+RD-09,2023-08-06,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",discussion,husband
+OE-91,2023-05-29,Working as an employee on a temporary contract,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",century,thank
+HS-21,2023-05-08,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",0 to 7 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",campaign,along
+MC-37,2023-05-09,Working as an employee on a temporary contract,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),structure,season
+RQ-85,2023-03-16,Working as an employee on a zero hours contract,16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",treat,discover
+EU-48,2023-07-12,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",skill,bill
+EM-82,2023-05-31,Working as an employee cash in hand,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",indicate,mission
+SU-01,2023-04-10,Working as an employee on a zero hours contract,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",course,put
+RF-04,2023-05-12,Working as an employee on a zero hours contract,Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",degree,skill
+RA-61,2023-07-10,Working as an employee cash in hand,8 to 15 hours,tbc,Not in formal education or training (i.e. not formally registered),gun,call
+IQ-09,2023-04-25,Working as an employee on a temporary contract,49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",affect,teach
+DK-96,2023-04-15,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",16 to 30 hours,tbc,Not in formal education or training (i.e. not formally registered),man,term
+EX-24,2023-07-04,Other,Don't know,tbc,Not in formal education or training (i.e. not formally registered),stuff,long
+WB-72,2023-04-11,Working as an employee on a zero hours contract,16 to 30 hours,tbc,Not in formal education or training (i.e. not formally registered),subject,head
+SC-25,2023-03-22,Working as an employee on a zero hours contract,8 to 15 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",stage,present
+FI-94,2023-04-04,Working as an employee cash in hand,16 to 30 hours,tbc,Not in formal education or training (i.e. not formally registered),south,easy
+ZY-62,2023-03-15,Working as an employee cash in hand,49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),marriage,west
+ID-88,2023-07-17,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",0 to 7 hours,tbc,Not in formal education or training (i.e. not formally registered),collection,he
+SS-26,2023-07-09,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",31 to 48 hours,tbc,Not in formal education or training (i.e. not formally registered),final,see
+AE-24,2023-08-04,Working as an employee on a temporary contract,31 to 48 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",hotel,eight
+RX-25,2023-04-24,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",16 to 30 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",option,attorney
+QR-65,2023-07-22,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",49 or more hours,tbc,Not in formal education or training (i.e. not formally registered),home,look
+GL-84,2023-06-20,"Working as an employee on a permanent contract (or on leave from employment, for example maternity or paternity leave)",Don't know,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",interest,part
+GW-27,2023-07-30,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),49 or more hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",third,five
+VK-81,2023-04-08,Working as an employee cash in hand,0 to 7 hours,tbc,Not in formal education or training (i.e. not formally registered),than,ability
+PG-54,2023-04-10,Self employed or freelance (Freelance means that you are self-employed and work for different companies or people on particular pieces of work),0 to 7 hours,tbc,"In formal education or training (for example, registered in college or university, an apprenticeship, or a government employment and training programme. This may be combined with paid employment)",prepare,series

@@ -193,12 +193,22 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">wage_baseline</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">eduction_training_status</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">housing_baseline_accommodation</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">homelessness_baseline</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
     </TABLE>
@@ -303,6 +313,11 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">wage_employment_entry</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">eduction_training_status_entry</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
@@ -335,6 +350,36 @@ graph {
             <TD></TD>
             <TD ALIGN="LEFT">employment_sustainment_date</TD>
             <TD ALIGN="CENTER">date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_sustain_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">hours_of_employment_sustain</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">wage_employment_sustain</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">eduction_training_status_sustain</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_susatin_occupation</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_sustain_sector</TD>
+            <TD ALIGN="CENTER">string</TD>
         </TR>
     </TABLE>
 </FONT>>];
