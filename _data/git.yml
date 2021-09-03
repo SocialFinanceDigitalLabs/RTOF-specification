@@ -1,10 +1,11 @@
-git_committed_date: 2021-09-02 16:26 GMT
+git_committed_date: 2021-09-03 18:28 GMT
 git_committer_email: james.hearn@socialfinance.org.uk
 git_committer_name: JamesHearn2
 git_dirty: false
-git_hexsha: 829e4a894248d580a86f892a8131898e65924b67
-git_msg: 'Addition of referral source categories
+git_hexsha: b16998a22fca0ec86164d39494d0cb1d1b26e039
+git_msg: 'Update to categories for primary and secondary employment entry status (based
+  on discussion with HO, Palladium and Ecorys 03/09/2021)
 
   '
 git_tags: []
-git_version: 829e4a8
+git_version: b16998a

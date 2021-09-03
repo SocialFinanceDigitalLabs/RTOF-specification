@@ -60,8 +60,7 @@
           '
         id: required
   - description: Gender of participant. Must be one of the five categories provided.
-      To be collected once at enrolment. Note there is a follow-up gender question
-      as part of the baseline data collection.
+      To be collected once at enrolment.
     dimensions:
       dimensions:
       - value: Man
@@ -113,14 +112,44 @@
   - comments: Confirm whether this should be string or list of LA's
     description: Local authority where participant was located once asylum status
       was granted. To be collected once at enrolment into the program.
+    dimensions:
+      dimensions:
+      - value: Bolton Council
+      - value: Bury Council
+      - value: Manchester City Council
+      - value: Oldham Council
+      - value: Rochdale Borough Council
+      - value: Salford City Council
+      - value: Stockport Metropolitan Borough Council
+      - value: Tameside Metropolitan Borough Council
+      - value: Trafford Council
+      - value: Wigan Council
+      - value: Wolverhampton Council
+      - value: Coventry City Council
+      - value: Sandwell Council
+      - value: Birmingham City Council
+      - value: Plymouth City Council
+      - value: Darlington Borough Council
+      - value: Gateshead Council
+      - value: Hartlepool Borough Council
+      - value: Middlesbrough Council
+      - value: Newcastle City Council
+      - value: North Tyneside Council
+      - value: Northumberland County Council
+      - value: Redcar and Cleveland Council
+      - value: South Tyneside Council
+      - value: Stockton Council
+      - value: Sunderland City Council
+      id: dispersal_area
     id: dispersal_area
     name: Dispersal area
     primary_key: false
     status: Decided
     type:
-      description: A string of Unicode characters as defined by the JSON Schema `string`
-        type.
-      id: string
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
     validation:
     - args: true
       description: required(True)
@@ -137,6 +166,21 @@
 
           '
         id: required
+    - args: dispersal_area
+      description: dimension(dispersal_area)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
   - description: Date of participant enrolment onto the program. Month and Year of
       enrolment required. To be collected once at enrolment.
     id: date_started_service
@@ -1108,7 +1152,7 @@
     id: referral_source
     name: Referral source
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -1132,42 +1176,6 @@
         id: required
     - args: referral_source
       description: dimension(referral_source)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: Do you identify as transgender? A question which follows on from
-      the question in the person data form, with 'identify as transgender', 'do not
-      identify as transgender' or 'prefer not to say'. This is a non-mandatory data
-      field, people have the option to ask this question, but are not forced to answer
-      To be collected once and submitted within 3 months of enrolment.
-    dimensions:
-      dimensions:
-      - value: Identify as transgender
-      - value: Do not identify as Transgender
-      - value: Prefer not to say
-      id: transgender
-    id: transgender
-    name: Transgender
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: transgender
-      description: dimension(transgender)
       id: dimension
       rule:
         args:
@@ -1229,6 +1237,25 @@
 
           '
         id: dimension
+  - description: How many children under the age of 18 are currently living in your
+      household
+    id: number_u18_HH
+    name: Number of children under 18 living in HH
+    primary_key: false
+    status: Decided
+    type:
+      description: An integer as defined by the JSON Schema `integer` type.
+      id: integer
+    validation: []
+  - description: How many adults over the age of 18 are currently living in your household
+    id: number_over_18_HH
+    name: Number of adults over 18 living in HH
+    primary_key: false
+    status: Decided
+    type:
+      description: An integer as defined by the JSON Schema `integer` type.
+      id: integer
+    validation: []
   - description: If answered Yes to 'current dependents UK'. Selection of each option
       that applies to the participant. To be collected once and submitted within 3
       months of enrolment.
@@ -1870,15 +1897,22 @@
       Homes Standard including the absence of category 1 and 2 hazards under the Housing
       and Health and Safety Rating System, and with all relevant gas, electricity
       and fire safety checks in place.
-    description: tbc
+    description: Current accomodation status
     dimensions:
       dimensions:
-      - value: tbc
+      - value: Homeless and rough sleeping
+      - value: Homeless but not rough sleeping (e.g. living with friends or family)
+      - value: Asylum accommodation
+      - value: Self-funded temporary accommodation (e.g. hotel)
+      - value: Publicly funded temporary accommodation
+      - value: Renting - private sector
+      - value: Renting - Local authority or housing association
+      - value: Other safe and secure accommodation
       id: housing_baseline_accommodation
     id: housing_baseline_accommodation
     name: Accommodation type baseline
     primary_key: false
-    status: Pending considation
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -2545,7 +2579,7 @@
 
           '
         id: date_after
-  - description: What is your current employment status?
+  - description: What is your primary current employment status?
     dimensions:
       dimensions:
       - value: Working as an employee on a permanent contract (or on leave from employment,
@@ -2556,11 +2590,11 @@
       - value: Self employed or freelance (Freelance means that you are self-employed
           and work for different companies or people on particular pieces of work)
       - value: Other
-      id: employment_entry_status
-    id: employment_entry_status
-    name: Employment entry status
+      id: primary_employment_entry_status
+    id: primary_employment_entry_status
+    name: Primary employment entry status
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -2582,8 +2616,46 @@
 
           '
         id: required
-    - args: employment_entry_status
-      description: dimension(employment_entry_status)
+    - args: primary_employment_entry_status
+      description: dimension(primary_employment_entry_status)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: If you have more than one economic status, what is your current secondary
+      employment status?
+    dimensions:
+      dimensions:
+      - value: Working as an employee on a permanent contract (or on leave from employment,
+          for example maternity or paternity leave)
+      - value: Working as an employee on a temporary contract
+      - value: Working as an employee on a zero hours contract
+      - value: Working as an employee cash in hand
+      - value: Self employed or freelance (Freelance means that you are self-employed
+          and work for different companies or people on particular pieces of work)
+      - value: Other
+      id: primary_employment_entry_status
+    id: secondary_employment_entry_status
+    name: Seconday employment entry status
+    primary_key: false
+    status: Decided
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: primary_employment_entry_status
+      description: dimension(primary_employment_entry_status)
       id: dimension
       rule:
         args:
@@ -3293,4 +3365,27 @@
 
           '
         id: date_after
+  - description: Optional field. If the reason for a participant disengagement from
+      RTOF is known, please provide details. ie. 'Moved out of area'
+    id: reason_for_disengagement
+    name: Reason for disengagement
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation:
+    - args: 255
+      description: character_limit(255)
+      id: character_limit
+      rule:
+        args:
+        - help: The number of characters
+          name: characters
+          type: integer
+        description: 'Maximum number of unicode characters in string.
+
+          '
+        id: character_limit
   id: date_last_seen

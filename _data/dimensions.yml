@@ -15,6 +15,34 @@
   - value: Only care responsibilities within UK and outside HH
   id: current_family_composition
 - dimensions:
+  - value: Bolton Council
+  - value: Bury Council
+  - value: Manchester City Council
+  - value: Oldham Council
+  - value: Rochdale Borough Council
+  - value: Salford City Council
+  - value: Stockport Metropolitan Borough Council
+  - value: Tameside Metropolitan Borough Council
+  - value: Trafford Council
+  - value: Wigan Council
+  - value: Wolverhampton Council
+  - value: Coventry City Council
+  - value: Sandwell Council
+  - value: Birmingham City Council
+  - value: Plymouth City Council
+  - value: Darlington Borough Council
+  - value: Gateshead Council
+  - value: Hartlepool Borough Council
+  - value: Middlesbrough Council
+  - value: Newcastle City Council
+  - value: North Tyneside Council
+  - value: Northumberland County Council
+  - value: Redcar and Cleveland Council
+  - value: South Tyneside Council
+  - value: Stockton Council
+  - value: Sunderland City Council
+  id: dispersal_area
+- dimensions:
   - value: In formal education or training (for example, registered in college or
       university, an apprenticeship, or a government employment and training programme.
       This may be combined with paid employment)
@@ -40,16 +68,6 @@
   - value: Employment
   - value: Self-employment
   id: employment_entry_outcome_type
-- dimensions:
-  - value: Working as an employee on a permanent contract (or on leave from employment,
-      for example maternity or paternity leave)
-  - value: Working as an employee on a temporary contract
-  - value: Working as an employee on a zero hours contract
-  - value: Working as an employee cash in hand
-  - value: Self employed or freelance (Freelance means that you are self-employed
-      and work for different companies or people on particular pieces of work)
-  - value: Other
-  id: employment_entry_status
 - dimensions:
   - description: Successful formal recognition and/or comparison of qualifications
       or skills
@@ -147,7 +165,14 @@
   - value: Don't know
   id: hours_of_employment_sustain
 - dimensions:
-  - value: tbc
+  - value: Homeless and rough sleeping
+  - value: Homeless but not rough sleeping (e.g. living with friends or family)
+  - value: Asylum accommodation
+  - value: Self-funded temporary accommodation (e.g. hotel)
+  - value: Publicly funded temporary accommodation
+  - value: Renting - private sector
+  - value: Renting - Local authority or housing association
+  - value: Other safe and secure accommodation
   id: housing_baseline_accommodation
 - dimensions:
   - value: Renting - private sector
@@ -713,6 +738,16 @@
     value: ZW
   id: nationality
 - dimensions:
+  - value: Working as an employee on a permanent contract (or on leave from employment,
+      for example maternity or paternity leave)
+  - value: Working as an employee on a temporary contract
+  - value: Working as an employee on a zero hours contract
+  - value: Working as an employee cash in hand
+  - value: Self employed or freelance (Freelance means that you are self-employed
+      and work for different companies or people on particular pieces of work)
+  - value: Other
+  id: primary_employment_entry_status
+- dimensions:
   - value: 'Yes'
   - value: 'No'
   - value: Don't know
@@ -730,6 +765,16 @@
   - value: Peer to peer referrals
   - value: Other
   id: referral_source
+- dimensions:
+  - value: Working as an employee on a permanent contract (or on leave from employment,
+      for example maternity or paternity leave)
+  - value: Working as an employee on a temporary contract
+  - value: Working as an employee on a zero hours contract
+  - value: Working as an employee cash in hand
+  - value: Self employed or freelance (Freelance means that you are self-employed
+      and work for different companies or people on particular pieces of work)
+  - value: Other
+  id: secondary_employment_entry_status
 - dimensions:
   - value: Identify as transgender
   - value: Do not identify as Transgender

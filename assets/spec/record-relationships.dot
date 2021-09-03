@@ -34,7 +34,7 @@ graph {
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">dispersal_area</TD>
-            <TD ALIGN="CENTER">string</TD>
+            <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
             <TD></TD>
@@ -123,13 +123,18 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">transgender</TD>
+            <TD ALIGN="LEFT">current_dependents_uk</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">current_dependents_uk</TD>
-            <TD ALIGN="CENTER">categorical</TD>
+            <TD ALIGN="LEFT">number_u18_HH</TD>
+            <TD ALIGN="CENTER">integer</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">number_over_18_HH</TD>
+            <TD ALIGN="CENTER">integer</TD>
         </TR>
         <TR>
             <TD></TD>
@@ -308,7 +313,12 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">employment_entry_status</TD>
+            <TD ALIGN="LEFT">primary_employment_entry_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">secondary_employment_entry_status</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
@@ -405,6 +415,11 @@ graph {
             <TD></TD>
             <TD ALIGN="LEFT">date_last_seen</TD>
             <TD ALIGN="CENTER">date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">reason_for_disengagement</TD>
+            <TD ALIGN="CENTER">string</TD>
         </TR>
     </TABLE>
 </FONT>>];
