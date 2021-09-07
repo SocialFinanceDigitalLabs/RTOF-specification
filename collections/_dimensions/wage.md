@@ -1,4 +1,4 @@
 ---
 layout: dimension
-dimension_id: transgender
+dimension_id: wage
 ---

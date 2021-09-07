@@ -1,11 +1,10 @@
-git_committed_date: 2021-09-07 11:14 GMT
-git_committer_email: noreply@github.com
-git_committer_name: GitHub
+git_committed_date: 2021-09-07 13:42 GMT
+git_committer_email: james.hearn@socialfinance.org.uk
+git_committer_name: JamesHearn2
 git_dirty: false
-git_hexsha: 99c080fd9ff5f04c45294d6c09b977d045ea0773
-git_msg: 'Merge pull request #10 from SocialFinanceDigitalLabs/validator-list-size
+git_hexsha: 5c38b671d25fc0389fc5fa146c23e51912539d36
+git_msg: 'update to education training status
 
-
-  Add ''count_min'' validator for list length'
+  '
 git_tags: []
-git_version: 99c080f
+git_version: 5c38b67

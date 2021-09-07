@@ -40,7 +40,7 @@
 <polygon fill="none" stroke="black" points="665.11,-620.61 665.11,-645.61 819.11,-645.61 819.11,-620.61 665.11,-620.61"/>
 <text text-anchor="start" x="670.11" y="-629.41" font-family="Helvetica,sans-Serif" font-size="14.00">date_started_service</text>
 <polygon fill="none" stroke="black" points="819.11,-620.61 819.11,-645.61 905.11,-645.61 905.11,-620.61 819.11,-620.61"/>
-<text text-anchor="start" x="846.61" y="-629.41" font-family="Helvetica,sans-Serif" font-size="14.00">date</text>
+<text text-anchor="start" x="824.11" y="-629.41" font-family="Helvetica,sans-Serif" font-size="14.00">monthyear</text>
 </g>
 <!-- housing_entry -->
 <g id="housing_entry" class="node">
@@ -153,12 +153,12 @@
 <polygon fill="none" stroke="black" points="565.92,-1353.64 565.92,-1378.64 813.92,-1378.64 813.92,-1353.64 565.92,-1353.64"/>
 <text text-anchor="start" x="570.92" y="-1362.44" font-family="Helvetica,sans-Serif" font-size="14.00">date_arrived_in_uk</text>
 <polygon fill="none" stroke="black" points="813.92,-1353.64 813.92,-1378.64 899.92,-1378.64 899.92,-1353.64 813.92,-1353.64"/>
-<text text-anchor="start" x="841.42" y="-1362.44" font-family="Helvetica,sans-Serif" font-size="14.00">date</text>
+<text text-anchor="start" x="818.92" y="-1362.44" font-family="Helvetica,sans-Serif" font-size="14.00">monthyear</text>
 <polygon fill="none" stroke="black" points="537.92,-1328.64 537.92,-1353.64 565.92,-1353.64 565.92,-1328.64 537.92,-1328.64"/>
 <polygon fill="none" stroke="black" points="565.92,-1328.64 565.92,-1353.64 813.92,-1353.64 813.92,-1328.64 565.92,-1328.64"/>
 <text text-anchor="start" x="570.92" y="-1337.44" font-family="Helvetica,sans-Serif" font-size="14.00">date_asylum_status_granted</text>
 <polygon fill="none" stroke="black" points="813.92,-1328.64 813.92,-1353.64 899.92,-1353.64 899.92,-1328.64 813.92,-1328.64"/>
-<text text-anchor="start" x="841.42" y="-1337.44" font-family="Helvetica,sans-Serif" font-size="14.00">date</text>
+<text text-anchor="start" x="818.92" y="-1337.44" font-family="Helvetica,sans-Serif" font-size="14.00">monthyear</text>
 <polygon fill="none" stroke="black" points="537.92,-1303.64 537.92,-1328.64 565.92,-1328.64 565.92,-1303.64 537.92,-1303.64"/>
 <polygon fill="none" stroke="black" points="565.92,-1303.64 565.92,-1328.64 813.92,-1328.64 813.92,-1303.64 565.92,-1303.64"/>
 <text text-anchor="start" x="570.92" y="-1312.44" font-family="Helvetica,sans-Serif" font-size="14.00">language_level_on_entry</text>

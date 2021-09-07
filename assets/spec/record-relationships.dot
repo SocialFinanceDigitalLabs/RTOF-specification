@@ -39,7 +39,7 @@ graph {
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">date_started_service</TD>
-            <TD ALIGN="CENTER">date</TD>
+            <TD ALIGN="CENTER">monthyear</TD>
         </TR>
     </TABLE>
 </FONT>>];
@@ -144,12 +144,12 @@ graph {
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">date_arrived_in_uk</TD>
-            <TD ALIGN="CENTER">date</TD>
+            <TD ALIGN="CENTER">monthyear</TD>
         </TR>
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">date_asylum_status_granted</TD>
-            <TD ALIGN="CENTER">date</TD>
+            <TD ALIGN="CENTER">monthyear</TD>
         </TR>
         <TR>
             <TD></TD>

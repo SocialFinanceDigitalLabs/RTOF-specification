@@ -182,17 +182,18 @@
 
           '
         id: dimension
-  - description: Date of participant enrolment onto the program. Month and Year of
-      enrolment required. To be collected once at enrolment.
+  - description: Month and year the participant enrolled onto the program. To be collected
+      once at enrolment.
     id: date_started_service
     name: Date started with service
     primary_key: false
     status: Decided
     type:
-      description: Represents a single date. JSON Schema has no direct date representation,
-        but can be considered a restriction on string to match the ISO-8601 format,
-        e.g. 2021-07-20
-      id: date
+      description: Represents a gregorian month. JSON Schema has no direct date representation,
+        but can be considered a restriction on string to match the ISO-8601 format
+        as also used by XML Schema Part 2 `gMonthYear`, e.g. 2021-07.
+      extends: string
+      id: monthyear
     validation:
     - args: true
       description: required(True)
@@ -340,11 +341,11 @@
       - value: Renting - private sector
       - value: Renting - Local authority or housing association
       - value: Other safe and secure accommodation
-      id: housing_entry_accomodation
+      id: housing_accomodation
     id: housing_entry_accomodation
     name: Accomodation type entry
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -366,8 +367,8 @@
 
           '
         id: required
-    - args: housing_entry_accomodation
-      description: dimension(housing_entry_accomodation)
+    - args: housing_accomodation
+      description: dimension(housing_accomodation)
       id: dimension
       rule:
         args:
@@ -495,7 +496,7 @@
       - value: Renting - private sector
       - value: Renting - Local authority or housing association
       - value: Other safe and secure accommodation
-      id: housing_sustain_accomodation
+      id: housing_accomodation
     id: housing_sustain_accomodation
     name: Accomodation type sustainment
     primary_key: false
@@ -521,8 +522,8 @@
 
           '
         id: required
-    - args: housing_sustain_accomodation
-      description: dimension(housing_sustain_accomodation)
+    - args: housing_accomodation
+      description: dimension(housing_accomodation)
       id: dimension
       rule:
         args:
@@ -1329,17 +1330,19 @@
         id: dimension
   - comments: To confirm alternative collection route if an integration plan is not
       submitted [eg. Provider caseload review]
-    description: Date participant entered the UK, relating to their latest and current
-      arrival. To be collected once and submitted within 3 months of enrolment.
+    description: Month and year the participant entered the UK, relating to their
+      latest and current arrival. To be collected once and submitted within 3 months
+      of enrolment.
     id: date_arrived_in_uk
     name: Date arrived in UK
     primary_key: false
     status: Decided
     type:
-      description: Represents a single date. JSON Schema has no direct date representation,
-        but can be considered a restriction on string to match the ISO-8601 format,
-        e.g. 2021-07-20
-      id: date
+      description: Represents a gregorian month. JSON Schema has no direct date representation,
+        but can be considered a restriction on string to match the ISO-8601 format
+        as also used by XML Schema Part 2 `gMonthYear`, e.g. 2021-07.
+      extends: string
+      id: monthyear
     validation:
     - args: true
       description: required(True)
@@ -1374,18 +1377,19 @@
           '
         id: date_after
   - comments: Can we use HO data for this - to check with HO.
-    description: Date participant was granted asylum status, relating to their latest
-      and current asylum status. To be collected once and submitted within 3 months
-      of enrolment.
+    description: Month and year the participant was granted asylum status, relating
+      to their latest and current asylum status. To be collected once and submitted
+      within 3 months of enrolment.
     id: date_asylum_status_granted
     name: Date asylum status granted
     primary_key: false
     status: Decided
     type:
-      description: Represents a single date. JSON Schema has no direct date representation,
-        but can be considered a restriction on string to match the ISO-8601 format,
-        e.g. 2021-07-20
-      id: date
+      description: Represents a gregorian month. JSON Schema has no direct date representation,
+        but can be considered a restriction on string to match the ISO-8601 format
+        as also used by XML Schema Part 2 `gMonthYear`, e.g. 2021-07.
+      extends: string
+      id: monthyear
     validation:
     - args: true
       description: required(True)
@@ -1845,7 +1849,7 @@
     dimensions:
       dimensions:
       - value: tbc
-      id: wage_baseline
+      id: wage
     id: wage_baseline
     latest_comments: Categories are currently pending. Ecorys to confirm.
     name: Wage baseline
@@ -1872,8 +1876,8 @@
 
           '
         id: required
-    - args: wage_baseline
-      description: dimension(wage_baseline)
+    - args: wage
+      description: dimension(wage)
       id: dimension
       rule:
         args:
@@ -1898,11 +1902,11 @@
         value: formal education
       - description: Not in formal education or training (i.e. not formally registered)
         value: Not in formal education
-      id: education_training_status_baseline
+      id: education_training_status
     id: eduction_training_status
     name: Eduction / training status
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -1924,8 +1928,8 @@
 
           '
         id: required
-    - args: education_training_status_baseline
-      description: dimension(education_training_status_baseline)
+    - args: education_training_status
+      description: dimension(education_training_status)
       id: dimension
       rule:
         args:
@@ -2026,8 +2030,10 @@
       \ or those people who don\u2019t approach their local authority for help."
     dimensions:
       dimensions:
-      - value: Statutory homelessness (i.e. main duty/priority group)
-      - value: Non-statutory homelessness (i.e. NOT main duty/priority group)
+      - description: i.e. main duty/priority group
+        value: Statutory homelessness
+      - description: i.e. NOT main duty/priority group
+        value: Non-statutory homelessness
       id: homelessness_baseline
     id: homelessness_baseline
     latest_comments: More information - https://www.gov.uk/guidance/homelessness-data-notes-and-definitions
@@ -2464,7 +2470,7 @@
       - description: "another specified activity directly relevant to achieving the\
           \ individual\u2019s employment goals"
         value: another specified activity
-      id: employment_outcome_type
+      id: intermediate_employment_outcome_type
     id: intermediate_employment_outcome_type
     name: Type of intermediate outcome
     primary_key: false
@@ -2492,8 +2498,8 @@
 
           '
         id: required
-    - args: employment_outcome_type
-      description: dimension(employment_outcome_type)
+    - args: intermediate_employment_outcome_type
+      description: dimension(intermediate_employment_outcome_type)
       id: dimension
       rule:
         args:
@@ -2507,6 +2513,18 @@
 
           '
         id: dimension
+    - args: 3
+      description: count_min(3)
+      id: count_min
+      rule:
+        args:
+        - help: The number of entries
+          name: number
+          type: integer
+        description: 'Minimum numbers of entries in a list
+
+          '
+        id: count_min
   id: employment_intermediate
 - description: This form outlines the required data for participants who achieve the
     employment OR self-employment entry outcome. A participant can only achieve either
@@ -2637,15 +2655,20 @@
   - description: What is your primary current employment status?
     dimensions:
       dimensions:
-      - value: Working as an employee on a permanent contract (or on leave from employment,
-          for example maternity or paternity leave)
-      - value: Working as an employee on a temporary contract
-      - value: Working as an employee on a zero hours contract
-      - value: Working as an employee cash in hand
-      - value: Self employed or freelance (Freelance means that you are self-employed
+      - description: Working as an employee on a permanent contract (or on leave from
+          employment, for example maternity or paternity leave)
+        value: PC
+      - description: Working as an employee on a temporary contract
+        value: TC
+      - description: Working as an employee on a zero hours contract
+        value: ZHC
+      - description: Working as an employee cash in hand
+        value: CIH
+      - description: Self employed or freelance (Freelance means that you are self-employed
           and work for different companies or people on particular pieces of work)
+        value: SE
       - value: Other
-      id: primary_employment_entry_status
+      id: employment_status
     id: primary_employment_entry_status
     name: Primary employment entry status
     primary_key: false
@@ -2671,8 +2694,8 @@
 
           '
         id: required
-    - args: primary_employment_entry_status
-      description: dimension(primary_employment_entry_status)
+    - args: employment_status
+      description: dimension(employment_status)
       id: dimension
       rule:
         args:
@@ -2690,15 +2713,20 @@
       employment status?
     dimensions:
       dimensions:
-      - value: Working as an employee on a permanent contract (or on leave from employment,
-          for example maternity or paternity leave)
-      - value: Working as an employee on a temporary contract
-      - value: Working as an employee on a zero hours contract
-      - value: Working as an employee cash in hand
-      - value: Self employed or freelance (Freelance means that you are self-employed
+      - description: Working as an employee on a permanent contract (or on leave from
+          employment, for example maternity or paternity leave)
+        value: PC
+      - description: Working as an employee on a temporary contract
+        value: TC
+      - description: Working as an employee on a zero hours contract
+        value: ZHC
+      - description: Working as an employee cash in hand
+        value: CIH
+      - description: Self employed or freelance (Freelance means that you are self-employed
           and work for different companies or people on particular pieces of work)
+        value: SE
       - value: Other
-      id: primary_employment_entry_status
+      id: employment_status
     id: secondary_employment_entry_status
     name: Seconday employment entry status
     primary_key: false
@@ -2709,8 +2737,8 @@
       extends: string
       id: categorical
     validation:
-    - args: primary_employment_entry_status
-      description: dimension(primary_employment_entry_status)
+    - args: employment_status
+      description: dimension(employment_status)
       id: dimension
       rule:
         args:
@@ -2734,13 +2762,13 @@
       - value: 31 to 48 hours
       - value: 49 or more hours
       - value: Don't know
-      id: hours_of_employment_entry
+      id: hours_of_employment
     id: hours_of_employment_entry
     latest_comments: Ecorys addition (based on Census wording) to ensure emploment
       questions are MECE / required for CBA
     name: Hours of employment
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -2762,8 +2790,8 @@
 
           '
         id: required
-    - args: hours_of_employment_entry
-      description: dimension(hours_of_employment_entry)
+    - args: hours_of_employment
+      description: dimension(hours_of_employment)
       id: dimension
       rule:
         args:
@@ -2781,7 +2809,7 @@
     dimensions:
       dimensions:
       - value: tbc
-      id: wage_employment_entry
+      id: wage
     id: wage_employment_entry
     name: Wage employment entry
     primary_key: false
@@ -2807,8 +2835,8 @@
 
           '
         id: required
-    - args: wage_employment_entry
-      description: dimension(wage_employment_entry)
+    - args: wage
+      description: dimension(wage)
       id: dimension
       rule:
         args:
@@ -2825,17 +2853,19 @@
   - description: What is your education status?
     dimensions:
       dimensions:
-      - value: In formal education or training (for example, registered in college
+      - description: In formal education or training (for example, registered in college
           or university, an apprenticeship, or a government employment and training
           programme. This may be combined with paid employment)
-      - value: Not in formal education or training (i.e. not formally registered)
-      id: education_training_status_entry
+        value: formal education
+      - description: Not in formal education or training (i.e. not formally registered)
+        value: Not in formal education
+      id: education_training_status
     id: eduction_training_status_entry
     latest_comments: Ecorys addition (based on Census wording) to ensure emploment
       questions are MECE
     name: Eduction / training status
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -2857,8 +2887,8 @@
 
           '
         id: required
-    - args: education_training_status_entry
-      description: dimension(education_training_status_entry)
+    - args: education_training_status
+      description: dimension(education_training_status)
       id: dimension
       rule:
         args:
@@ -3048,19 +3078,24 @@
   - description: What is your current employment status?
     dimensions:
       dimensions:
-      - value: Working as an employee on a permanent contract (or on leave from employment,
-          for example maternity or paternity leave)
-      - value: Working as an employee on a temporary contract
-      - value: Working as an employee on a zero hours contract
-      - value: Working as an employee cash in hand
-      - value: Self employed or freelance (Freelance means that you are self-employed
+      - description: Working as an employee on a permanent contract (or on leave from
+          employment, for example maternity or paternity leave)
+        value: PC
+      - description: Working as an employee on a temporary contract
+        value: TC
+      - description: Working as an employee on a zero hours contract
+        value: ZHC
+      - description: Working as an employee cash in hand
+        value: CIH
+      - description: Self employed or freelance (Freelance means that you are self-employed
           and work for different companies or people on particular pieces of work)
+        value: SE
       - value: Other
-      id: employment_sustain_status
+      id: employment_status
     id: employment_sustain_status
     name: Employment status at sustainment outcome
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -3082,8 +3117,8 @@
 
           '
         id: required
-    - args: employment_sustain_status
-      description: dimension(employment_sustain_status)
+    - args: employment_status
+      description: dimension(employment_status)
       id: dimension
       rule:
         args:
@@ -3107,13 +3142,13 @@
       - value: 31 to 48 hours
       - value: 49 or more hours
       - value: Don't know
-      id: hours_of_employment_sustain
+      id: hours_of_employment
     id: hours_of_employment_sustain
     latest_comments: Ecorys addition (based on Census wording) to ensure emploment
       questions are MECE / required for CBA
     name: Hours of employment at sustain
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -3135,8 +3170,8 @@
 
           '
         id: required
-    - args: hours_of_employment_sustain
-      description: dimension(hours_of_employment_sustain)
+    - args: hours_of_employment
+      description: dimension(hours_of_employment)
       id: dimension
       rule:
         args:
@@ -3154,7 +3189,7 @@
     dimensions:
       dimensions:
       - value: tbc
-      id: wage_employment_sustain
+      id: wage
     id: wage_employment_sustain
     name: Wage employment at sustain
     primary_key: false
@@ -3180,8 +3215,8 @@
 
           '
         id: required
-    - args: wage_employment_sustain
-      description: dimension(wage_employment_sustain)
+    - args: wage
+      description: dimension(wage)
       id: dimension
       rule:
         args:
@@ -3198,17 +3233,19 @@
   - description: What is your education status?
     dimensions:
       dimensions:
-      - value: In formal education or training (for example, registered in college
+      - description: In formal education or training (for example, registered in college
           or university, an apprenticeship, or a government employment and training
           programme. This may be combined with paid employment)
-      - value: Not in formal education or training (i.e. not formally registered)
-      id: education_training_status_sustain
+        value: formal education
+      - description: Not in formal education or training (i.e. not formally registered)
+        value: Not in formal education
+      id: education_training_status
     id: eduction_training_status_sustain
     latest_comments: Ecorys addition (based on Census wording) to ensure emploment
       questions are MECE
     name: Eduction / training status at sustain
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -3230,8 +3267,8 @@
 
           '
         id: required
-    - args: education_training_status_sustain
-      description: dimension(education_training_status_sustain)
+    - args: education_training_status
+      description: dimension(education_training_status)
       id: dimension
       rule:
         args:
