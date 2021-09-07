@@ -2023,9 +2023,9 @@
         id: dimension
   - description: "This data field is only applicable if either 'Homeless and rough\
       \ sleeping' or 'Homeless but not rough sleeping (e.g. living with friends or\
-      \ family)' was selected in the housing_baseline_accommodation data field'. \
-      \ Statutory homelessness requires a household to be unintentionally homeless\
-      \ AND demonstrate a priority category need, such as dependent children. Non-statutory\
+      \ family)' was selected in the housing_baseline_accommodation data field'.\n\
+      Statutory homelessness requires a household to be unintentionally homeless AND\
+      \ demonstrate a priority category need, such as dependent children. Non-statutory\
       \ homelessness may include single homeless people without specific vulnerabilities,\
       \ or those people who don\u2019t approach their local authority for help."
     dimensions:
@@ -2062,6 +2062,23 @@
 
           '
         id: dimension
+    - args:
+      - expression: one_of(housing_baseline_accommodation, ['Homeless and rough sleeping',
+          'Homeless but not rough sleeping (e.g. living with friends or family)'])
+        validation:
+          required: true
+      description: conditional rules apply
+      id: conditional
+      rule:
+        args:
+        - help: The evaluation expression
+          name: expression
+          type: string
+        - help: The validation that should be applied
+          name: validation
+          type: validation
+        description: Allows for conditional application of validators
+        id: conditional
   id: baseline
 - description: This form outlines the required data for participants who achieve each
     integration plan outcome - one submission for each creation, 6-month progress
