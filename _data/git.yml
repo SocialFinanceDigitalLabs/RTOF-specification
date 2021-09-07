@@ -2,10 +2,10 @@ git_committed_date: 2021-09-07 11:14 GMT
 git_committer_email: noreply@github.com
 git_committer_name: GitHub
 git_dirty: false
-git_hexsha: c389a6232fe628eff26a0088aa7e6a191835f944
-git_msg: 'Merge pull request #9 from SocialFinanceDigitalLabs/datatype-monthyear
+git_hexsha: 99c080fd9ff5f04c45294d6c09b977d045ea0773
+git_msg: 'Merge pull request #10 from SocialFinanceDigitalLabs/validator-list-size
 
 
-  Add monthyear datatype'
+  Add ''count_min'' validator for list length'
 git_tags: []
-git_version: c389a62
+git_version: 99c080f
