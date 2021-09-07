@@ -60,7 +60,8 @@
           '
         id: required
   - description: Gender of participant. Must be one of the five categories provided.
-      To be collected once at enrolment.
+      To be collected once at enrolment. Note there is a follow-up gender question
+      as part of the baseline data collection.
     dimensions:
       dimensions:
       - value: Man
@@ -111,46 +112,15 @@
         id: dimension
   - comments: Confirm whether this should be string or list of LA's
     description: Local authority where participant was located once asylum status
-      was granted. A list of all possible dispersal areas are listed within the dimensions.
-      To be collected once at enrolment into the program.
-    dimensions:
-      dimensions:
-      - value: Bolton Council
-      - value: Bury Council
-      - value: Manchester City Council
-      - value: Oldham Council
-      - value: Rochdale Borough Council
-      - value: Salford City Council
-      - value: Stockport Metropolitan Borough Council
-      - value: Tameside Metropolitan Borough Council
-      - value: Trafford Council
-      - value: Wigan Council
-      - value: Wolverhampton Council
-      - value: Coventry City Council
-      - value: Sandwell Council
-      - value: Birmingham City Council
-      - value: Plymouth City Council
-      - value: Darlington Borough Council
-      - value: Gateshead Council
-      - value: Hartlepool Borough Council
-      - value: Middlesbrough Council
-      - value: Newcastle City Council
-      - value: North Tyneside Council
-      - value: Northumberland County Council
-      - value: Redcar and Cleveland Council
-      - value: South Tyneside Council
-      - value: Stockton Council
-      - value: Sunderland City Council
-      id: dispersal_area
+      was granted. To be collected once at enrolment into the program.
     id: dispersal_area
     name: Dispersal area
     primary_key: false
     status: Decided
     type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
     validation:
     - args: true
       description: required(True)
@@ -167,21 +137,6 @@
 
           '
         id: required
-    - args: dispersal_area
-      description: dimension(dispersal_area)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
   - description: Date of participant enrolment onto the program. Month and Year of
       enrolment required. To be collected once at enrolment.
     id: date_started_service
@@ -318,33 +273,18 @@
 
           '
         id: date_after
-  - description: 'Safe and secure accommodation - Safe accommodation is defined by
-      compliance with the Decent Homes Standard including the absence of category
-      1 and 2 hazards under the Housing Health and Safety Rating System, and with
-      all relevant gas, electricity and fire safety checks in place. Within this safe
-      accommodation, the individual refugee/family must have appropriate individual
-      space. This is defined as one bedroom for - every adult couple; any other adult
-      aged 16 or over; any two children of the same sex; any two children regardless
-      of sex under the age of 10; any other child; and access to self-contained facilities,
-      including bathroom and kitchen, if in a shared facility. Secure accommodation
-      is defined by security of tenure for at least six months.
-
-      Under RTOF, accommodation may include - Private rental sector; Social housing;
-      Supported housing N.B. Accommodation may be let under a Periodic Licence agreement
-      where appropriate, but use of an excluded licence is not permissible Note that
-      planned and anticipated moves between properties during the 6 months will be
-      allowed, provided the individual is still within secure, stable accommodation
-      at the end of the 6-month sustainment period.'
+  - comments: tbc - once selected, the categories will align with baseline collection
+    description: tbc
     dimensions:
       dimensions:
-      - value: Renting - private sector
-      - value: Renting - Local authority or housing association
-      - value: Other safe and secure accommodation
+      - value: tbc
       id: housing_entry_accomodation
     id: housing_entry_accomodation
-    name: Accomodation type entry
+    latest_comments: tbc - same comments as 'housing_baseline_accommodation', categories
+      to align
+    name: Accomodation type
     primary_key: false
-    status: Pending consideration
+    status: Work in progress
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -473,73 +413,10 @@
 
           '
         id: date_after
-  - description: 'Safe and secure accommodation - Safe accommodation is defined by
-      compliance with the Decent Homes Standard including the absence of category
-      1 and 2 hazards under the Housing Health and Safety Rating System, and with
-      all relevant gas, electricity and fire safety checks in place. Within this safe
-      accommodation, the individual refugee/family must have appropriate individual
-      space. This is defined as one bedroom for - every adult couple; any other adult
-      aged 16 or over; any two children of the same sex; any two children regardless
-      of sex under the age of 10; any other child; and access to self-contained facilities,
-      including bathroom and kitchen, if in a shared facility. Secure accommodation
-      is defined by security of tenure for at least six months.
-
-      Under RTOF, accommodation may include - Private rental sector; Social housing;
-      Supported housing N.B. Accommodation may be let under a Periodic Licence agreement
-      where appropriate, but use of an excluded licence is not permissible Note that
-      planned and anticipated moves between properties during the 6 months will be
-      allowed, provided the individual is still within secure, stable accommodation
-      at the end of the 6-month sustainment period.'
-    dimensions:
-      dimensions:
-      - value: Renting - private sector
-      - value: Renting - Local authority or housing association
-      - value: Other safe and secure accommodation
-      id: housing_sustain_accomodation
-    id: housing_sustain_accomodation
-    name: Accomodation type sustainment
-    primary_key: false
-    status: Decided
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: housing_sustain_accomodation
-      description: dimension(housing_sustain_accomodation)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
   id: housing_sustain
-- description: This form outlines the required baseline data for all service users,
+- description: 'This form outlines the required baseline data for all service users,
     the data is to be collected across interactions with participants and submitted
-    within 3 months of enrolment.
+    either when submitting form: integration_plan or within 3 months after enrolment.'
   fields:
   - comments: Minimum data collection required to understand enrolment
     description: Person identifier provided in the person form. This can be a NINO
@@ -1160,31 +1037,18 @@
 
           '
         id: dimension
-  - description: The referral source that led the participant to RTOF.
+  - comments: The categories for this are still to be decided and will be a product
+      of engagement with frontline providers during mobilistion.
+    description: The referral source that led the participant to RTOF.
     dimensions:
       dimensions:
-      - description: Local Authority
-        value: LA
-      - value: Home Office
-      - description: Local voluntary and community sector
-        value: Local VCS
-      - value: Primary Care
-      - value: Other Health
-      - description: Home Office Asylum Housing Providers (e.g. Serco)
-        value: HO providers
-      - value: Migrant Help
-      - value: Self-referrals
-      - description: Governmentment Departmnet for Work and Pensions
-        value: DWP
-      - description: Peer to peer referrals
-        value: Peer
-      - description: Any other referral source
-        value: Other
+      - value: tbc
       id: referral_source
     id: referral_source
+    latest_comments: Categories tbc after provider engagement
     name: Referral source
     primary_key: false
-    status: Decided
+    status: Blocked
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -1208,6 +1072,43 @@
         id: required
     - args: referral_source
       description: dimension(referral_source)
+      id: dimension
+      rule:
+        args:
+        - help: The ID of the category that this list has to be a member of.
+          name: category_id
+          type: string
+        description: 'Only used for fields of type categorical, this validator ensures
+          that the provided value is part of category
+
+          list identified.
+
+          '
+        id: dimension
+  - description: Do you identify as transgender? A question which follows on from
+      the question in the person data form, with 'identify as transgender', 'do not
+      identify as transgender' or 'prefer not to say'. This is a non-mandatory data
+      field, people have the option to ask this question, but are not forced to answer
+      To be collected once and submitted within 3 months of enrolment.
+    dimensions:
+      dimensions:
+      - value: Identify as transgender
+      - value: Do not identify as Transgender
+      - value: Prefer not to say
+      id: transgender
+    id: transgender
+    latest_comments: tbc with Ecorys and Palladium
+    name: Transgender
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: Restricted to a set of fixed values. Represented as a string, this
+        type must have a `dimension` validator indicating the set of allowed values.
+      extends: string
+      id: categorical
+    validation:
+    - args: transgender
+      description: dimension(transgender)
       id: dimension
       rule:
         args:
@@ -1269,41 +1170,21 @@
 
           '
         id: dimension
-  - description: How many children under the age of 18 are currently living in your
-      household? To be collected once and submitted within 3 months of enrolment.
-    id: number_u18_HH
-    name: Number of children under 18 living in HH
-    primary_key: false
-    status: Decided
-    type:
-      description: An integer as defined by the JSON Schema `integer` type.
-      id: integer
-    validation: []
-  - description: How many adults over the age of 18 are currently living in your household?
-      To be collected once and submitted within 3 months of enrolment.
-    id: number_over_18_HH
-    name: Number of adults over 18 living in HH
-    primary_key: false
-    status: Decided
-    type:
-      description: An integer as defined by the JSON Schema `integer` type.
-      id: integer
-    validation: []
-  - description: If answered Yes to 'current dependents UK', select every option that
-      applies to the participants dependents (this does not record how many dependents
-      are in each age bracket.) To be collected once and submitted within 3 months
-      of enrolment.
+  - description: If answered Yes to 'current dependents UK'. Selection of each option
+      that applies to the participant. To be collected once and submitted within 3
+      months of enrolment.
     dimensions:
       dimensions:
       - value: 0-4
       - value: 5-11
       - value: 11-17
       - value: Caring responsibilities for an adult
-      id: age_profile_of_dependents_uk
+      id: current_number_of_dependents_uk
     id: age_profile_of_dependents_uk
+    latest_comments: tbc with Ecorys, Palladium and HO
     name: Age profile of dependents in UK
     primary_key: false
-    status: Decided
+    status: Pending consideration
     type:
       description: Can contain multiple values. Can either be represented as a native
         list in formats that support them, such as JSON or XML, or encoded as a CSV
@@ -1312,8 +1193,8 @@
       extends: string
       id: list
     validation:
-    - args: age_profile_of_dependents_uk
-      description: dimension(age_profile_of_dependents_uk)
+    - args: current_number_of_dependents_uk
+      description: dimension(current_number_of_dependents_uk)
       id: dimension
       rule:
         args:
@@ -1419,9 +1300,11 @@
 
           '
         id: date_after
-  - description: The language level of participant when entering RTOF. Selection of
-      one of the specified categories. To be collected once and submitted within 3
-      months of enrolment.
+  - comments: https://esol.britishcouncil.org/sites/default/files/attachments/informational-page/ESOL%20level%20descriptors.pdf
+    description: The language level of participant when entering RTOF. Selection of
+      one of the specified category, further information on these levels can be found
+      here [https://esol.britishcouncil.org/sites/default/files/attachments/informational-page/ESOL%20level%20descriptors.pdf].
+      To be collected once and submitted within 3 months of enrolment.
     dimensions:
       dimensions:
       - value: Below formal levels
@@ -1434,8 +1317,6 @@
       - value: Beyond Level 2
       id: language_level_on_entry
     id: language_level_on_entry
-    latest_comments: Information regardimg these levels can be found at the following
-      link - https://esol.britishcouncil.org/sites/default/files/attachments/informational-page/ESOL%20level%20descriptors.pdf
     name: Language level on entry
     primary_key: false
     status: Decided
@@ -1475,9 +1356,11 @@
 
           '
         id: dimension
-  - description: The highest level of qualification of participant when entering RTOF.
-      Selection of one of the specified categories. To be collected once and submitted
-      within 3 months of enrolment.
+  - comments: To provide a relevant link to equivalent qualification levels around
+      the world (https://www.gov.uk/what-different-qualification-levels-mean/list-of-qualification-levels)
+    description: The highest level of qualification of participant when entering RTOF.
+      Selection of one of the specified category, these refer to [https://www.gov.uk/what-different-qualification-levels-mean/list-of-qualification-levels#:~:text=Level%205%20qualifications%20are%3A,higher%20national%20diploma%20(%20HND%20)].
+      To be collected once and submitted within 3 months of enrolment.
     dimensions:
       dimensions:
       - value: Below formal levels
@@ -1488,8 +1371,6 @@
       - value: Unknown
       id: highest_qualification_achieved
     id: highest_qualification_achieved
-    latest_comments: Information regardimg these levels can be found at the following
-      link - https://www.gov.uk/what-different-qualification-levels-mean/list-of-qualification-levels#:~:text=Level%205%20qualifications%20are%3A,higher%20national%20diploma%20(%20HND%20)
     name: Highest qualification  level achieved
     primary_key: false
     status: Decided
@@ -1539,7 +1420,10 @@
       description: An integer as defined by the JSON Schema `integer` type.
       id: integer
     validation: []
-  - description: When participant left home country were they in any form of employment
+  - comments: Simple yes / no selection. To confirm whether this refers to 'ever employed
+      in home country' or 'within a given time period before arriving in the UK' [explain
+      use case of question - understanding if work in UK is comparable to prior experience]
+    description: When participant left home country were they in any form of employment
       - yes / no response. To be collected once and submitted within 3 months of enrolment.
     dimensions:
       dimensions:
@@ -1586,10 +1470,11 @@
 
           '
         id: dimension
-  - description: If answered 'Yes' to employed in home country field, state job role
-      of their last employment. To be collected once and submitted within 3 months
-      of enrolment. For some providers this may be a categorical data field - please
-      confirm with your nominated data lead.
+  - comments: To confirm word limit (and possibly add a suggestion ie. Teacher)
+    description: If answered 'Yes' to employed in home country field, state job role
+      of their last employment. Max word count 10 words. To be collected once and
+      submitted within 3 months of enrolment. For some providers this may be a categorical
+      data field - please confirm with your nominated data lead.
     id: occupation_type
     name: Occupation type
     primary_key: false
@@ -1611,10 +1496,11 @@
 
           '
         id: character_limit
-  - description: If answered 'Yes' to employed in home country field, state the sector
-      of their last employment. To be collected once and submitted within 3 months
-      of enrolment. For some providers this may be a categorical data field - please
-      confirm with your nominated data lead.
+  - comments: To confirm word limit (and possibly add a suggestion ie. Education)
+    description: If answered 'Yes' to employed in home country field, state the sector
+      of their last employment. Max word count 10 words. To be collected once and
+      submitted within 3 months of enrolment. For some providers this may be a categorical
+      data field - please confirm with your nominated data lead.
     id: occupation_sector
     name: Sector
     primary_key: false
@@ -1661,97 +1547,34 @@
 
           '
         id: character_limit
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-  - description: Since arriving in the UK, have you ever undertaken any paid employment?
-      To be collected once and submitted within 3 months of enrolment.
+  - comments: 'JF: Why not capture <8 hrs/week? Does this Q relate to status in home
+      country? Suggest change ''unpaid work...'' to voluntary work (to include either
+      for family or not) Clarify that sick/disabled relates to reason for unemployment
+      (if this is the case) These comments also apply to other references to emplyment
+      type'
+    description: Selection of a single category describing the employment status of
+      the participant prior to entering RTOF. To be collected once and submitted within
+      3 months of enrolment.
     dimensions:
       dimensions:
-      - value: 'Yes'
-      - value: 'No'
-      - value: Don't know
-      id: prior_employment
-    id: prior_employment
-    name: Prior employment
-    primary_key: false
-    status: Decided
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: prior_employment
-      description: dimension(prior_employment)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: What is your current employment status? Selection of a single category
-      describing the employment status of the participant prior to entering RTOF.
-    dimensions:
-      dimensions:
-      - description: Working as an employee on a permanent contract (or on leave from
-          employment, for example maternity or paternity leave)
-        value: PC
-      - description: Working as an employee on a temporary contract
-        value: TC
-      - description: Working as an employee on a zero hours contract
-        value: ZHC
-      - description: Working as an employee cash in hand
-        value: CIH
-      - description: Self employed or freelance (Freelance means that you are self-employed
-          and work for different companies or people on particular pieces of work)
-        value: SE
-      - description: Unemployed and looking/available for work immediately (in the
-          next two weeks)
-        value: ULA
-      - description: Unemployed and NOT looking/available for work immediately (for
-          example, retired, looking after family or long term sick or disabled)
-        value: UNLA
-      - value: Other
-      id: employment_status_baseline
-    id: employment_status
+      - value: PT 0-15 hours per week
+      - value: PT 16-30 hours per week
+      - value: FT 31 hours +
+      - value: Self employed
+      - value: Government employment & training programme
+      - value: Unpaid work for relatives business
+      - value: Unemployed (but looking/available for work)
+      - value: Looking after family/home
+      - value: Temporarily sick/injured
+      - value: Long term sick or disabled
+      - value: Retired
+      id: economic_status
+    id: economic_status
+    latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
+      assessment - decision due 31 August
     name: Main economic status at baseline
     primary_key: false
-    status: Decided
+    status: Work in progress
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -1773,8 +1596,8 @@
 
           '
         id: required
-    - args: employment_status_baseline
-      description: dimension(employment_status_baseline)
+    - args: economic_status
+      description: dimension(economic_status)
       id: dimension
       rule:
         args:
@@ -1788,199 +1611,19 @@
 
           '
         id: dimension
-  - comments: Ecorys addition (based on Census wording) to ensure emploment questions
-      are MECE / required for CBA
-    description: In your main job, how many hours a week do you usually work? (Include
-      paid and unpaid overtime). For employed and self-employed.
-    dimensions:
-      dimensions:
-      - value: 0 to 7 hours
-      - value: 8 to 15 hours
-      - value: 16 to 30 hours
-      - value: 31 to 48 hours
-      - value: 49 or more hours
-      - value: Don't know
-      id: hours_of_employment
-    id: hours_of_employment
-    name: Hours of employment
-    primary_key: false
-    status: Decided
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: hours_of_employment
-      description: dimension(hours_of_employment)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: Estimated hourly wage.
+  - comments: Ecorys to provide details. To be collected once and submitted within
+      3 months of enrolment.
+    description: tbc
     dimensions:
       dimensions:
       - value: tbc
-      id: wage_baseline
-    id: wage_baseline
-    latest_comments: Categories are currently pending. Ecorys to confirm.
-    name: Wage baseline
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: wage_baseline
-      description: dimension(wage_baseline)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - comments: Ecorys addition (based on Census wording) to ensure emploment questions
-      are MECE
-    description: What is your education status?
-    dimensions:
-      dimensions:
-      - description: In formal education or training (for example, registered in college
-          or university, an apprenticeship, or a government employment and training
-          programme. This may be combined with paid employment)
-        value: formal education
-      - description: Not in formal education or training (i.e. not formally registered)
-        value: Not in formal education
-      id: education_training_status_baseline
-    id: eduction_training_status
-    name: Eduction / training status
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: education_training_status_baseline
-      description: dimension(education_training_status_baseline)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: "Rough sleepers -  Rough sleepers are defined for the purposes of\
-      \ rough sleeping counts and estimates as - 1) People sleeping, about to bed\
-      \ down (sitting on/in or standing next to their bedding) or actually bedded\
-      \ down in the open air (such as on the strEmployments, in tents, doorways, parks,\
-      \ bus shelters or encampments). 2) People in buildings or other places not designed\
-      \ for habitation (such as stairwells, barns, sheds, car parks, cars, derelict\
-      \ boats, stations, or \u2018bashes\u2019). The definition does not include people\
-      \ in hostels or shelters, people in campsites or other sites used for recreational\
-      \ purposes or organised protest, squatters or travellers. Bedded down is taken\
-      \ to mean either lying down or sleeping. About to bed down includes those who\
-      \ are sitting in/on or near a sleeping bag or other bedding.\nSafe and secure\
-      \ accommodation - Safe accommodation is defined by compliance with the Decent\
-      \ Homes Standard including the absence of category 1 and 2 hazards under the\
-      \ Housing Health and Safety Rating System, and with all relevant gas, electricity\
-      \ and fire safety checks in place. Within this safe accommodation, the individual\
-      \ refugee/family must have appropriate individual space. This is defined as\
-      \ one bedroom for - every adult couple; any other adult aged 16 or over; any\
-      \ two children of the same sex; any two children regardless of sex under the\
-      \ age of 10; any other child; and access to self-contained facilities, including\
-      \ bathroom and kitchen, if in a shared facility. Secure accommodation is defined\
-      \ by security of tenure for at least six months.\nUnder RTOF, accommodation\
-      \ may include - Private rental sector; Social housing; Supported housing N.B.\
-      \ Accommodation may be let under a Periodic Licence agreement where appropriate,\
-      \ but use of an excluded licence is not permissible Note that planned and anticipated\
-      \ moves between properties during the 6 months will be allowed, provided the\
-      \ individual is still within secure, stable accommodation at the end of the\
-      \ 6-month sustainment period."
-    dimensions:
-      dimensions:
-      - value: Homeless and rough sleeping
-      - value: Homeless but not rough sleeping (e.g. living with friends or family)
-      - value: Asylum accommodation
-      - value: Self-funded temporary accommodation (e.g. hotel)
-      - value: Publicly funded temporary accommodation
-      - value: Renting - private sector
-      - value: Renting - Local authority or housing association
-      - value: Other safe and secure accommodation
       id: housing_baseline_accommodation
     id: housing_baseline_accommodation
-    name: Accommodation type baseline
+    latest_comments: tbc with James W (Ecorys) to confirm requirements of the VfM
+      assessment - decision due 31 August
+    name: Accommodation type
     primary_key: false
-    status: Decided
+    status: Work in progress
     type:
       description: Restricted to a set of fixed values. Represented as a string, this
         type must have a `dimension` validator indicating the set of allowed values.
@@ -2004,45 +1647,6 @@
         id: required
     - args: housing_baseline_accommodation
       description: dimension(housing_baseline_accommodation)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: "This data field is only applicable if either 'Homeless and rough\
-      \ sleeping' or 'Homeless but not rough sleeping (e.g. living with friends or\
-      \ family)' was selected in the housing_baseline_accommodation data field'. \
-      \ Statutory homelessness requires a household to be unintentionally homeless\
-      \ AND demonstrate a priority category need, such as dependent children. Non-statutory\
-      \ homelessness may include single homeless people without specific vulnerabilities,\
-      \ or those people who don\u2019t approach their local authority for help."
-    dimensions:
-      dimensions:
-      - value: Statutory homelessness (i.e. main duty/priority group)
-      - value: Non-statutory homelessness (i.e. NOT main duty/priority group)
-      id: homelessness_baseline
-    id: homelessness_baseline
-    latest_comments: More information - https://www.gov.uk/guidance/homelessness-data-notes-and-definitions
-      and https://www.legislation.gov.uk/ukpga/1996/52/section/175?view=plain
-    name: Homelessness status baseline
-    primary_key: false
-    status: Decided
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: homelessness_baseline
-      description: dimension(homelessness_baseline)
       id: dimension
       rule:
         args:
@@ -2634,111 +2238,20 @@
 
           '
         id: date_after
-  - description: What is your primary current employment status?
+  - description: Selection of a single category describing the type of employment
+      participant is entering for the employment outcome achievement. To be collected
+      once at entry to employment outcome submission.
     dimensions:
       dimensions:
-      - value: Working as an employee on a permanent contract (or on leave from employment,
-          for example maternity or paternity leave)
-      - value: Working as an employee on a temporary contract
-      - value: Working as an employee on a zero hours contract
-      - value: Working as an employee cash in hand
-      - value: Self employed or freelance (Freelance means that you are self-employed
-          and work for different companies or people on particular pieces of work)
-      - value: Other
-      id: primary_employment_entry_status
-    id: primary_employment_entry_status
-    name: Primary employment entry status
-    primary_key: false
-    status: Decided
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: primary_employment_entry_status
-      description: dimension(primary_employment_entry_status)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: If you have more than one economic status, what is your current secondary
-      employment status?
-    dimensions:
-      dimensions:
-      - value: Working as an employee on a permanent contract (or on leave from employment,
-          for example maternity or paternity leave)
-      - value: Working as an employee on a temporary contract
-      - value: Working as an employee on a zero hours contract
-      - value: Working as an employee cash in hand
-      - value: Self employed or freelance (Freelance means that you are self-employed
-          and work for different companies or people on particular pieces of work)
-      - value: Other
-      id: primary_employment_entry_status
-    id: secondary_employment_entry_status
-    name: Seconday employment entry status
-    primary_key: false
-    status: Decided
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: primary_employment_entry_status
-      description: dimension(primary_employment_entry_status)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: In your main job, how many hours a week do you usually work? (Include
-      paid and unpaid overtime). For employed and self-employed.
-    dimensions:
-      dimensions:
-      - value: 0 to 7 hours
-      - value: 8 to 15 hours
-      - value: 16 to 30 hours
-      - value: 31 to 48 hours
-      - value: 49 or more hours
-      - value: Don't know
-      id: hours_of_employment_entry
-    id: hours_of_employment_entry
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
-      questions are MECE / required for CBA
-    name: Hours of employment
+      - value: PT 0-15 hours per week
+      - value: PT 16-30 hours per week
+      - value: FT 31 hours +
+      - value: Government employment & training programme
+      id: employment_entry_details
+    id: employment_entry_details
+    latest_comments: tbc - same comments as baseline 'economic_status', categories
+      to align
+    name: Details of paid employment
     primary_key: false
     status: Pending consideration
     type:
@@ -2762,103 +2275,8 @@
 
           '
         id: required
-    - args: hours_of_employment_entry
-      description: dimension(hours_of_employment_entry)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: Estimated hourly wage
-    dimensions:
-      dimensions:
-      - value: tbc
-      id: wage_employment_entry
-    id: wage_employment_entry
-    name: Wage employment entry
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: wage_employment_entry
-      description: dimension(wage_employment_entry)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: What is your education status?
-    dimensions:
-      dimensions:
-      - value: In formal education or training (for example, registered in college
-          or university, an apprenticeship, or a government employment and training
-          programme. This may be combined with paid employment)
-      - value: Not in formal education or training (i.e. not formally registered)
-      id: education_training_status_entry
-    id: eduction_training_status_entry
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
-      questions are MECE
-    name: Eduction / training status
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: education_training_status_entry
-      description: dimension(education_training_status_entry)
+    - args: employment_entry_details
+      description: dimension(employment_entry_details)
       id: dimension
       rule:
         args:
@@ -3045,286 +2463,6 @@
 
           '
         id: date_after
-  - description: What is your current employment status?
-    dimensions:
-      dimensions:
-      - value: Working as an employee on a permanent contract (or on leave from employment,
-          for example maternity or paternity leave)
-      - value: Working as an employee on a temporary contract
-      - value: Working as an employee on a zero hours contract
-      - value: Working as an employee cash in hand
-      - value: Self employed or freelance (Freelance means that you are self-employed
-          and work for different companies or people on particular pieces of work)
-      - value: Other
-      id: employment_sustain_status
-    id: employment_sustain_status
-    name: Employment status at sustainment outcome
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: employment_sustain_status
-      description: dimension(employment_sustain_status)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: In your main job, how many hours a week do you usually work? (Include
-      paid and unpaid overtime). For employed and self-employed.
-    dimensions:
-      dimensions:
-      - value: 0 to 7 hours
-      - value: 8 to 15 hours
-      - value: 16 to 30 hours
-      - value: 31 to 48 hours
-      - value: 49 or more hours
-      - value: Don't know
-      id: hours_of_employment_sustain
-    id: hours_of_employment_sustain
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
-      questions are MECE / required for CBA
-    name: Hours of employment at sustain
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: hours_of_employment_sustain
-      description: dimension(hours_of_employment_sustain)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: Estimated hourly wage
-    dimensions:
-      dimensions:
-      - value: tbc
-      id: wage_employment_sustain
-    id: wage_employment_sustain
-    name: Wage employment at sustain
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: wage_employment_sustain
-      description: dimension(wage_employment_sustain)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: What is your education status?
-    dimensions:
-      dimensions:
-      - value: In formal education or training (for example, registered in college
-          or university, an apprenticeship, or a government employment and training
-          programme. This may be combined with paid employment)
-      - value: Not in formal education or training (i.e. not formally registered)
-      id: education_training_status_sustain
-    id: eduction_training_status_sustain
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
-      questions are MECE
-    name: Eduction / training status at sustain
-    primary_key: false
-    status: Pending consideration
-    type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: education_training_status_sustain
-      description: dimension(education_training_status_sustain)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
-  - description: State participants employment type for the achievement of entry to
-      employment outcome. To be collected once at entry to employment outcome submission.
-      For some providers this may be a categorical data field - please confirm with
-      your nominated data lead.
-    id: employment_susatin_occupation
-    name: Occupation type
-    primary_key: false
-    status: Decided
-    type:
-      description: A string of Unicode characters as defined by the JSON Schema `string`
-        type.
-      id: string
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: 255
-      description: character_limit(255)
-      id: character_limit
-      rule:
-        args:
-        - help: The number of characters
-          name: characters
-          type: integer
-        description: 'Maximum number of unicode characters in string.
-
-          '
-        id: character_limit
-  - description: State the participants employment sector for the achievement of entry
-      to employment outcome. To be collected once at entry to employment outcome submission.
-      For some providers this may be a categorical data field - please confirm with
-      your nominated data lead.
-    id: employment_sustain_sector
-    name: Sector
-    primary_key: false
-    status: Decided
-    type:
-      description: A string of Unicode characters as defined by the JSON Schema `string`
-        type.
-      id: string
-    validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
-    - args: 255
-      description: character_limit(255)
-      id: character_limit
-      rule:
-        args:
-        - help: The number of characters
-          name: characters
-          type: integer
-        description: 'Maximum number of unicode characters in string.
-
-          '
-        id: character_limit
   id: employment_sustain
 - description: This form outlines the required data for participants who are no longer
     engaged with the service. Data should be collected during the annual caseload
@@ -3420,27 +2558,4 @@
 
           '
         id: date_after
-  - description: Optional field. If the reason for a participant disengagement from
-      RTOF is known, please provide details. ie. 'Moved out of area'
-    id: reason_for_disengagement
-    name: Reason for disengagement
-    primary_key: false
-    status: Decided
-    type:
-      description: A string of Unicode characters as defined by the JSON Schema `string`
-        type.
-      id: string
-    validation:
-    - args: 255
-      description: character_limit(255)
-      id: character_limit
-      rule:
-        args:
-        - help: The number of characters
-          name: characters
-          type: integer
-        description: 'Maximum number of unicode characters in string.
-
-          '
-        id: character_limit
   id: date_last_seen

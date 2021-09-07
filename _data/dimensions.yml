@@ -1,10 +1,4 @@
 - dimensions:
-  - value: 0-4
-  - value: 5-11
-  - value: 11-17
-  - value: Caring responsibilities for an adult
-  id: age_profile_of_dependents_uk
-- dimensions:
   - value: 'Yes'
   - value: 'No'
   id: current_dependents_uk
@@ -15,57 +9,34 @@
   - value: Only care responsibilities within UK and outside HH
   id: current_family_composition
 - dimensions:
-  - value: Bolton Council
-  - value: Bury Council
-  - value: Manchester City Council
-  - value: Oldham Council
-  - value: Rochdale Borough Council
-  - value: Salford City Council
-  - value: Stockport Metropolitan Borough Council
-  - value: Tameside Metropolitan Borough Council
-  - value: Trafford Council
-  - value: Wigan Council
-  - value: Wolverhampton Council
-  - value: Coventry City Council
-  - value: Sandwell Council
-  - value: Birmingham City Council
-  - value: Plymouth City Council
-  - value: Darlington Borough Council
-  - value: Gateshead Council
-  - value: Hartlepool Borough Council
-  - value: Middlesbrough Council
-  - value: Newcastle City Council
-  - value: North Tyneside Council
-  - value: Northumberland County Council
-  - value: Redcar and Cleveland Council
-  - value: South Tyneside Council
-  - value: Stockton Council
-  - value: Sunderland City Council
-  id: dispersal_area
+  - value: 0-4
+  - value: 5-11
+  - value: 11-17
+  - value: Caring responsibilities for an adult
+  id: current_number_of_dependents_uk
 - dimensions:
-  - description: In formal education or training (for example, registered in college
-      or university, an apprenticeship, or a government employment and training programme.
-      This may be combined with paid employment)
-    value: formal education
-  - description: Not in formal education or training (i.e. not formally registered)
-    value: Not in formal education
-  id: education_training_status_baseline
-- dimensions:
-  - value: In formal education or training (for example, registered in college or
-      university, an apprenticeship, or a government employment and training programme.
-      This may be combined with paid employment)
-  - value: Not in formal education or training (i.e. not formally registered)
-  id: education_training_status_entry
-- dimensions:
-  - value: In formal education or training (for example, registered in college or
-      university, an apprenticeship, or a government employment and training programme.
-      This may be combined with paid employment)
-  - value: Not in formal education or training (i.e. not formally registered)
-  id: education_training_status_sustain
+  - value: PT 0-15 hours per week
+  - value: PT 16-30 hours per week
+  - value: FT 31 hours +
+  - value: Self employed
+  - value: Government employment & training programme
+  - value: Unpaid work for relatives business
+  - value: Unemployed (but looking/available for work)
+  - value: Looking after family/home
+  - value: Temporarily sick/injured
+  - value: Long term sick or disabled
+  - value: Retired
+  id: economic_status
 - dimensions:
   - value: 'Yes'
   - value: 'No'
   id: employed_in_home_country
+- dimensions:
+  - value: PT 0-15 hours per week
+  - value: PT 16-30 hours per week
+  - value: FT 31 hours +
+  - value: Government employment & training programme
+  id: employment_entry_details
 - dimensions:
   - value: Employment
   - value: Self-employment
@@ -100,37 +71,6 @@
     value: another specified activity
   id: employment_outcome_type
 - dimensions:
-  - description: Working as an employee on a permanent contract (or on leave from
-      employment, for example maternity or paternity leave)
-    value: PC
-  - description: Working as an employee on a temporary contract
-    value: TC
-  - description: Working as an employee on a zero hours contract
-    value: ZHC
-  - description: Working as an employee cash in hand
-    value: CIH
-  - description: Self employed or freelance (Freelance means that you are self-employed
-      and work for different companies or people on particular pieces of work)
-    value: SE
-  - description: Unemployed and looking/available for work immediately (in the next
-      two weeks)
-    value: ULA
-  - description: Unemployed and NOT looking/available for work immediately (for example,
-      retired, looking after family or long term sick or disabled)
-    value: UNLA
-  - value: Other
-  id: employment_status_baseline
-- dimensions:
-  - value: Working as an employee on a permanent contract (or on leave from employment,
-      for example maternity or paternity leave)
-  - value: Working as an employee on a temporary contract
-  - value: Working as an employee on a zero hours contract
-  - value: Working as an employee cash in hand
-  - value: Self employed or freelance (Freelance means that you are self-employed
-      and work for different companies or people on particular pieces of work)
-  - value: Other
-  id: employment_sustain_status
-- dimensions:
   - value: Man
   - value: Woman
   - value: Non-binary
@@ -146,53 +86,11 @@
   - value: Unknown
   id: highest_qualification_achieved
 - dimensions:
-  - value: Statutory homelessness (i.e. main duty/priority group)
-  - value: Non-statutory homelessness (i.e. NOT main duty/priority group)
-  id: homelessness_baseline
-- dimensions:
-  - value: 0 to 7 hours
-  - value: 8 to 15 hours
-  - value: 16 to 30 hours
-  - value: 31 to 48 hours
-  - value: 49 or more hours
-  - value: Don't know
-  id: hours_of_employment
-- dimensions:
-  - value: 0 to 7 hours
-  - value: 8 to 15 hours
-  - value: 16 to 30 hours
-  - value: 31 to 48 hours
-  - value: 49 or more hours
-  - value: Don't know
-  id: hours_of_employment_entry
-- dimensions:
-  - value: 0 to 7 hours
-  - value: 8 to 15 hours
-  - value: 16 to 30 hours
-  - value: 31 to 48 hours
-  - value: 49 or more hours
-  - value: Don't know
-  id: hours_of_employment_sustain
-- dimensions:
-  - value: Homeless and rough sleeping
-  - value: Homeless but not rough sleeping (e.g. living with friends or family)
-  - value: Asylum accommodation
-  - value: Self-funded temporary accommodation (e.g. hotel)
-  - value: Publicly funded temporary accommodation
-  - value: Renting - private sector
-  - value: Renting - Local authority or housing association
-  - value: Other safe and secure accommodation
+  - value: tbc
   id: housing_baseline_accommodation
 - dimensions:
-  - value: Renting - private sector
-  - value: Renting - Local authority or housing association
-  - value: Other safe and secure accommodation
+  - value: tbc
   id: housing_entry_accomodation
-- dimensions:
-  - value: Renting - private sector
-  - value: Renting - Local authority or housing association
-  - value: Other safe and secure accommodation
-  id: housing_sustain_accomodation
 - dimensions:
   - value: tbc
   id: integration_comms_language
@@ -747,60 +645,10 @@
     value: ZW
   id: nationality
 - dimensions:
-  - value: Working as an employee on a permanent contract (or on leave from employment,
-      for example maternity or paternity leave)
-  - value: Working as an employee on a temporary contract
-  - value: Working as an employee on a zero hours contract
-  - value: Working as an employee cash in hand
-  - value: Self employed or freelance (Freelance means that you are self-employed
-      and work for different companies or people on particular pieces of work)
-  - value: Other
-  id: primary_employment_entry_status
-- dimensions:
-  - value: 'Yes'
-  - value: 'No'
-  - value: Don't know
-  id: prior_employment
-- dimensions:
-  - description: Local Authority
-    value: LA
-  - value: Home Office
-  - description: Local voluntary and community sector
-    value: Local VCS
-  - value: Primary Care
-  - value: Other Health
-  - description: Home Office Asylum Housing Providers (e.g. Serco)
-    value: HO providers
-  - value: Migrant Help
-  - value: Self-referrals
-  - description: Governmentment Departmnet for Work and Pensions
-    value: DWP
-  - description: Peer to peer referrals
-    value: Peer
-  - description: Any other referral source
-    value: Other
+  - value: tbc
   id: referral_source
-- dimensions:
-  - value: Working as an employee on a permanent contract (or on leave from employment,
-      for example maternity or paternity leave)
-  - value: Working as an employee on a temporary contract
-  - value: Working as an employee on a zero hours contract
-  - value: Working as an employee cash in hand
-  - value: Self employed or freelance (Freelance means that you are self-employed
-      and work for different companies or people on particular pieces of work)
-  - value: Other
-  id: secondary_employment_entry_status
 - dimensions:
   - value: Identify as transgender
   - value: Do not identify as Transgender
   - value: Prefer not to say
   id: transgender
-- dimensions:
-  - value: tbc
-  id: wage_baseline
-- dimensions:
-  - value: tbc
-  id: wage_employment_entry
-- dimensions:
-  - value: tbc
-  id: wage_employment_sustain

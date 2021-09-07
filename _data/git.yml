@@ -1,10 +1,10 @@
-git_committed_date: 2021-09-07 11:00 GMT
-git_committer_email: james.hearn@socialfinance.org.uk
-git_committer_name: JamesHearn2
+git_committed_date: 2021-09-07 11:03 GMT
+git_committer_email: kaj@k-si.com
+git_committer_name: Kaj Siebert
 git_dirty: false
-git_hexsha: dce9bc86c9a204451b2e817ae15c00ec843bee64
-git_msg: 'update to housing entry and sustain description
+git_hexsha: e19197b284d3af9fa676d9abf49aab1cf9a1db00
+git_msg: 'Add ''count_min'' validator for list length
 
   '
 git_tags: []
-git_version: dce9bc8
+git_version: e19197b
