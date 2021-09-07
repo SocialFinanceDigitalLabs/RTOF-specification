@@ -1,10 +1,11 @@
-git_committed_date: 2021-09-07 11:03 GMT
-git_committer_email: kaj@k-si.com
-git_committer_name: Kaj Siebert
+git_committed_date: 2021-09-07 11:14 GMT
+git_committer_email: noreply@github.com
+git_committer_name: GitHub
 git_dirty: false
-git_hexsha: e19197b284d3af9fa676d9abf49aab1cf9a1db00
-git_msg: 'Add ''count_min'' validator for list length
+git_hexsha: c389a6232fe628eff26a0088aa7e6a191835f944
+git_msg: 'Merge pull request #9 from SocialFinanceDigitalLabs/datatype-monthyear
 
-  '
+
+  Add monthyear datatype'
 git_tags: []
-git_version: e19197b
+git_version: c389a62

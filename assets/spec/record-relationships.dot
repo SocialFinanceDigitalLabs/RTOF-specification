@@ -34,7 +34,7 @@ graph {
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">dispersal_area</TD>
-            <TD ALIGN="CENTER">string</TD>
+            <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
             <TD></TD>
@@ -86,6 +86,11 @@ graph {
             <TD ALIGN="LEFT">housing_sustainment_date</TD>
             <TD ALIGN="CENTER">date</TD>
         </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">housing_sustain_accomodation</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
     </TABLE>
 </FONT>>];
 
@@ -118,13 +123,18 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">transgender</TD>
+            <TD ALIGN="LEFT">current_dependents_uk</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">current_dependents_uk</TD>
-            <TD ALIGN="CENTER">categorical</TD>
+            <TD ALIGN="LEFT">number_u18_HH</TD>
+            <TD ALIGN="CENTER">integer</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">number_over_18_HH</TD>
+            <TD ALIGN="CENTER">integer</TD>
         </TR>
         <TR>
             <TD></TD>
@@ -178,12 +188,37 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">economic_status</TD>
+            <TD ALIGN="LEFT">prior_employment</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">hours_of_employment</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">wage_baseline</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">eduction_training_status</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">housing_baseline_accommodation</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">homelessness_baseline</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
     </TABLE>
@@ -278,7 +313,27 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">employment_entry_details</TD>
+            <TD ALIGN="LEFT">primary_employment_entry_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">secondary_employment_entry_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">hours_of_employment_entry</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">wage_employment_entry</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">eduction_training_status_entry</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
@@ -311,6 +366,36 @@ graph {
             <TD ALIGN="LEFT">employment_sustainment_date</TD>
             <TD ALIGN="CENTER">date</TD>
         </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_sustain_status</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">hours_of_employment_sustain</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">wage_employment_sustain</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">eduction_training_status_sustain</TD>
+            <TD ALIGN="CENTER">categorical</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_susatin_occupation</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">employment_sustain_sector</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
     </TABLE>
 </FONT>>];
 
@@ -330,6 +415,11 @@ graph {
             <TD></TD>
             <TD ALIGN="LEFT">date_last_seen</TD>
             <TD ALIGN="CENTER">date</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">reason_for_disengagement</TD>
+            <TD ALIGN="CENTER">string</TD>
         </TR>
     </TABLE>
 </FONT>>];

@@ -1,104 +1,88 @@
-unique_id,housing_sustainment_date
-JA-96,2023-09-13
-MQ-65,2023-05-10
-DO-50,2023-08-26
-UU-44,2023-05-30
-YD-27,2023-07-17
-SC-50,2023-07-06
-TR-88,2023-05-07
-MU-20,2023-06-17
-CB-01,2023-04-19
-HC-16,2023-07-16
-XH-47,2023-09-16
-QY-28,2023-08-30
-KX-08,2023-07-15
-AK-98,2023-05-16
-ZK-44,2023-06-10
-ET-26,2023-09-09
-NB-37,2023-06-08
-WO-13,2023-06-03
-BG-75,2023-08-23
-CB-95,2023-08-28
-NO-14,2023-04-12
-UP-90,2023-06-21
-KH-01,2023-06-20
-YL-97,2023-03-20
-TB-33,2023-06-25
-UO-75,2023-04-25
-OF-19,2023-05-17
-OH-70,2023-04-14
-AZ-66,2023-05-15
-JS-83,2023-09-11
-GJ-57,2023-06-12
-NB-52,2023-06-15
-LX-28,2023-08-15
-QO-60,2023-05-16
-AH-20,2023-07-19
-WP-23,2023-04-28
-FF-50,2023-06-13
-PJ-99,2023-04-16
-KI-32,2023-04-20
-MP-47,2023-07-16
-BE-77,2023-04-03
-SL-04,2023-06-20
-GT-02,2023-03-22
-WS-57,2023-06-26
-AD-85,2023-05-15
-GJ-33,2023-06-18
-SM-33,2023-05-23
-BZ-86,2023-09-03
-CL-07,2023-08-13
-AL-05,2023-09-05
-UM-73,2023-05-21
-NL-72,2023-07-18
-KC-24,2023-05-04
-IK-90,2023-04-08
-LW-59,2023-06-08
-NB-15,2023-04-28
-BB-54,2023-05-18
-TZ-08,2023-08-14
-ZC-71,2023-08-17
-VQ-72,2023-07-16
-EP-78,2023-04-07
-SU-34,2023-08-23
-LZ-65,2023-09-11
-VM-90,2023-06-26
-TV-42,2023-06-02
-MX-96,2023-06-02
-IE-10,2023-08-03
-LA-88,2023-06-22
-QG-79,2023-05-30
-KK-52,2023-05-31
-OQ-01,2023-05-05
-OX-10,2023-08-23
-YX-35,2023-06-22
-MV-98,2023-08-16
-VG-82,2023-06-04
-OP-28,2023-07-03
-MI-63,2023-09-16
-VR-40,2023-07-12
-ZM-12,2023-07-29
-CH-19,2023-09-10
-SX-79,2023-04-26
-KQ-36,2023-04-22
-LJ-14,2023-07-09
-PU-08,2023-03-24
-QJ-74,2023-05-24
-BQ-51,2023-08-09
-NY-47,2023-03-19
-CH-14,2023-04-17
-JT-84,2023-05-18
-LE-03,2023-04-17
-HB-04,2023-08-01
-TI-19,2023-09-07
-NU-43,2023-09-12
-BM-53,2023-06-16
-VE-28,2023-04-08
-SF-69,2023-08-13
-XE-51,2023-07-29
-HO-96,2023-08-06
-LI-85,2023-06-10
-KB-47,2023-06-19
-RD-09,2023-04-01
-DD-34,2023-04-11
-AL-60,2023-07-21
+unique_id,housing_sustainment_date,housing_sustain_accomodation
+DP-14,2023-05-07,Renting - Local authority or housing association
+ID-43,2023-03-03,Renting - private sector
+HK-94,2023-05-19,Other safe and secure accommodation
+CC-66,2023-03-11,Other safe and secure accommodation
+GO-83,2023-08-09,Renting - Local authority or housing association
+CQ-27,2023-04-02,Renting - Local authority or housing association
+LL-60,2023-07-12,Other safe and secure accommodation
+BI-04,2023-05-13,Other safe and secure accommodation
+MG-14,2023-02-12,Renting - Local authority or housing association
+RM-86,2023-05-21,Other safe and secure accommodation
+FU-04,2023-08-10,Renting - private sector
+IU-23,2023-04-10,Renting - Local authority or housing association
+DJ-64,2023-06-17,Renting - Local authority or housing association
+LE-95,2023-02-22,Other safe and secure accommodation
+UR-38,2023-04-21,Renting - Local authority or housing association
+OL-31,2023-06-07,Other safe and secure accommodation
+RC-47,2023-07-16,Renting - Local authority or housing association
+MZ-95,2023-05-27,Other safe and secure accommodation
+MA-81,2023-04-03,Other safe and secure accommodation
+WO-35,2023-02-23,Other safe and secure accommodation
+ZC-68,2023-07-19,Renting - Local authority or housing association
+HC-31,2023-06-18,Other safe and secure accommodation
+HO-54,2023-07-18,Renting - private sector
+HJ-21,2023-04-17,Other safe and secure accommodation
+DS-54,2023-04-25,Renting - private sector
+OF-62,2023-04-09,Renting - private sector
+WR-97,2023-03-20,Renting - private sector
+JM-48,2023-06-03,Renting - private sector
+WY-85,2023-04-06,Renting - private sector
+OJ-56,2023-02-21,Renting - private sector
+AV-87,2023-06-04,Renting - private sector
+BA-16,2023-05-12,Renting - Local authority or housing association
+JV-97,2023-07-07,Renting - private sector
+IG-33,2023-07-11,Other safe and secure accommodation
+VL-53,2023-06-29,Renting - private sector
+LP-40,2023-08-04,Renting - private sector
+YJ-55,2023-06-27,Renting - Local authority or housing association
+DL-51,2023-06-23,Renting - private sector
+VU-11,2023-07-08,Renting - Local authority or housing association
+KC-13,2023-08-01,Renting - Local authority or housing association
+QV-71,2023-03-22,Renting - Local authority or housing association
+RE-98,2023-03-18,Renting - Local authority or housing association
+TX-73,2023-03-15,Renting - private sector
+CH-54,2023-07-24,Renting - private sector
+VH-35,2023-05-19,Renting - Local authority or housing association
+JW-69,2023-05-13,Renting - Local authority or housing association
+VI-42,2023-08-03,Renting - Local authority or housing association
+LV-57,2023-05-30,Renting - Local authority or housing association
+FY-37,2023-03-22,Renting - Local authority or housing association
+XB-27,2023-04-14,Other safe and secure accommodation
+ES-09,2023-03-15,Other safe and secure accommodation
+WT-87,2023-04-07,Other safe and secure accommodation
+FS-21,2023-08-05,Renting - private sector
+MC-30,2023-05-29,Renting - private sector
+TN-72,2023-02-13,Renting - Local authority or housing association
+AY-11,2023-04-13,Other safe and secure accommodation
+EE-15,2023-05-25,Renting - private sector
+CD-59,2023-07-03,Other safe and secure accommodation
+YR-35,2023-03-02,Renting - private sector
+OJ-37,2023-03-28,Renting - private sector
+VU-18,2023-05-18,Renting - private sector
+RJ-27,2023-04-02,Renting - Local authority or housing association
+IR-03,2023-03-08,Renting - Local authority or housing association
+HC-28,2023-05-15,Renting - Local authority or housing association
+UX-09,2023-03-17,Renting - Local authority or housing association
+NS-87,2023-06-13,Other safe and secure accommodation
+CO-83,2023-03-29,Other safe and secure accommodation
+CQ-35,2023-07-25,Other safe and secure accommodation
+PD-71,2023-05-11,Renting - Local authority or housing association
+QO-77,2023-06-07,Renting - Local authority or housing association
+JF-37,2023-06-30,Other safe and secure accommodation
+OG-12,2023-04-16,Renting - Local authority or housing association
+BO-47,2023-05-22,Other safe and secure accommodation
+UT-92,2023-03-15,Other safe and secure accommodation
+AM-20,2023-03-24,Renting - private sector
+CP-65,2023-06-13,Renting - private sector
+TO-81,2023-07-14,Renting - Local authority or housing association
+XU-62,2023-04-14,Renting - Local authority or housing association
+PV-44,2023-06-09,Renting - Local authority or housing association
+VX-74,2023-03-12,Renting - Local authority or housing association
+HP-11,2023-08-10,Renting - private sector
+MZ-43,2023-06-16,Renting - Local authority or housing association
+DY-54,2023-08-04,Renting - Local authority or housing association
+GK-52,2023-05-30,Other safe and secure accommodation
+WX-48,2023-08-09,Renting - private sector
+QQ-89,2023-02-22,Other safe and secure accommodation
+EU-00,2023-05-20,Other safe and secure accommodation
