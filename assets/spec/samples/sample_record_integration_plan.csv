@@ -2,44 +2,49 @@ unique_id,integration_outcome_type,integration_outcome_achieved_date,integration
 DP-14,Creation,2023-02-15,tbc,tbc,tbc
 ES-97,Creation,2022-11-06,tbc,tbc,tbc
 ES-97,6 month,2023-08-26,tbc,tbc,tbc
-HM-17,Creation,2022-12-30,tbc,tbc,tbc
-HM-17,6 month,2023-09-09,tbc,tbc,tbc
-HM-17,12 month,2024-03-25,tbc,tbc,tbc
-RX-78,Creation,2022-12-22,tbc,tbc,tbc
-RX-78,6 month,2023-09-12,tbc,tbc,tbc
-TW-26,Creation,2022-12-29,tbc,tbc,tbc
-TW-26,6 month,2023-08-28,tbc,tbc,tbc
+HM-17,Creation,2022-10-20,tbc,tbc,tbc
+OQ-72,Creation,2023-02-14,tbc,tbc,tbc
+OQ-72,6 month,2023-08-25,tbc,tbc,tbc
+GM-94,Creation,2023-01-07,tbc,tbc,tbc
+GM-94,6 month,2023-08-16,tbc,tbc,tbc
+GM-94,12 month,2024-03-08,tbc,tbc,tbc
+WS-43,Creation,2022-09-27,tbc,tbc,tbc
+WS-43,6 month,2023-09-12,tbc,tbc,tbc
+WS-43,12 month,2024-03-16,tbc,tbc,tbc
+XR-01,Creation,2022-10-12,tbc,tbc,tbc
+XR-01,6 month,2023-09-02,tbc,tbc,tbc
 OM-40,Creation,2022-11-11,tbc,tbc,tbc
-PI-63,Creation,2022-12-09,tbc,tbc,tbc
-PI-63,6 month,2023-09-10,tbc,tbc,tbc
-PI-63,12 month,2024-03-20,tbc,tbc,tbc
-GF-67,Creation,2022-10-24,tbc,tbc,tbc
-GF-67,6 month,2023-08-18,tbc,tbc,tbc
-VX-79,Creation,2022-12-04,tbc,tbc,tbc
-VX-79,6 month,2023-08-15,tbc,tbc,tbc
-VX-79,12 month,2024-02-29,tbc,tbc,tbc
-KT-87,Creation,2022-10-13,tbc,tbc,tbc
-FC-22,Creation,2022-11-09,tbc,tbc,tbc
-FC-22,6 month,2023-08-25,tbc,tbc,tbc
-BX-16,Creation,2022-10-24,tbc,tbc,tbc
-BX-16,6 month,2023-09-06,tbc,tbc,tbc
-BX-16,12 month,2024-03-15,tbc,tbc,tbc
-KM-43,Creation,2022-11-03,tbc,tbc,tbc
-QW-79,Creation,2022-12-14,tbc,tbc,tbc
-QW-79,6 month,2023-09-01,tbc,tbc,tbc
-QW-79,12 month,2024-03-20,tbc,tbc,tbc
-EF-58,Creation,2023-02-24,tbc,tbc,tbc
-EF-58,6 month,2023-08-19,tbc,tbc,tbc
-EF-58,12 month,2024-03-08,tbc,tbc,tbc
-SA-54,Creation,2022-11-26,tbc,tbc,tbc
-SA-54,6 month,2023-09-05,tbc,tbc,tbc
-SA-54,12 month,2024-03-23,tbc,tbc,tbc
-QP-25,Creation,2022-12-29,tbc,tbc,tbc
-QP-25,6 month,2023-08-31,tbc,tbc,tbc
-QP-25,12 month,2024-03-16,tbc,tbc,tbc
-MX-16,Creation,2023-01-19,tbc,tbc,tbc
-MX-16,6 month,2023-09-10,tbc,tbc,tbc
-MX-16,12 month,2024-03-10,tbc,tbc,tbc
+PI-63,Creation,2022-12-19,tbc,tbc,tbc
+PI-63,6 month,2023-09-09,tbc,tbc,tbc
+PI-63,12 month,2024-03-05,tbc,tbc,tbc
+YY-59,Creation,2022-12-04,tbc,tbc,tbc
+KK-18,Creation,2022-11-30,tbc,tbc,tbc
+UL-89,Creation,2022-09-27,tbc,tbc,tbc
+UJ-42,Creation,2022-12-30,tbc,tbc,tbc
+UJ-42,6 month,2023-08-27,tbc,tbc,tbc
+UJ-42,12 month,2024-03-21,tbc,tbc,tbc
+XP-69,Creation,2023-02-08,tbc,tbc,tbc
+XP-69,6 month,2023-08-29,tbc,tbc,tbc
+XP-69,12 month,2024-03-23,tbc,tbc,tbc
+DR-62,Creation,2022-12-18,tbc,tbc,tbc
+DR-62,6 month,2023-08-16,tbc,tbc,tbc
+DR-62,12 month,2024-03-08,tbc,tbc,tbc
+WL-99,Creation,2023-02-14,tbc,tbc,tbc
+WT-14,Creation,2022-11-24,tbc,tbc,tbc
+WT-14,6 month,2023-08-26,tbc,tbc,tbc
+WT-14,12 month,2024-03-09,tbc,tbc,tbc
+KM-91,Creation,2023-01-30,tbc,tbc,tbc
+KM-91,6 month,2023-09-10,tbc,tbc,tbc
+KM-91,12 month,2024-02-27,tbc,tbc,tbc
+BN-56,Creation,2023-01-20,tbc,tbc,tbc
+BN-56,6 month,2023-09-08,tbc,tbc,tbc
+BN-56,12 month,2024-03-08,tbc,tbc,tbc
+OQ-00,Creation,2023-02-17,tbc,tbc,tbc
+RC-50,Creation,2022-12-13,tbc,tbc,tbc
+RC-50,6 month,2023-08-28,tbc,tbc,tbc
+HZ-27,Creation,2022-11-08,tbc,tbc,tbc
+HZ-27,6 month,2023-08-18,tbc,tbc,tbc
+HZ-27,12 month,2024-03-23,tbc,tbc,tbc
 MB-72,Creation,2022-11-14,tbc,tbc,tbc
 MB-72,6 month,2023-08-24,tbc,tbc,tbc
 MB-72,12 month,2024-03-05,tbc,tbc,tbc
@@ -66,11 +71,10 @@ ER-11,12 month,2024-02-27,tbc,tbc,tbc
 ZM-10,Creation,2023-02-08,tbc,tbc,tbc
 ZM-10,6 month,2023-08-31,tbc,tbc,tbc
 ZM-10,12 month,2024-03-22,tbc,tbc,tbc
-RC-47,Creation,2022-12-27,tbc,tbc,tbc
-RC-47,6 month,2023-09-12,tbc,tbc,tbc
-JN-43,Creation,2023-02-15,tbc,tbc,tbc
-JN-43,6 month,2023-09-02,tbc,tbc,tbc
-JN-43,12 month,2024-03-05,tbc,tbc,tbc
+DM-50,Creation,2023-01-09,tbc,tbc,tbc
+TB-97,Creation,2022-10-19,tbc,tbc,tbc
+TB-97,6 month,2023-09-06,tbc,tbc,tbc
+TB-97,12 month,2024-03-03,tbc,tbc,tbc
 IX-79,Creation,2022-10-23,tbc,tbc,tbc
 UI-12,Creation,2022-11-12,tbc,tbc,tbc
 UI-12,6 month,2023-08-15,tbc,tbc,tbc
@@ -78,26 +82,17 @@ UI-12,12 month,2024-03-20,tbc,tbc,tbc
 LT-67,Creation,2022-12-23,tbc,tbc,tbc
 LT-67,6 month,2023-08-30,tbc,tbc,tbc
 LT-67,12 month,2024-03-16,tbc,tbc,tbc
-MT-35,Creation,2022-11-17,tbc,tbc,tbc
-MT-35,6 month,2023-09-01,tbc,tbc,tbc
-MT-35,12 month,2024-03-12,tbc,tbc,tbc
-DE-73,Creation,2022-12-28,tbc,tbc,tbc
-DE-73,6 month,2023-08-24,tbc,tbc,tbc
-DE-73,12 month,2024-03-11,tbc,tbc,tbc
-QG-93,Creation,2022-10-04,tbc,tbc,tbc
-QG-93,6 month,2023-08-29,tbc,tbc,tbc
-QG-93,12 month,2024-03-12,tbc,tbc,tbc
-AC-30,Creation,2022-10-26,tbc,tbc,tbc
-AC-30,6 month,2023-08-21,tbc,tbc,tbc
-AC-30,12 month,2024-03-19,tbc,tbc,tbc
-SH-62,Creation,2023-02-18,tbc,tbc,tbc
-SH-62,6 month,2023-08-22,tbc,tbc,tbc
-DX-79,Creation,2022-11-15,tbc,tbc,tbc
-DX-79,6 month,2023-09-05,tbc,tbc,tbc
-DX-79,12 month,2024-03-18,tbc,tbc,tbc
-VM-46,Creation,2022-10-16,tbc,tbc,tbc
-VM-46,6 month,2023-08-23,tbc,tbc,tbc
-VM-46,12 month,2024-03-08,tbc,tbc,tbc
+YG-20,Creation,2022-10-30,tbc,tbc,tbc
+YG-20,6 month,2023-09-09,tbc,tbc,tbc
+YG-20,12 month,2024-03-02,tbc,tbc,tbc
+IW-51,Creation,2022-10-25,tbc,tbc,tbc
+IW-51,6 month,2023-08-30,tbc,tbc,tbc
+IW-51,12 month,2024-03-09,tbc,tbc,tbc
+MS-63,Creation,2022-11-18,tbc,tbc,tbc
+MS-63,6 month,2023-08-20,tbc,tbc,tbc
+YW-31,Creation,2022-10-16,tbc,tbc,tbc
+YW-31,6 month,2023-08-23,tbc,tbc,tbc
+YW-31,12 month,2024-03-08,tbc,tbc,tbc
 MF-82,Creation,2022-12-11,tbc,tbc,tbc
 MF-82,6 month,2023-09-14,tbc,tbc,tbc
 MF-82,12 month,2024-03-17,tbc,tbc,tbc
@@ -108,125 +103,106 @@ GG-58,Creation,2023-01-04,tbc,tbc,tbc
 GG-58,6 month,2023-08-16,tbc,tbc,tbc
 GG-58,12 month,2024-03-04,tbc,tbc,tbc
 TF-80,Creation,2022-11-28,tbc,tbc,tbc
-CV-28,Creation,2023-01-25,tbc,tbc,tbc
-CV-28,6 month,2023-08-27,tbc,tbc,tbc
-CV-28,12 month,2024-03-04,tbc,tbc,tbc
-HJ-58,Creation,2023-01-06,tbc,tbc,tbc
-HJ-58,6 month,2023-08-19,tbc,tbc,tbc
-HJ-58,12 month,2024-03-24,tbc,tbc,tbc
-XF-08,Creation,2022-11-03,tbc,tbc,tbc
-XF-08,6 month,2023-08-28,tbc,tbc,tbc
-CK-46,Creation,2022-10-02,tbc,tbc,tbc
-CK-46,6 month,2023-08-16,tbc,tbc,tbc
-CK-46,12 month,2024-03-07,tbc,tbc,tbc
-XO-89,Creation,2022-10-19,tbc,tbc,tbc
-XO-89,6 month,2023-08-19,tbc,tbc,tbc
-XO-89,12 month,2024-03-11,tbc,tbc,tbc
-FG-43,Creation,2023-01-15,tbc,tbc,tbc
-FG-43,6 month,2023-09-07,tbc,tbc,tbc
-FG-43,12 month,2024-03-12,tbc,tbc,tbc
-GT-50,Creation,2022-12-30,tbc,tbc,tbc
-GT-50,6 month,2023-09-09,tbc,tbc,tbc
-GT-50,12 month,2024-02-27,tbc,tbc,tbc
-KY-50,Creation,2022-11-10,tbc,tbc,tbc
-KY-50,6 month,2023-08-29,tbc,tbc,tbc
-KK-63,Creation,2023-02-21,tbc,tbc,tbc
-KK-63,6 month,2023-08-30,tbc,tbc,tbc
-KK-63,12 month,2024-03-04,tbc,tbc,tbc
-EI-97,Creation,2023-02-06,tbc,tbc,tbc
-EI-97,6 month,2023-08-28,tbc,tbc,tbc
-EI-97,12 month,2024-03-06,tbc,tbc,tbc
-TA-79,Creation,2022-12-15,tbc,tbc,tbc
-TA-79,6 month,2023-08-29,tbc,tbc,tbc
-TA-79,12 month,2024-03-06,tbc,tbc,tbc
-GV-61,Creation,2022-10-10,tbc,tbc,tbc
-GV-61,6 month,2023-09-03,tbc,tbc,tbc
-GV-61,12 month,2024-03-03,tbc,tbc,tbc
-BA-64,Creation,2022-12-05,tbc,tbc,tbc
-BA-64,6 month,2023-08-28,tbc,tbc,tbc
-BA-64,12 month,2024-03-15,tbc,tbc,tbc
-DJ-08,Creation,2022-11-01,tbc,tbc,tbc
-DJ-08,6 month,2023-08-17,tbc,tbc,tbc
-DJ-08,12 month,2024-03-09,tbc,tbc,tbc
-KC-75,Creation,2022-10-30,tbc,tbc,tbc
-KC-75,6 month,2023-08-19,tbc,tbc,tbc
-AD-60,Creation,2022-11-09,tbc,tbc,tbc
-HI-99,Creation,2023-01-24,tbc,tbc,tbc
-HI-99,6 month,2023-09-02,tbc,tbc,tbc
-HI-99,12 month,2024-03-14,tbc,tbc,tbc
-SS-69,Creation,2023-01-11,tbc,tbc,tbc
-UV-73,Creation,2023-01-24,tbc,tbc,tbc
-UV-73,6 month,2023-08-16,tbc,tbc,tbc
-UV-73,12 month,2024-03-12,tbc,tbc,tbc
-YF-25,Creation,2022-12-11,tbc,tbc,tbc
-YF-25,6 month,2023-09-01,tbc,tbc,tbc
-YF-25,12 month,2024-02-27,tbc,tbc,tbc
-MJ-27,Creation,2023-02-02,tbc,tbc,tbc
-MJ-27,6 month,2023-08-26,tbc,tbc,tbc
-MJ-27,12 month,2024-03-04,tbc,tbc,tbc
-GH-28,Creation,2023-01-14,tbc,tbc,tbc
-GH-28,6 month,2023-08-16,tbc,tbc,tbc
-GH-28,12 month,2024-03-19,tbc,tbc,tbc
-ZS-75,Creation,2022-12-12,tbc,tbc,tbc
-ZS-75,6 month,2023-08-20,tbc,tbc,tbc
-ZS-75,12 month,2024-03-08,tbc,tbc,tbc
-LX-60,Creation,2022-10-13,tbc,tbc,tbc
-LX-60,6 month,2023-09-04,tbc,tbc,tbc
-LX-60,12 month,2024-03-20,tbc,tbc,tbc
-EH-87,Creation,2022-12-02,tbc,tbc,tbc
-EH-87,6 month,2023-08-25,tbc,tbc,tbc
-EH-87,12 month,2024-03-25,tbc,tbc,tbc
-AL-05,Creation,2022-10-03,tbc,tbc,tbc
-DE-49,Creation,2022-12-19,tbc,tbc,tbc
-DE-49,6 month,2023-08-22,tbc,tbc,tbc
-KC-04,Creation,2022-10-28,tbc,tbc,tbc
-DF-22,Creation,2022-10-23,tbc,tbc,tbc
-DF-22,6 month,2023-08-22,tbc,tbc,tbc
-DF-22,12 month,2024-03-03,tbc,tbc,tbc
-DG-94,Creation,2022-12-07,tbc,tbc,tbc
-DG-94,6 month,2023-08-19,tbc,tbc,tbc
-DG-94,12 month,2024-03-05,tbc,tbc,tbc
-HG-07,Creation,2022-10-26,tbc,tbc,tbc
-FQ-57,Creation,2023-01-17,tbc,tbc,tbc
-VH-35,Creation,2022-11-05,tbc,tbc,tbc
-VH-35,6 month,2023-08-23,tbc,tbc,tbc
-VH-35,12 month,2024-03-20,tbc,tbc,tbc
-GK-42,Creation,2022-09-29,tbc,tbc,tbc
-GK-42,6 month,2023-09-08,tbc,tbc,tbc
-GK-42,12 month,2024-03-03,tbc,tbc,tbc
-BZ-73,Creation,2023-01-27,tbc,tbc,tbc
-BZ-73,6 month,2023-08-28,tbc,tbc,tbc
-BZ-73,12 month,2024-03-23,tbc,tbc,tbc
-SC-62,Creation,2023-01-04,tbc,tbc,tbc
-SC-62,6 month,2023-08-31,tbc,tbc,tbc
-SC-62,12 month,2024-03-06,tbc,tbc,tbc
-GW-21,Creation,2023-02-17,tbc,tbc,tbc
-GW-21,6 month,2023-09-11,tbc,tbc,tbc
-GW-21,12 month,2024-03-24,tbc,tbc,tbc
-EK-93,Creation,2022-11-07,tbc,tbc,tbc
-EK-93,6 month,2023-08-21,tbc,tbc,tbc
-EK-93,12 month,2024-03-07,tbc,tbc,tbc
-FY-37,Creation,2022-10-10,tbc,tbc,tbc
-GY-60,Creation,2022-10-20,tbc,tbc,tbc
-OF-06,Creation,2023-01-17,tbc,tbc,tbc
-OF-06,6 month,2023-09-11,tbc,tbc,tbc
-OF-06,12 month,2024-03-14,tbc,tbc,tbc
-YK-11,Creation,2022-12-19,tbc,tbc,tbc
-YK-11,6 month,2023-08-28,tbc,tbc,tbc
-YK-11,12 month,2024-03-11,tbc,tbc,tbc
-TO-89,Creation,2022-11-30,tbc,tbc,tbc
-TO-89,6 month,2023-09-02,tbc,tbc,tbc
-OR-60,Creation,2023-01-06,tbc,tbc,tbc
-BR-22,Creation,2022-11-09,tbc,tbc,tbc
-BR-22,6 month,2023-09-07,tbc,tbc,tbc
-BR-22,12 month,2024-03-02,tbc,tbc,tbc
-QN-54,Creation,2023-02-19,tbc,tbc,tbc
-QN-54,6 month,2023-09-12,tbc,tbc,tbc
-QN-54,12 month,2024-03-11,tbc,tbc,tbc
-ET-49,Creation,2023-02-23,tbc,tbc,tbc
-IZ-82,Creation,2023-02-21,tbc,tbc,tbc
-IZ-82,6 month,2023-08-29,tbc,tbc,tbc
-IZ-82,12 month,2024-03-15,tbc,tbc,tbc
+CV-28,Creation,2022-12-19,tbc,tbc,tbc
+CV-28,6 month,2023-08-21,tbc,tbc,tbc
+CV-28,12 month,2024-03-09,tbc,tbc,tbc
+SL-98,Creation,2022-10-07,tbc,tbc,tbc
+SL-98,6 month,2023-09-03,tbc,tbc,tbc
+SL-98,12 month,2024-03-18,tbc,tbc,tbc
+SR-14,Creation,2022-10-11,tbc,tbc,tbc
+CG-71,Creation,2022-12-01,tbc,tbc,tbc
+CG-71,6 month,2023-09-01,tbc,tbc,tbc
+CG-71,12 month,2024-02-29,tbc,tbc,tbc
+UW-33,Creation,2023-02-11,tbc,tbc,tbc
+UW-33,6 month,2023-08-25,tbc,tbc,tbc
+UW-33,12 month,2024-03-15,tbc,tbc,tbc
+KB-45,Creation,2022-09-27,tbc,tbc,tbc
+SG-25,Creation,2023-02-19,tbc,tbc,tbc
+SG-25,6 month,2023-08-16,tbc,tbc,tbc
+SG-25,12 month,2024-03-20,tbc,tbc,tbc
+KG-32,Creation,2022-11-16,tbc,tbc,tbc
+WZ-84,Creation,2022-11-03,tbc,tbc,tbc
+WZ-84,6 month,2023-09-07,tbc,tbc,tbc
+WZ-84,12 month,2024-03-04,tbc,tbc,tbc
+GZ-65,Creation,2022-11-02,tbc,tbc,tbc
+GZ-65,6 month,2023-08-23,tbc,tbc,tbc
+GZ-65,12 month,2024-03-12,tbc,tbc,tbc
+WD-44,Creation,2023-01-04,tbc,tbc,tbc
+WD-44,6 month,2023-09-14,tbc,tbc,tbc
+WD-44,12 month,2024-03-08,tbc,tbc,tbc
+ZW-65,Creation,2023-01-26,tbc,tbc,tbc
+ZW-65,6 month,2023-09-01,tbc,tbc,tbc
+ZW-65,12 month,2024-03-20,tbc,tbc,tbc
+ZZ-82,Creation,2022-10-10,tbc,tbc,tbc
+IR-01,Creation,2023-01-05,tbc,tbc,tbc
+IR-01,6 month,2023-08-16,tbc,tbc,tbc
+IR-01,12 month,2024-03-13,tbc,tbc,tbc
+HQ-34,Creation,2023-01-08,tbc,tbc,tbc
+HQ-34,6 month,2023-09-02,tbc,tbc,tbc
+HQ-34,12 month,2024-02-26,tbc,tbc,tbc
+GA-71,Creation,2023-02-05,tbc,tbc,tbc
+QG-18,Creation,2022-11-01,tbc,tbc,tbc
+KP-38,Creation,2023-02-17,tbc,tbc,tbc
+KP-38,6 month,2023-09-11,tbc,tbc,tbc
+KP-38,12 month,2024-03-21,tbc,tbc,tbc
+AJ-64,Creation,2022-10-12,tbc,tbc,tbc
+AJ-64,6 month,2023-08-25,tbc,tbc,tbc
+AJ-64,12 month,2024-03-09,tbc,tbc,tbc
+TG-88,Creation,2022-12-23,tbc,tbc,tbc
+JM-33,Creation,2022-12-02,tbc,tbc,tbc
+JM-33,6 month,2023-08-20,tbc,tbc,tbc
+JM-33,12 month,2024-03-20,tbc,tbc,tbc
+AN-01,Creation,2023-01-08,tbc,tbc,tbc
+AN-01,6 month,2023-08-22,tbc,tbc,tbc
+RW-53,Creation,2022-10-30,tbc,tbc,tbc
+RW-53,6 month,2023-09-03,tbc,tbc,tbc
+RW-53,12 month,2024-02-28,tbc,tbc,tbc
+QE-05,Creation,2022-12-04,tbc,tbc,tbc
+QE-05,6 month,2023-09-09,tbc,tbc,tbc
+QE-05,12 month,2024-03-12,tbc,tbc,tbc
+GD-34,Creation,2022-10-06,tbc,tbc,tbc
+GD-34,6 month,2023-08-16,tbc,tbc,tbc
+GD-34,12 month,2024-03-13,tbc,tbc,tbc
+CC-68,Creation,2022-10-07,tbc,tbc,tbc
+CC-68,6 month,2023-09-03,tbc,tbc,tbc
+SY-18,Creation,2023-02-02,tbc,tbc,tbc
+SY-18,6 month,2023-08-19,tbc,tbc,tbc
+RE-98,Creation,2023-01-23,tbc,tbc,tbc
+RE-98,6 month,2023-08-20,tbc,tbc,tbc
+RE-98,12 month,2024-03-17,tbc,tbc,tbc
+IK-90,Creation,2022-12-12,tbc,tbc,tbc
+IK-90,6 month,2023-09-07,tbc,tbc,tbc
+IK-90,12 month,2024-03-16,tbc,tbc,tbc
+NJ-00,Creation,2022-12-07,tbc,tbc,tbc
+MC-95,Creation,2023-01-18,tbc,tbc,tbc
+MC-95,6 month,2023-09-08,tbc,tbc,tbc
+QX-97,Creation,2023-01-27,tbc,tbc,tbc
+QX-97,6 month,2023-09-11,tbc,tbc,tbc
+QX-97,12 month,2024-03-21,tbc,tbc,tbc
+AP-33,Creation,2023-02-15,tbc,tbc,tbc
+AP-33,6 month,2023-08-23,tbc,tbc,tbc
+AP-33,12 month,2024-03-06,tbc,tbc,tbc
+SX-36,Creation,2022-12-02,tbc,tbc,tbc
+SX-36,6 month,2023-08-25,tbc,tbc,tbc
+SX-36,12 month,2024-03-19,tbc,tbc,tbc
+PJ-07,Creation,2022-11-05,tbc,tbc,tbc
+XN-54,Creation,2022-12-22,tbc,tbc,tbc
+XN-54,6 month,2023-08-30,tbc,tbc,tbc
+XN-54,12 month,2024-03-06,tbc,tbc,tbc
+JL-71,Creation,2023-01-11,tbc,tbc,tbc
+RU-19,Creation,2022-10-16,tbc,tbc,tbc
+WC-85,Creation,2022-12-18,tbc,tbc,tbc
+WC-85,6 month,2023-08-24,tbc,tbc,tbc
+JC-06,Creation,2022-11-23,tbc,tbc,tbc
+JC-06,6 month,2023-08-19,tbc,tbc,tbc
+JC-06,12 month,2024-03-13,tbc,tbc,tbc
+HB-18,Creation,2023-01-08,tbc,tbc,tbc
+TO-14,Creation,2023-01-17,tbc,tbc,tbc
+TO-14,6 month,2023-09-02,tbc,tbc,tbc
+TO-14,12 month,2024-03-13,tbc,tbc,tbc
+VY-27,Creation,2023-02-18,tbc,tbc,tbc
+VY-27,6 month,2023-08-22,tbc,tbc,tbc
+VY-27,12 month,2024-03-15,tbc,tbc,tbc
 CX-20,Creation,2022-10-22,tbc,tbc,tbc
 AF-15,Creation,2023-02-04,tbc,tbc,tbc
 AF-15,6 month,2023-08-23,tbc,tbc,tbc
@@ -247,10 +223,13 @@ HC-50,12 month,2024-03-23,tbc,tbc,tbc
 QY-24,Creation,2022-12-02,tbc,tbc,tbc
 QY-24,6 month,2023-08-16,tbc,tbc,tbc
 QY-24,12 month,2024-03-19,tbc,tbc,tbc
-BZ-06,Creation,2022-12-02,tbc,tbc,tbc
-BZ-06,6 month,2023-09-11,tbc,tbc,tbc
-BZ-06,12 month,2024-03-08,tbc,tbc,tbc
-XR-21,Creation,2023-01-16,tbc,tbc,tbc
+WP-04,Creation,2022-12-16,tbc,tbc,tbc
+OQ-01,Creation,2022-11-02,tbc,tbc,tbc
+OQ-01,6 month,2023-08-27,tbc,tbc,tbc
+OQ-01,12 month,2024-03-08,tbc,tbc,tbc
+WW-93,Creation,2023-01-18,tbc,tbc,tbc
+WW-93,6 month,2023-08-18,tbc,tbc,tbc
+WW-93,12 month,2024-03-05,tbc,tbc,tbc
 HH-76,Creation,2022-12-04,tbc,tbc,tbc
 HH-76,6 month,2023-08-29,tbc,tbc,tbc
 HH-76,12 month,2024-02-28,tbc,tbc,tbc
@@ -262,35 +241,44 @@ UD-66,12 month,2024-03-17,tbc,tbc,tbc
 SQ-15,Creation,2023-01-26,tbc,tbc,tbc
 SQ-15,6 month,2023-09-12,tbc,tbc,tbc
 SQ-15,12 month,2024-03-05,tbc,tbc,tbc
-MQ-22,Creation,2023-01-30,tbc,tbc,tbc
-JC-46,Creation,2022-10-23,tbc,tbc,tbc
-JC-46,6 month,2023-08-28,tbc,tbc,tbc
-JC-46,12 month,2024-03-16,tbc,tbc,tbc
-MR-21,Creation,2022-10-17,tbc,tbc,tbc
-LO-58,Creation,2022-10-21,tbc,tbc,tbc
-ZA-20,Creation,2022-12-30,tbc,tbc,tbc
-ZA-20,6 month,2023-09-11,tbc,tbc,tbc
-ZA-20,12 month,2024-03-18,tbc,tbc,tbc
-QT-78,Creation,2022-10-08,tbc,tbc,tbc
-QT-78,6 month,2023-08-15,tbc,tbc,tbc
-CX-40,Creation,2022-10-05,tbc,tbc,tbc
-HI-12,Creation,2022-11-12,tbc,tbc,tbc
-HI-12,6 month,2023-09-06,tbc,tbc,tbc
-HI-12,12 month,2024-03-19,tbc,tbc,tbc
-CF-64,Creation,2022-12-31,tbc,tbc,tbc
-CF-64,6 month,2023-08-19,tbc,tbc,tbc
-CF-64,12 month,2024-03-01,tbc,tbc,tbc
-CA-42,Creation,2022-09-30,tbc,tbc,tbc
-CA-42,6 month,2023-09-12,tbc,tbc,tbc
-CA-42,12 month,2024-02-29,tbc,tbc,tbc
-DL-98,Creation,2023-02-08,tbc,tbc,tbc
-DL-98,6 month,2023-09-12,tbc,tbc,tbc
-DI-94,Creation,2022-11-28,tbc,tbc,tbc
-DI-94,6 month,2023-09-02,tbc,tbc,tbc
-DI-94,12 month,2024-03-05,tbc,tbc,tbc
-WE-72,Creation,2022-11-08,tbc,tbc,tbc
-YY-82,Creation,2022-10-27,tbc,tbc,tbc
-YY-82,6 month,2023-08-19,tbc,tbc,tbc
+PE-65,Creation,2022-12-19,tbc,tbc,tbc
+PE-65,6 month,2023-09-11,tbc,tbc,tbc
+LF-22,Creation,2022-12-13,tbc,tbc,tbc
+RN-07,Creation,2022-09-27,tbc,tbc,tbc
+RN-07,6 month,2023-09-13,tbc,tbc,tbc
+RN-07,12 month,2024-03-10,tbc,tbc,tbc
+FA-97,Creation,2023-02-24,tbc,tbc,tbc
+UG-02,Creation,2022-12-06,tbc,tbc,tbc
+UG-02,6 month,2023-08-27,tbc,tbc,tbc
+UG-02,12 month,2024-03-07,tbc,tbc,tbc
+KH-13,Creation,2022-11-02,tbc,tbc,tbc
+KH-13,6 month,2023-09-10,tbc,tbc,tbc
+PP-64,Creation,2023-01-18,tbc,tbc,tbc
+PP-64,6 month,2023-09-01,tbc,tbc,tbc
+PP-64,12 month,2024-03-10,tbc,tbc,tbc
+CK-61,Creation,2022-11-24,tbc,tbc,tbc
+TD-82,Creation,2022-09-30,tbc,tbc,tbc
+TD-82,6 month,2023-08-28,tbc,tbc,tbc
+TD-82,12 month,2024-03-25,tbc,tbc,tbc
+IM-01,Creation,2022-11-01,tbc,tbc,tbc
+IM-01,6 month,2023-08-23,tbc,tbc,tbc
+IM-01,12 month,2024-03-08,tbc,tbc,tbc
+IV-75,Creation,2023-02-12,tbc,tbc,tbc
+IV-75,6 month,2023-09-12,tbc,tbc,tbc
+QF-15,Creation,2023-01-29,tbc,tbc,tbc
+QF-15,6 month,2023-09-04,tbc,tbc,tbc
+FQ-50,Creation,2022-11-10,tbc,tbc,tbc
+FQ-50,6 month,2023-08-25,tbc,tbc,tbc
+AC-13,Creation,2023-01-01,tbc,tbc,tbc
+AC-13,6 month,2023-08-25,tbc,tbc,tbc
+AC-13,12 month,2024-02-26,tbc,tbc,tbc
+AT-75,Creation,2023-01-06,tbc,tbc,tbc
+AT-75,6 month,2023-09-04,tbc,tbc,tbc
+AT-75,12 month,2024-03-07,tbc,tbc,tbc
+YO-35,Creation,2023-01-01,tbc,tbc,tbc
+YO-35,6 month,2023-08-28,tbc,tbc,tbc
+ZN-98,Creation,2022-11-08,tbc,tbc,tbc
+ZN-98,6 month,2023-08-19,tbc,tbc,tbc
 RJ-27,Creation,2022-10-03,tbc,tbc,tbc
 RJ-27,6 month,2023-08-31,tbc,tbc,tbc
 RJ-27,12 month,2024-03-01,tbc,tbc,tbc
@@ -299,12 +287,12 @@ UV-72,6 month,2023-08-24,tbc,tbc,tbc
 UV-72,12 month,2024-03-01,tbc,tbc,tbc
 TD-30,Creation,2022-12-30,tbc,tbc,tbc
 TD-30,6 month,2023-08-17,tbc,tbc,tbc
-HC-28,Creation,2023-02-05,tbc,tbc,tbc
-HC-28,6 month,2023-09-04,tbc,tbc,tbc
-HC-28,12 month,2024-03-09,tbc,tbc,tbc
-IS-89,Creation,2022-11-23,tbc,tbc,tbc
-IS-89,6 month,2023-09-06,tbc,tbc,tbc
-IS-89,12 month,2024-03-03,tbc,tbc,tbc
+JI-44,Creation,2022-10-12,tbc,tbc,tbc
+JI-44,6 month,2023-09-03,tbc,tbc,tbc
+JI-44,12 month,2024-03-12,tbc,tbc,tbc
+OQ-60,Creation,2022-11-23,tbc,tbc,tbc
+OQ-60,6 month,2023-09-06,tbc,tbc,tbc
+OQ-60,12 month,2024-03-03,tbc,tbc,tbc
 CB-18,Creation,2022-11-12,tbc,tbc,tbc
 CB-18,6 month,2023-09-10,tbc,tbc,tbc
 CB-18,12 month,2024-03-06,tbc,tbc,tbc
@@ -318,19 +306,20 @@ RU-18,Creation,2023-02-04,tbc,tbc,tbc
 RU-18,6 month,2023-08-31,tbc,tbc,tbc
 RU-18,12 month,2024-03-12,tbc,tbc,tbc
 GC-69,Creation,2022-11-08,tbc,tbc,tbc
-YF-81,Creation,2022-12-17,tbc,tbc,tbc
-YF-81,6 month,2023-09-14,tbc,tbc,tbc
-YF-81,12 month,2024-03-12,tbc,tbc,tbc
-JF-05,Creation,2023-01-28,tbc,tbc,tbc
-CU-47,Creation,2022-12-28,tbc,tbc,tbc
-SZ-62,Creation,2023-01-02,tbc,tbc,tbc
-SZ-62,6 month,2023-08-25,tbc,tbc,tbc
-SZ-62,12 month,2024-03-04,tbc,tbc,tbc
-OS-87,Creation,2023-02-24,tbc,tbc,tbc
-OS-87,6 month,2023-08-26,tbc,tbc,tbc
-OS-87,12 month,2024-03-12,tbc,tbc,tbc
-HS-26,Creation,2022-11-29,tbc,tbc,tbc
-HS-26,6 month,2023-08-26,tbc,tbc,tbc
+YF-81,Creation,2023-02-15,tbc,tbc,tbc
+JW-46,Creation,2022-10-16,tbc,tbc,tbc
+LW-93,Creation,2022-11-27,tbc,tbc,tbc
+LW-93,6 month,2023-08-28,tbc,tbc,tbc
+LW-93,12 month,2024-03-22,tbc,tbc,tbc
+QY-95,Creation,2022-11-21,tbc,tbc,tbc
+TM-62,Creation,2022-11-28,tbc,tbc,tbc
+FX-46,Creation,2022-09-29,tbc,tbc,tbc
+OS-31,Creation,2022-11-29,tbc,tbc,tbc
+OS-31,6 month,2023-09-04,tbc,tbc,tbc
+OS-31,12 month,2024-03-20,tbc,tbc,tbc
+QG-83,Creation,2022-10-03,tbc,tbc,tbc
+QG-83,6 month,2023-08-25,tbc,tbc,tbc
+QG-83,12 month,2024-02-29,tbc,tbc,tbc
 GL-85,Creation,2022-09-26,tbc,tbc,tbc
 GL-85,6 month,2023-09-12,tbc,tbc,tbc
 GL-85,12 month,2024-03-11,tbc,tbc,tbc
@@ -339,29 +328,30 @@ FW-91,Creation,2022-12-21,tbc,tbc,tbc
 FW-91,6 month,2023-09-12,tbc,tbc,tbc
 FW-91,12 month,2024-03-02,tbc,tbc,tbc
 OU-99,Creation,2023-02-16,tbc,tbc,tbc
-ZQ-08,Creation,2022-10-08,tbc,tbc,tbc
-ZQ-08,6 month,2023-09-01,tbc,tbc,tbc
-HP-66,Creation,2022-12-21,tbc,tbc,tbc
-EH-70,Creation,2022-12-28,tbc,tbc,tbc
-EH-70,6 month,2023-08-29,tbc,tbc,tbc
-CU-26,Creation,2023-01-09,tbc,tbc,tbc
-CU-26,6 month,2023-09-10,tbc,tbc,tbc
-CU-26,12 month,2024-03-09,tbc,tbc,tbc
-RC-67,Creation,2022-10-05,tbc,tbc,tbc
-RC-67,6 month,2023-08-31,tbc,tbc,tbc
-RC-67,12 month,2024-03-25,tbc,tbc,tbc
-FM-15,Creation,2023-01-09,tbc,tbc,tbc
-FM-15,6 month,2023-08-25,tbc,tbc,tbc
-UV-11,Creation,2023-01-20,tbc,tbc,tbc
-UV-11,6 month,2023-08-20,tbc,tbc,tbc
-UV-11,12 month,2024-03-15,tbc,tbc,tbc
-SX-68,Creation,2023-01-30,tbc,tbc,tbc
-SX-68,6 month,2023-09-04,tbc,tbc,tbc
-SX-68,12 month,2024-03-01,tbc,tbc,tbc
-UE-52,Creation,2022-12-25,tbc,tbc,tbc
-UE-52,6 month,2023-09-10,tbc,tbc,tbc
-UE-52,12 month,2024-03-09,tbc,tbc,tbc
-RA-61,Creation,2022-10-23,tbc,tbc,tbc
+WG-93,Creation,2023-01-30,tbc,tbc,tbc
+WG-93,6 month,2023-08-27,tbc,tbc,tbc
+WG-93,12 month,2024-02-27,tbc,tbc,tbc
+TH-40,Creation,2023-02-25,tbc,tbc,tbc
+TH-40,6 month,2023-08-30,tbc,tbc,tbc
+TH-40,12 month,2024-03-17,tbc,tbc,tbc
+KX-58,Creation,2023-01-22,tbc,tbc,tbc
+KX-58,6 month,2023-08-21,tbc,tbc,tbc
+KX-58,12 month,2024-03-17,tbc,tbc,tbc
+KM-05,Creation,2023-02-05,tbc,tbc,tbc
+KM-05,6 month,2023-08-21,tbc,tbc,tbc
+KM-05,12 month,2024-03-14,tbc,tbc,tbc
+QD-64,Creation,2023-01-09,tbc,tbc,tbc
+QD-64,6 month,2023-09-10,tbc,tbc,tbc
+QD-64,12 month,2024-03-09,tbc,tbc,tbc
+KE-79,Creation,2022-11-16,tbc,tbc,tbc
+KE-79,6 month,2023-09-11,tbc,tbc,tbc
+KE-79,12 month,2024-02-27,tbc,tbc,tbc
+AU-81,Creation,2022-12-25,tbc,tbc,tbc
+AU-81,6 month,2023-09-01,tbc,tbc,tbc
+MR-26,Creation,2023-02-08,tbc,tbc,tbc
+RF-04,Creation,2023-01-12,tbc,tbc,tbc
+RF-04,6 month,2023-08-27,tbc,tbc,tbc
+RF-04,12 month,2024-03-13,tbc,tbc,tbc
 RN-61,Creation,2023-02-13,tbc,tbc,tbc
 RN-61,6 month,2023-09-06,tbc,tbc,tbc
 RN-61,12 month,2024-02-27,tbc,tbc,tbc
@@ -373,72 +363,81 @@ UK-24,Creation,2022-12-13,tbc,tbc,tbc
 KU-87,Creation,2023-01-09,tbc,tbc,tbc
 KU-87,6 month,2023-08-22,tbc,tbc,tbc
 KU-87,12 month,2024-03-17,tbc,tbc,tbc
-SC-77,Creation,2022-10-19,tbc,tbc,tbc
-SC-77,6 month,2023-08-29,tbc,tbc,tbc
-SC-77,12 month,2024-03-16,tbc,tbc,tbc
-TM-61,Creation,2022-10-19,tbc,tbc,tbc
-KJ-27,Creation,2022-11-02,tbc,tbc,tbc
-KJ-27,6 month,2023-09-11,tbc,tbc,tbc
-CP-23,Creation,2023-01-31,tbc,tbc,tbc
-CP-23,6 month,2023-09-01,tbc,tbc,tbc
-CP-23,12 month,2024-02-29,tbc,tbc,tbc
-JM-64,Creation,2023-02-03,tbc,tbc,tbc
-JM-64,6 month,2023-08-22,tbc,tbc,tbc
-UK-95,Creation,2022-12-07,tbc,tbc,tbc
-UK-95,6 month,2023-09-09,tbc,tbc,tbc
-UK-95,12 month,2024-02-26,tbc,tbc,tbc
+SC-77,Creation,2022-11-06,tbc,tbc,tbc
+SC-77,6 month,2023-09-03,tbc,tbc,tbc
+SC-77,12 month,2024-03-18,tbc,tbc,tbc
+MR-56,Creation,2023-02-05,tbc,tbc,tbc
+MR-56,6 month,2023-08-25,tbc,tbc,tbc
+AK-61,Creation,2023-01-28,tbc,tbc,tbc
+AK-61,6 month,2023-08-18,tbc,tbc,tbc
+AK-61,12 month,2024-03-13,tbc,tbc,tbc
+NF-65,Creation,2022-09-29,tbc,tbc,tbc
+NF-65,6 month,2023-08-28,tbc,tbc,tbc
+NF-65,12 month,2024-02-28,tbc,tbc,tbc
+BN-49,Creation,2023-01-02,tbc,tbc,tbc
+HE-41,Creation,2023-02-03,tbc,tbc,tbc
+HE-41,6 month,2023-08-19,tbc,tbc,tbc
+HE-41,12 month,2024-03-21,tbc,tbc,tbc
 FO-29,Creation,2023-01-08,tbc,tbc,tbc
 FO-29,6 month,2023-08-31,tbc,tbc,tbc
 FO-29,12 month,2024-03-02,tbc,tbc,tbc
-HN-72,Creation,2023-01-17,tbc,tbc,tbc
-OF-21,Creation,2022-12-06,tbc,tbc,tbc
-OF-21,6 month,2023-09-02,tbc,tbc,tbc
-PS-98,Creation,2023-02-05,tbc,tbc,tbc
-PS-98,6 month,2023-09-04,tbc,tbc,tbc
-PS-98,12 month,2024-03-14,tbc,tbc,tbc
-KA-15,Creation,2023-02-08,tbc,tbc,tbc
-SG-96,Creation,2022-12-11,tbc,tbc,tbc
-VN-72,Creation,2023-02-14,tbc,tbc,tbc
-VN-72,6 month,2023-09-09,tbc,tbc,tbc
-VN-72,12 month,2024-02-28,tbc,tbc,tbc
+RG-24,Creation,2022-11-12,tbc,tbc,tbc
+HY-76,Creation,2022-12-10,tbc,tbc,tbc
+HY-76,6 month,2023-08-30,tbc,tbc,tbc
+HY-76,12 month,2024-03-23,tbc,tbc,tbc
+JA-03,Creation,2022-10-30,tbc,tbc,tbc
 DT-11,Creation,2023-02-21,tbc,tbc,tbc
 DT-11,6 month,2023-08-22,tbc,tbc,tbc
 YS-75,Creation,2022-11-09,tbc,tbc,tbc
 YS-75,6 month,2023-09-02,tbc,tbc,tbc
 YS-75,12 month,2024-02-29,tbc,tbc,tbc
 JP-45,Creation,2023-02-20,tbc,tbc,tbc
-FB-17,Creation,2022-12-12,tbc,tbc,tbc
-GA-17,Creation,2023-02-11,tbc,tbc,tbc
-AZ-97,Creation,2022-10-04,tbc,tbc,tbc
-AZ-97,6 month,2023-08-15,tbc,tbc,tbc
-AV-32,Creation,2023-02-10,tbc,tbc,tbc
-AV-32,6 month,2023-09-11,tbc,tbc,tbc
-AV-32,12 month,2024-03-15,tbc,tbc,tbc
-ML-70,Creation,2022-11-25,tbc,tbc,tbc
-ML-70,6 month,2023-08-30,tbc,tbc,tbc
-ML-70,12 month,2024-03-10,tbc,tbc,tbc
-EG-25,Creation,2023-01-12,tbc,tbc,tbc
-EG-25,6 month,2023-08-24,tbc,tbc,tbc
-EG-25,12 month,2024-03-22,tbc,tbc,tbc
-QP-59,Creation,2022-11-27,tbc,tbc,tbc
-QP-59,6 month,2023-08-29,tbc,tbc,tbc
-QP-59,12 month,2024-03-06,tbc,tbc,tbc
-PT-10,Creation,2023-01-21,tbc,tbc,tbc
-PT-10,6 month,2023-08-29,tbc,tbc,tbc
-PT-10,12 month,2024-02-28,tbc,tbc,tbc
-XS-58,Creation,2023-01-23,tbc,tbc,tbc
-XS-58,6 month,2023-08-27,tbc,tbc,tbc
-XS-58,12 month,2024-03-19,tbc,tbc,tbc
-QI-63,Creation,2022-12-25,tbc,tbc,tbc
-QI-63,6 month,2023-08-29,tbc,tbc,tbc
-NI-04,Creation,2022-12-21,tbc,tbc,tbc
-NI-04,6 month,2023-09-05,tbc,tbc,tbc
-NI-04,12 month,2024-03-16,tbc,tbc,tbc
-UG-44,Creation,2022-11-11,tbc,tbc,tbc
-KC-09,Creation,2022-10-05,tbc,tbc,tbc
-ZA-86,Creation,2022-10-26,tbc,tbc,tbc
-ZA-86,6 month,2023-08-29,tbc,tbc,tbc
-ZA-86,12 month,2024-03-19,tbc,tbc,tbc
-GN-14,Creation,2023-01-10,tbc,tbc,tbc
-XC-62,Creation,2022-10-23,tbc,tbc,tbc
-XC-62,6 month,2023-08-22,tbc,tbc,tbc
+FB-17,Creation,2022-10-18,tbc,tbc,tbc
+FB-17,6 month,2023-09-02,tbc,tbc,tbc
+FB-17,12 month,2024-03-17,tbc,tbc,tbc
+JV-24,Creation,2023-02-15,tbc,tbc,tbc
+JV-24,6 month,2023-09-02,tbc,tbc,tbc
+FC-67,Creation,2023-01-20,tbc,tbc,tbc
+IQ-29,Creation,2022-11-02,tbc,tbc,tbc
+IQ-29,6 month,2023-08-30,tbc,tbc,tbc
+IQ-29,12 month,2024-03-14,tbc,tbc,tbc
+YF-85,Creation,2023-01-17,tbc,tbc,tbc
+YF-85,6 month,2023-08-27,tbc,tbc,tbc
+YF-85,12 month,2024-03-05,tbc,tbc,tbc
+RW-24,Creation,2023-02-14,tbc,tbc,tbc
+RW-24,6 month,2023-08-24,tbc,tbc,tbc
+RW-24,12 month,2024-03-07,tbc,tbc,tbc
+QQ-89,Creation,2022-10-10,tbc,tbc,tbc
+QQ-89,6 month,2023-09-11,tbc,tbc,tbc
+AE-46,Creation,2022-09-26,tbc,tbc,tbc
+JX-93,Creation,2022-10-01,tbc,tbc,tbc
+JX-93,6 month,2023-09-11,tbc,tbc,tbc
+WA-38,Creation,2023-01-27,tbc,tbc,tbc
+WA-38,6 month,2023-08-22,tbc,tbc,tbc
+WA-38,12 month,2024-03-15,tbc,tbc,tbc
+SX-25,Creation,2023-01-08,tbc,tbc,tbc
+SX-25,6 month,2023-08-21,tbc,tbc,tbc
+SX-25,12 month,2024-03-17,tbc,tbc,tbc
+TY-44,Creation,2022-12-01,tbc,tbc,tbc
+TY-44,6 month,2023-08-23,tbc,tbc,tbc
+TY-44,12 month,2024-03-07,tbc,tbc,tbc
+HB-08,Creation,2022-10-17,tbc,tbc,tbc
+HB-08,6 month,2023-08-23,tbc,tbc,tbc
+HB-08,12 month,2024-03-11,tbc,tbc,tbc
+OU-75,Creation,2022-12-25,tbc,tbc,tbc
+OU-75,6 month,2023-08-22,tbc,tbc,tbc
+OU-75,12 month,2024-03-07,tbc,tbc,tbc
+UG-66,Creation,2023-02-04,tbc,tbc,tbc
+UE-62,Creation,2022-12-20,tbc,tbc,tbc
+UE-62,6 month,2023-08-31,tbc,tbc,tbc
+UE-62,12 month,2024-03-11,tbc,tbc,tbc
+ID-19,Creation,2023-02-16,tbc,tbc,tbc
+ID-19,6 month,2023-08-15,tbc,tbc,tbc
+VN-42,Creation,2023-02-04,tbc,tbc,tbc
+TM-45,Creation,2022-12-10,tbc,tbc,tbc
+TM-45,6 month,2023-09-12,tbc,tbc,tbc
+TM-45,12 month,2024-02-27,tbc,tbc,tbc
+IP-44,Creation,2022-11-20,tbc,tbc,tbc
+IP-44,6 month,2023-08-24,tbc,tbc,tbc
+IP-44,12 month,2024-02-26,tbc,tbc,tbc
+IN-38,Creation,2022-12-08,tbc,tbc,tbc
