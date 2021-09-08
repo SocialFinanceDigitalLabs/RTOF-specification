@@ -1,62 +1,55 @@
 unique_id,employment_entry_outcome_type,date_employment_entry,primary_employment_entry_status,secondary_employment_entry_status,hours_of_employment_entry,wage_employment_entry,eduction_training_status_entry,employment_entry_occupation,employment_entry_sector
 DP-14,Self-employment,2023-01-10,SE,,31 to 48 hours,tbc,formal education,arrive,his
 ID-43,Employment,2023-01-02,CIH,,Don't know,tbc,Not in formal education,affect,toward
-ES-97,Employment,2022-11-17,ZHC,TC,16 to 30 hours,tbc,formal education,term,focus
+ES-97,Self-employment,2022-11-01,SE,,8 to 15 hours,tbc,Not in formal education,avoid,age
 ET-57,Self-employment,2022-12-24,Other,,0 to 7 hours,tbc,Not in formal education,pattern,scene
-UA-34,Employment,2022-11-08,SE,CIH,8 to 15 hours,tbc,formal education,particularly,white
-YE-22,Self-employment,2022-11-01,Other,ZHC,16 to 30 hours,tbc,formal education,point,pull
+UA-34,Self-employment,2022-12-31,PC,,8 to 15 hours,tbc,formal education,eat,maintain
+GM-94,Employment,2023-01-12,ZHC,,31 to 48 hours,tbc,formal education,animal,successful
 IZ-47,Employment,2023-01-22,Other,,49 or more hours,tbc,Not in formal education,support,toward
 TW-26,Employment,2022-12-28,TC,SE,Don't know,tbc,formal education,newspaper,quite
-KD-77,Employment,2022-12-09,Other,,0 to 7 hours,tbc,formal education,start,respond
-IZ-58,Employment,2022-10-03,PC,,0 to 7 hours,tbc,formal education,against,forget
+KD-77,Self-employment,2022-10-20,ZHC,,Don't know,tbc,Not in formal education,clearly,particularly
+AR-49,Employment,2023-01-28,TC,TC,8 to 15 hours,tbc,Not in formal education,still,situation
+OM-40,Employment,2023-02-08,PC,,0 to 7 hours,tbc,formal education,against,forget
 GD-43,Employment,2023-01-23,SE,,31 to 48 hours,tbc,Not in formal education,my,thousand
 VX-79,Self-employment,2022-12-08,TC,TC,49 or more hours,tbc,Not in formal education,pretty,firm
 KT-87,Employment,2023-01-06,ZHC,CIH,Don't know,tbc,Not in formal education,work,then
 FC-22,Self-employment,2022-12-02,Other,,49 or more hours,tbc,formal education,reason,future
-OE-36,Employment,2022-11-21,PC,,0 to 7 hours,tbc,Not in formal education,visit,important
-EK-78,Self-employment,2022-11-21,CIH,,16 to 30 hours,tbc,Not in formal education,see,big
-EA-59,Self-employment,2023-01-09,CIH,TC,Don't know,tbc,formal education,ready,about
-VM-58,Employment,2022-10-06,TC,TC,8 to 15 hours,tbc,Not in formal education,center,task
-GH-75,Self-employment,2023-02-01,ZHC,PC,31 to 48 hours,tbc,Not in formal education,thought,Mr
-AQ-38,Employment,2023-01-14,TC,CIH,0 to 7 hours,tbc,formal education,law,continue
-HC-16,Self-employment,2022-12-16,TC,SE,16 to 30 hours,tbc,Not in formal education,computer,forget
-HE-71,Self-employment,2022-10-08,ZHC,,Don't know,tbc,Not in formal education,avoid,form
-RJ-04,Employment,2022-12-26,PC,TC,49 or more hours,tbc,formal education,claim,despite
-ZU-16,Employment,2023-02-17,Other,PC,49 or more hours,tbc,Not in formal education,apply,goal
-ZU-71,Employment,2023-01-24,SE,,8 to 15 hours,tbc,formal education,fact,fund
-BC-26,Employment,2023-02-09,SE,,16 to 30 hours,tbc,Not in formal education,onto,see
-DV-34,Self-employment,2022-10-13,TC,,Don't know,tbc,Not in formal education,small,instead
-IC-98,Self-employment,2022-12-04,ZHC,PC,0 to 7 hours,tbc,formal education,including,simple
-GK-83,Self-employment,2022-10-08,ZHC,SE,0 to 7 hours,tbc,Not in formal education,call,across
-DK-71,Employment,2022-12-10,TC,PC,31 to 48 hours,tbc,formal education,market,program
-DS-75,Employment,2022-10-15,SE,,Don't know,tbc,formal education,summer,financial
-PG-97,Employment,2022-10-21,TC,PC,Don't know,tbc,Not in formal education,house,early
-FZ-44,Self-employment,2022-09-28,SE,PC,Don't know,tbc,formal education,analysis,dark
-GX-52,Self-employment,2022-11-04,Other,,0 to 7 hours,tbc,Not in formal education,his,author
-WW-68,Employment,2022-12-18,ZHC,,49 or more hours,tbc,formal education,carry,management
-UI-12,Self-employment,2022-10-29,ZHC,,49 or more hours,tbc,Not in formal education,free,religious
-KK-53,Self-employment,2023-02-01,ZHC,CIH,8 to 15 hours,tbc,formal education,out,group
+OE-36,Self-employment,2023-01-18,SE,PC,Don't know,tbc,Not in formal education,visit,important
+QW-79,Self-employment,2022-11-17,SE,Other,16 to 30 hours,tbc,Not in formal education,reflect,reveal
+EF-58,Employment,2023-02-18,PC,Other,49 or more hours,tbc,formal education,however,item
+TL-87,Self-employment,2023-01-04,PC,PC,31 to 48 hours,tbc,Not in formal education,report,data
+EC-03,Employment,2023-02-21,ZHC,,49 or more hours,tbc,formal education,forget,show
+RL-37,Employment,2023-02-12,ZHC,,Don't know,tbc,formal education,large,score
+EO-17,Employment,2023-02-09,CIH,,0 to 7 hours,tbc,Not in formal education,drug,rise
+FT-80,Self-employment,2022-11-10,CIH,,0 to 7 hours,tbc,formal education,something,learn
+YT-86,Self-employment,2022-10-14,Other,CIH,49 or more hours,tbc,Not in formal education,rich,president
+YZ-64,Self-employment,2022-12-31,Other,TC,0 to 7 hours,tbc,formal education,four,throw
+IQ-22,Employment,2022-10-25,ZHC,SE,8 to 15 hours,tbc,Not in formal education,run,give
+PB-30,Self-employment,2022-11-21,SE,CIH,Don't know,tbc,formal education,Democrat,hand
+ZA-81,Self-employment,2023-02-13,CIH,Other,16 to 30 hours,tbc,Not in formal education,main,matter
+CD-47,Employment,2022-11-21,PC,CIH,0 to 7 hours,tbc,formal education,behind,difficult
+MU-37,Self-employment,2022-10-25,PC,,0 to 7 hours,tbc,formal education,institution,what
+PI-08,Employment,2023-02-09,ZHC,,16 to 30 hours,tbc,Not in formal education,value,itself
+WM-03,Self-employment,2022-12-11,CIH,SE,31 to 48 hours,tbc,Not in formal education,then,reason
+IG-23,Employment,2023-02-23,TC,TC,0 to 7 hours,tbc,formal education,establish,share
+TB-53,Self-employment,2023-02-01,ZHC,CIH,8 to 15 hours,tbc,formal education,out,group
 LN-08,Employment,2023-01-21,CIH,ZHC,49 or more hours,tbc,Not in formal education,level,usually
-YO-19,Employment,2023-02-24,TC,,0 to 7 hours,tbc,Not in formal education,happen,specific
-TL-86,Employment,2022-11-09,PC,,31 to 48 hours,tbc,formal education,worry,two
-KE-06,Self-employment,2022-10-21,SE,,Don't know,tbc,Not in formal education,bar,article
-HT-57,Self-employment,2022-12-23,Other,,16 to 30 hours,tbc,formal education,general,drop
-YC-14,Employment,2022-10-27,ZHC,SE,31 to 48 hours,tbc,Not in formal education,manage,international
-BX-02,Self-employment,2023-02-22,PC,,16 to 30 hours,tbc,formal education,pull,base
-GS-96,Self-employment,2023-01-09,SE,PC,8 to 15 hours,tbc,Not in formal education,wrong,again
-BJ-06,Self-employment,2023-02-02,Other,,16 to 30 hours,tbc,Not in formal education,well,sell
-CU-12,Self-employment,2022-10-01,Other,,49 or more hours,tbc,formal education,thing,prove
+YO-19,Self-employment,2022-10-14,SE,PC,0 to 7 hours,tbc,Not in formal education,happen,specific
+TL-86,Self-employment,2022-11-30,CIH,ZHC,16 to 30 hours,tbc,Not in formal education,star,standard
+HA-44,Self-employment,2023-01-14,TC,Other,16 to 30 hours,tbc,Not in formal education,must,finally
+YG-20,Employment,2023-01-24,PC,TC,Don't know,tbc,formal education,design,road
+MS-63,Self-employment,2023-02-21,Other,,8 to 15 hours,tbc,Not in formal education,third,part
+YW-31,Employment,2022-10-04,Other,,Don't know,tbc,Not in formal education,sometimes,tax
+QI-91,Self-employment,2022-10-01,Other,,49 or more hours,tbc,formal education,thing,prove
 DK-83,Employment,2022-11-10,SE,ZHC,0 to 7 hours,tbc,formal education,PM,give
 FI-18,Employment,2023-02-03,Other,,Don't know,tbc,formal education,with,box
 MJ-89,Employment,2022-10-20,CIH,PC,49 or more hours,tbc,Not in formal education,range,political
-YV-45,Self-employment,2022-10-26,PC,Other,8 to 15 hours,tbc,formal education,during,upon
-SL-98,Employment,2023-02-20,ZHC,,0 to 7 hours,tbc,formal education,less,others
-CG-71,Self-employment,2022-12-15,ZHC,,Don't know,tbc,formal education,source,style
-EP-17,Employment,2022-12-07,ZHC,,49 or more hours,tbc,formal education,government,most
-HR-86,Employment,2022-11-19,TC,CIH,Don't know,tbc,formal education,help,sing
-DB-16,Employment,2022-12-10,SE,,49 or more hours,tbc,formal education,power,late
-KS-62,Employment,2023-02-12,TC,TC,0 to 7 hours,tbc,formal education,go,sign
-KG-32,Employment,2022-12-14,TC,,0 to 7 hours,tbc,Not in formal education,consider,particularly
+YV-45,Employment,2022-10-19,TC,Other,Don't know,tbc,formal education,young,already
+HJ-58,Self-employment,2022-12-30,CIH,,31 to 48 hours,tbc,formal education,design,study
+XF-08,Self-employment,2022-10-09,CIH,CIH,16 to 30 hours,tbc,formal education,some,field
+EA-23,Employment,2023-01-10,Other,,8 to 15 hours,tbc,Not in formal education,common,difference
+YB-13,Employment,2023-01-01,PC,PC,0 to 7 hours,tbc,formal education,remember,need
+FB-74,Employment,2022-12-30,Other,,31 to 48 hours,tbc,Not in formal education,situation,shake
 TH-52,Employment,2022-12-07,Other,,49 or more hours,tbc,formal education,TV,type
 VK-97,Employment,2022-12-11,CIH,ZHC,31 to 48 hours,tbc,Not in formal education,key,particularly
 VX-97,Self-employment,2022-11-18,Other,CIH,Don't know,tbc,Not in formal education,yet,her
@@ -67,24 +60,22 @@ CR-55,Employment,2022-12-25,SE,,31 to 48 hours,tbc,formal education,culture,trad
 HI-99,Self-employment,2023-01-08,Other,PC,Don't know,tbc,formal education,worry,day
 OB-62,Employment,2022-12-06,CIH,,49 or more hours,tbc,formal education,here,summer
 SE-22,Employment,2022-12-03,TC,,49 or more hours,tbc,Not in formal education,ready,million
-MB-76,Self-employment,2023-01-30,SE,,16 to 30 hours,tbc,formal education,network,short
-IR-51,Employment,2023-01-28,Other,,49 or more hours,tbc,Not in formal education,treatment,first
-GT-42,Self-employment,2022-10-29,PC,,16 to 30 hours,tbc,formal education,natural,training
-LW-71,Employment,2022-11-08,ZHC,PC,49 or more hours,tbc,Not in formal education,difference,popular
-AP-34,Employment,2023-01-20,SE,TC,31 to 48 hours,tbc,formal education,test,generation
-DJ-88,Employment,2022-10-29,PC,,49 or more hours,tbc,Not in formal education,stay,gun
-AJ-97,Self-employment,2022-10-04,TC,SE,16 to 30 hours,tbc,Not in formal education,case,data
-RE-98,Employment,2022-09-30,CIH,Other,49 or more hours,tbc,formal education,black,international
-IK-90,Employment,2023-02-06,ZHC,,Don't know,tbc,formal education,draw,green
-NJ-00,Employment,2022-11-02,TC,TC,31 to 48 hours,tbc,formal education,between,field
-MC-95,Self-employment,2022-11-20,Other,CIH,0 to 7 hours,tbc,Not in formal education,manager,whether
-WW-83,Employment,2022-11-21,SE,CIH,8 to 15 hours,tbc,formal education,son,early
-BA-71,Employment,2023-01-27,Other,,Don't know,tbc,formal education,later,kid
-AD-57,Employment,2022-10-02,SE,,0 to 7 hours,tbc,Not in formal education,tree,law
-NE-21,Employment,2022-12-09,TC,,0 to 7 hours,tbc,Not in formal education,reflect,easy
-PN-53,Self-employment,2023-01-22,SE,,49 or more hours,tbc,formal education,beyond,across
-NJ-88,Self-employment,2022-11-22,ZHC,,49 or more hours,tbc,Not in formal education,research,hundred
-PN-59,Self-employment,2023-02-15,TC,,Don't know,tbc,Not in formal education,keep,set
+OO-56,Self-employment,2022-10-22,TC,CIH,0 to 7 hours,tbc,formal education,statement,hundred
+ZA-60,Self-employment,2022-12-15,Other,,49 or more hours,tbc,formal education,senior,visit
+AN-01,Employment,2023-02-03,TC,,0 to 7 hours,tbc,formal education,believe,natural
+RW-53,Employment,2022-12-29,Other,CIH,0 to 7 hours,tbc,Not in formal education,research,mother
+QE-05,Self-employment,2023-01-14,Other,SE,8 to 15 hours,tbc,Not in formal education,card,suffer
+VY-50,Employment,2023-01-25,PC,,16 to 30 hours,tbc,Not in formal education,available,per
+ZF-54,Self-employment,2023-01-01,PC,,Don't know,tbc,Not in formal education,cell,employee
+DF-22,Employment,2023-02-02,CIH,Other,8 to 15 hours,tbc,formal education,lawyer,only
+CH-54,Self-employment,2022-10-05,CIH,,Don't know,tbc,formal education,wind,approach
+LW-59,Self-employment,2022-10-09,PC,Other,0 to 7 hours,tbc,Not in formal education,whether,trouble
+FX-33,Employment,2022-12-14,SE,PC,16 to 30 hours,tbc,Not in formal education,movie,benefit
+DX-05,Self-employment,2022-11-20,TC,Other,Don't know,tbc,Not in formal education,arm,number
+IE-81,Self-employment,2022-12-12,ZHC,TC,31 to 48 hours,tbc,formal education,seat,growth
+WU-50,Employment,2023-01-14,CIH,SE,31 to 48 hours,tbc,formal education,happen,protect
+GY-60,Self-employment,2022-12-04,SE,ZHC,31 to 48 hours,tbc,formal education,sometimes,response
+RU-19,Self-employment,2023-02-15,TC,,Don't know,tbc,Not in formal education,keep,set
 CY-93,Employment,2022-10-11,CIH,,16 to 30 hours,tbc,formal education,but,land
 QQ-80,Self-employment,2022-11-30,Other,,16 to 30 hours,tbc,Not in formal education,subject,source
 JC-06,Employment,2022-12-22,SE,Other,16 to 30 hours,tbc,Not in formal education,appear,month
@@ -95,90 +86,94 @@ YG-49,Employment,2022-10-31,ZHC,PC,8 to 15 hours,tbc,formal education,reality,wa
 PY-98,Employment,2023-01-16,TC,,31 to 48 hours,tbc,Not in formal education,drive,concern
 DN-48,Employment,2022-11-17,CIH,ZHC,31 to 48 hours,tbc,Not in formal education,company,by
 HZ-60,Self-employment,2022-11-09,TC,,8 to 15 hours,tbc,Not in formal education,of,herself
-GR-64,Employment,2022-10-29,SE,,31 to 48 hours,tbc,Not in formal education,resource,air
-FI-07,Employment,2023-01-13,Other,PC,Don't know,tbc,Not in formal education,artist,east
-JE-25,Self-employment,2022-11-26,PC,,8 to 15 hours,tbc,Not in formal education,or,couple
-HC-50,Self-employment,2023-02-13,PC,,31 to 48 hours,tbc,Not in formal education,course,buy
-MA-30,Self-employment,2023-02-25,ZHC,,31 to 48 hours,tbc,Not in formal education,line,maintain
-MN-16,Employment,2023-01-14,SE,,16 to 30 hours,tbc,formal education,management,music
-XR-21,Self-employment,2022-11-25,TC,,49 or more hours,tbc,formal education,low,reason
-HS-40,Self-employment,2023-01-07,TC,,31 to 48 hours,tbc,Not in formal education,country,art
-SK-15,Employment,2022-11-25,CIH,,49 or more hours,tbc,formal education,along,hot
-AE-63,Self-employment,2022-10-17,CIH,CIH,31 to 48 hours,tbc,Not in formal education,kind,mind
-JK-30,Self-employment,2022-11-02,ZHC,,31 to 48 hours,tbc,Not in formal education,me,might
-BP-09,Self-employment,2023-01-27,PC,TC,8 to 15 hours,tbc,formal education,against,already
-OZ-71,Self-employment,2023-01-03,Other,TC,Don't know,tbc,Not in formal education,change,area
-NZ-69,Employment,2023-02-15,SE,,8 to 15 hours,tbc,formal education,peace,game
-JM-72,Employment,2022-10-22,CIH,,49 or more hours,tbc,Not in formal education,discussion,serious
-EE-59,Self-employment,2023-01-15,Other,,0 to 7 hours,tbc,formal education,up,product
-NZ-41,Self-employment,2023-02-24,ZHC,Other,Don't know,tbc,formal education,couple,probably
-RC-32,Employment,2022-11-28,SE,,31 to 48 hours,tbc,formal education,three,avoid
-TG-25,Self-employment,2022-11-27,SE,TC,31 to 48 hours,tbc,formal education,prove,me
-XF-86,Employment,2022-10-25,PC,,8 to 15 hours,tbc,Not in formal education,her,member
-HN-52,Employment,2022-11-28,PC,,0 to 7 hours,tbc,formal education,information,charge
-ZD-31,Employment,2023-01-13,PC,SE,49 or more hours,tbc,Not in formal education,interest,head
-DI-10,Self-employment,2022-12-17,TC,,0 to 7 hours,tbc,formal education,then,before
-OO-83,Self-employment,2022-11-10,SE,,Don't know,tbc,formal education,fast,partner
-RG-61,Self-employment,2022-12-24,TC,,Don't know,tbc,Not in formal education,want,prove
-HU-53,Employment,2023-01-05,ZHC,SE,0 to 7 hours,tbc,formal education,within,hit
+FW-94,Self-employment,2023-01-26,PC,,31 to 48 hours,tbc,formal education,remember,hot
+CT-25,Self-employment,2023-02-10,Other,SE,Don't know,tbc,formal education,ten,late
+GN-00,Employment,2023-01-29,SE,,8 to 15 hours,tbc,formal education,marriage,option
+SW-57,Employment,2022-10-26,PC,,49 or more hours,tbc,formal education,pick,meeting
+YK-38,Self-employment,2022-10-11,PC,,49 or more hours,tbc,Not in formal education,foreign,point
+FY-13,Employment,2023-02-14,SE,ZHC,31 to 48 hours,tbc,Not in formal education,few,your
+MT-22,Employment,2023-01-03,CIH,PC,Don't know,tbc,Not in formal education,something,daughter
+XR-21,Self-employment,2022-12-02,TC,,16 to 30 hours,tbc,Not in formal education,hundred,against
+RV-13,Self-employment,2023-01-06,Other,PC,8 to 15 hours,tbc,Not in formal education,visit,eye
+LB-72,Employment,2022-12-03,CIH,,31 to 48 hours,tbc,Not in formal education,among,society
+DB-33,Employment,2022-12-22,TC,PC,31 to 48 hours,tbc,Not in formal education,source,soldier
+HH-76,Self-employment,2022-12-20,CIH,SE,Don't know,tbc,formal education,use,job
+UD-66,Employment,2023-02-06,PC,CIH,31 to 48 hours,tbc,formal education,because,agree
+SQ-15,Self-employment,2023-02-14,ZHC,SE,16 to 30 hours,tbc,Not in formal education,save,player
+ZE-67,Self-employment,2023-01-23,PC,CIH,16 to 30 hours,tbc,Not in formal education,range,detail
+FV-98,Self-employment,2022-10-18,SE,CIH,16 to 30 hours,tbc,formal education,house,cup
+QO-31,Self-employment,2023-02-19,SE,SE,Don't know,tbc,Not in formal education,upon,film
+US-68,Self-employment,2022-11-20,Other,,49 or more hours,tbc,Not in formal education,film,door
+KR-16,Self-employment,2022-10-01,SE,CIH,31 to 48 hours,tbc,Not in formal education,either,reason
+PP-64,Employment,2022-11-28,PC,,0 to 7 hours,tbc,formal education,information,charge
+ZD-31,Employment,2022-12-31,Other,,49 or more hours,tbc,formal education,power,minute
+TK-92,Employment,2023-01-30,CIH,PC,0 to 7 hours,tbc,Not in formal education,deal,agent
+OW-77,Employment,2022-11-14,CIH,TC,Don't know,tbc,Not in formal education,water,effect
+HE-93,Self-employment,2022-11-05,TC,Other,8 to 15 hours,tbc,formal education,matter,pick
+FQ-50,Employment,2022-11-10,ZHC,ZHC,49 or more hours,tbc,formal education,what,generation
+AC-13,Employment,2023-01-01,PC,,49 or more hours,tbc,formal education,red,little
+LW-19,Self-employment,2022-11-06,Other,,16 to 30 hours,tbc,formal education,night,father
+OL-79,Employment,2023-01-05,ZHC,SE,0 to 7 hours,tbc,formal education,within,hit
 KO-30,Self-employment,2022-11-11,CIH,CIH,Don't know,tbc,formal education,item,with
 DK-77,Employment,2023-02-09,CIH,TC,49 or more hours,tbc,Not in formal education,itself,thank
 UP-76,Self-employment,2022-10-19,Other,,0 to 7 hours,tbc,formal education,end,executive
 IH-50,Self-employment,2022-10-18,SE,SE,49 or more hours,tbc,formal education,mean,culture
 HU-41,Self-employment,2023-02-15,TC,Other,0 to 7 hours,tbc,formal education,social,be
-LF-90,Employment,2022-10-11,TC,,8 to 15 hours,tbc,formal education,enough,none
-HL-64,Self-employment,2023-02-23,ZHC,,49 or more hours,tbc,Not in formal education,yard,instead
-RB-77,Self-employment,2023-02-09,SE,ZHC,16 to 30 hours,tbc,Not in formal education,organization,final
-KS-83,Employment,2022-11-25,Other,SE,16 to 30 hours,tbc,Not in formal education,improve,whatever
-WO-96,Employment,2023-01-14,CIH,PC,8 to 15 hours,tbc,formal education,financial,new
-HV-52,Self-employment,2022-10-28,CIH,,Don't know,tbc,formal education,already,same
-ZJ-94,Self-employment,2022-12-25,TC,,8 to 15 hours,tbc,Not in formal education,fill,somebody
-TV-09,Employment,2022-12-06,TC,,0 to 7 hours,tbc,Not in formal education,smile,yard
-YZ-06,Employment,2022-11-11,TC,,49 or more hours,tbc,formal education,decade,fear
-SP-71,Employment,2022-12-31,CIH,,0 to 7 hours,tbc,Not in formal education,station,later
-GL-85,Employment,2022-12-25,ZHC,,49 or more hours,tbc,formal education,physical,scene
-TR-45,Employment,2022-11-30,SE,TC,16 to 30 hours,tbc,formal education,happen,author
-TS-69,Self-employment,2022-12-30,ZHC,TC,16 to 30 hours,tbc,formal education,plan,give
-SW-55,Self-employment,2023-01-26,ZHC,ZHC,49 or more hours,tbc,Not in formal education,south,ten
-EN-33,Self-employment,2022-12-16,CIH,,31 to 48 hours,tbc,formal education,produce,impact
-TH-40,Self-employment,2022-10-17,TC,Other,Don't know,tbc,formal education,issue,situation
+TI-19,Self-employment,2022-12-22,ZHC,,Don't know,tbc,formal education,experience,sell
+VO-63,Employment,2022-12-16,ZHC,,16 to 30 hours,tbc,formal education,beautiful,order
+BZ-74,Employment,2023-02-24,Other,PC,Don't know,tbc,formal education,total,gun
+IE-59,Employment,2022-11-08,PC,,Don't know,tbc,formal education,ready,so
+LQ-79,Self-employment,2022-09-30,ZHC,,31 to 48 hours,tbc,formal education,clearly,worker
+RY-18,Self-employment,2022-10-02,PC,,31 to 48 hours,tbc,formal education,out,that
+TS-86,Employment,2023-01-05,TC,SE,16 to 30 hours,tbc,Not in formal education,fill,rich
+OW-42,Self-employment,2022-11-29,SE,,Don't know,tbc,Not in formal education,report,she
+AE-37,Self-employment,2023-01-02,PC,,16 to 30 hours,tbc,Not in formal education,behavior,but
+DP-07,Self-employment,2023-01-18,ZHC,,16 to 30 hours,tbc,Not in formal education,author,then
+MH-87,Employment,2022-10-11,CIH,SE,0 to 7 hours,tbc,formal education,low,piece
+FW-91,Employment,2022-10-17,PC,,49 or more hours,tbc,formal education,coach,I
+IX-89,Employment,2023-02-21,CIH,,0 to 7 hours,tbc,Not in formal education,carry,road
+DJ-85,Employment,2022-12-24,SE,,16 to 30 hours,tbc,Not in formal education,score,step
+BZ-65,Self-employment,2022-12-27,TC,PC,0 to 7 hours,tbc,formal education,whether,traditional
 KM-05,Employment,2022-10-13,SE,SE,0 to 7 hours,tbc,Not in formal education,goal,practice
 CU-26,Employment,2023-02-17,Other,CIH,8 to 15 hours,tbc,Not in formal education,ten,range
-RC-67,Self-employment,2022-11-24,PC,ZHC,0 to 7 hours,tbc,formal education,she,where
-UR-26,Employment,2022-10-15,SE,,Don't know,tbc,Not in formal education,hit,rule
-DH-29,Self-employment,2023-01-18,CIH,TC,16 to 30 hours,tbc,Not in formal education,always,charge
-HA-15,Self-employment,2022-12-01,SE,,49 or more hours,tbc,Not in formal education,tend,perform
-SJ-46,Self-employment,2022-10-17,Other,,49 or more hours,tbc,Not in formal education,five,design
-IM-23,Self-employment,2022-10-26,SE,,Don't know,tbc,formal education,mission,see
-CE-21,Self-employment,2023-01-30,Other,,31 to 48 hours,tbc,formal education,final,player
-MU-45,Employment,2023-01-27,CIH,ZHC,49 or more hours,tbc,formal education,dog,continue
-AK-61,Self-employment,2022-11-02,Other,Other,0 to 7 hours,tbc,Not in formal education,say,program
-BN-49,Employment,2022-11-06,PC,,8 to 15 hours,tbc,formal education,hear,guy
-CG-99,Employment,2022-11-14,TC,ZHC,16 to 30 hours,tbc,formal education,key,miss
-CZ-55,Employment,2022-11-28,SE,,0 to 7 hours,tbc,Not in formal education,heart,former
-CW-72,Employment,2022-11-01,CIH,,16 to 30 hours,tbc,formal education,it,mother
-RD-05,Employment,2023-02-06,Other,,31 to 48 hours,tbc,Not in formal education,west,wide
-NX-52,Employment,2022-10-02,PC,,16 to 30 hours,tbc,Not in formal education,summer,foreign
-RD-07,Employment,2022-12-02,Other,,31 to 48 hours,tbc,Not in formal education,in,deep
-VN-72,Self-employment,2022-10-27,Other,,16 to 30 hours,tbc,formal education,speech,heart
-RH-46,Self-employment,2022-10-12,SE,,8 to 15 hours,tbc,Not in formal education,become,house
-DT-11,Employment,2023-02-15,TC,Other,0 to 7 hours,tbc,formal education,right,bring
+RC-67,Employment,2023-02-24,SE,TC,8 to 15 hours,tbc,formal education,live,if
+ZG-16,Employment,2022-12-18,TC,,8 to 15 hours,tbc,Not in formal education,lay,interest
+NU-92,Self-employment,2023-01-28,ZHC,Other,49 or more hours,tbc,Not in formal education,compare,feeling
+HE-09,Self-employment,2023-01-09,TC,SE,31 to 48 hours,tbc,formal education,budget,space
+IR-40,Employment,2022-11-27,TC,ZHC,16 to 30 hours,tbc,Not in formal education,fine,or
+FY-75,Self-employment,2022-12-20,CIH,,Don't know,tbc,Not in formal education,from,modern
+UK-24,Self-employment,2022-10-31,Other,,49 or more hours,tbc,formal education,side,front
+KU-87,Employment,2023-02-19,TC,SE,8 to 15 hours,tbc,formal education,study,goal
+AA-79,Self-employment,2022-12-01,TC,PC,8 to 15 hours,tbc,formal education,decide,say
+EX-24,Employment,2022-12-12,Other,,16 to 30 hours,tbc,formal education,gas,husband
+TM-61,Self-employment,2022-11-02,TC,,49 or more hours,tbc,formal education,would,read
+WB-72,Self-employment,2023-02-04,CIH,,16 to 30 hours,tbc,formal education,his,employee
+II-07,Employment,2022-12-01,ZHC,ZHC,8 to 15 hours,tbc,Not in formal education,game,student
+GJ-23,Self-employment,2023-02-03,ZHC,,49 or more hours,tbc,formal education,similar,stuff
+FD-41,Employment,2023-01-14,SE,,8 to 15 hours,tbc,Not in formal education,site,hotel
+UE-90,Employment,2023-01-13,SE,PC,49 or more hours,tbc,formal education,then,control
+ZE-59,Self-employment,2022-12-31,TC,TC,49 or more hours,tbc,Not in formal education,hold,sister
+FX-80,Employment,2023-01-28,TC,,31 to 48 hours,tbc,Not in formal education,become,hundred
+TZ-71,Self-employment,2022-11-16,Other,SE,16 to 30 hours,tbc,Not in formal education,than,by
+JL-20,Self-employment,2023-02-07,CIH,ZHC,8 to 15 hours,tbc,Not in formal education,which,safe
+DN-35,Self-employment,2022-10-22,PC,Other,31 to 48 hours,tbc,Not in formal education,ok,candidate
+NT-22,Employment,2022-11-14,CIH,Other,8 to 15 hours,tbc,formal education,thing,ball
+JA-04,Employment,2022-12-12,PC,PC,0 to 7 hours,tbc,formal education,total,above
+EV-14,Employment,2023-02-15,TC,Other,0 to 7 hours,tbc,formal education,right,bring
 JP-45,Employment,2023-02-07,Other,,8 to 15 hours,tbc,Not in formal education,charge,great
-YY-71,Self-employment,2022-10-13,Other,,31 to 48 hours,tbc,formal education,difficult,still
-LV-53,Employment,2023-01-21,Other,SE,16 to 30 hours,tbc,formal education,car,music
-PT-46,Self-employment,2022-12-01,TC,TC,16 to 30 hours,tbc,Not in formal education,interview,later
-HF-91,Self-employment,2023-02-10,PC,TC,31 to 48 hours,tbc,Not in formal education,road,quality
-FC-67,Self-employment,2023-02-25,ZHC,Other,16 to 30 hours,tbc,Not in formal education,window,take
-QA-11,Self-employment,2023-02-12,CIH,,16 to 30 hours,tbc,formal education,kitchen,good
-YZ-07,Employment,2023-01-10,SE,,Don't know,tbc,Not in formal education,hospital,nice
-VP-02,Self-employment,2022-12-04,PC,,8 to 15 hours,tbc,formal education,unit,recently
-UT-34,Self-employment,2022-09-30,SE,,31 to 48 hours,tbc,Not in formal education,create,happen
-AV-10,Self-employment,2023-02-23,ZHC,,31 to 48 hours,tbc,formal education,meeting,respond
-MC-45,Self-employment,2022-12-14,Other,,0 to 7 hours,tbc,Not in formal education,from,middle
-KB-11,Self-employment,2023-01-26,CIH,CIH,8 to 15 hours,tbc,formal education,student,specific
-EU-00,Self-employment,2022-10-06,ZHC,ZHC,16 to 30 hours,tbc,formal education,nation,culture
-NI-64,Self-employment,2023-02-14,ZHC,,8 to 15 hours,tbc,Not in formal education,side,different
-AY-04,Self-employment,2022-12-25,Other,,Don't know,tbc,formal education,politics,west
-IA-03,Self-employment,2022-11-05,SE,SE,49 or more hours,tbc,Not in formal education,end,recognize
-YH-27,Employment,2023-02-01,PC,TC,8 to 15 hours,tbc,formal education,owner,call
-VU-47,Employment,2022-12-03,ZHC,,49 or more hours,tbc,Not in formal education,focus,cost
+LO-08,Employment,2023-02-01,TC,SE,8 to 15 hours,tbc,formal education,choice,nor
+EK-11,Self-employment,2023-02-25,CIH,,0 to 7 hours,tbc,formal education,responsibility,dream
+GA-17,Self-employment,2023-01-15,TC,,31 to 48 hours,tbc,Not in formal education,force,politics
+ML-70,Employment,2022-10-04,Other,CIH,Don't know,tbc,formal education,or,member
+QB-77,Self-employment,2022-11-27,TC,,8 to 15 hours,tbc,Not in formal education,break,century
+FE-12,Self-employment,2022-10-16,ZHC,PC,0 to 7 hours,tbc,Not in formal education,hit,development
+QK-28,Self-employment,2022-10-07,CIH,,16 to 30 hours,tbc,Not in formal education,property,take
+CD-85,Employment,2022-12-14,TC,SE,49 or more hours,tbc,Not in formal education,teach,cultural
+BM-24,Self-employment,2022-10-22,CIH,Other,16 to 30 hours,tbc,Not in formal education,some,country
+QA-09,Self-employment,2023-01-22,ZHC,,31 to 48 hours,tbc,Not in formal education,enter,cultural
+GN-14,Self-employment,2022-10-01,CIH,,49 or more hours,tbc,Not in formal education,cold,might
+XC-62,Employment,2022-12-04,TC,,Don't know,tbc,Not in formal education,home,recent
+UG-66,Employment,2023-02-17,CIH,SE,Don't know,tbc,formal education,deal,else
+UE-62,Self-employment,2022-11-16,SE,TC,0 to 7 hours,tbc,formal education,any,study
+VN-42,Employment,2022-10-22,Other,CIH,16 to 30 hours,tbc,formal education,fish,laugh
+TM-45,Employment,2022-12-25,Other,SE,Don't know,tbc,Not in formal education,policy,opportunity

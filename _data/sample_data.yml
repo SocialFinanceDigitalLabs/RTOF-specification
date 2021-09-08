@@ -22,7 +22,7 @@ baseline:
   prior_employment: 'No'
   referral_source: Migrant Help
   unique_id: DP-14
-  wage_baseline: tbc
+  wage_baseline: null
 - age_finished_study: null
   age_profile_of_dependents_uk: null
   current_dependents_uk: 'No'
@@ -46,7 +46,7 @@ baseline:
   prior_employment: Don't know
   referral_source: Local VCS
   unique_id: ID-43
-  wage_baseline: tbc
+  wage_baseline: null
 - age_finished_study: null
   age_profile_of_dependents_uk: ''
   current_dependents_uk: 'Yes'
@@ -57,8 +57,8 @@ baseline:
   employment_status: SE
   highest_qualification_achieved: Level 3-4
   homelessness_baseline: null
-  hours_of_employment: 16 to 30 hours
-  housing_baseline_accommodation: Other safe and secure accommodation
+  hours_of_employment: null
+  housing_baseline_accommodation: Renting - private sector
   language_level_on_entry: Level 2
   nationality: OM
   ni_number: EB498174C
@@ -94,7 +94,7 @@ baseline:
   prior_employment: Don't know
   referral_source: Local VCS
   unique_id: FJ-83
-  wage_baseline: tbc
+  wage_baseline: null
 - age_finished_study: null
   age_profile_of_dependents_uk: null
   current_dependents_uk: 'No'
@@ -124,13 +124,13 @@ baseline:
   current_dependents_uk: 'No'
   date_arrived_in_uk: 2017-07
   date_asylum_status_granted: 2021-05
-  eduction_training_status: formal education
+  eduction_training_status: Not in formal education
   employed_in_home_country: 'Yes'
   employment_status: SE
   highest_qualification_achieved: Entry level
   homelessness_baseline: null
-  hours_of_employment: Don't know
-  housing_baseline_accommodation: Renting - Local authority or housing association
+  hours_of_employment: null
+  housing_baseline_accommodation: Self-funded temporary accommodation (e.g. hotel)
   language_level_on_entry: Entry level 3
   nationality: FI
   ni_number: WH684274D
@@ -142,56 +142,32 @@ baseline:
   prior_employment: Don't know
   referral_source: Peer
   unique_id: UA-34
-  wage_baseline: tbc
-- age_finished_study: 19
-  age_profile_of_dependents_uk: 5-11, Caring responsibilities for an adult
-  current_dependents_uk: 'No'
-  date_arrived_in_uk: 2017-12
-  date_asylum_status_granted: 2020-12
-  eduction_training_status: formal education
-  employed_in_home_country: 'Yes'
-  employment_status: SE
-  highest_qualification_achieved: Unknown
-  homelessness_baseline: null
-  hours_of_employment: 31 to 48 hours
-  housing_baseline_accommodation: Asylum accommodation
-  language_level_on_entry: Level 2
-  nationality: ST
-  ni_number: JB120090D
-  number_over_18_HH: 28
-  number_u18_HH: 88
-  occupation_goal: media
-  occupation_sector: subject
-  occupation_type: null
-  prior_employment: 'No'
-  referral_source: Peer
-  unique_id: YE-22
-  wage_baseline: tbc
+  wage_baseline: null
 - age_finished_study: null
-  age_profile_of_dependents_uk: 5-11, Caring responsibilities for an adult, 11-17,
-    0-4
-  current_dependents_uk: 'No'
-  date_arrived_in_uk: 2019-04
-  date_asylum_status_granted: 2021-01
-  eduction_training_status: Not in formal education
+  age_profile_of_dependents_uk: null
+  current_dependents_uk: 'Yes'
+  date_arrived_in_uk: 2018-09
+  date_asylum_status_granted: 2020-10
+  eduction_training_status: formal education
   employed_in_home_country: 'No'
-  employment_status: ULA
-  highest_qualification_achieved: Unknown
-  homelessness_baseline: null
-  hours_of_employment: 49 or more hours
-  housing_baseline_accommodation: Renting - Local authority or housing association
-  language_level_on_entry: Pre-entry
-  nationality: LI
-  ni_number: ME452461D
+  employment_status: CIH
+  highest_qualification_achieved: Level 5+
+  homelessness_baseline: Statutory homelessness
+  hours_of_employment: null
+  housing_baseline_accommodation: Homeless but not rough sleeping (e.g. living with
+    friends or family)
+  language_level_on_entry: Entry level 2
+  nationality: JE
+  ni_number: GB400808C
   number_over_18_HH: null
   number_u18_HH: null
-  occupation_goal: across
+  occupation_goal: ask
   occupation_sector: null
-  occupation_type: gas
-  prior_employment: 'Yes'
-  referral_source: HO providers
-  unique_id: OV-80
-  wage_baseline: tbc
+  occupation_type: save
+  prior_employment: Don't know
+  referral_source: LA
+  unique_id: GM-94
+  wage_baseline: null
 - age_finished_study: null
   age_profile_of_dependents_uk: Caring responsibilities for an adult
   current_dependents_uk: 'Yes'
@@ -215,7 +191,7 @@ baseline:
   prior_employment: 'Yes'
   referral_source: Other
   unique_id: WS-43
-  wage_baseline: tbc
+  wage_baseline: null
 date_last_seen:
 - date_last_seen: 2022-01-14
   reason_for_disengagement: null
@@ -247,14 +223,14 @@ employment_entry:
   secondary_employment_entry_status: null
   unique_id: ID-43
   wage_employment_entry: tbc
-- date_employment_entry: 2022-11-17
-  eduction_training_status_entry: formal education
-  employment_entry_occupation: term
-  employment_entry_outcome_type: Employment
-  employment_entry_sector: focus
-  hours_of_employment_entry: 16 to 30 hours
-  primary_employment_entry_status: ZHC
-  secondary_employment_entry_status: TC
+- date_employment_entry: 2022-11-01
+  eduction_training_status_entry: Not in formal education
+  employment_entry_occupation: avoid
+  employment_entry_outcome_type: Self-employment
+  employment_entry_sector: age
+  hours_of_employment_entry: 8 to 15 hours
+  primary_employment_entry_status: SE
+  secondary_employment_entry_status: null
   unique_id: ES-97
   wage_employment_entry: tbc
 - date_employment_entry: 2022-12-24
@@ -267,25 +243,25 @@ employment_entry:
   secondary_employment_entry_status: null
   unique_id: ET-57
   wage_employment_entry: tbc
-- date_employment_entry: 2022-11-08
+- date_employment_entry: 2022-12-31
   eduction_training_status_entry: formal education
-  employment_entry_occupation: particularly
-  employment_entry_outcome_type: Employment
-  employment_entry_sector: white
+  employment_entry_occupation: eat
+  employment_entry_outcome_type: Self-employment
+  employment_entry_sector: maintain
   hours_of_employment_entry: 8 to 15 hours
-  primary_employment_entry_status: SE
-  secondary_employment_entry_status: CIH
+  primary_employment_entry_status: PC
+  secondary_employment_entry_status: null
   unique_id: UA-34
   wage_employment_entry: tbc
-- date_employment_entry: 2022-11-01
+- date_employment_entry: 2023-01-12
   eduction_training_status_entry: formal education
-  employment_entry_occupation: point
-  employment_entry_outcome_type: Self-employment
-  employment_entry_sector: pull
-  hours_of_employment_entry: 16 to 30 hours
-  primary_employment_entry_status: Other
-  secondary_employment_entry_status: ZHC
-  unique_id: YE-22
+  employment_entry_occupation: animal
+  employment_entry_outcome_type: Employment
+  employment_entry_sector: successful
+  hours_of_employment_entry: 31 to 48 hours
+  primary_employment_entry_status: ZHC
+  secondary_employment_entry_status: null
+  unique_id: GM-94
   wage_employment_entry: tbc
 - date_employment_entry: 2023-01-22
   eduction_training_status_entry: Not in formal education
@@ -297,6 +273,16 @@ employment_entry:
   secondary_employment_entry_status: null
   unique_id: IZ-47
   wage_employment_entry: tbc
+- date_employment_entry: 2022-12-28
+  eduction_training_status_entry: formal education
+  employment_entry_occupation: newspaper
+  employment_entry_outcome_type: Employment
+  employment_entry_sector: quite
+  hours_of_employment_entry: Don't know
+  primary_employment_entry_status: TC
+  secondary_employment_entry_status: SE
+  unique_id: TW-26
+  wage_employment_entry: tbc
 employment_intermediate:
 - date_intermediate_employment_outcome: 2023-03-20
   intermediate_employment_outcome_type: work experience, qualifications or skills,
@@ -306,14 +292,19 @@ employment_intermediate:
   intermediate_employment_outcome_type: training course, Internship, business plan
     for self-employment, work experience, another specified activity
   unique_id: ID-43
-- date_intermediate_employment_outcome: 2023-05-20
-  intermediate_employment_outcome_type: mentoring and/or coaching, business plan for
-    self-employment, qualifications or skills
+- date_intermediate_employment_outcome: 2023-04-07
+  intermediate_employment_outcome_type: training course, business plan for self-employment,
+    work experience
   unique_id: ES-97
-- date_intermediate_employment_outcome: 2023-02-21
-  intermediate_employment_outcome_type: business plan for self-employment, Internship,
-    another specified activity, training course, Volunteering
-  unique_id: YE-22
+- date_intermediate_employment_outcome: 2023-04-26
+  intermediate_employment_outcome_type: training course, employability, training course,
+    qualifications or skills, qualifications or skills
+  unique_id: UA-34
+- date_intermediate_employment_outcome: 2023-04-11
+  intermediate_employment_outcome_type: business plan for self-employment, business
+    plan for self-employment, qualifications or skills, business plan for self-employment,
+    training course
+  unique_id: GM-94
 - date_intermediate_employment_outcome: 2023-03-23
   intermediate_employment_outcome_type: sector-specific language training, Volunteering,
     another specified activity, business plan for self-employment, sector-specific
@@ -337,42 +328,56 @@ employment_sustain:
   unique_id: ID-43
   wage_employment_sustain: tbc
 - eduction_training_status_sustain: formal education
-  employment_susatin_occupation: must
-  employment_sustain_sector: hospital
-  employment_sustain_status: PC
-  employment_sustainment_date: 2023-09-07
-  hours_of_employment_sustain: 8 to 15 hours
-  unique_id: YE-22
+  employment_susatin_occupation: whether
+  employment_sustain_sector: state
+  employment_sustain_status: ZHC
+  employment_sustainment_date: 2023-08-27
+  hours_of_employment_sustain: Don't know
+  unique_id: ES-97
+  wage_employment_sustain: tbc
+- eduction_training_status_sustain: formal education
+  employment_susatin_occupation: suddenly
+  employment_sustain_sector: anything
+  employment_sustain_status: ZHC
+  employment_sustainment_date: 2023-09-08
+  hours_of_employment_sustain: 16 to 30 hours
+  unique_id: GM-94
   wage_employment_sustain: tbc
 housing_entry:
-- housing_entry_accomodation: Other safe and secure accommodation
+- housing_entry_accomodation: other
   housing_entry_date: 2022-11-11
   unique_id: DP-14
-- housing_entry_accomodation: Renting - Local authority or housing association
-  housing_entry_date: 2022-12-24
-  unique_id: ES-97
-- housing_entry_accomodation: Renting - private sector
+- housing_entry_accomodation: RPC
   housing_entry_date: 2023-01-23
   unique_id: FJ-83
-- housing_entry_accomodation: Renting - Local authority or housing association
+- housing_entry_accomodation: RLA
   housing_entry_date: 2023-01-10
   unique_id: ET-57
-- housing_entry_accomodation: Renting - Local authority or housing association
+- housing_entry_accomodation: RPC
+  housing_entry_date: 2022-12-11
+  unique_id: UA-34
+- housing_entry_accomodation: other
+  housing_entry_date: 2023-01-23
+  unique_id: GM-94
+- housing_entry_accomodation: RLA
   housing_entry_date: 2022-11-07
   unique_id: IZ-47
 housing_sustain:
-- housing_sustain_accomodation: Renting - Local authority or housing association
+- housing_sustain_accomodation: RLA
   housing_sustainment_date: 2023-05-07
   unique_id: DP-14
-- housing_sustain_accomodation: Renting - Local authority or housing association
-  housing_sustainment_date: 2023-04-02
-  unique_id: ES-97
-- housing_sustain_accomodation: Other safe and secure accommodation
+- housing_sustain_accomodation: other
   housing_sustainment_date: 2023-07-14
   unique_id: FJ-83
-- housing_sustain_accomodation: Other safe and secure accommodation
+- housing_sustain_accomodation: other
   housing_sustainment_date: 2023-05-30
   unique_id: ET-57
+- housing_sustain_accomodation: other
+  housing_sustainment_date: 2023-06-09
+  unique_id: UA-34
+- housing_sustain_accomodation: RLA
+  housing_sustainment_date: 2023-07-18
+  unique_id: GM-94
 integration_plan:
 - integration_comms_language: tbc
   integration_digital: tbc
@@ -382,13 +387,13 @@ integration_plan:
   unique_id: DP-14
 - integration_comms_language: tbc
   integration_digital: tbc
-  integration_outcome_achieved_date: 2022-11-19
+  integration_outcome_achieved_date: 2022-11-06
   integration_outcome_type: Creation
   integration_social: tbc
   unique_id: ES-97
 - integration_comms_language: tbc
   integration_digital: tbc
-  integration_outcome_achieved_date: 2023-08-30
+  integration_outcome_achieved_date: 2023-08-26
   integration_outcome_type: 6 month
   integration_social: tbc
   unique_id: ES-97
@@ -406,16 +411,46 @@ integration_plan:
   unique_id: FJ-83
 - integration_comms_language: tbc
   integration_digital: tbc
-  integration_outcome_achieved_date: 2024-03-04
+  integration_outcome_achieved_date: 2024-03-01
   integration_outcome_type: 12 month
   integration_social: tbc
   unique_id: FJ-83
 - integration_comms_language: tbc
   integration_digital: tbc
-  integration_outcome_achieved_date: 2022-11-14
+  integration_outcome_achieved_date: 2022-12-18
   integration_outcome_type: Creation
   integration_social: tbc
-  unique_id: YE-22
+  unique_id: UA-34
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-08-27
+  integration_outcome_type: 6 month
+  integration_social: tbc
+  unique_id: UA-34
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2024-03-11
+  integration_outcome_type: 12 month
+  integration_social: tbc
+  unique_id: UA-34
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-01-07
+  integration_outcome_type: Creation
+  integration_social: tbc
+  unique_id: GM-94
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-08-16
+  integration_outcome_type: 6 month
+  integration_social: tbc
+  unique_id: GM-94
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2024-03-08
+  integration_outcome_type: 12 month
+  integration_social: tbc
+  unique_id: GM-94
 - integration_comms_language: tbc
   integration_digital: tbc
   integration_outcome_achieved_date: 2022-11-01
@@ -430,7 +465,7 @@ integration_plan:
   unique_id: WS-43
 - integration_comms_language: tbc
   integration_digital: tbc
-  integration_outcome_achieved_date: 2024-03-07
+  integration_outcome_achieved_date: 2024-03-04
   integration_outcome_type: 12 month
   integration_social: tbc
   unique_id: WS-43
@@ -446,6 +481,18 @@ integration_plan:
   integration_outcome_type: 6 month
   integration_social: tbc
   unique_id: IZ-47
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2022-12-29
+  integration_outcome_type: Creation
+  integration_social: tbc
+  unique_id: TW-26
+- integration_comms_language: tbc
+  integration_digital: tbc
+  integration_outcome_achieved_date: 2023-08-28
+  integration_outcome_type: 6 month
+  integration_social: tbc
+  unique_id: TW-26
 person:
 - date_started_service: 2022-08
   dispersal_area: Bolton Council
@@ -462,7 +509,7 @@ person:
   gender: Other
   unique_id: ES-97
   year_of_birth: 1964
-- date_started_service: 2022-05
+- date_started_service: 2022-09
   dispersal_area: Manchester City Council
   gender: Woman
   unique_id: FJ-83
@@ -477,17 +524,12 @@ person:
   gender: Other
   unique_id: UA-34
   year_of_birth: 2000
-- date_started_service: 2022-01
-  dispersal_area: Redcar and Cleveland Council
-  gender: Other
-  unique_id: YE-22
-  year_of_birth: 1987
-- date_started_service: 2022-01
-  dispersal_area: Gateshead Council
-  gender: Other
-  unique_id: OV-80
-  year_of_birth: 1983
-- date_started_service: 2022-04
+- date_started_service: 2022-02
+  dispersal_area: Rochdale Borough Council
+  gender: Man
+  unique_id: GM-94
+  year_of_birth: 2001
+- date_started_service: 2022-05
   dispersal_area: Plymouth City Council
   gender: Non-binary
   unique_id: WS-43
@@ -497,3 +539,8 @@ person:
   gender: Other
   unique_id: IZ-47
   year_of_birth: 2000
+- date_started_service: 2022-08
+  dispersal_area: Darlington Borough Council
+  gender: Prefer not to say
+  unique_id: TW-26
+  year_of_birth: 1993

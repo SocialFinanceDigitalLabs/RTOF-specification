@@ -338,9 +338,12 @@
       at the end of the 6-month sustainment period.'
     dimensions:
       dimensions:
-      - value: Renting - private sector
-      - value: Renting - Local authority or housing association
-      - value: Other safe and secure accommodation
+      - description: Renting - private sector
+        value: RPC
+      - description: Renting - Local authority or housing association
+        value: RLA
+      - description: Other safe and secure accommodation
+        value: other
       id: housing_accomodation
     id: housing_entry_accomodation
     name: Accomodation type entry
@@ -493,9 +496,12 @@
       at the end of the 6-month sustainment period.'
     dimensions:
       dimensions:
-      - value: Renting - private sector
-      - value: Renting - Local authority or housing association
-      - value: Other safe and secure accommodation
+      - description: Renting - private sector
+        value: RPC
+      - description: Renting - Local authority or housing association
+        value: RLA
+      - description: Other safe and secure accommodation
+        value: other
       id: housing_accomodation
     id: housing_sustain_accomodation
     name: Accomodation type sustainment
@@ -1270,8 +1276,9 @@
 
           '
         id: dimension
-  - description: How many children under the age of 18 are currently living in your
-      household? To be collected once and submitted within 3 months of enrolment.
+  - description: How many children under the age of 18 are currently living in the
+      participants household? To be collected once and submitted within 3 months of
+      enrolment.
     id: number_u18_HH
     name: Number of children under 18 living in HH
     primary_key: false
@@ -1280,8 +1287,8 @@
       description: An integer as defined by the JSON Schema `integer` type.
       id: integer
     validation: []
-  - description: How many adults over the age of 18 are currently living in your household?
-      To be collected once and submitted within 3 months of enrolment.
+  - description: How many adults over the age of 18 are currently living in the participants
+      household? To be collected once and submitted within 3 months of enrolment.
     id: number_over_18_HH
     name: Number of adults over 18 living in HH
     primary_key: false
@@ -1328,6 +1335,20 @@
 
           '
         id: dimension
+    - args:
+      - expression: one_of(current_dependents_uk, ['Yes'])
+      description: conditional rules apply
+      id: conditional
+      rule:
+        args:
+        - help: The evaluation expression
+          name: expression
+          type: string
+        - help: The validation that should be applied
+          name: validation
+          type: validation
+        description: Allows for conditional application of validators
+        id: conditional
   - comments: To confirm alternative collection route if an integration plan is not
       submitted [eg. Provider caseload review]
     description: Month and year the participant entered the UK, relating to their
@@ -1542,7 +1563,21 @@
     type:
       description: An integer as defined by the JSON Schema `integer` type.
       id: integer
-    validation: []
+    validation:
+    - args:
+      - expression: one_of(highest_qualification_achieved, ['Unknown'])
+      description: conditional rules apply
+      id: conditional
+      rule:
+        args:
+        - help: The evaluation expression
+          name: expression
+          type: string
+        - help: The validation that should be applied
+          name: validation
+          type: validation
+        description: Allows for conditional application of validators
+        id: conditional
   - description: When participant left home country were they in any form of employment
       - yes / no response. To be collected once and submitted within 3 months of enrolment.
     dimensions:
@@ -1615,6 +1650,20 @@
 
           '
         id: character_limit
+    - args:
+      - expression: one_of(employed_in_home_country, ['Yes'])
+      description: conditional rules apply
+      id: conditional
+      rule:
+        args:
+        - help: The evaluation expression
+          name: expression
+          type: string
+        - help: The validation that should be applied
+          name: validation
+          type: validation
+        description: Allows for conditional application of validators
+        id: conditional
   - description: If answered 'Yes' to employed in home country field, state the sector
       of their last employment. To be collected once and submitted within 3 months
       of enrolment. For some providers this may be a categorical data field - please
@@ -1640,6 +1689,20 @@
 
           '
         id: character_limit
+    - args:
+      - expression: one_of(employed_in_home_country, 'Yes')
+      description: conditional rules apply
+      id: conditional
+      rule:
+        args:
+        - help: The evaluation expression
+          name: expression
+          type: string
+        - help: The validation that should be applied
+          name: validation
+          type: validation
+        description: Allows for conditional application of validators
+        id: conditional
   - description: All participants to be asked what their employment goals. This can
       be sector, job role or employment-type. To be collected once and submitted within
       3 months of enrolment. For some providers this may be a categorical data field
@@ -1815,21 +1878,6 @@
       extends: string
       id: categorical
     validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
     - args: hours_of_employment
       description: dimension(hours_of_employment)
       id: dimension
@@ -1845,7 +1893,7 @@
 
           '
         id: dimension
-  - description: Estimated hourly wage.
+  - description: tbc
     dimensions:
       dimensions:
       - value: tbc
@@ -1861,21 +1909,6 @@
       extends: string
       id: categorical
     validation:
-    - args: true
-      description: required(True)
-      id: required
-      rule:
-        args:
-        - help: true/false value indicating if the current field is required
-          name: enabled
-          type: boolean
-        description: 'A field with ''required: true'' must be present in the data
-          record, and must have a non-blank value. It is short-hand
-
-          for ''notnull: true'' and ''notblank: true''.
-
-          '
-        id: required
     - args: wage
       description: dimension(wage)
       id: dimension
@@ -1891,9 +1924,7 @@
 
           '
         id: dimension
-  - comments: Ecorys addition (based on Census wording) to ensure emploment questions
-      are MECE
-    description: What is your education status?
+  - description: What is your current education status?
     dimensions:
       dimensions:
       - description: In formal education or training (for example, registered in college
@@ -1943,33 +1974,35 @@
 
           '
         id: dimension
-  - description: "Rough sleepers -  Rough sleepers are defined for the purposes of\
-      \ rough sleeping counts and estimates as - 1) People sleeping, about to bed\
-      \ down (sitting on/in or standing next to their bedding) or actually bedded\
-      \ down in the open air (such as on the strEmployments, in tents, doorways, parks,\
-      \ bus shelters or encampments). 2) People in buildings or other places not designed\
-      \ for habitation (such as stairwells, barns, sheds, car parks, cars, derelict\
-      \ boats, stations, or \u2018bashes\u2019). The definition does not include people\
-      \ in hostels or shelters, people in campsites or other sites used for recreational\
-      \ purposes or organised protest, squatters or travellers. Bedded down is taken\
-      \ to mean either lying down or sleeping. About to bed down includes those who\
-      \ are sitting in/on or near a sleeping bag or other bedding.\nSafe and secure\
-      \ accommodation - Safe accommodation is defined by compliance with the Decent\
-      \ Homes Standard including the absence of category 1 and 2 hazards under the\
-      \ Housing Health and Safety Rating System, and with all relevant gas, electricity\
-      \ and fire safety checks in place. Within this safe accommodation, the individual\
-      \ refugee/family must have appropriate individual space. This is defined as\
-      \ one bedroom for - every adult couple; any other adult aged 16 or over; any\
-      \ two children of the same sex; any two children regardless of sex under the\
-      \ age of 10; any other child; and access to self-contained facilities, including\
-      \ bathroom and kitchen, if in a shared facility. Secure accommodation is defined\
-      \ by security of tenure for at least six months.\nUnder RTOF, accommodation\
-      \ may include - Private rental sector; Social housing; Supported housing N.B.\
-      \ Accommodation may be let under a Periodic Licence agreement where appropriate,\
-      \ but use of an excluded licence is not permissible Note that planned and anticipated\
-      \ moves between properties during the 6 months will be allowed, provided the\
-      \ individual is still within secure, stable accommodation at the end of the\
-      \ 6-month sustainment period."
+  - description: 'Rough sleepers -  Rough sleepers are defined for the purposes of
+      rough sleeping counts and estimates as - 1) People sleeping, about to bed down
+      (sitting on/in or standing next to their bedding) or actually bedded down in
+      the open air (such as on the strets, in tents, doorways, parks, bus shelters
+      or encampments). 2) People in buildings or other places not designed for habitation
+      (such as stairwells, barns, sheds, car parks, cars, derelict boats, stations,
+      or bushes). The definition does not include people in hostels or shelters, people
+      in campsites or other sites used for recreational purposes or organised protest,
+      squatters or travellers. Bedded down is taken to mean either lying down or sleeping.
+      About to bed down includes those who are sitting in/on or near a sleeping bag
+      or other bedding.
+
+      Safe and secure accommodation - Safe accommodation is defined by compliance
+      with the Decent Homes Standard including the absence of category 1 and 2 hazards
+      under the Housing Health and Safety Rating System, and with all relevant gas,
+      electricity and fire safety checks in place. Within this safe accommodation,
+      the individual refugee/family must have appropriate individual space. This is
+      defined as one bedroom for - every adult couple; any other adult aged 16 or
+      over; any two children of the same sex; any two children regardless of sex under
+      the age of 10; any other child; and access to self-contained facilities, including
+      bathroom and kitchen, if in a shared facility. Secure accommodation is defined
+      by security of tenure for at least six months.
+
+      Under RTOF, accommodation may include - Private rental sector; Social housing;
+      Supported housing N.B. Accommodation may be let under a Periodic Licence agreement
+      where appropriate, but use of an excluded licence is not permissible Note that
+      planned and anticipated moves between properties during the 6 months will be
+      allowed, provided the individual is still within secure, stable accommodation
+      at the end of the 6-month sustainment period.'
     dimensions:
       dimensions:
       - value: Homeless and rough sleeping
@@ -2021,13 +2054,14 @@
 
           '
         id: dimension
-  - description: "This data field is only applicable if either 'Homeless and rough\
-      \ sleeping' or 'Homeless but not rough sleeping (e.g. living with friends or\
-      \ family)' was selected in the housing_baseline_accommodation data field'.\n\
-      Statutory homelessness requires a household to be unintentionally homeless AND\
-      \ demonstrate a priority category need, such as dependent children. Non-statutory\
-      \ homelessness may include single homeless people without specific vulnerabilities,\
-      \ or those people who don\u2019t approach their local authority for help."
+  - description: 'This data field is only applicable if either ''Homeless and rough
+      sleeping'' or ''Homeless but not rough sleeping (e.g. living with friends or
+      family)'' was selected in the housing_baseline_accommodation data field''.
+
+      Statutory homelessness requires a household to be unintentionally homeless AND
+      demonstrate a priority category need, such as dependent children. Non-statutory
+      homelessness may include single homeless people without specific vulnerabilities,
+      or those people who do not approach their local authority for help.'
     dimensions:
       dimensions:
       - description: i.e. main duty/priority group

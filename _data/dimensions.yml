@@ -118,9 +118,12 @@
   - value: Don't know
   id: hours_of_employment
 - dimensions:
-  - value: Renting - private sector
-  - value: Renting - Local authority or housing association
-  - value: Other safe and secure accommodation
+  - description: Renting - private sector
+    value: RPC
+  - description: Renting - Local authority or housing association
+    value: RLA
+  - description: Other safe and secure accommodation
+    value: other
   id: housing_accomodation
 - dimensions:
   - value: Homeless and rough sleeping
