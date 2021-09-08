@@ -1,153 +1,158 @@
 unique_id,year_of_birth,gender,dispersal_area,date_started_service
 DP-14,1989,Woman,Bolton Council,2022-08
-ID-43,1969,Man,Trafford Council,2022-03
-ES-97,1964,Other,Sunderland City Council,2022-01
-FJ-83,1968,Woman,Manchester City Council,2022-09
-HM-17,1987,Non-binary,Newcastle City Council,2022-07
-OQ-72,1991,Prefer not to say,Coventry City Council,2022-03
-GM-94,2001,Man,Rochdale Borough Council,2022-02
-WS-43,1981,Non-binary,Plymouth City Council,2022-05
-XR-01,2003,Non-binary,Salford City Council,2022-04
-PK-97,1967,Woman,Hartlepool Borough Council,2022-09
-AR-49,2001,Prefer not to say,Oldham Council,2022-05
-OM-40,1972,Other,Hartlepool Borough Council,2022-04
-PI-63,1967,Non-binary,Stockton Council,2022-06
-YY-59,1980,Other,Newcastle City Council,2022-02
-KK-18,1992,Other,Sunderland City Council,2021-12
-UL-89,1983,Prefer not to say,Sunderland City Council,2022-06
-XJ-30,1961,Other,Tameside Metropolitan Borough Council,2022-08
-LO-28,1967,Man,Darlington Borough Council,2022-01
-UJ-42,1986,Prefer not to say,Coventry City Council,2022-03
-XP-69,1978,Woman,Tameside Metropolitan Borough Council,2022-03
-DR-62,1969,Woman,Wolverhampton Council,2022-08
-WL-99,1981,Woman,North Tyneside Council,2021-11
-GY-12,2000,Other,Birmingham City Council,2022-03
-WT-14,1992,Woman,Middlesbrough Council,2022-08
+OI-95,1998,Man,South Tyneside Council,2022-03
+ZE-59,1971,Man,Hartlepool Borough Council,2021-11
+VL-87,1993,Woman,Manchester City Council,2021-12
+KP-33,1972,Non-binary,South Tyneside Council,2022-06
+AI-38,1992,Other,Gateshead Council,2022-09
+TW-34,2002,Prefer not to say,Birmingham City Council,2022-05
+GA-61,1965,Woman,Sandwell Council,2022-01
+GK-88,1991,Prefer not to say,Rochdale Borough Council,2022-03
+SZ-61,1961,Prefer not to say,Trafford Council,2022-09
+LN-90,2001,Man,Manchester City Council,2021-10
+FT-35,1996,Prefer not to say,Gateshead Council,2022-02
+CU-15,1981,Prefer not to say,Bolton Council,2021-11
+VH-25,1994,Woman,Middlesbrough Council,2022-09
+XF-65,1966,Prefer not to say,Gateshead Council,2021-12
+MQ-56,1995,Man,Bolton Council,2021-10
+XU-48,1971,Other,Gateshead Council,2022-03
+GO-83,1990,Non-binary,North Tyneside Council,2021-12
+CB-60,1993,Man,Hartlepool Borough Council,2021-10
+XG-00,1981,Non-binary,Sunderland City Council,2021-12
+OE-36,1973,Woman,Manchester City Council,2022-04
+BX-16,1984,Prefer not to say,Sandwell Council,2022-02
+KM-43,1983,Woman,North Tyneside Council,2021-12
+QW-79,2002,Other,Coventry City Council,2022-03
+ED-84,1967,Man,South Tyneside Council,2022-08
+EF-58,1972,Man,Plymouth City Council,2022-03
 KM-91,1971,Other,Sunderland City Council,2022-08
 BN-56,1997,Prefer not to say,Manchester City Council,2022-02
 OQ-00,1967,Woman,Bury Council,2022-07
 RC-50,1974,Other,Middlesbrough Council,2022-03
 HZ-27,1972,Man,Middlesbrough Council,2022-08
 QV-17,1971,Non-binary,Redcar and Cleveland Council,2022-03
-MB-72,1971,Non-binary,South Tyneside Council,2022-06
-HV-46,1974,Woman,Trafford Council,2021-12
-ZN-91,1982,Prefer not to say,Wolverhampton Council,2022-09
-CZ-95,1968,Man,Rochdale Borough Council,2021-10
-EM-82,1980,Woman,Redcar and Cleveland Council,2022-08
-BV-08,2000,Non-binary,South Tyneside Council,2022-02
-IX-83,1976,Non-binary,Manchester City Council,2021-10
-ER-11,1971,Other,Trafford Council,2022-08
-ZM-10,2000,Non-binary,Darlington Borough Council,2022-03
-DM-50,1976,Prefer not to say,Bury Council,2022-07
-TB-97,1991,Woman,North Tyneside Council,2022-06
-IX-79,2001,Prefer not to say,Rochdale Borough Council,2022-03
-UI-12,1982,Man,Plymouth City Council,2022-09
-LT-67,1962,Man,South Tyneside Council,2021-12
-MT-35,1981,Non-binary,Birmingham City Council,2022-09
-CB-47,1975,Woman,Middlesbrough Council,2022-03
-NR-95,1963,Woman,Wolverhampton Council,2022-05
-PY-89,1964,Non-binary,Coventry City Council,2022-07
-TM-03,1981,Man,Manchester City Council,2021-12
+MB-72,1971,Non-binary,South Tyneside Council,2022-09
+QT-43,1984,Non-binary,Redcar and Cleveland Council,2022-08
+GB-54,2002,Woman,Salford City Council,2022-05
+QB-12,1968,Man,Darlington Borough Council,2022-03
+YN-02,1990,Man,Birmingham City Council,2022-01
+GK-83,1993,Man,Coventry City Council,2022-02
+FW-91,1988,Woman,Birmingham City Council,2022-06
+TB-65,2002,Non-binary,Wigan Council,2022-01
+DK-71,2003,Non-binary,Tameside Metropolitan Borough Council,2022-01
+DS-75,2002,Woman,Salford City Council,2022-09
+PG-97,1965,Man,Tameside Metropolitan Borough Council,2021-12
+HF-01,1966,Other,Manchester City Council,2021-12
+EY-78,1966,Man,North Tyneside Council,2022-08
+HL-61,1979,Other,Redcar and Cleveland Council,2022-04
+AG-33,1988,Other,Gateshead Council,2022-07
+IG-23,1957,Man,Wigan Council,2022-01
+TB-53,1984,Man,Stockport Metropolitan Borough Council,2021-11
+LN-08,1980,Non-binary,Stockton Council,2022-01
+YO-19,1971,Other,Stockton Council,2022-06
+TL-86,1996,Woman,Gateshead Council,2021-10
+YP-37,1968,Non-binary,Middlesbrough Council,2022-04
 HA-44,1986,Non-binary,Stockton Council,2021-12
 YG-20,1962,Non-binary,Stockport Metropolitan Borough Council,2022-06
-IW-51,1977,Woman,North Tyneside Council,2022-05
-MS-63,1974,Woman,Sandwell Council,2022-03
-YW-31,1988,Other,Sunderland City Council,2021-10
+SH-62,1971,Prefer not to say,Rochdale Borough Council,2022-03
+DX-79,1993,Prefer not to say,Oldham Council,2022-02
+VM-46,1958,Woman,Manchester City Council,2022-06
 MF-82,1998,Non-binary,Sunderland City Council,2021-12
 QA-58,1970,Man,Rochdale Borough Council,2022-07
 GG-58,1986,Prefer not to say,Redcar and Cleveland Council,2022-05
 TF-80,1996,Man,Middlesbrough Council,2022-03
-CV-28,1984,Woman,Sunderland City Council,2021-11
-SL-98,1993,Other,Gateshead Council,2022-09
-SR-14,1957,Non-binary,Wigan Council,2021-10
-CG-71,1959,Other,Salford City Council,2022-07
-UW-33,1971,Other,Stockton Council,2022-04
-QS-58,2002,Woman,Wigan Council,2022-08
-KB-45,1978,Prefer not to say,Bury Council,2022-07
-MA-21,1987,Prefer not to say,Sunderland City Council,2022-09
-SW-60,2001,Woman,Hartlepool Borough Council,2022-07
-SG-25,1990,Prefer not to say,Gateshead Council,2022-09
-KG-32,1978,Non-binary,Redcar and Cleveland Council,2022-05
-WZ-84,1968,Other,Sunderland City Council,2022-01
-GZ-65,1993,Prefer not to say,Wigan Council,2021-11
+EB-83,1957,Other,Salford City Council,2021-12
+WX-51,1986,Woman,Newcastle City Council,2022-03
+FP-01,1991,Man,Rochdale Borough Council,2021-12
+GB-35,1997,Man,Coventry City Council,2021-10
+YB-18,1971,Man,Redcar and Cleveland Council,2022-03
+EP-17,1983,Man,Bury Council,2022-06
+HR-86,1974,Non-binary,Salford City Council,2022-05
+CA-87,1996,Non-binary,Rochdale Borough Council,2022-06
+PM-67,1982,Man,Darlington Borough Council,2022-05
+KY-50,1967,Woman,Northumberland County Council,2022-07
+YG-37,1977,Prefer not to say,Sunderland City Council,2022-06
+NU-75,1976,Man,Redcar and Cleveland Council,2022-04
 WD-44,1988,Non-binary,Stockton Council,2022-08
 ZW-65,1977,Prefer not to say,Wigan Council,2021-10
-ZZ-82,1994,Man,Manchester City Council,2022-05
-IR-01,1963,Non-binary,Plymouth City Council,2021-11
-HQ-34,1959,Non-binary,Darlington Borough Council,2021-11
-GA-71,1958,Prefer not to say,Oldham Council,2022-02
-QG-18,1967,Prefer not to say,Hartlepool Borough Council,2022-09
-KP-38,1976,Man,Darlington Borough Council,2022-05
-AJ-64,1971,Non-binary,Northumberland County Council,2022-09
-YZ-50,1983,Man,Bury Council,2022-07
+KR-35,1975,Man,South Tyneside Council,2022-01
+JZ-48,1976,Other,South Tyneside Council,2022-06
+QO-52,2001,Prefer not to say,Wolverhampton Council,2022-08
+QI-21,1996,Non-binary,Northumberland County Council,2022-09
+RT-92,1987,Non-binary,Hartlepool Borough Council,2022-02
+RC-74,1969,Man,Gateshead Council,2022-05
+AZ-69,1961,Other,Wigan Council,2021-12
+KY-41,1966,Man,Darlington Borough Council,2022-01
+KP-00,1998,Non-binary,Hartlepool Borough Council,2021-11
 YJ-55,1981,Prefer not to say,Salford City Council,2022-06
-TG-88,2002,Prefer not to say,Stockton Council,2022-08
-JM-33,1957,Man,Coventry City Council,2022-06
-AN-01,1978,Woman,Tameside Metropolitan Borough Council,2021-10
-RW-53,1964,Non-binary,Middlesbrough Council,2022-02
+UK-57,1978,Other,Hartlepool Borough Council,2022-05
+TZ-08,1976,Prefer not to say,Tameside Metropolitan Borough Council,2022-05
+KF-80,1969,Other,Darlington Borough Council,2021-10
+IR-51,1985,Other,Middlesbrough Council,2022-05
+BL-99,1979,Non-binary,Plymouth City Council,2022-01
 QE-05,2002,Other,Middlesbrough Council,2021-10
 GD-34,1996,Prefer not to say,Stockport Metropolitan Borough Council,2022-06
 CC-68,1979,Non-binary,Redcar and Cleveland Council,2022-03
-QY-79,1989,Prefer not to say,South Tyneside Council,2021-12
-SY-18,1975,Prefer not to say,Wolverhampton Council,2021-12
-RE-98,1975,Non-binary,Bolton Council,2022-07
-IK-90,1967,Non-binary,Wolverhampton Council,2022-04
-NJ-00,1964,Non-binary,Bury Council,2022-04
-MC-95,1972,Prefer not to say,Stockton Council,2022-07
-WW-83,1961,Prefer not to say,Northumberland County Council,2022-02
-BA-71,1997,Man,Wigan Council,2022-03
-QX-97,2000,Prefer not to say,Trafford Council,2022-07
-AP-33,1996,Other,Darlington Borough Council,2021-10
+EK-14,1968,Man,Manchester City Council,2022-07
+PO-85,1981,Man,North Tyneside Council,2022-05
+NN-11,1995,Other,Darlington Borough Council,2022-08
+CG-56,2003,Man,Plymouth City Council,2022-07
+RI-51,2000,Man,North Tyneside Council,2022-09
+JJ-87,2002,Woman,South Tyneside Council,2022-02
+TX-93,1999,Other,Trafford Council,2022-02
+CV-50,1977,Other,Gateshead Council,2022-03
+GC-63,2002,Prefer not to say,South Tyneside Council,2022-04
+AN-25,1981,Non-binary,Salford City Council,2022-01
+LV-57,2001,Woman,Sunderland City Council,2022-03
 SX-36,1997,Prefer not to say,Tameside Metropolitan Borough Council,2021-10
-PJ-07,1989,Man,Hartlepool Borough Council,2022-01
-XN-54,1998,Man,Stockton Council,2022-01
-JL-71,1965,Other,Bolton Council,2022-07
-RU-19,1995,Non-binary,Manchester City Council,2022-03
-NJ-20,1976,Man,Bolton Council,2022-02
-WC-85,2000,Man,Middlesbrough Council,2022-01
-IJ-50,1987,Woman,Middlesbrough Council,2022-04
-JC-06,1969,Woman,Redcar and Cleveland Council,2022-05
-LX-91,1975,Other,Newcastle City Council,2022-04
+JV-27,1958,Non-binary,Darlington Borough Council,2022-09
+HD-49,1957,Other,Plymouth City Council,2022-05
+PE-31,1960,Man,Newcastle City Council,2022-01
+QB-48,1958,Other,Newcastle City Council,2022-02
+HS-72,1964,Man,Rochdale Borough Council,2022-08
+YK-11,1982,Other,Gateshead Council,2022-03
+JG-23,1980,Other,Trafford Council,2022-07
+FE-48,1991,Man,Plymouth City Council,2022-09
+YB-98,1997,Man,Redcar and Cleveland Council,2021-12
 EK-77,1986,Woman,Wolverhampton Council,2022-04
 YQ-84,1975,Man,Hartlepool Borough Council,2022-09
-HB-18,1984,Non-binary,Redcar and Cleveland Council,2022-01
-TO-14,2000,Non-binary,Trafford Council,2021-10
-VY-27,1989,Man,Wigan Council,2021-12
-NO-19,2001,Prefer not to say,Trafford Council,2022-09
-BV-09,1969,Other,South Tyneside Council,2022-06
-CX-20,1972,Man,Trafford Council,2022-08
-AF-15,2000,Non-binary,Birmingham City Council,2022-06
-FW-94,1971,Man,Sunderland City Council,2022-02
-CT-25,1964,Woman,Wigan Council,2022-05
-GN-00,2003,Non-binary,Wigan Council,2022-06
-SV-08,1968,Man,Bury Council,2022-07
+II-66,1990,Prefer not to say,Coventry City Council,2022-01
+PY-98,1967,Non-binary,Wolverhampton Council,2022-09
+DN-48,1958,Prefer not to say,Tameside Metropolitan Borough Council,2021-10
+HZ-60,1998,Non-binary,Sunderland City Council,2022-02
+SF-58,1992,Other,Wolverhampton Council,2022-04
+NS-20,1957,Man,Newcastle City Council,2021-12
+SD-07,1980,Man,Wolverhampton Council,2021-11
+ML-74,1992,Prefer not to say,Redcar and Cleveland Council,2022-01
+NR-90,1978,Prefer not to say,Redcar and Cleveland Council,2022-01
 SW-57,1993,Other,Bolton Council,2022-09
 BQ-99,1982,Woman,Middlesbrough Council,2022-09
 HC-50,1964,Other,Middlesbrough Council,2022-04
 QY-24,1985,Man,Gateshead Council,2022-01
 DM-69,1969,Man,Birmingham City Council,2021-12
 WP-04,1977,Man,Wolverhampton Council,2022-08
-OQ-01,1970,Other,Bolton Council,2021-11
-WW-93,1966,Other,Bury Council,2022-02
-VA-02,2003,Other,Manchester City Council,2022-04
-AV-24,1965,Non-binary,Stockport Metropolitan Borough Council,2022-04
-DB-33,1990,Prefer not to say,Redcar and Cleveland Council,2022-08
-HH-76,1973,Man,Newcastle City Council,2021-12
-SM-45,1973,Other,Darlington Borough Council,2022-08
-UD-66,1966,Other,Birmingham City Council,2022-03
-SQ-15,1977,Other,Sunderland City Council,2022-01
-MQ-74,1984,Non-binary,Redcar and Cleveland Council,2021-10
-PE-65,1983,Prefer not to say,Gateshead Council,2022-05
-LF-22,2002,Other,Oldham Council,2022-02
-RN-07,1991,Other,Birmingham City Council,2021-10
-FA-97,1995,Woman,Oldham Council,2021-12
-UG-02,1959,Non-binary,Hartlepool Borough Council,2022-02
-KH-13,1975,Woman,Tameside Metropolitan Borough Council,2022-01
-WO-98,1963,Woman,Plymouth City Council,2022-03
-PP-64,1967,Woman,South Tyneside Council,2021-11
-CK-61,1984,Man,South Tyneside Council,2022-04
-TD-82,1964,Prefer not to say,Middlesbrough Council,2022-06
-IM-01,1998,Other,Stockport Metropolitan Borough Council,2022-07
+BZ-06,1996,Non-binary,Plymouth City Council,2021-11
+XR-21,1985,Woman,Tameside Metropolitan Borough Council,2021-12
+AO-34,1992,Woman,Coventry City Council,2022-06
+VD-56,1969,Other,South Tyneside Council,2021-10
+AE-63,1970,Man,Plymouth City Council,2022-03
+JK-30,1977,Woman,Coventry City Council,2022-06
+QZ-97,1987,Man,Redcar and Cleveland Council,2022-01
+PA-12,1971,Woman,Tameside Metropolitan Borough Council,2021-12
+FK-64,1975,Prefer not to say,Darlington Borough Council,2021-11
+ZE-67,1989,Woman,Sandwell Council,2022-05
+MQ-22,2003,Other,Sandwell Council,2022-02
+QO-31,1960,Other,Bolton Council,2021-12
+SX-82,1978,Prefer not to say,North Tyneside Council,2021-11
+QT-08,1982,Other,Oldham Council,2022-09
+MR-21,1982,Man,Stockport Metropolitan Borough Council,2022-03
+LO-58,1986,Non-binary,Plymouth City Council,2022-02
+GE-21,1958,Other,Northumberland County Council,2022-03
+DG-68,1963,Non-binary,Sandwell Council,2022-04
+CO-12,1973,Non-binary,Sandwell Council,2022-06
+MK-76,2000,Prefer not to say,Plymouth City Council,2022-05
+OR-66,1995,Other,Trafford Council,2022-07
+YO-99,1970,Man,Plymouth City Council,2022-03
 IV-75,1965,Other,Coventry City Council,2022-01
 QF-15,1967,Man,Sandwell Council,2021-11
 FQ-50,1967,Woman,South Tyneside Council,2022-08
@@ -156,96 +161,91 @@ AT-75,2000,Woman,Plymouth City Council,2022-02
 YO-35,1970,Non-binary,Salford City Council,2021-12
 ZN-98,1963,Man,Stockport Metropolitan Borough Council,2022-09
 RJ-27,1985,Woman,Sandwell Council,2022-06
-UV-72,1961,Non-binary,Oldham Council,2022-02
+GU-15,1974,Woman,Plymouth City Council,2022-09
+CY-39,1991,Other,Gateshead Council,2022-02
 TD-30,2000,Man,Redcar and Cleveland Council,2022-06
 JI-44,1960,Prefer not to say,Northumberland County Council,2022-05
-JZ-47,1962,Woman,Trafford Council,2022-03
-OQ-60,1999,Prefer not to say,Rochdale Borough Council,2022-08
+HC-28,1962,Other,Wigan Council,2022-08
+IS-89,2004,Man,Stockport Metropolitan Borough Council,2022-05
 CB-18,1982,Non-binary,Trafford Council,2022-07
 OX-91,1978,Woman,Gateshead Council,2022-07
-RJ-49,1961,Woman,Stockton Council,2022-04
-GJ-78,1990,Man,Hartlepool Borough Council,2022-06
-RU-18,1968,Non-binary,Tameside Metropolitan Borough Council,2022-06
-GC-69,1987,Man,Manchester City Council,2022-03
-YF-81,1992,Prefer not to say,Northumberland County Council,2022-07
-JW-46,1985,Other,Birmingham City Council,2021-10
-LW-93,1968,Non-binary,North Tyneside Council,2022-09
-VE-89,1965,Other,Northumberland County Council,2022-03
+EZ-48,1969,Man,Middlesbrough Council,2021-11
+NZ-88,1986,Man,Bolton Council,2021-11
+IY-87,1999,Woman,Sunderland City Council,2021-11
+NN-93,1992,Woman,Sandwell Council,2022-05
+XS-48,1977,Man,Gateshead Council,2022-08
+GT-09,1988,Man,Northumberland County Council,2022-05
+NV-61,1991,Prefer not to say,Middlesbrough Council,2021-11
 QY-95,1985,Other,Bolton Council,2021-11
 TM-62,1960,Non-binary,Rochdale Borough Council,2022-09
 NO-57,1992,Non-binary,Trafford Council,2022-09
-FX-46,1979,Man,Hartlepool Borough Council,2022-09
-OS-31,1995,Other,Wigan Council,2021-10
-QG-83,1971,Prefer not to say,Salford City Council,2022-02
-IA-82,1961,Prefer not to say,Bury Council,2022-03
-GL-85,1994,Prefer not to say,Bury Council,2022-05
+EZ-79,1992,Man,Stockton Council,2022-05
+GI-01,1996,Man,Wolverhampton Council,2021-12
+XM-74,1996,Man,Wolverhampton Council,2022-08
+LS-17,1957,Other,Redcar and Cleveland Council,2021-11
+OW-42,1992,Prefer not to say,Bolton Council,2022-04
+AE-37,1960,Woman,South Tyneside Council,2022-05
 DP-07,1961,Woman,Coventry City Council,2022-07
 MH-87,1991,Woman,Hartlepool Borough Council,2022-05
-FW-91,1998,Woman,Wigan Council,2022-03
-OU-99,1974,Non-binary,Salford City Council,2021-10
-WG-93,1978,Prefer not to say,Sunderland City Council,2022-02
-TH-40,1992,Other,Sunderland City Council,2022-05
-KX-58,1977,Prefer not to say,Hartlepool Borough Council,2022-06
-KM-05,1969,Man,Plymouth City Council,2022-01
-QD-64,1987,Prefer not to say,Rochdale Borough Council,2021-10
+TC-29,1985,Prefer not to say,Hartlepool Borough Council,2022-03
+MO-39,1978,Non-binary,Hartlepool Borough Council,2022-02
+GP-35,1986,Woman,Stockport Metropolitan Borough Council,2022-08
+ZY-62,1975,Man,Trafford Council,2022-08
+KS-92,1963,Other,Birmingham City Council,2022-04
+EH-70,1997,Prefer not to say,North Tyneside Council,2021-12
+CU-26,1972,Woman,Newcastle City Council,2021-11
 RC-67,1979,Other,Newcastle City Council,2022-06
-KE-79,1992,Man,Middlesbrough Council,2022-09
-AU-81,1980,Man,Tameside Metropolitan Borough Council,2021-11
-MR-26,1997,Woman,Middlesbrough Council,2021-11
-RF-04,1960,Other,Stockport Metropolitan Borough Council,2022-05
-JC-93,1971,Man,Stockport Metropolitan Borough Council,2022-08
-RK-04,1974,Prefer not to say,Oldham Council,2022-04
-RN-61,1982,Man,Redcar and Cleveland Council,2022-09
-AE-91,1979,Woman,Bury Council,2022-06
-UT-34,1999,Other,Redcar and Cleveland Council,2021-11
-UK-24,1994,Woman,Trafford Council,2022-06
-KU-87,1995,Other,Stockton Council,2022-09
-SC-77,2003,Non-binary,Tameside Metropolitan Borough Council,2022-03
-UR-26,1970,Non-binary,Wigan Council,2021-12
-MR-56,1976,Non-binary,Trafford Council,2021-10
-AK-61,1966,Other,Oldham Council,2022-03
-NF-65,1967,Woman,Wolverhampton Council,2022-09
+FM-15,1986,Prefer not to say,Sunderland City Council,2022-09
+UV-11,1983,Non-binary,Rochdale Borough Council,2022-03
+SX-68,1973,Prefer not to say,Hartlepool Borough Council,2021-10
+DU-54,1991,Other,Coventry City Council,2021-12
+DH-29,1977,Woman,Hartlepool Borough Council,2022-05
+HZ-42,1965,Other,Hartlepool Borough Council,2021-10
+HP-41,1989,Man,Wigan Council,2022-02
+MQ-39,1961,Non-binary,Wigan Council,2022-07
+FA-45,1975,Non-binary,Bolton Council,2022-08
+CB-20,1988,Non-binary,Newcastle City Council,2022-07
+VM-89,1964,Woman,Coventry City Council,2022-07
+QJ-49,1982,Other,Middlesbrough Council,2022-07
+BD-63,1986,Non-binary,Newcastle City Council,2022-08
+QG-25,1984,Man,Oldham Council,2022-06
 BN-49,1957,Woman,Plymouth City Council,2022-02
 CG-99,1989,Other,Birmingham City Council,2022-08
-HE-41,1966,Non-binary,Wolverhampton Council,2021-10
-IX-27,1964,Other,Oldham Council,2022-06
-YT-37,1967,Other,Stockport Metropolitan Borough Council,2021-12
-FO-29,1997,Non-binary,Coventry City Council,2022-06
-HN-72,1968,Other,Stockton Council,2021-12
-LO-96,1965,Non-binary,Manchester City Council,2022-07
-RG-24,1997,Non-binary,Stockton Council,2022-02
-JG-22,1989,Non-binary,South Tyneside Council,2022-08
-IY-61,1994,Woman,Plymouth City Council,2022-05
-HY-76,1959,Man,Rochdale Borough Council,2022-06
-JA-03,1998,Other,Plymouth City Council,2022-05
-CF-78,1986,Woman,Middlesbrough Council,2022-02
-DT-11,1971,Man,Bolton Council,2022-01
-YS-75,1981,Prefer not to say,Northumberland County Council,2022-02
-JP-45,1966,Prefer not to say,North Tyneside Council,2022-05
-LO-08,2000,Prefer not to say,Plymouth City Council,2022-01
-FB-17,1963,Woman,Northumberland County Council,2022-04
-MW-79,1983,Non-binary,Coventry City Council,2021-12
-JV-24,2000,Other,Darlington Borough Council,2021-11
+TB-35,1969,Prefer not to say,Hartlepool Borough Council,2022-09
+CJ-37,1967,Prefer not to say,Gateshead Council,2022-01
+NK-64,1995,Woman,Rochdale Borough Council,2022-03
+FQ-96,1964,Prefer not to say,Stockport Metropolitan Borough Council,2021-11
+FX-80,1981,Other,Gateshead Council,2022-05
+PS-98,1974,Man,Sandwell Council,2022-01
+LZ-08,1975,Other,Sandwell Council,2022-04
+VR-42,1986,Non-binary,Wolverhampton Council,2022-02
+MP-69,1989,Prefer not to say,Wigan Council,2021-10
+TO-22,1969,Prefer not to say,Northumberland County Council,2022-03
+WX-91,1960,Man,Oldham Council,2022-09
+US-03,1960,Other,Rochdale Borough Council,2022-06
+GM-99,1982,Man,Stockton Council,2022-02
+OK-33,1981,Non-binary,Stockton Council,2021-11
+CJ-03,1981,Non-binary,Rochdale Borough Council,2022-05
+IX-12,1957,Other,Bury Council,2022-06
+HW-69,1995,Prefer not to say,Wolverhampton Council,2022-02
+RN-17,1960,Other,Newcastle City Council,2022-09
+HF-91,1975,Other,Oldham Council,2022-04
 FC-67,1979,Man,Manchester City Council,2021-10
 IQ-29,1961,Prefer not to say,Rochdale Borough Council,2022-06
 YF-85,1971,Prefer not to say,Coventry City Council,2022-02
 RW-24,1992,Non-binary,Coventry City Council,2022-01
-QQ-89,1981,Prefer not to say,Stockport Metropolitan Borough Council,2021-11
-TP-08,1976,Man,South Tyneside Council,2022-09
-AE-46,1981,Other,Gateshead Council,2022-09
-JX-93,1968,Prefer not to say,North Tyneside Council,2022-03
-WA-38,1973,Other,Gateshead Council,2022-05
-SX-25,1959,Man,Middlesbrough Council,2022-03
-TY-44,1963,Non-binary,Sandwell Council,2022-01
-HB-08,1998,Non-binary,Bury Council,2022-01
-OU-75,1957,Man,North Tyneside Council,2021-12
-AZ-87,1960,Prefer not to say,Manchester City Council,2022-02
-MG-55,1979,Prefer not to say,Tameside Metropolitan Borough Council,2021-12
-UG-66,1996,Man,Hartlepool Borough Council,2022-06
-UE-62,1961,Prefer not to say,Rochdale Borough Council,2022-04
-ID-19,1961,Woman,Salford City Council,2022-07
-VN-42,1960,Prefer not to say,Trafford Council,2022-09
-TM-45,1970,Woman,Plymouth City Council,2022-02
-EK-48,1960,Non-binary,Plymouth City Council,2022-03
-IP-44,1979,Other,Darlington Borough Council,2022-06
-IN-38,1998,Woman,Coventry City Council,2022-05
+LN-91,1999,Prefer not to say,Coventry City Council,2022-08
+RR-57,1980,Other,Wigan Council,2022-04
+TP-06,2002,Other,Wolverhampton Council,2022-01
+MC-45,1980,Other,Trafford Council,2022-01
+GN-66,1978,Man,Bury Council,2021-11
+FN-52,1989,Non-binary,Sunderland City Council,2021-10
+UG-44,1973,Prefer not to say,Trafford Council,2022-08
+GA-14,1980,Prefer not to say,South Tyneside Council,2021-10
+CW-56,1991,Woman,South Tyneside Council,2022-09
+WM-55,1961,Prefer not to say,Manchester City Council,2022-04
+RI-68,2002,Other,Wolverhampton Council,2022-03
+HI-46,1964,Non-binary,Gateshead Council,2022-02
+CH-48,1993,Non-binary,Birmingham City Council,2022-08
+FZ-20,1995,Non-binary,Middlesbrough Council,2022-06
+BQ-23,1962,Non-binary,Tameside Metropolitan Borough Council,2022-08
