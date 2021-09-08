@@ -2,11 +2,12 @@ unique_id,ni_number,nationality,referral_source,current_dependents_uk,number_u18
 DP-14,AY391500A,HR,Migrant Help,Yes,,,,2020-06,2021-07,Below formal levels,Level 5+,,No,go,,month,No,CIH,49 or more hours,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
 ID-43,JS634148A,IE,Local VCS,No,,80,,2017-10,2020-05,Level 1,Level 3-4,,Yes,,town,whose,Don't know,SE,49 or more hours,,formal education,Other safe and secure accommodation,
 ES-97,EB498174C,OM,Migrant Help,Yes,100,,,2020-03,2021-08,Level 2,Level 3-4,,No,,,despite,Yes,SE,,tbc,formal education,Renting - private sector,
-FJ-83,,IE,Local VCS,Yes,,,,2019-12,2020-08,Entry level 1,Level 1-2,,Yes,account,free,range,Don't know,CIH,31 to 48 hours,,Not in formal education,Publicly funded temporary accommodation,
-ET-57,LJ790093B,MD,Other Health,No,,21,,2017-11,2021-06,Entry level 2,Below formal levels,,Yes,,,range,Don't know,SE,Don't know,tbc,Not in formal education,Renting - private sector,
-UA-34,WH684274D,FI,Peer,No,56,64,,2017-07,2021-05,Entry level 3,Entry level,,Yes,then,,management,Don't know,SE,,,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-GM-94,GB400808C,JE,LA,Yes,,,,2018-09,2020-10,Entry level 2,Level 5+,,No,save,,ask,Don't know,CIH,,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-WS-43,BE921269C,CW,Other,Yes,,,Caring responsibilities for an adult,2018-05,2020-10,Entry level 3,Entry level,,Yes,Republican,while,success,Yes,SE,0 to 7 hours,,Not in formal education,Renting - Local authority or housing association,
+FJ-83,WA706524D,AI,HO providers,Yes,35,51,,2017-01,2020-11,Beyond Level 2,Unknown,,No,,,green,Don't know,SE,,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
+HM-17,,FK,DWP,Yes,,,"11-17, 5-11",2019-09,2021-03,Entry level 3,Level 3-4,,Yes,,total,detail,No,TC,,tbc,formal education,Renting - private sector,
+RX-78,RN534930D,EE,Primary Care,Yes,,,,2017-11,2021-01,Entry level 1,Entry level,,No,,serious,responsibility,Yes,ULA,0 to 7 hours,,formal education,Self-funded temporary accommodation (e.g. hotel),
+GA-61,XB925698C,MC,DWP,Yes,,,,2018-06,2021-01,Entry level 2,Below formal levels,,No,,form,night,Don't know,UNLA,,,Not in formal education,Renting - private sector,
+SZ-61,YX564795B,EG,Peer,Yes,52,,,2019-06,2021-05,Entry level 3,Level 5+,,Yes,,this,training,Don't know,Other,,tbc,formal education,Renting - private sector,
+LN-90,PG756717D,CK,HO providers,No,,65,"11-17, Caring responsibilities for an adult",2019-08,2021-12,Level 2,Below formal levels,,Yes,agree,clearly,bit,Don't know,PC,49 or more hours,,formal education,Renting - private sector,
 KD-77,LN049313C,LT,Home Office,Yes,98,73,,2017-07,2020-11,Below formal levels,Below formal levels,,Yes,get,myself,brother,Don't know,ZHC,,,Not in formal education,Renting - Local authority or housing association,
 AR-49,BA697017A,MR,DWP,No,,,,2019-03,2020-12,Entry level 2,Level 1-2,,Yes,,until,environment,Yes,UNLA,16 to 30 hours,,formal education,Asylum accommodation,
 PI-63,YJ243319D,DZ,DWP,Yes,9,85,"5-11, Caring responsibilities for an adult",2019-09,2021-02,Entry level 1,Unknown,,Yes,security,million,behavior,No,Other,49 or more hours,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
@@ -16,57 +17,56 @@ KT-87,EX946530B,VC,Home Office,Yes,91,,,2018-09,2020-10,Entry level 2,Level 1-2,
 FC-22,BB251278B,RO,DWP,No,,,,2019-02,2021-05,Below formal levels,Level 5+,,Yes,thus,order,here,Yes,PC,8 to 15 hours,tbc,formal education,Renting - Local authority or housing association,
 OE-36,YY297606D,MR,HO providers,No,82,,,2019-01,2021-02,Below formal levels,Level 5+,,No,parent,under,life,Don't know,UNLA,,tbc,formal education,Asylum accommodation,
 EK-78,AR258546D,GD,Other Health,No,96,12,"0-4, 5-11, Caring responsibilities for an adult",2019-10,2021-11,Level 1,Level 1-2,,No,indeed,,compare,Yes,CIH,16 to 30 hours,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
-KM-43,,SX,Migrant Help,No,0,,"0-4, 5-11",2018-03,2021-06,Entry level 3,Entry level,,Yes,,letter,case,No,ULA,,tbc,Not in formal education,Homeless and rough sleeping,Statutory homelessness
+KM-43,ME319563D,GS,Migrant Help,Yes,,,,2018-03,2021-06,Entry level 3,Entry level,,Yes,,letter,case,No,ULA,,tbc,Not in formal education,Homeless and rough sleeping,Statutory homelessness
 QW-79,TT233036A,ST,DWP,No,,16,,2020-02,2021-04,Below formal levels,Entry level,,Yes,thought,,capital,Yes,ULA,16 to 30 hours,tbc,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
 ED-84,LX491740A,BO,HO providers,No,63,,,2018-04,2021-08,Below formal levels,Level 5+,,Yes,,director,head,Don't know,ZHC,8 to 15 hours,tbc,formal education,Publicly funded temporary accommodation,
-EF-58,,AD,Other Health,No,,,,2018-11,2021-08,Beyond Level 2,Below formal levels,,Yes,,,name,Yes,TC,16 to 30 hours,,Not in formal education,Renting - Local authority or housing association,
-EC-03,CH688874D,BW,Primary Care,Yes,,40,"0-4, Caring responsibilities for an adult",2018-11,2021-03,Below formal levels,Level 1-2,,Yes,,north,none,Yes,Other,Don't know,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-AI-00,GH007836B,AS,LA,Yes,54,32,,2019-07,2021-03,Level 2,Level 5+,,Yes,there,,watch,Don't know,ZHC,31 to 48 hours,,Not in formal education,Other safe and secure accommodation,
-EO-17,,TF,Migrant Help,Yes,73,21,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2017-03,2021-05,Pre-entry,Below formal levels,,No,,,son,No,CIH,Don't know,,formal education,Other safe and secure accommodation,
-FT-80,JM671627A,GA,Other Health,No,55,41,,2019-05,2020-10,Entry level 3,Level 1-2,,No,,,concern,No,CIH,,tbc,formal education,Renting - private sector,
-YT-86,,FR,Local VCS,No,92,82,0-4,2018-06,2021-02,Below formal levels,Level 3-4,,No,special,class,wrong,No,ULA,,tbc,Not in formal education,Asylum accommodation,
-YZ-64,GY312339C,SG,Peer,Yes,35,72,"0-4, 5-11, Caring responsibilities for an adult",2018-12,2021-08,Level 2,Level 5+,,Yes,,,record,Don't know,ZHC,49 or more hours,tbc,formal education,Publicly funded temporary accommodation,
-IQ-22,MW323385B,US,Home Office,Yes,,,"0-4, 5-11, Caring responsibilities for an adult",2019-07,2021-09,Entry level 1,Unknown,,Yes,,suggest,indeed,No,ULA,Don't know,tbc,Not in formal education,Asylum accommodation,
-PB-30,EY321551B,SM,Self-referrals,Yes,45,,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2019-08,2021-03,Entry level 3,Level 1-2,,Yes,its,since,room,No,SE,Don't know,tbc,formal education,Publicly funded temporary accommodation,
-ZA-81,MR705446D,BR,Other,Yes,26,1,,2018-10,2021-03,Beyond Level 2,Level 5+,,No,similar,fish,pretty,Don't know,UNLA,,,Not in formal education,Other safe and secure accommodation,
-CD-47,,TF,Migrant Help,Yes,21,93,11-17,2018-01,2020-07,Level 2,Unknown,18,Yes,spring,method,bring,No,SE,16 to 30 hours,,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-ZV-95,MH872202B,SH,Primary Care,Yes,62,,"11-17, Caring responsibilities for an adult",2020-02,2021-03,Entry level 3,Entry level,,No,report,section,clearly,Don't know,Other,,tbc,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-VI-65,CH026933D,LS,Peer,No,,5,,2017-10,2021-06,Entry level 3,Level 5+,,Yes,way,threat,special,Yes,Other,,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-MU-37,SJ838832C,AU,Home Office,Yes,,42,,2019-02,2021-04,Beyond Level 2,Entry level,,Yes,,,store,No,ULA,0 to 7 hours,,formal education,Renting - Local authority or housing association,
-PI-08,SZ531926C,BV,Primary Care,No,,54,5-11,2019-04,2021-08,Below formal levels,Unknown,,No,no,trial,trade,Yes,ULA,,tbc,formal education,Renting - Local authority or housing association,
-WM-03,,JP,Other,Yes,,36,"0-4, 11-17",2019-01,2020-11,Beyond Level 2,Level 3-4,,Yes,,,easy,Yes,ZHC,,tbc,formal education,Publicly funded temporary accommodation,
-HX-29,,SZ,Peer,Yes,,,"11-17, 5-11, Caring responsibilities for an adult",2018-09,2021-01,Entry level 3,Unknown,,Yes,,his,require,No,PC,,,formal education,Renting - private sector,
-IG-23,TN320622A,LI,Other Health,Yes,57,,"0-4, 11-17",2018-03,2021-06,Below formal levels,Level 1-2,,Yes,all,allow,meet,Don't know,Other,0 to 7 hours,tbc,formal education,Asylum accommodation,
-TB-53,GM778344A,DJ,Primary Care,No,99,68,"0-4, 5-11, Caring responsibilities for an adult",2019-06,2020-09,Pre-entry,Unknown,,Yes,human,,onto,Yes,SE,31 to 48 hours,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
-YO-19,,SV,Peer,No,75,31,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2020-02,2021-07,Entry level 3,Below formal levels,,No,four,explain,low,No,UNLA,,,formal education,Self-funded temporary accommodation (e.g. hotel),
-TL-86,BK445739B,TM,Other Health,No,,,,2018-06,2021-10,Level 2,Level 3-4,,No,doctor,,off,No,UNLA,,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
+EF-58,JG907444D,SK,Self-referrals,Yes,63,,,2019-02,2021-02,Entry level 2,Below formal levels,,No,know,,inside,Yes,PC,49 or more hours,tbc,Not in formal education,Renting - Local authority or housing association,
+GM-84,BN293808B,IE,Migrant Help,No,,,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2017-11,2021-03,Entry level 3,Below formal levels,,Yes,develop,area,interesting,Yes,TC,,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
+QP-25,AS912951D,SD,Home Office,Yes,65,42,,2020-02,2021-10,Entry level 1,Level 3-4,,Yes,identify,more,few,Don't know,ZHC,Don't know,tbc,Not in formal education,Other safe and secure accommodation,
+ED-13,TY566413C,JE,Migrant Help,Yes,6,45,,2019-11,2021-03,Entry level 1,Unknown,,Yes,sea,practice,produce,Yes,ZHC,,tbc,formal education,Homeless and rough sleeping,Statutory homelessness
+KQ-92,,KI,Other,Yes,,,,2019-04,2021-05,Entry level 1,Level 1-2,,No,,dog,account,No,ZHC,16 to 30 hours,tbc,formal education,Renting - private sector,
+YT-46,,SB,DWP,No,79,50,"5-11, Caring responsibilities for an adult",2019-08,2021-04,Beyond Level 2,Level 1-2,,No,chair,raise,maybe,No,CIH,16 to 30 hours,,Not in formal education,Publicly funded temporary accommodation,
+NB-64,JL387166A,ER,Local VCS,No,,38,,2018-07,2021-01,Level 2,Level 5+,,No,establish,same,continue,Don't know,UNLA,,,Not in formal education,Homeless and rough sleeping,Statutory homelessness
+JI-93,WJ976665D,FR,Home Office,Yes,,,,2017-08,2021-01,Entry level 2,Entry level,,Yes,,big,future,Yes,Other,,tbc,formal education,Homeless and rough sleeping,Non-statutory homelessness
+LL-79,JS063044A,KH,Primary Care,Yes,,,,2017-07,2021-12,Level 2,Unknown,,Yes,,product,threat,Yes,ULA,8 to 15 hours,tbc,formal education,Renting - Local authority or housing association,
+TB-65,JE190161A,UY,Primary Care,Yes,,59,"0-4, 5-11, Caring responsibilities for an adult",2017-11,2021-11,Beyond Level 2,Level 1-2,,Yes,,,three,No,Other,16 to 30 hours,tbc,formal education,Other safe and secure accommodation,
+DK-71,GC360663A,MV,Primary Care,No,36,,"11-17, Caring responsibilities for an adult",2019-09,2020-07,Entry level 1,Level 3-4,,No,follow,,feel,Yes,SE,16 to 30 hours,,formal education,Homeless and rough sleeping,Statutory homelessness
+YE-23,RB674723C,BY,Local VCS,No,,,5-11,2020-02,2021-07,Level 1,Level 5+,,Yes,,,though,Yes,TC,,,Not in formal education,Renting - Local authority or housing association,
+GC-93,GL420950A,SJ,Peer,Yes,,3,,2020-06,2021-09,Pre-entry,Entry level,,Yes,beyond,each,surface,Yes,ZHC,49 or more hours,,formal education,Self-funded temporary accommodation (e.g. hotel),
+VY-44,,SA,Self-referrals,Yes,,,5-11,2017-05,2020-09,Pre-entry,Level 5+,,No,hotel,,window,Yes,TC,16 to 30 hours,tbc,Not in formal education,Renting - Local authority or housing association,
+LU-01,WB274469C,LB,Local VCS,No,,29,,2020-01,2021-07,Level 2,Level 1-2,,No,theory,serve,television,No,ZHC,8 to 15 hours,,Not in formal education,Other safe and secure accommodation,
+PJ-54,ZE415043C,YT,Home Office,No,35,63,"0-4, 11-17, Caring responsibilities for an adult",2019-08,2021-04,Entry level 2,Entry level,,Yes,,look,remain,No,UNLA,8 to 15 hours,tbc,Not in formal education,Other safe and secure accommodation,
+AG-33,SL085183B,KN,DWP,Yes,,,,2017-07,2021-01,Level 2,Level 5+,,Yes,,,source,Yes,ZHC,,tbc,formal education,Publicly funded temporary accommodation,
+BO-75,,GH,Other,Yes,53,2,,2019-02,2020-11,Below formal levels,Entry level,,No,behind,have,behind,Yes,Other,16 to 30 hours,,formal education,Self-funded temporary accommodation (e.g. hotel),
+TE-44,KJ869218D,SG,Other Health,Yes,,,,2018-01,2020-10,Level 2,Level 5+,,No,argue,wrong,doctor,No,ULA,,,Not in formal education,Renting - Local authority or housing association,
+HI-31,TC896484A,ET,Primary Care,Yes,11,87,,2019-09,2021-06,Level 2,Entry level,,No,,,because,No,Other,0 to 7 hours,tbc,formal education,Homeless and rough sleeping,Statutory homelessness
+DB-03,BK445739B,TM,Other Health,No,,,,2018-09,2022-01,Level 2,Level 3-4,,No,doctor,,off,No,UNLA,,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
 YP-37,WX537428D,CD,Other Health,Yes,3,65,,2018-05,2022-02,Entry level 3,Level 3-4,,Yes,however,heart,specific,No,Other,16 to 30 hours,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
 HA-44,JL498504D,YT,Primary Care,No,,54,,2020-03,2021-01,Level 1,Entry level,,No,drop,,last,Yes,TC,,,Not in formal education,Asylum accommodation,
-YG-20,,HR,Home Office,No,,51,,2019-09,2020-08,Entry level 3,Level 3-4,,Yes,later,,check,Yes,UNLA,0 to 7 hours,,Not in formal education,Renting - Local authority or housing association,
-UB-28,,TM,Other,No,86,45,"0-4, 5-11",2019-12,2021-06,Entry level 2,Level 3-4,,No,,,response,No,SE,49 or more hours,tbc,Not in formal education,Other safe and secure accommodation,
-YW-31,BS386418B,CF,Other,No,67,4,Caring responsibilities for an adult,2019-11,2021-07,Below formal levels,Level 1-2,,Yes,election,benefit,between,No,Other,49 or more hours,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
-QI-91,JA109309D,MY,Local VCS,No,,78,,2018-09,2020-08,Entry level 3,Below formal levels,,Yes,,,offer,Don't know,CIH,0 to 7 hours,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-MJ-89,BH897238D,MQ,LA,No,90,,5-11,2018-08,2020-07,Level 1,Below formal levels,,No,,,follow,Don't know,ZHC,,,formal education,Homeless and rough sleeping,Non-statutory homelessness
-YV-45,AY908029D,IS,Local VCS,No,,,,2019-05,2020-08,Entry level 3,Unknown,,Yes,heart,mother,see,Don't know,ULA,,tbc,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
-HJ-58,TT648954A,IO,Home Office,Yes,,46,"0-4, 11-17, 5-11",2019-07,2021-04,Level 1,Below formal levels,,Yes,painting,,activity,No,CIH,8 to 15 hours,,formal education,Homeless and rough sleeping,Non-statutory homelessness
-XF-08,CJ646371B,CK,Self-referrals,Yes,,48,,2019-02,2021-01,Below formal levels,Level 1-2,,Yes,home,,let,Don't know,TC,,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-CC-24,YB158820C,MH,Self-referrals,Yes,,90,"11-17, 5-11",2018-04,2021-01,Below formal levels,Below formal levels,,No,part,choice,trouble,Don't know,Other,,tbc,Not in formal education,Asylum accommodation,
-YB-13,NY994952C,SS,Other Health,Yes,55,91,Caring responsibilities for an adult,2017-09,2020-11,Pre-entry,Level 1-2,,No,,,medical,No,UNLA,,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
-FB-74,HK472480A,BE,Home Office,Yes,87,57,"0-4, Caring responsibilities for an adult",2017-07,2021-01,Beyond Level 2,Level 3-4,,Yes,technology,,all,No,ULA,0 to 7 hours,,formal education,Renting - Local authority or housing association,
-XU-97,JK906259D,MQ,DWP,No,96,,,2018-03,2021-01,Pre-entry,Below formal levels,,Yes,,,mind,No,Other,0 to 7 hours,tbc,formal education,Asylum accommodation,
+YG-20,AT268157B,MK,Peer,Yes,37,63,,2017-05,2021-02,Entry level 1,Level 1-2,,No,sport,history,him,No,PC,,tbc,formal education,Asylum accommodation,
+DX-79,MZ878792C,BE,Other Health,No,,83,,2018-09,2020-12,Level 2,Level 3-4,,Yes,rest,easy,whose,Yes,Other,31 to 48 hours,,Not in formal education,Renting - Local authority or housing association,
+BJ-06,YR997069B,BZ,Home Office,No,71,73,,2018-08,2021-05,Entry level 2,Entry level,,No,he,specific,college,No,CIH,Don't know,,formal education,Asylum accommodation,
+CU-12,NP739642D,SS,Primary Care,No,24,64,0-4,2020-01,2021-12,Entry level 2,Level 5+,,Yes,traditional,item,report,Don't know,CIH,8 to 15 hours,,formal education,Self-funded temporary accommodation (e.g. hotel),
+FU-03,XM397841A,LV,Other Health,No,85,,"0-4, 11-17",2018-08,2021-06,Pre-entry,Level 3-4,,No,do,must,simply,No,ZHC,8 to 15 hours,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
+GL-10,XZ625459C,LV,Migrant Help,No,,,,2019-11,2021-05,Pre-entry,Level 5+,,No,win,,production,Don't know,SE,0 to 7 hours,tbc,formal education,Asylum accommodation,
+EZ-15,HA085948D,UM,DWP,No,,,"0-4, 11-17, Caring responsibilities for an adult",2017-06,2020-10,Entry level 2,Level 5+,,No,two,,key,Yes,UNLA,,,Not in formal education,Renting - private sector,
+TQ-95,TR101727B,AW,LA,No,,64,,2018-06,2021-03,Entry level 1,Unknown,24,No,tough,future,group,No,ZHC,0 to 7 hours,,formal education,Renting - Local authority or housing association,
+YR-20,,CH,Other Health,No,41,,,2017-10,2021-02,Level 2,Level 1-2,,Yes,,,our,Don't know,SE,,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
+YQ-36,HM899433A,AM,LA,No,,20,,2018-03,2021-09,Level 1,Level 5+,,No,,,standard,Yes,PC,8 to 15 hours,tbc,formal education,Publicly funded temporary accommodation,
+GT-50,,IE,LA,No,89,23,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2019-04,2021-01,Entry level 3,Level 1-2,,No,,book,ball,Don't know,CIH,Don't know,tbc,formal education,Renting - Local authority or housing association,
+DR-78,NZ539062B,KY,Peer,No,96,,,2018-02,2020-12,Pre-entry,Below formal levels,,Yes,,,mind,No,Other,0 to 7 hours,tbc,formal education,Asylum accommodation,
 AT-88,,CX,Primary Care,No,,,,2020-03,2021-05,Level 2,Unknown,,No,maintain,question,raise,Yes,SE,,,Not in formal education,Publicly funded temporary accommodation,
 CF-77,LJ439810B,MD,Self-referrals,No,,,"0-4, 11-17, Caring responsibilities for an adult",2018-11,2020-08,Below formal levels,Entry level,,Yes,,service,eat,Don't know,PC,Don't know,tbc,Not in formal education,Other safe and secure accommodation,
 TH-52,BR023783C,TR,Migrant Help,Yes,,19,,2018-05,2021-04,Pre-entry,Entry level,,No,,,else,Yes,CIH,16 to 30 hours,,Not in formal education,Renting - Local authority or housing association,
-VK-97,,AZ,Home Office,Yes,,,,2020-06,2021-06,Pre-entry,Level 1-2,,Yes,,,industry,Yes,ULA,8 to 15 hours,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-VX-97,PK701495B,CO,Other Health,No,4,22,"0-4, 5-11, Caring responsibilities for an adult",2018-05,2021-04,Below formal levels,Unknown,22,Yes,,hour,institution,Don't know,TC,,tbc,formal education,Other safe and secure accommodation,
+VK-97,HZ084173B,SB,Peer,No,83,,,2019-11,2021-05,Entry level 3,Level 3-4,,Yes,,,with,Yes,TC,,tbc,Not in formal education,Asylum accommodation,
 MP-55,ZM982431D,MP,Local VCS,Yes,,95,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2017-03,2021-06,Below formal levels,Level 5+,,No,,social,message,Yes,ULA,Don't know,tbc,formal education,Renting - private sector,
 QI-21,AZ385713A,VE,Home Office,Yes,83,,,2018-09,2021-04,Below formal levels,Entry level,,Yes,,see,for,Yes,PC,,tbc,formal education,Other safe and secure accommodation,
 AD-60,KK405709A,ME,Self-referrals,Yes,23,,5-11,2018-02,2021-01,Entry level 2,Entry level,,No,,,thousand,Yes,ZHC,,tbc,formal education,Asylum accommodation,
-OB-62,,SB,Migrant Help,Yes,4,,"0-4, 11-17",2020-02,2021-04,Beyond Level 2,Unknown,13,No,huge,dog,hit,Don't know,Other,,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-SE-22,CB706012A,SZ,Self-referrals,No,,65,,2019-05,2020-08,Level 2,Level 1-2,,No,reflect,choose,system,No,Other,,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-SS-11,CP085796A,FM,Other Health,No,18,47,,2017-12,2020-11,Pre-entry,Level 5+,,No,,top,consider,Don't know,PC,,,formal education,Other safe and secure accommodation,
-OO-56,,CL,Local VCS,No,,98,,2019-09,2021-11,Entry level 2,Level 1-2,,Yes,,fear,every,Don't know,Other,16 to 30 hours,tbc,Not in formal education,Renting - private sector,
-ZA-60,LL655840D,MT,LA,No,,,,2017-07,2021-07,Beyond Level 2,Level 3-4,,Yes,,,life,No,ULA,,tbc,Not in formal education,Other safe and secure accommodation,
+OB-62,BN964360C,GA,Peer,Yes,62,94,,2019-10,2021-08,Entry level 2,Level 1-2,,No,,street,trade,Don't know,PC,Don't know,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
+XF-12,HZ022722B,MO,Home Office,Yes,,6,,2018-04,2020-11,Entry level 1,Below formal levels,,Yes,answer,theory,listen,Don't know,TC,,,formal education,Renting - Local authority or housing association,
+KX-01,PP526726C,ZM,HO providers,Yes,,22,,2019-09,2021-06,Entry level 3,Unknown,,Yes,,real,place,No,ULA,,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
+XU-56,TS476567A,TT,Other Health,Yes,,86,,2018-09,2021-04,Entry level 1,Level 3-4,,No,,,low,No,ZHC,0 to 7 hours,,Not in formal education,Publicly funded temporary accommodation,
+JM-33,TR584044D,MH,Other,Yes,,,,2020-01,2021-07,Level 2,Level 5+,,Yes,,,life,No,ULA,,tbc,Not in formal education,Other safe and secure accommodation,
 AN-01,LZ434345C,MC,Migrant Help,No,72,1,,2019-12,2021-03,Beyond Level 2,Entry level,,No,,series,dream,Don't know,TC,Don't know,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
 RW-53,PR061681D,CA,Primary Care,No,82,,,2019-10,2021-12,Pre-entry,Unknown,13,No,dream,,vote,Yes,Other,49 or more hours,,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
 QE-05,GK422432D,KW,Other,No,47,,"0-4, 11-17, Caring responsibilities for an adult",2018-01,2022-02,Entry level 1,Level 3-4,,No,environmental,,information,Yes,ULA,,,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
@@ -75,13 +75,12 @@ VY-85,CX912007C,PK,Self-referrals,Yes,39,,"0-4, 11-17, 5-11",2019-05,2020-06,Ent
 ZF-54,RA058656D,BY,HO providers,Yes,,10,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2017-07,2021-08,Entry level 3,Unknown,,Yes,when,exactly,there,Don't know,ULA,8 to 15 hours,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
 DF-22,XP921159D,SL,Other,No,,7,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2017-10,2021-10,Beyond Level 2,Unknown,21,Yes,,method,because,Don't know,ZHC,8 to 15 hours,,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
 DG-94,WZ451065B,MV,Other Health,No,,,,2019-09,2021-02,Entry level 2,Entry level,,No,,,science,Yes,CIH,49 or more hours,,formal education,Self-funded temporary accommodation (e.g. hotel),
-HG-07,,VN,Other Health,No,,,,2019-01,2021-01,Entry level 3,Entry level,,No,garden,sport,though,Don't know,PC,,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-BD-91,RK363152C,HM,LA,No,58,23,,2019-11,2021-03,Entry level 1,Level 3-4,,Yes,money,,present,No,ZHC,,tbc,formal education,Asylum accommodation,
-CH-54,MM365187D,VC,Other Health,Yes,,31,,2018-08,2021-04,Below formal levels,Entry level,,No,,pressure,very,No,PC,31 to 48 hours,,formal education,Publicly funded temporary accommodation,
-LW-59,RC292295B,MV,Peer,No,,22,,2017-07,2020-12,Pre-entry,Level 3-4,,Yes,wide,yes,blood,Don't know,SE,16 to 30 hours,tbc,formal education,Renting - Local authority or housing association,
-DX-05,AC799400B,EE,Primary Care,No,94,38,5-11,2017-08,2021-02,Entry level 2,Level 3-4,,No,,first,hold,Don't know,Other,,,Not in formal education,Publicly funded temporary accommodation,
-IE-81,JJ320291B,GH,Peer,No,,25,,2019-09,2021-04,Entry level 1,Below formal levels,,Yes,,control,it,Yes,CIH,Don't know,,formal education,Asylum accommodation,
-EK-93,MH927406B,GE,LA,No,61,10,"5-11, Caring responsibilities for an adult",2020-04,2021-08,Entry level 3,Below formal levels,,No,,,feel,No,PC,,tbc,formal education,Renting - Local authority or housing association,
+HG-07,GY534727C,ID,Primary Care,No,17,22,"11-17, 5-11",2019-08,2021-07,Level 2,Level 1-2,,No,,enough,trial,No,TC,,tbc,Not in formal education,Asylum accommodation,
+FQ-57,MC973865B,AM,Other Health,No,88,48,"11-17, 5-11, Caring responsibilities for an adult",2019-12,2021-06,Level 1,Unknown,14,No,view,person,gun,Don't know,PC,,tbc,Not in formal education,Homeless and rough sleeping,Statutory homelessness
+VH-35,ZP669135D,KN,Home Office,No,,,5-11,2017-06,2020-07,Level 1,Level 5+,,Yes,,,house,Yes,PC,,tbc,formal education,Renting - Local authority or housing association,
+DG-01,SG092213B,AW,Other,No,60,66,,2017-10,2020-10,Below formal levels,Level 3-4,,Yes,,,focus,No,ULA,49 or more hours,,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
+SN-66,YT160396D,BF,Primary Care,No,36,,,2018-03,2020-11,Below formal levels,Level 5+,,No,,,arm,Don't know,ZHC,,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
+SX-36,KW897552A,AT,Migrant Help,Yes,,51,"0-4, 5-11",2019-03,2021-05,Level 1,Below formal levels,,Yes,,,old,No,Other,49 or more hours,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
 FY-37,PM626846D,PW,Other,Yes,38,,,2017-12,2021-07,Level 2,Below formal levels,,No,,,first,Don't know,SE,8 to 15 hours,tbc,formal education,Renting - private sector,
 GY-60,,NA,DWP,No,,89,5-11,2019-05,2021-11,Pre-entry,Entry level,,No,customer,,near,Yes,UNLA,,tbc,formal education,Asylum accommodation,
 RU-19,ZT477899B,GD,Other,Yes,63,83,5-11,2019-12,2021-05,Level 1,Unknown,23,Yes,,perhaps,peace,Yes,ULA,49 or more hours,tbc,Not in formal education,Homeless and rough sleeping,Statutory homelessness
@@ -110,63 +109,62 @@ HH-76,JB938851B,MO,Self-referrals,Yes,28,,,2020-07,2021-12,Entry level 3,Unknown
 SM-45,AS925643B,CM,Primary Care,Yes,,,"0-4, 5-11",2018-01,2021-09,Beyond Level 2,Entry level,,Yes,,might,exist,Don't know,Other,31 to 48 hours,,formal education,Renting - private sector,
 SQ-15,JE775439B,AI,Other,No,,,,2019-01,2020-06,Level 2,Below formal levels,,No,discover,,machine,No,Other,16 to 30 hours,,Not in formal education,Renting - Local authority or housing association,
 MQ-74,SN456350C,EE,DWP,Yes,40,81,5-11,2018-12,2020-07,Below formal levels,Level 1-2,,Yes,,nearly,beyond,No,SE,Don't know,,Not in formal education,Asylum accommodation,
-ZE-67,,RE,Home Office,Yes,68,74,,2018-05,2021-07,Beyond Level 2,Level 5+,,Yes,peace,game,place,No,Other,,tbc,Not in formal education,Asylum accommodation,
-QO-31,GX795438D,LA,DWP,No,,,,2018-09,2020-07,Pre-entry,Unknown,,No,,,particularly,No,TC,0 to 7 hours,,Not in formal education,Renting - Local authority or housing association,
-JC-46,HA552497D,MK,Primary Care,Yes,,30,"0-4, 11-17, Caring responsibilities for an adult",2018-08,2021-04,Level 1,Level 1-2,,No,,table,other,No,CIH,,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
-US-68,JR965411C,BV,Home Office,Yes,50,,,2018-04,2021-09,Pre-entry,Entry level,,No,common,,opportunity,Yes,Other,,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
-KR-16,JM604183D,VU,Peer,No,,42,"11-17, 5-11, Caring responsibilities for an adult",2018-06,2020-08,Entry level 1,Level 1-2,,Yes,behavior,cold,even,Yes,UNLA,,,formal education,Other safe and secure accommodation,
-BD-43,XP989123D,SC,Other,Yes,96,,"0-4, 11-17",2018-03,2021-07,Pre-entry,Below formal levels,,Yes,hour,,stuff,No,PC,,,Not in formal education,Homeless and rough sleeping,Statutory homelessness
-PP-64,,BZ,Other,No,,,,2018-05,2020-05,Pre-entry,Level 5+,,Yes,,building,green,Yes,ULA,,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
+ZE-67,YH429103B,EC,Other,No,75,,,2018-05,2021-01,Level 2,Level 3-4,,No,per,month,example,Yes,Other,49 or more hours,,Not in formal education,Other safe and secure accommodation,
+EE-59,PH729822B,CK,Other,No,12,38,,2017-12,2020-11,Pre-entry,Level 3-4,,No,,leave,animal,No,Other,,tbc,formal education,Other safe and secure accommodation,
+AB-61,YZ858160D,SO,DWP,Yes,100,,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2020-03,2021-07,Level 2,Level 3-4,,No,,people,foreign,Yes,PC,,tbc,formal education,Other safe and secure accommodation,
+NP-93,,AM,Self-referrals,Yes,,,"0-4, 11-17",2018-12,2021-03,Entry level 3,Below formal levels,,No,weight,at,marriage,Don't know,UNLA,,,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
+AE-65,BC453281C,WS,Peer,Yes,0,83,"11-17, 5-11",2018-03,2020-07,Entry level 1,Level 5+,,No,,,government,Yes,UNLA,,,Not in formal education,Renting - Local authority or housing association,
+LS-16,PS525857D,GT,Self-referrals,Yes,,,,2019-07,2021-02,Level 1,Unknown,25,No,,,themselves,Don't know,TC,,,Not in formal education,Homeless and rough sleeping,Statutory homelessness
+XF-86,AW238574A,SB,Local VCS,Yes,85,52,,2017-11,2021-02,Entry level 3,Entry level,,Yes,,,another,Don't know,UNLA,,tbc,Not in formal education,Homeless and rough sleeping,Statutory homelessness
 ZD-31,BH494799B,UA,HO providers,No,68,51,0-4,2017-06,2021-02,Entry level 3,Unknown,13,No,,six,agree,Yes,Other,16 to 30 hours,,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
 TK-92,KM328568D,ML,Other,No,,,,2017-11,2021-02,Entry level 3,Unknown,,No,determine,,high,Yes,TC,Don't know,tbc,Not in formal education,Renting - Local authority or housing association,
 OW-77,WT705794B,BQ,Other Health,Yes,68,37,0-4,2017-09,2021-03,Level 2,Level 1-2,,Yes,,believe,social,Don't know,TC,0 to 7 hours,,formal education,Publicly funded temporary accommodation,
 HE-93,WN694013A,CO,Local VCS,No,33,72,,2017-04,2020-07,Level 2,Level 1-2,,No,week,,home,Yes,TC,49 or more hours,,Not in formal education,Publicly funded temporary accommodation,
 FQ-50,TM313837A,CO,Other,No,,40,,2018-01,2021-05,Entry level 1,Level 3-4,,Yes,decision,fact,drop,Don't know,ULA,,tbc,Not in formal education,Renting - private sector,
-AC-13,,TR,Peer,Yes,,85,,2019-04,2021-10,Entry level 2,Below formal levels,,No,foreign,,leave,Yes,PC,,,Not in formal education,Other safe and secure accommodation,
-LW-19,,RE,Migrant Help,No,78,82,"5-11, Caring responsibilities for an adult",2019-08,2021-11,Level 2,Entry level,,Yes,,,too,Don't know,UNLA,,,Not in formal education,Renting - Local authority or housing association,
-OL-79,SL357703C,CG,Migrant Help,No,,,"0-4, 5-11, Caring responsibilities for an adult",2018-10,2021-07,Level 1,Unknown,24,Yes,,,week,No,PC,,tbc,formal education,Other safe and secure accommodation,
-OX-06,WP030222B,CR,Primary Care,Yes,,,,2017-05,2021-04,Entry level 1,Level 5+,,Yes,,mouth,drop,Yes,ULA,31 to 48 hours,,formal education,Homeless and rough sleeping,Non-statutory homelessness
-HU-33,,HN,DWP,Yes,100,65,"0-4, 11-17, Caring responsibilities for an adult",2018-11,2021-03,Level 2,Entry level,,No,,environment,break,Yes,Other,16 to 30 hours,tbc,Not in formal education,Publicly funded temporary accommodation,
-CY-39,KA496462B,MR,Other,Yes,14,,,2020-01,2020-09,Beyond Level 2,Below formal levels,,Yes,able,,imagine,Don't know,TC,,tbc,formal education,Other safe and secure accommodation,
-KO-30,SX975844D,LV,LA,Yes,,7,,2020-01,2020-11,Level 2,Level 1-2,,Yes,girl,,behind,No,TC,0 to 7 hours,tbc,Not in formal education,Other safe and secure accommodation,
-DK-77,PN716290A,GE,Primary Care,No,,18,5-11,2019-03,2020-12,Pre-entry,Level 1-2,,No,movement,,responsibility,No,ZHC,Don't know,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
-UP-76,ML766647A,PT,Primary Care,Yes,11,5,0-4,2020-03,2021-03,Entry level 3,Unknown,,No,street,,add,No,ULA,0 to 7 hours,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-IH-50,HP810795C,FK,Home Office,No,,,,2018-05,2021-05,Pre-entry,Level 5+,,Yes,if,they,recent,No,UNLA,0 to 7 hours,tbc,Not in formal education,Renting - private sector,
-HU-41,,RO,Local VCS,No,56,69,,2017-01,2020-11,Entry level 1,Below formal levels,,No,,raise,particularly,Don't know,SE,,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-FN-12,CG765330C,CH,Primary Care,No,,44,"5-11, Caring responsibilities for an adult",2020-02,2020-12,Pre-entry,Entry level,,Yes,practice,much,history,Yes,ZHC,,tbc,Not in formal education,Asylum accommodation,
-TI-19,BS807581D,SO,Migrant Help,Yes,38,8,,2019-05,2021-02,Level 1,Level 3-4,,No,,,throughout,Yes,Other,0 to 7 hours,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
-VO-63,NR816139D,MA,Home Office,No,48,,,2017-05,2021-02,Level 1,Level 3-4,,Yes,,,oil,Don't know,CIH,,tbc,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
+AC-13,NY999108C,EH,Other Health,No,16,80,,2019-01,2021-08,Pre-entry,Entry level,,Yes,Mr,,model,No,UNLA,49 or more hours,,Not in formal education,Other safe and secure accommodation,
+YO-35,,KE,LA,No,,,"0-4, 5-11",2019-11,2021-04,Below formal levels,Level 3-4,,Yes,other,,week,Don't know,Other,,,formal education,Renting - private sector,
+YY-82,YE043188A,MC,Other,No,34,49,,2020-02,2020-11,Below formal levels,Level 1-2,,Yes,size,agreement,blood,No,CIH,16 to 30 hours,,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
+RJ-27,KW789405A,AO,HO providers,Yes,,80,,2019-04,2020-06,Entry level 2,Level 5+,,Yes,eight,act,lay,Yes,TC,,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
+UV-72,NZ894475D,ZA,Local VCS,No,30,,,2018-02,2021-01,Level 2,Below formal levels,,Yes,coach,,baby,Yes,UNLA,49 or more hours,,Not in formal education,Other safe and secure accommodation,
+TD-30,CJ069526D,PY,Home Office,Yes,34,32,,2017-12,2020-09,Below formal levels,Below formal levels,,No,six,agreement,collection,No,SE,31 to 48 hours,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
+IT-22,BX699174C,PH,HO providers,Yes,16,,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2018-08,2021-08,Entry level 3,Entry level,,No,fight,,suffer,Don't know,ZHC,16 to 30 hours,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
+II-90,,HR,Other Health,No,,,"0-4, 5-11, Caring responsibilities for an adult",2018-02,2020-11,Level 2,Level 5+,,No,,nothing,camera,Don't know,ZHC,,,Not in formal education,Publicly funded temporary accommodation,
+QR-16,NC600393C,GR,DWP,Yes,,77,"0-4, 5-11",2017-08,2020-10,Below formal levels,Level 1-2,,No,trip,,travel,No,TC,Don't know,,Not in formal education,Renting - private sector,
+BB-01,CR099604A,NA,Local VCS,Yes,93,44,,2020-01,2021-09,Entry level 3,Entry level,,No,join,such,degree,Don't know,ZHC,8 to 15 hours,,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
+AC-33,AC349842D,US,Home Office,No,78,,,2018-05,2021-09,Beyond Level 2,Level 3-4,,Yes,,,couple,Yes,ULA,,,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
+DC-99,YA606641B,KN,Peer,No,,,,2018-07,2020-07,Pre-entry,Below formal levels,,No,,,above,Yes,SE,16 to 30 hours,tbc,Not in formal education,Asylum accommodation,
+VN-00,YC395663A,LI,Self-referrals,No,,,,2018-07,2021-01,Level 1,Level 3-4,,Yes,,,oil,Don't know,CIH,,tbc,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
 BZ-74,GS043688D,GW,HO providers,No,,,,2017-03,2020-06,Level 1,Level 5+,,Yes,better,magazine,under,No,ULA,,tbc,formal education,Renting - Local authority or housing association,
-IE-59,,UZ,Peer,No,96,,,2018-10,2020-11,Beyond Level 2,Level 1-2,,No,,,else,Don't know,ZHC,Don't know,tbc,formal education,Publicly funded temporary accommodation,
-RR-77,,BI,HO providers,No,,16,"0-4, 5-11, Caring responsibilities for an adult",2018-05,2022-01,Entry level 2,Entry level,,No,reach,work,remain,Don't know,CIH,0 to 7 hours,,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-RV-92,WC217374B,MM,Home Office,No,1,,,2019-02,2020-10,Entry level 3,Level 5+,,No,during,,always,No,UNLA,16 to 30 hours,tbc,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
+IE-59,TB329064D,SG,Other,No,,66,,2019-11,2021-09,Pre-entry,Entry level,,Yes,all,pull,purpose,Don't know,UNLA,,tbc,Not in formal education,Publicly funded temporary accommodation,
+FA-79,,NE,DWP,No,,,,2018-11,2021-06,Pre-entry,Entry level,,No,on,thought,push,Don't know,UNLA,,tbc,formal education,Renting - Local authority or housing association,
+JR-82,HZ374719C,RU,DWP,No,1,,,2019-05,2021-02,Entry level 3,Level 5+,,No,during,,always,No,UNLA,16 to 30 hours,tbc,Not in formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
 LQ-79,TZ405236D,SM,Other,No,,10,,2019-08,2021-10,Entry level 2,Below formal levels,,No,authority,vote,guess,No,CIH,,tbc,Not in formal education,Homeless and rough sleeping,Statutory homelessness
 RY-18,CN523020B,KP,Local VCS,Yes,,,"0-4, 11-17",2018-12,2020-11,Entry level 1,Level 1-2,,Yes,,deal,ball,No,SE,,,formal education,Publicly funded temporary accommodation,
 TS-86,LG783454B,LU,LA,Yes,,,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2017-11,2021-05,Level 1,Below formal levels,,No,,,think,Yes,CIH,,tbc,Not in formal education,Publicly funded temporary accommodation,
 TJ-38,XS884430C,GD,Home Office,No,46,,,2018-05,2020-07,Entry level 2,Unknown,,No,smile,yard,wear,Don't know,PC,,,Not in formal education,Asylum accommodation,
-OS-31,,NG,Home Office,No,22,,11-17,2019-04,2020-05,Level 1,Below formal levels,,No,message,,over,Don't know,PC,49 or more hours,tbc,formal education,Renting - private sector,
-YZ-06,,BS,Home Office,No,,,0-4,2017-11,2020-07,Level 1,Below formal levels,,Yes,,,as,Don't know,UNLA,,,formal education,Renting - private sector,
-OW-42,LY505855C,PN,HO providers,No,,90,,2018-08,2020-12,Entry level 3,Below formal levels,,Yes,usually,yourself,read,Don't know,TC,,tbc,formal education,Publicly funded temporary accommodation,
-FW-91,,FO,Home Office,No,,,,2018-10,2020-11,Level 2,Below formal levels,,Yes,,national,include,Yes,ZHC,,tbc,Not in formal education,Other safe and secure accommodation,
-IX-89,ML815293A,SD,DWP,Yes,21,,Caring responsibilities for an adult,2019-08,2021-04,Entry level 1,Entry level,,No,teacher,word,necessary,Yes,ZHC,,,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-BZ-65,,NA,Other Health,Yes,65,94,,2020-01,2021-05,Beyond Level 2,Unknown,19,No,institution,thought,raise,No,TC,16 to 30 hours,tbc,Not in formal education,Other safe and secure accommodation,
-UQ-35,YB800491C,TH,LA,No,,,,2019-06,2021-04,Entry level 2,Level 5+,,Yes,difficult,,bar,Yes,ZHC,31 to 48 hours,tbc,formal education,Other safe and secure accommodation,
-KM-05,GR902370A,MZ,Home Office,No,42,,"0-4, 5-11, Caring responsibilities for an adult",2019-01,2021-10,Level 2,Unknown,12,No,,especially,run,Don't know,ZHC,,tbc,Not in formal education,Renting - private sector,
+OS-31,EH364157A,FI,Peer,Yes,41,,,2018-05,2020-11,Entry level 3,Unknown,,Yes,,,notice,Yes,ULA,31 to 48 hours,tbc,Not in formal education,Other safe and secure accommodation,
+IA-82,MH108288D,AE,Local VCS,Yes,6,59,,2018-11,2021-04,Level 1,Level 5+,,No,great,total,one,Don't know,ULA,,tbc,Not in formal education,Renting - private sector,
+VI-76,LJ205439C,PA,Local VCS,No,,70,"0-4, 11-17",2020-02,2021-10,Level 2,Below formal levels,,Yes,,,their,No,CIH,8 to 15 hours,,formal education,Self-funded temporary accommodation (e.g. hotel),
+GK-55,PR742795C,MO,Other Health,No,65,,"0-4, 5-11",2018-10,2021-07,Beyond Level 2,Level 5+,,Yes,but,since,plan,No,PC,Don't know,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
+VC-34,WK782947B,EG,Local VCS,Yes,44,8,,2018-08,2021-06,Entry level 3,Level 1-2,,No,,require,contain,Yes,ULA,0 to 7 hours,,Not in formal education,Other safe and secure accommodation,
+JG-84,HZ569912A,IO,Peer,No,,82,11-17,2019-04,2021-06,Level 1,Entry level,,Yes,,present,option,Yes,UNLA,8 to 15 hours,tbc,formal education,Homeless and rough sleeping,Statutory homelessness
+LV-45,BP183175D,LS,Other Health,Yes,,,Caring responsibilities for an adult,2019-11,2021-12,Pre-entry,Below formal levels,,No,much,,need,No,TC,0 to 7 hours,tbc,Not in formal education,Asylum accommodation,
+RM-49,SS304858C,KH,Primary Care,Yes,,51,"0-4, 5-11",2019-04,2020-09,Level 1,Level 1-2,,No,,door,high,Yes,CIH,,,formal education,Renting - Local authority or housing association,
+QQ-92,NB994707D,RU,Primary Care,No,,,,2018-05,2021-04,Below formal levels,Below formal levels,,Yes,,executive,opportunity,No,TC,,,formal education,Renting - private sector,
+SM-61,KT206658C,PK,Other,Yes,,68,,2019-11,2020-12,Level 1,Level 3-4,,No,cell,,training,Don't know,TC,8 to 15 hours,,Not in formal education,Homeless and rough sleeping,Statutory homelessness
 CU-26,TB945020D,CA,Migrant Help,No,78,,,2018-11,2021-08,Entry level 3,Entry level,,Yes,,look,crime,Don't know,SE,Don't know,tbc,Not in formal education,Publicly funded temporary accommodation,
 RC-67,JK354358D,FJ,Local VCS,Yes,,11,"5-11, Caring responsibilities for an adult",2020-02,2021-09,Below formal levels,Entry level,,Yes,,,free,No,PC,,,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
-ZG-16,,NO,HO providers,No,54,70,"11-17, 5-11, Caring responsibilities for an adult",2017-03,2020-09,Level 1,Level 5+,,Yes,,likely,within,Yes,SE,Don't know,,Not in formal education,Asylum accommodation,
-RT-71,XB116310A,BZ,Migrant Help,Yes,,,,2020-06,2021-05,Pre-entry,Level 1-2,,No,,capital,reach,Don't know,UNLA,,tbc,Not in formal education,Publicly funded temporary accommodation,
-TG-22,RR892502D,BR,LA,No,,,,2018-06,2020-12,Entry level 2,Level 5+,,Yes,,assume,fill,Yes,Other,,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Non-statutory homelessness
-NU-92,,PL,Home Office,Yes,89,,"0-4, 11-17, 5-11",2017-02,2020-08,Level 1,Level 1-2,,Yes,poor,cultural,can,No,Other,,tbc,formal education,Other safe and secure accommodation,
-IR-40,,VE,Home Office,No,73,32,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2019-01,2021-03,Entry level 1,Level 3-4,,Yes,bag,,dinner,Yes,SE,Don't know,tbc,Not in formal education,Asylum accommodation,
-FY-75,,GG,Primary Care,No,15,71,,2018-11,2020-11,Entry level 1,Level 3-4,,Yes,,other,already,Yes,PC,0 to 7 hours,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
-QQ-26,AX293692B,PG,Primary Care,No,,94,,2019-10,2021-03,Entry level 3,Below formal levels,,Yes,,,health,No,Other,,tbc,Not in formal education,Asylum accommodation,
-UK-24,YN585019D,KR,DWP,Yes,,,,2019-12,2021-05,Entry level 3,Entry level,,No,,,actually,Don't know,UNLA,Don't know,,Not in formal education,Other safe and secure accommodation,
+ZG-16,ST152625C,NF,Other Health,No,55,6,,2018-06,2020-11,Level 1,Entry level,,No,,,court,No,UNLA,49 or more hours,tbc,formal education,Other safe and secure accommodation,
+SX-68,LB270421D,AX,DWP,Yes,,,"0-4, 11-17",2019-07,2021-02,Level 1,Below formal levels,,No,,former,practice,Don't know,TC,0 to 7 hours,tbc,formal education,Homeless but not rough sleeping (e.g. living with friends or family),Statutory homelessness
+DU-54,ZK516290B,FK,DWP,No,84,97,"0-4, Caring responsibilities for an adult",2019-06,2020-12,Level 1,Unknown,,No,everybody,tough,number,Don't know,PC,16 to 30 hours,,formal education,Homeless and rough sleeping,Statutory homelessness
+GN-95,YG827223D,MK,Self-referrals,Yes,6,,0-4,2019-07,2020-10,Beyond Level 2,Entry level,,Yes,,respond,try,Yes,UNLA,16 to 30 hours,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
+MS-93,BJ549008D,AQ,Other Health,No,,79,,2018-06,2021-03,Pre-entry,Level 5+,,No,,,authority,Don't know,UNLA,,tbc,Not in formal education,Publicly funded temporary accommodation,
+UO-49,ET374754C,GW,Home Office,No,,60,"11-17, 5-11, Caring responsibilities for an adult",2018-08,2021-04,Entry level 3,Entry level,,No,,,actually,Don't know,UNLA,Don't know,,Not in formal education,Other safe and secure accommodation,
 KU-87,NP764191D,AQ,DWP,Yes,,,,2018-01,2020-06,Entry level 2,Entry level,,No,music,,affect,Yes,TC,,,formal education,Renting - private sector,
-AA-79,,MM,Home Office,Yes,,,0-4,2017-11,2021-03,Beyond Level 2,Level 1-2,,No,,,I,No,UNLA,,,formal education,Publicly funded temporary accommodation,
-EX-24,XM464674B,FJ,Migrant Help,No,,,,2020-03,2021-12,Entry level 2,Below formal levels,,No,,,see,No,UNLA,8 to 15 hours,tbc,formal education,Homeless and rough sleeping,Statutory homelessness
-TM-61,HC065099D,CF,Local VCS,No,,43,,2019-01,2021-11,Below formal levels,Entry level,,Yes,,,drug,Don't know,PC,,,formal education,Homeless and rough sleeping,Statutory homelessness
-GU-80,,PL,Home Office,Yes,39,,,2017-09,2020-12,Pre-entry,Level 1-2,,Yes,minute,two,apply,Yes,CIH,0 to 7 hours,,formal education,Renting - private sector,
+AA-79,ZH398197D,BL,Primary Care,No,43,100,,2017-07,2020-09,Entry level 3,Unknown,15,Yes,soon,,including,Yes,UNLA,Don't know,,Not in formal education,Publicly funded temporary accommodation,
+KM-64,WL019366B,FI,Migrant Help,No,85,,0-4,2018-09,2021-03,Entry level 3,Level 1-2,,Yes,,,talk,Yes,ZHC,,tbc,formal education,Other safe and secure accommodation,
+AK-61,RH011480A,LS,HO providers,Yes,,,,2018-03,2020-11,Entry level 3,Level 5+,,Yes,,,field,No,ZHC,,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
+JG-63,AL224971B,LB,DWP,No,,65,0-4,2017-10,2020-08,Level 2,Level 3-4,,Yes,,summer,near,No,ULA,0 to 7 hours,tbc,Not in formal education,Publicly funded temporary accommodation,
 UL-73,,MP,Other Health,No,,,,2020-08,2022-02,Entry level 3,Level 5+,,Yes,,they,finish,Yes,TC,8 to 15 hours,tbc,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
 CX-31,BA859348A,GS,DWP,Yes,,,11-17,2019-05,2021-10,Beyond Level 2,Level 5+,,No,,,see,Don't know,TC,49 or more hours,,formal education,Renting - Local authority or housing association,
 FD-41,CM642785C,TW,Primary Care,No,,78,5-11,2018-05,2021-09,Entry level 1,Level 3-4,,No,,professor,final,No,ZHC,,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
@@ -176,10 +174,10 @@ JL-20,XC515505B,IE,Other,No,89,61,"0-4, 5-11, Caring responsibilities for an adu
 DN-35,YE046642D,ER,HO providers,No,67,,"0-4, 5-11, Caring responsibilities for an adult",2019-09,2021-03,Level 1,Below formal levels,,No,woman,site,want,Yes,SE,,tbc,Not in formal education,Asylum accommodation,
 NT-22,PW279049A,GG,Home Office,No,52,,,2017-10,2021-09,Beyond Level 2,Level 1-2,,Yes,,factor,remain,Don't know,TC,,tbc,Not in formal education,Other safe and secure accommodation,
 JA-04,XN704729A,TO,Local VCS,No,,,0-4,2019-01,2021-04,Entry level 2,Entry level,,No,become,house,goal,Yes,CIH,0 to 7 hours,,Not in formal education,Homeless and rough sleeping,Non-statutory homelessness
-EV-14,,MQ,DWP,Yes,78,1,"11-17, Caring responsibilities for an adult",2019-07,2021-02,Entry level 1,Entry level,,No,,fear,late,Don't know,TC,,tbc,formal education,Renting - Local authority or housing association,
-YS-75,HT255450C,RS,Primary Care,No,,16,,2017-04,2021-02,Level 1,Level 3-4,,No,,,rock,No,CIH,16 to 30 hours,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
-LO-08,,SC,Peer,Yes,,,"0-4, 11-17, Caring responsibilities for an adult",2019-06,2022-01,Entry level 3,Level 1-2,,Yes,measure,can,address,Don't know,PC,31 to 48 hours,,formal education,Renting - Local authority or housing association,
-EK-11,,KH,Peer,No,21,,5-11,2017-10,2021-05,Beyond Level 2,Entry level,,No,minute,,stop,Don't know,SE,,,formal education,Publicly funded temporary accommodation,
+EV-14,GW959384D,GE,LA,No,,,11-17,2017-11,2021-01,Level 1,Entry level,,No,political,,note,Yes,Other,8 to 15 hours,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
+OK-58,AH525545D,TV,Other Health,No,,16,,2017-06,2021-05,Level 1,Level 3-4,,No,,,rock,No,CIH,16 to 30 hours,tbc,formal education,Self-funded temporary accommodation (e.g. hotel),
+LO-08,YC791830D,BH,Other,No,,,"11-17, 5-11",2018-09,2021-06,Level 1,Below formal levels,,Yes,stay,,military,Don't know,UNLA,,tbc,Not in formal education,Other safe and secure accommodation,
+FB-17,ZE680947A,GQ,Other,No,43,,"11-17, 5-11, Caring responsibilities for an adult",2018-09,2020-12,Entry level 3,Entry level,,No,,week,a,Don't know,UNLA,31 to 48 hours,,formal education,Homeless and rough sleeping,Statutory homelessness
 GA-17,LJ130344A,KW,Migrant Help,No,43,,"0-4, 11-17, 5-11, Caring responsibilities for an adult",2017-10,2020-12,Level 2,Unknown,18,Yes,,drive,know,Don't know,UNLA,,,Not in formal education,Renting - private sector,
 AZ-97,BB244867B,BI,Self-referrals,Yes,93,47,,2019-02,2020-10,Level 1,Level 3-4,,No,,,economic,No,UNLA,16 to 30 hours,,Not in formal education,Renting - private sector,
 ML-70,TP071318C,LT,Other,Yes,96,13,"11-17, 5-11",2018-10,2020-07,Level 2,Level 5+,,Yes,,enjoy,much,No,TC,,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
@@ -194,7 +192,3 @@ SX-25,AN867202D,BY,Primary Care,Yes,88,,,2019-11,2020-09,Entry level 1,Below for
 TY-44,ZB159083A,TO,Other,Yes,,46,11-17,2018-04,2020-05,Below formal levels,Level 5+,,No,Republican,,sell,Don't know,CIH,Don't know,tbc,Not in formal education,Self-funded temporary accommodation (e.g. hotel),
 BM-24,YL044671A,MX,LA,Yes,2,,"0-4, 11-17, 5-11",2019-06,2021-04,Level 1,Level 5+,,No,,,chance,No,SE,,,Not in formal education,Other safe and secure accommodation,
 QA-09,TP879332D,SD,Primary Care,No,,,,2019-05,2021-02,Entry level 2,Unknown,16,Yes,campaign,,different,Don't know,CIH,49 or more hours,,Not in formal education,Renting - Local authority or housing association,
-GN-14,,ET,Self-referrals,No,66,0,,2017-11,2021-10,Pre-entry,Entry level,,Yes,cover,,give,Don't know,TC,16 to 30 hours,,Not in formal education,Publicly funded temporary accommodation,
-XC-62,XC340161D,TJ,Self-referrals,Yes,36,,,2019-02,2021-08,Level 1,Level 1-2,,Yes,develop,,upon,Yes,TC,8 to 15 hours,,formal education,Publicly funded temporary accommodation,
-UE-62,PP003841B,LV,Local VCS,No,,75,,2019-10,2021-05,Level 2,Level 1-2,,Yes,executive,any,else,No,PC,31 to 48 hours,tbc,formal education,Other safe and secure accommodation,
-VN-42,JC498986A,IQ,Other,Yes,62,,,2018-02,2021-09,Below formal levels,Level 3-4,,Yes,foreign,send,bed,Don't know,UNLA,8 to 15 hours,,Not in formal education,Renting - private sector,
