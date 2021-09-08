@@ -16,9 +16,9 @@ baseline:
   ni_number: AY391500A
   number_over_18_HH: null
   number_u18_HH: null
-  occupation_goal: month
+  occupation_goal: seek
   occupation_sector: null
-  occupation_type: go
+  occupation_type: null
   prior_employment: 'No'
   referral_source: Migrant Help
   unique_id: DP-14
@@ -40,10 +40,10 @@ baseline:
   ni_number: JS634148A
   number_over_18_HH: 80
   number_u18_HH: null
-  occupation_goal: whose
-  occupation_sector: town
-  occupation_type: null
-  prior_employment: Don't know
+  occupation_goal: wrong
+  occupation_sector: ball
+  occupation_type: follow
+  prior_employment: 'Yes'
   referral_source: Local VCS
   unique_id: ID-43
   wage_baseline: null
@@ -112,10 +112,10 @@ baseline:
   ni_number: null
   number_over_18_HH: null
   number_u18_HH: null
-  occupation_goal: detail
-  occupation_sector: total
-  occupation_type: null
-  prior_employment: 'No'
+  occupation_goal: own
+  occupation_sector: campaign
+  occupation_type: military
+  prior_employment: 'Yes'
   referral_source: DWP
   unique_id: HM-17
   wage_baseline: tbc
@@ -126,7 +126,7 @@ baseline:
   date_asylum_status_granted: 2021-01
   eduction_training_status: formal education
   employed_in_home_country: 'No'
-  employment_status: ULA
+  employment_status: UNLA
   highest_qualification_achieved: Entry level
   homelessness_baseline: null
   hours_of_employment: 0 to 7 hours
@@ -136,8 +136,8 @@ baseline:
   ni_number: RN534930D
   number_over_18_HH: null
   number_u18_HH: null
-  occupation_goal: responsibility
-  occupation_sector: serious
+  occupation_goal: serious
+  occupation_sector: null
   occupation_type: null
   prior_employment: 'Yes'
   referral_source: Primary Care
@@ -160,10 +160,10 @@ baseline:
   ni_number: XB925698C
   number_over_18_HH: null
   number_u18_HH: null
-  occupation_goal: night
-  occupation_sector: form
+  occupation_goal: card
+  occupation_sector: null
   occupation_type: null
-  prior_employment: Don't know
+  prior_employment: 'No'
   referral_source: DWP
   unique_id: GA-61
   wage_baseline: null
@@ -184,10 +184,10 @@ baseline:
   ni_number: YX564795B
   number_over_18_HH: null
   number_u18_HH: 52
-  occupation_goal: training
-  occupation_sector: this
-  occupation_type: null
-  prior_employment: Don't know
+  occupation_goal: lay
+  occupation_sector: consumer
+  occupation_type: director
+  prior_employment: 'No'
   referral_source: Peer
   unique_id: SZ-61
   wage_baseline: tbc
