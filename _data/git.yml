@@ -6,5 +6,6 @@ git_hexsha: 34dfdef43ba4cc9e882fae3b708e7b98f207760f
 git_msg: 'Add conditional validation
 
   '
-git_tags: []
-git_version: 34dfdef
+git_tags:
+- v0.9
+git_version: v0.9
