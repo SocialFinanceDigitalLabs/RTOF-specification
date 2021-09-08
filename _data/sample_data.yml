@@ -168,7 +168,7 @@ baseline:
   unique_id: YE-22
   wage_baseline: tbc
 - age_finished_study: null
-  age_profile_of_dependents_uk: 0-4, 5-11, 11-17, Caring responsibilities for an adult
+  age_profile_of_dependents_uk: 5-11, 0-4, 11-17, Caring responsibilities for an adult
   current_dependents_uk: 'No'
   date_arrived_in_uk: 2019-04
   date_asylum_status_granted: 2021-01
