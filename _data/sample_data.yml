@@ -63,7 +63,7 @@ baseline:
   nationality: MU
   ni_number: YJ101222C
   number_over_18_HH: null
-  number_u18_HH: 30
+  number_u18_HH: 3
   occupation_goal: human
   occupation_sector: people
   occupation_type: growth
@@ -110,8 +110,8 @@ baseline:
   language_level_on_entry: Entry level 2
   nationality: DZ
   ni_number: TP478222C
-  number_over_18_HH: 63
-  number_u18_HH: 29
+  number_over_18_HH: 7
+  number_u18_HH: 3
   occupation_goal: room
   occupation_sector: null
   occupation_type: null
@@ -159,7 +159,7 @@ baseline:
   nationality: EG
   ni_number: YX564795B
   number_over_18_HH: null
-  number_u18_HH: 52
+  number_u18_HH: 6
   occupation_goal: hold
   occupation_sector: lay
   occupation_type: consumer
