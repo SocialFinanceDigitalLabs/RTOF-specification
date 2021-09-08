@@ -1,11 +1,18 @@
-git_committed_date: 2021-09-08 10:46 GMT
+git_committed_date: 2021-09-08 11:07 GMT
 git_committer_email: kaj@k-si.com
 git_committer_name: Kaj Siebert
 git_dirty: false
-git_hexsha: 3bb6d4aab2669a61bb74d792c70edb51ba826e53
-git_msg: 'Fetch tags from GIT
+git_hexsha: bc04e9101e27e3fdd4c773a2859d03cb0a499e6f
+git_msg: 'Only publish specification for main branch
 
   '
-git_tagrefs: []
+git_tagrefs:
+- comitter_email: kaj@k-si.com
+  comitter_name: Kaj Siebert
+  date: 1631031199
+  message: 'Add conditional validation
+
+    '
+  tag: v1.0-beta.1
 git_tags: []
-git_version: 3bb6d4a
+git_version: bc04e91
