@@ -581,9 +581,13 @@
         id: required
   - comments: Minimum data collection required to understand enrolment
     description: UK National Insurance number. Must be unique. To be collected at
-      enrolment into the program. All upper case and no spaces [regular expressions
-      for NiNos]
+      once the NINO for a participant is available. All upper case and no spaces [regular
+      expressions for NiNos].
     id: ni_number
+    latest_comments: This data field is not validated as 'required', as we are aware
+      some NINOs may not be available when submitting the baseline record. However,
+      this field is ultimately required to be submitted and missing NINOs will be
+      followed up.
     name: NI Number
     primary_key: false
     status: Decided
@@ -1337,6 +1341,8 @@
         id: dimension
     - args:
       - expression: one_of(current_dependents_uk, ['Yes'])
+        validation:
+          required: true
       description: conditional rules apply
       id: conditional
       rule:
@@ -1566,6 +1572,8 @@
     validation:
     - args:
       - expression: one_of(highest_qualification_achieved, ['Unknown'])
+        validation:
+          required: true
       description: conditional rules apply
       id: conditional
       rule:
@@ -1652,6 +1660,8 @@
         id: character_limit
     - args:
       - expression: one_of(employed_in_home_country, ['Yes'])
+        validation:
+          required: true
       description: conditional rules apply
       id: conditional
       rule:
@@ -1690,7 +1700,9 @@
           '
         id: character_limit
     - args:
-      - expression: one_of(employed_in_home_country, 'Yes')
+      - expression: one_of(employed_in_home_country, ['Yes'])
+        validation:
+          required: true
       description: conditional rules apply
       id: conditional
       rule:

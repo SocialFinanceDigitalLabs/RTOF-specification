@@ -1,9 +1,10 @@
-git_committed_date: 2021-09-08 11:07 GMT
-git_committer_email: kaj@k-si.com
-git_committer_name: Kaj Siebert
+git_committed_date: 2021-09-08 12:41 GMT
+git_committer_email: james.hearn@socialfinance.org.uk
+git_committer_name: JamesHearn2
 git_dirty: false
-git_hexsha: bc04e9101e27e3fdd4c773a2859d03cb0a499e6f
-git_msg: 'Only publish specification for main branch
+git_hexsha: 75392166541425f8b484201189e906840fe2a692
+git_msg: 'Merge branch ''main'' of https://github.com/SocialFinanceDigitalLabs/rtof-data-model
+  into main
 
   '
 git_tagrefs:
@@ -15,4 +16,4 @@ git_tagrefs:
     '
   tag: v1.0-beta.1
 git_tags: []
-git_version: bc04e91
+git_version: '7539216'
