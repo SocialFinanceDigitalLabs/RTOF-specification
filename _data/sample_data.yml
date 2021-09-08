@@ -285,29 +285,29 @@ employment_entry:
   wage_employment_entry: tbc
 employment_intermediate:
 - date_intermediate_employment_outcome: 2023-03-20
-  intermediate_employment_outcome_type: work experience, qualifications or skills,
-    business plan for self-employment, business plan for self-employment
+  intermediate_employment_outcome_type: business plan for self-employment, business
+    plan for self-employment, qualifications or skills, work experience
   unique_id: DP-14
 - date_intermediate_employment_outcome: 2023-05-30
-  intermediate_employment_outcome_type: training course, Internship, business plan
-    for self-employment, work experience, another specified activity
+  intermediate_employment_outcome_type: Internship, another specified activity, business
+    plan for self-employment, training course, work experience
   unique_id: ID-43
 - date_intermediate_employment_outcome: 2023-04-07
-  intermediate_employment_outcome_type: training course, business plan for self-employment,
-    work experience
+  intermediate_employment_outcome_type: business plan for self-employment, training
+    course, work experience
   unique_id: ES-97
 - date_intermediate_employment_outcome: 2023-04-26
-  intermediate_employment_outcome_type: training course, employability, training course,
-    qualifications or skills, qualifications or skills
+  intermediate_employment_outcome_type: employability, qualifications or skills, qualifications
+    or skills, training course, training course
   unique_id: UA-34
 - date_intermediate_employment_outcome: 2023-04-11
   intermediate_employment_outcome_type: business plan for self-employment, business
-    plan for self-employment, qualifications or skills, business plan for self-employment,
-    training course
+    plan for self-employment, business plan for self-employment, qualifications or
+    skills, training course
   unique_id: GM-94
 - date_intermediate_employment_outcome: 2023-03-23
-  intermediate_employment_outcome_type: sector-specific language training, Volunteering,
-    another specified activity, business plan for self-employment, sector-specific
+  intermediate_employment_outcome_type: Volunteering, another specified activity,
+    business plan for self-employment, sector-specific language training, sector-specific
     language training
   unique_id: IZ-47
 employment_sustain:
