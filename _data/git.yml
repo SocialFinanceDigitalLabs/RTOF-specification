@@ -41,5 +41,14 @@ git_tagrefs:
     \ housing_sustain_accommodation dimensions\r\n\r\n* updates to spelling and grammer\r\
     \n\r\n* Update to integration plan description & latest comments"
   tag: v1.0.0-alpha
-git_tags: []
-git_version: 7b95135
+- comitter_email: noreply@github.com
+  comitter_name: GitHub
+  date: 1634216169
+  message: 'Merge pull request #14 from SocialFinanceDigitalLabs/spec-update
+
+
+    Spec update'
+  tag: v1.0.1
+git_tags:
+- v1.0.1
+git_version: v1.0.1
