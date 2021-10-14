@@ -1,11 +1,12 @@
-git_committed_date: 2021-10-14 12:08 GMT
-git_committer_email: james.hearn@socialfinance.org.uk
-git_committer_name: JamesHearn2
+git_committed_date: 2021-10-14 12:56 GMT
+git_committer_email: noreply@github.com
+git_committer_name: GitHub
 git_dirty: false
-git_hexsha: 14bc7a84d4e66bb7e47b7fac6d2febe872a45e3b
-git_msg: 'Merge branch ''main'' of https://github.com/SocialFinanceDigitalLabs/rtof-data-model
+git_hexsha: 7b95135536be8237416c3a413d0db8bba8ad9394
+git_msg: 'Merge pull request #14 from SocialFinanceDigitalLabs/spec-update
 
-  '
+
+  Spec update'
 git_tagrefs:
 - comitter_email: kaj@k-si.com
   comitter_name: Kaj Siebert
@@ -41,4 +42,4 @@ git_tagrefs:
     \n\r\n* Update to integration plan description & latest comments"
   tag: v1.0.0-alpha
 git_tags: []
-git_version: 14bc7a8
+git_version: 7b95135

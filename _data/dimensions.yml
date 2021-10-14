@@ -9,12 +9,6 @@
   - value: 'No'
   id: current_dependants_uk
 - dimensions:
-  - value: No care responsibilities
-  - value: Only care responsibilities outside UK
-  - value: Any care responsibilities within UK and in same HH
-  - value: Only care responsibilities within UK and outside HH
-  id: current_family_composition
-- dimensions:
   - value: Bolton Council
   - value: Bury Council
   - value: Manchester City Council
@@ -51,22 +45,6 @@
     value: Not in formal education
   id: education_training_status
 - dimensions:
-  - description: In formal education or training (for example, registered in college
-      or university, an apprenticeship, or a government employment and training programme.
-      This may be combined with paid employment)
-    value: formal education
-  - description: Not in formal education or training (i.e. not formally registered)
-    value: Not in formal education
-  id: education_training_status_entry
-- dimensions:
-  - description: In formal education or training (for example, registered in college
-      or university, an apprenticeship, or a government employment and training programme.
-      This may be combined with paid employment)
-    value: formal education
-  - description: Not in formal education or training (i.e. not formally registered)
-    value: Not in formal education
-  id: education_training_status_sustain
-- dimensions:
   - value: 'Yes'
   - value: 'No'
   id: employed_in_home_country
@@ -74,35 +52,6 @@
   - value: Employment
   - value: Self-employment
   id: employment_entry_outcome_type
-- dimensions:
-  - description: Successful formal recognition and/or comparison of qualifications
-      or skills
-    value: qualifications or skills
-  - description: Completion of relevant training course
-    value: training course
-  - description: Completion of 10 hours+ mentoring and/or coaching
-    value: mentoring and/or coaching
-  - description: Completion of 10 hours+ employability training
-    value: employability
-  - description: Volunteering - at least 10 days
-    value: Volunteering
-  - description: Work experience - at least 5 days
-    value: work experience
-  - description: Internship- maximum 10 days, unless paid for at the National Minimum
-      Wage (or above) for people aged 18-22 or the National Living Wage (or above)
-      for people aged 23+*
-    value: Internship
-  - description: Completion of sector-specific language training which is additional
-      to the mainstream.
-    value: sector-specific language training
-  - description: Developed business plan for self-employment
-    value: business plan for self-employment
-  - description: Registered business for self-employment
-    value: Registered business for self-employment
-  - description: "another specified activity directly relevant to achieving the individual\u2019\
-      s employment goals"
-    value: another specified activity
-  id: employment_outcome_type
 - dimensions:
   - description: Working as an employee on a permanent contract (or on leave from
       employment, for example maternity or paternity leave)
@@ -169,22 +118,6 @@
   - value: Don't know
   id: hours_of_employment
 - dimensions:
-  - value: 0 to 7 hours
-  - value: 8 to 15 hours
-  - value: 16 to 30 hours
-  - value: 31 to 48 hours
-  - value: 49 or more hours
-  - value: Don't know
-  id: hours_of_employment_entry
-- dimensions:
-  - value: 0 to 7 hours
-  - value: 8 to 15 hours
-  - value: 16 to 30 hours
-  - value: 31 to 48 hours
-  - value: 49 or more hours
-  - value: Don't know
-  id: hours_of_employment_sustain
-- dimensions:
   - description: Renting - private sector
     value: RPC
   - description: Renting - Local authority or housing association
@@ -210,11 +143,6 @@
   - description: Other safe and secure accommodation
     value: other
   id: housing_sustain_accommodation
-- dimensions:
-  - value: Renting - private sector
-  - value: Renting - Local authority or housing association
-  - value: Other safe and secure accommodation
-  id: housing_sustain_accomodation
 - dimensions:
   - value: tbc
   id: integration_comms_language
@@ -268,34 +196,6 @@
   - value: Level 2
   - value: Beyond Level 2
   id: language_level_on_entry
-- dimensions:
-  - value: Jan
-  - value: Feb
-  - value: Mar
-  - value: Apr
-  - value: May
-  - value: June
-  - value: Jul
-  - value: Aug
-  - value: Sept
-  - value: Oct
-  - value: Nov
-  - value: Dec
-  id: month
-- dimensions:
-  - value: January
-  - value: February
-  - value: March
-  - value: April
-  - value: May
-  - value: June
-  - value: July
-  - value: August
-  - value: September
-  - value: October
-  - value: November
-  - value: December
-  id: month_of_birth
 - dimensions:
   - description: Andorra
     value: AD
@@ -797,21 +697,6 @@
     value: ZW
   id: nationality
 - dimensions:
-  - description: Working as an employee on a permanent contract (or on leave from
-      employment, for example maternity or paternity leave)
-    value: PC
-  - description: Working as an employee on a temporary contract
-    value: TC
-  - description: Working as an employee on a zero hours contract
-    value: ZHC
-  - description: Working as an employee cash in hand
-    value: CIH
-  - description: Self employed or freelance (Freelance means that you are self-employed
-      and work for different companies or people on particular pieces of work)
-    value: SE
-  - value: Other
-  id: primary_employment_entry_status
-- dimensions:
   - value: 'Yes'
   - value: 'No'
   - value: Don't know
@@ -835,30 +720,3 @@
   - description: Any other referral source
     value: Other
   id: referral_source
-- dimensions:
-  - description: Working as an employee on a permanent contract (or on leave from
-      employment, for example maternity or paternity leave)
-    value: PC
-  - description: Working as an employee on a temporary contract
-    value: TC
-  - description: Working as an employee on a zero hours contract
-    value: ZHC
-  - description: Working as an employee cash in hand
-    value: CIH
-  - description: Self employed or freelance (Freelance means that you are self-employed
-      and work for different companies or people on particular pieces of work)
-    value: SE
-  - value: Other
-  id: secondary_employment_entry_status
-- dimensions:
-  - value: Identify as transgender
-  - value: Do not identify as Transgender
-  - value: Prefer not to say
-  id: transgender
-- dimensions:
-  - value: tbc
-  id: wage_employment_entry
-- dimensions:
-  - value: tbc
-  - value: tbc
-  id: wage_employment_sustain
