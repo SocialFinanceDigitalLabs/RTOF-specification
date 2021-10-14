@@ -28,6 +28,68 @@
 
           '
         id: required
+  - description: Provider identifier for the given provider who completed the person
+      form. This must be unique for each individual provider offering services on
+      RTOF
+    id: provider_id_person
+    name: Provider identifier
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
+  - description: Participant's first name
+    id: first_name
+    name: First name
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
+  - description: Participant's last name
+    id: last_name
+    name: Last name
+    primary_key: false
+    status: Pending consideration
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation:
+    - args: true
+      description: required(True)
+      id: required
+      rule:
+        args:
+        - help: true/false value indicating if the current field is required
+          name: enabled
+          type: boolean
+        description: 'A field with ''required: true'' must be present in the data
+          record, and must have a non-blank value. It is short-hand
+
+          for ''notnull: true'' and ''notblank: true''.
+
+          '
+        id: required
   - comments: JF - 'Change to age' TR - 'Would be good to understand who (at HO?)
       wants age rather than age bracket - what's the purpose? Palladium and Ecorys
       both happy with bracketing and obviously it minimises the disclosiveness of
@@ -275,6 +337,18 @@
 
           '
         id: unique
+  - description: Provider identifer for the given provider who completed the housing
+      entry form. This must be unique for each individual provider offering services
+      on RTOF
+    id: provider_id_housing_entry
+    name: Provider identifer
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
   - description: Date of housing entry outcome achieved. To be collected once at entry
       to housing outcome submission.
     id: housing_entry_date
@@ -344,9 +418,9 @@
         value: RLA
       - description: Other safe and secure accommodation
         value: other
-      id: housing_accomodation
-    id: housing_entry_accomodation
-    name: Accomodation type entry
+      id: housing_accommodation
+    id: housing_entry_accommodation
+    name: Accommodation type entry
     primary_key: false
     status: Decided
     type:
@@ -370,8 +444,8 @@
 
           '
         id: required
-    - args: housing_accomodation
-      description: dimension(housing_accomodation)
+    - args: housing_accommodation
+      description: dimension(housing_accommodation)
       id: dimension
       rule:
         args:
@@ -433,6 +507,18 @@
 
           '
         id: unique
+  - description: Provider identifier for the given provider who completed the housing
+      sustain form. This must be unique for each individual provider offering services
+      on RTOF
+    id: provider_id_housing_sustain
+    name: Provider identifier
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
   - description: Date of housing sustainment outcome achieved. To be collected once
       at housing sustainment outcome submission.
     id: housing_sustainment_date
@@ -502,9 +588,9 @@
         value: RLA
       - description: Other safe and secure accommodation
         value: other
-      id: housing_accomodation
-    id: housing_sustain_accomodation
-    name: Accomodation type sustainment
+      id: housing_accommodation
+    id: housing_sustain_accommodation
+    name: Accommodation type sustainment
     primary_key: false
     status: Decided
     type:
@@ -528,8 +614,8 @@
 
           '
         id: required
-    - args: housing_accomodation
-      description: dimension(housing_accomodation)
+    - args: housing_accommodation
+      description: dimension(housing_accommodation)
       id: dimension
       rule:
         args:
@@ -579,9 +665,20 @@
 
           '
         id: required
-  - comments: Minimum data collection required to understand enrolment
-    description: UK National Insurance number. Must be unique. To be collected at
-      once the NINO for a participant is available. All upper case and no spaces [regular
+  - description: Provider identifer for the given provider who completed the baseline
+      form. This must be unique for each individual provider offering services on
+      RTOF
+    id: provider_id_baseline
+    name: Provider identifer
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
+  - description: UK National Insurance number. Must be unique. To be collected when
+      the NINO for a participant is available. All upper case and no spaces [regular
       expressions for NiNos].
     id: ni_number
     latest_comments: This data field is not validated as 'required', as we are aware
@@ -1185,7 +1282,7 @@
         value: HO providers
       - value: Migrant Help
       - value: Self-referrals
-      - description: Governmentment Departmnet for Work and Pensions
+      - description: Government Departmnet for Work and Pensions
         value: DWP
       - description: Peer to peer referrals
         value: Peer
@@ -1232,16 +1329,16 @@
 
           '
         id: dimension
-  - description: Do you currently have any dependents in the UK? Yes / No to understand
-      whether the participant has any depedents curently in the UK. To be collected
+  - description: Do you currently have any dependants in the UK? Yes / No to understand
+      whether the participant has any dependants currently in the UK. To be collected
       once and submitted within 3 months of enrolment.
     dimensions:
       dimensions:
       - value: 'Yes'
       - value: 'No'
-      id: current_dependents_uk
-    id: current_dependents_uk
-    name: Current dependents in UK
+      id: current_dependants_uk
+    id: current_dependants_uk
+    name: Current dependants in UK
     primary_key: false
     status: Decided
     type:
@@ -1265,8 +1362,8 @@
 
           '
         id: required
-    - args: current_dependents_uk
-      description: dimension(current_dependents_uk)
+    - args: current_dependants_uk
+      description: dimension(current_dependants_uk)
       id: dimension
       rule:
         args:
@@ -1301,8 +1398,8 @@
       description: An integer as defined by the JSON Schema `integer` type.
       id: integer
     validation: []
-  - description: If answered Yes to 'current dependents UK', select every option that
-      applies to the participants dependents (this does not record how many dependents
+  - description: If answered Yes to 'current dependants UK', select every option that
+      applies to the participants dependants (this does not record how many dependants
       are in each age bracket.) To be collected once and submitted within 3 months
       of enrolment.
     dimensions:
@@ -1311,9 +1408,9 @@
       - value: 5-11
       - value: 11-17
       - value: Caring responsibilities for an adult
-      id: age_profile_of_dependents_uk
-    id: age_profile_of_dependents_uk
-    name: Age profile of dependents in UK
+      id: age_profile_of_dependants_uk
+    id: age_profile_of_dependants_uk
+    name: Age profile of dependants in UK
     primary_key: false
     status: Decided
     type:
@@ -1324,8 +1421,8 @@
       extends: string
       id: list
     validation:
-    - args: age_profile_of_dependents_uk
-      description: dimension(age_profile_of_dependents_uk)
+    - args: age_profile_of_dependants_uk
+      description: dimension(age_profile_of_dependants_uk)
       id: dimension
       rule:
         args:
@@ -1340,7 +1437,7 @@
           '
         id: dimension
     - args:
-      - expression: one_of(current_dependents_uk, ['Yes'])
+      - expression: one_of(current_dependants_uk, ['Yes'])
         validation:
           required: true
       description: conditional rules apply
@@ -1465,7 +1562,7 @@
       - value: Beyond Level 2
       id: language_level_on_entry
     id: language_level_on_entry
-    latest_comments: Information regardimg these levels can be found at the following
+    latest_comments: Information regarding these levels can be found at the following
       link - https://esol.britishcouncil.org/sites/default/files/attachments/informational-page/ESOL%20level%20descriptors.pdf
     name: Language level on entry
     primary_key: false
@@ -1519,7 +1616,7 @@
       - value: Unknown
       id: highest_qualification_achieved
     id: highest_qualification_achieved
-    latest_comments: Information regardimg these levels can be found at the following
+    latest_comments: Information regarding these levels can be found at the following
       link - https://www.gov.uk/what-different-qualification-levels-mean/list-of-qualification-levels#:~:text=Level%205%20qualifications%20are%3A,higher%20national%20diploma%20(%20HND%20)
     name: Highest qualification  level achieved
     primary_key: false
@@ -1870,7 +1967,8 @@
   - comments: Ecorys addition (based on Census wording) to ensure emploment questions
       are MECE / required for CBA
     description: In your main job, how many hours a week do you usually work? (Include
-      paid and unpaid overtime). For employed and self-employed.
+      paid and unpaid overtime). Only relevant for those participants that are employed
+      and self-employed.
     dimensions:
       dimensions:
       - value: 0 to 7 hours
@@ -1905,37 +2003,21 @@
 
           '
         id: dimension
-  - description: tbc
-    dimensions:
-      dimensions:
-      - value: tbc
-      id: wage
+  - description: In your main job, what is your hourly wage? Please record the average
+      hourly wage to the nearest &pound1. If the participant is paid a daily, weekly,
+      monthly or annual rate, please provide an estimated hourly rate based on hours
+      and weeks worked (eg. &pound15.6K - &pound19.5K FTE can map to &pound8- &pound10
+      an hour). Only relevant for those participants that are employed and self-employed.
     id: wage_baseline
-    latest_comments: Categories are currently pending. Ecorys to confirm.
+    latest_comments: Ecorys confirmed integer for hourly wage is the preferred option
+      to record wage.
     name: Wage baseline
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
-    validation:
-    - args: wage
-      description: dimension(wage)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
+      description: An integer as defined by the JSON Schema `integer` type.
+      id: integer
+    validation: []
   - description: What is your current education status?
     dimensions:
       dimensions:
@@ -1946,8 +2028,8 @@
       - description: Not in formal education or training (i.e. not formally registered)
         value: Not in formal education
       id: education_training_status
-    id: eduction_training_status
-    name: Eduction / training status
+    id: education_training_status
+    name: Education / training status
     primary_key: false
     status: Decided
     type:
@@ -1989,7 +2071,7 @@
   - description: 'Rough sleepers -  Rough sleepers are defined for the purposes of
       rough sleeping counts and estimates as - 1) People sleeping, about to bed down
       (sitting on/in or standing next to their bedding) or actually bedded down in
-      the open air (such as on the strets, in tents, doorways, parks, bus shelters
+      the open air (such as on the streets, in tents, doorways, parks, bus shelters
       or encampments). 2) People in buildings or other places not designed for habitation
       (such as stairwells, barns, sheds, car parks, cars, derelict boats, stations,
       or bushes). The definition does not include people in hostels or shelters, people
@@ -2174,6 +2256,18 @@
 
           '
         id: unique
+  - description: Provider identifier for the given provider who completed the integration
+      plan form. This must be unique for each individual provider offering services
+      on RTOF
+    id: provider_id_integration
+    name: Provider identifier
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
   - description: Selection of which integration outcome has been achieved. To be collected
       at each outcome submission.
     dimensions:
@@ -2225,7 +2319,7 @@
   - description: Date of integration plan outcome achievement. To be collected at
       each outcome submission.
     id: integration_outcome_achieved_date
-    name: Date integration plan outcome acheived
+    name: Date integration plan outcome achieved
     primary_key: false
     status: Decided
     type:
@@ -2266,14 +2360,15 @@
 
           '
         id: date_after
-  - comments: TBC on categories - waiting for engagement with providers
-    description: tbc. To be collected at each outcome submission.
+  - description: To be collected at each outcome achievement event (creation, 6 months
+      and 12 months integration plan).
     dimensions:
       dimensions:
       - value: tbc
       id: integration_social
     id: integration_social
-    latest_comments: tbc - Ecorys to confirm categories after provider engagement
+    latest_comments: tbc - Ecorys to confirm which integration tool/ indicators will
+      be used for measurement.
     name: Social bonds / bridges / links
     primary_key: false
     status: Blocked
@@ -2313,14 +2408,15 @@
 
           '
         id: dimension
-  - comments: TBC on categories - waiting for engagement with providers
-    description: tbc. To be collected at each outcome submission.
+  - description: To be collected at each outcome achievement event (creation, 6 months
+      and 12 months integration plan).
     dimensions:
       dimensions:
       - value: tbc
       id: integration_comms_language
     id: integration_comms_language
-    latest_comments: tbc - Ecorys to confirm categories after provider engagement
+    latest_comments: tbc - Ecorys to confirm which integration tool/ indicators will
+      be used for measurement.
     name: Language and communication
     primary_key: false
     status: Blocked
@@ -2360,14 +2456,15 @@
 
           '
         id: dimension
-  - comments: TBC on categories - waiting for engagement with providers
-    description: tbc. To be collected at each outcome submission.
+  - description: To be collected at each outcome achievement event (creation, 6 months
+      and 12 months integration plan).
     dimensions:
       dimensions:
       - value: tbc
       id: integration_digital
     id: integration_digital
-    latest_comments: tbc - Ecorys to confirm categories after provider engagement
+    latest_comments: tbc - Ecorys to confirm which integration tool/ indicators will
+      be used for measurement.
     name: Digital skills
     primary_key: false
     status: Blocked
@@ -2455,6 +2552,18 @@
 
           '
         id: unique
+  - description: Provider identifer for the given provider who completed the employment
+      intermediate form. This must be unique for each individual provider offering
+      services on RTOF
+    id: provider_id_empl_inter
+    name: Provider identifer
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
   - comments: Date of completion of the final qualifying  outcome.
     description: Date of intermediate employment outcome achievement. To be collected
       once at intermediate employment outcome submission.
@@ -2624,6 +2733,18 @@
 
           '
         id: required
+  - description: Provider identifer for the given provider who completed the employment
+      entry form. This must be unique for each individual provider offering services
+      on RTOF
+    id: provider_id_empl_entry
+    name: Provider identifer
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
   - description: Employment entry can either be an employment outcome or self-employment
       outcome. To be collected once at entry to employment outcome submission.
     dimensions:
@@ -2791,7 +2912,7 @@
       - value: Other
       id: employment_status
     id: secondary_employment_entry_status
-    name: Seconday employment entry status
+    name: Secondary employment entry status
     primary_key: false
     status: Decided
     type:
@@ -2827,7 +2948,7 @@
       - value: Don't know
       id: hours_of_employment
     id: hours_of_employment_entry
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+    latest_comments: Ecorys addition (based on Census wording) to ensure employment
       questions are MECE / required for CBA
     name: Hours of employment
     primary_key: false
@@ -2868,20 +2989,20 @@
 
           '
         id: dimension
-  - description: Estimated hourly wage
-    dimensions:
-      dimensions:
-      - value: tbc
-      id: wage
+  - description: In your main job, what is your hourly wage? Please record the average
+      hourly wage to the nearest &pound1. If the participant is paid a daily, weekly,
+      monthly or annual rate, please provide an estimated hourly rate based on hours
+      and weeks worked (eg. &pound15.6K - &pound19.5K FTE can map to &pound8 - &pound10
+      an hour). Only relevant for those participants that are employed and self-employed.
     id: wage_employment_entry
-    name: Wage employment entry
+    latest_comments: Ecorys confirmed integer for hourly wage is the preferred option
+      to record wage.
+    name: Wage at employment entry
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
+      description: An integer as defined by the JSON Schema `integer` type.
+      id: integer
     validation:
     - args: true
       description: required(True)
@@ -2898,21 +3019,6 @@
 
           '
         id: required
-    - args: wage
-      description: dimension(wage)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
   - description: What is your education status?
     dimensions:
       dimensions:
@@ -2923,10 +3029,10 @@
       - description: Not in formal education or training (i.e. not formally registered)
         value: Not in formal education
       id: education_training_status
-    id: eduction_training_status_entry
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+    id: education_training_status_entry
+    latest_comments: Ecorys addition (based on Census wording) to ensure employment
       questions are MECE
-    name: Eduction / training status
+    name: Education / training status
     primary_key: false
     status: Decided
     type:
@@ -3093,6 +3199,18 @@
 
           '
         id: unique
+  - description: Provider identifer for the given provider who completed the employment
+      sustain form. This must be unique for each individual provider offering services
+      on RTOF
+    id: provider_id_empl_sustain
+    name: Provider identifer
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
   - description: Date of employment sustainment outcome achieved. This can be either
       be for the self-employment or employment route. To be collected once at employment
       sustained outcome submission.
@@ -3207,7 +3325,7 @@
       - value: Don't know
       id: hours_of_employment
     id: hours_of_employment_sustain
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+    latest_comments: Ecorys addition (based on Census wording) to ensure employment
       questions are MECE / required for CBA
     name: Hours of employment at sustain
     primary_key: false
@@ -3248,20 +3366,20 @@
 
           '
         id: dimension
-  - description: Estimated hourly wage
-    dimensions:
-      dimensions:
-      - value: tbc
-      id: wage
+  - description: In your main job, what is your hourly wage? Please record the average
+      hourly wage to the nearest &pound1. If the participant is paid a daily, weekly,
+      monthly or annual rate, please provide an estimated hourly rate based on hours
+      and weeks worked (eg. &pound15.6K - &pound19.5K FTE can map to 8 GBP - &pound10
+      an hour). Only relevant for those participants that are employed and self-employed.
     id: wage_employment_sustain
-    name: Wage employment at sustain
+    latest_comments: Ecorys confirmed integer for hourly wage is the preferred option
+      to record wage.
+    name: Wage at employment sustain
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
-      description: Restricted to a set of fixed values. Represented as a string, this
-        type must have a `dimension` validator indicating the set of allowed values.
-      extends: string
-      id: categorical
+      description: An integer as defined by the JSON Schema `integer` type.
+      id: integer
     validation:
     - args: true
       description: required(True)
@@ -3278,21 +3396,6 @@
 
           '
         id: required
-    - args: wage
-      description: dimension(wage)
-      id: dimension
-      rule:
-        args:
-        - help: The ID of the category that this list has to be a member of.
-          name: category_id
-          type: string
-        description: 'Only used for fields of type categorical, this validator ensures
-          that the provided value is part of category
-
-          list identified.
-
-          '
-        id: dimension
   - description: What is your education status?
     dimensions:
       dimensions:
@@ -3303,10 +3406,10 @@
       - description: Not in formal education or training (i.e. not formally registered)
         value: Not in formal education
       id: education_training_status
-    id: eduction_training_status_sustain
-    latest_comments: Ecorys addition (based on Census wording) to ensure emploment
+    id: education_training_status_sustain
+    latest_comments: Ecorys addition (based on Census wording) to ensure employment
       questions are MECE
-    name: Eduction / training status at sustain
+    name: Education / training status at sustain
     primary_key: false
     status: Decided
     type:
@@ -3349,7 +3452,7 @@
       employment outcome. To be collected once at entry to employment outcome submission.
       For some providers this may be a categorical data field - please confirm with
       your nominated data lead.
-    id: employment_susatin_occupation
+    id: employment_sustain_occupation
     name: Occupation type
     primary_key: false
     status: Decided
@@ -3473,6 +3576,18 @@
 
           '
         id: unique
+  - description: Provider identifer for the given provider who completed the date
+      last seen form. This must be unique for each individual provider offering services
+      on RTOF
+    id: provider_id_last_seen
+    name: Provider identifer
+    primary_key: false
+    status: Decided
+    type:
+      description: A string of Unicode characters as defined by the JSON Schema `string`
+        type.
+      id: string
+    validation: []
   - comments: description tbc - ask providers once, at the end of the programme, to
       go through list of participants and estimate whether, and when, participants
       stopped engaging.

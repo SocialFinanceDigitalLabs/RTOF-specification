@@ -1,410 +1,442 @@
-unique_id,integration_outcome_type,integration_outcome_achieved_date,integration_social,integration_comms_language,integration_digital
-VL-87,Creation,2022-11-29,tbc,tbc,tbc
-VL-87,6 month,2023-06-01,tbc,tbc,tbc
-VL-87,12 month,2023-12-09,tbc,tbc,tbc
-KP-33,Creation,2022-11-06,tbc,tbc,tbc
-DS-10,Creation,2022-12-14,tbc,tbc,tbc
-DS-10,6 month,2023-06-10,tbc,tbc,tbc
-DS-10,12 month,2023-12-05,tbc,tbc,tbc
-XC-37,Creation,2022-10-20,tbc,tbc,tbc
-XC-37,6 month,2023-06-21,tbc,tbc,tbc
-XC-37,12 month,2023-12-24,tbc,tbc,tbc
-PU-84,Creation,2022-11-03,tbc,tbc,tbc
-PU-84,6 month,2023-06-28,tbc,tbc,tbc
-PE-84,Creation,2023-01-24,tbc,tbc,tbc
-PE-84,6 month,2023-06-12,tbc,tbc,tbc
-PE-84,12 month,2023-12-01,tbc,tbc,tbc
-FY-94,Creation,2022-10-07,tbc,tbc,tbc
-FY-94,6 month,2023-06-22,tbc,tbc,tbc
-FY-94,12 month,2023-12-06,tbc,tbc,tbc
-PD-64,Creation,2022-12-27,tbc,tbc,tbc
-PD-64,6 month,2023-06-03,tbc,tbc,tbc
-PD-64,12 month,2023-12-31,tbc,tbc,tbc
-LK-86,Creation,2023-01-24,tbc,tbc,tbc
-LK-86,6 month,2023-06-02,tbc,tbc,tbc
-KN-00,Creation,2022-11-07,tbc,tbc,tbc
-KN-00,6 month,2023-06-06,tbc,tbc,tbc
-KN-00,12 month,2023-12-09,tbc,tbc,tbc
-II-98,Creation,2022-10-10,tbc,tbc,tbc
-II-98,6 month,2023-06-05,tbc,tbc,tbc
-UJ-42,Creation,2022-10-28,tbc,tbc,tbc
-UJ-42,6 month,2023-06-27,tbc,tbc,tbc
-UJ-42,12 month,2023-12-25,tbc,tbc,tbc
-CP-96,Creation,2022-11-22,tbc,tbc,tbc
-CP-96,6 month,2023-06-01,tbc,tbc,tbc
-CP-96,12 month,2023-12-25,tbc,tbc,tbc
-DR-10,Creation,2022-12-30,tbc,tbc,tbc
-DR-10,6 month,2023-06-15,tbc,tbc,tbc
-DR-10,12 month,2023-12-07,tbc,tbc,tbc
-TC-06,Creation,2023-01-08,tbc,tbc,tbc
-TC-06,6 month,2023-05-30,tbc,tbc,tbc
-TC-06,12 month,2023-12-06,tbc,tbc,tbc
-OK-50,Creation,2022-10-05,tbc,tbc,tbc
-OK-50,6 month,2023-06-09,tbc,tbc,tbc
-OK-50,12 month,2023-12-18,tbc,tbc,tbc
-YT-46,Creation,2022-12-09,tbc,tbc,tbc
-YT-46,6 month,2023-05-29,tbc,tbc,tbc
-YT-46,12 month,2023-12-14,tbc,tbc,tbc
-NB-64,Creation,2023-01-19,tbc,tbc,tbc
-NB-64,6 month,2023-06-08,tbc,tbc,tbc
-NB-64,12 month,2023-12-19,tbc,tbc,tbc
-JI-93,Creation,2022-11-25,tbc,tbc,tbc
-YG-83,Creation,2023-02-21,tbc,tbc,tbc
-NY-26,Creation,2022-10-27,tbc,tbc,tbc
-GN-91,Creation,2022-11-26,tbc,tbc,tbc
-GN-91,6 month,2023-05-29,tbc,tbc,tbc
-GN-91,12 month,2023-12-15,tbc,tbc,tbc
-WO-13,Creation,2022-11-20,tbc,tbc,tbc
-WO-13,6 month,2023-06-06,tbc,tbc,tbc
-WO-13,12 month,2023-12-28,tbc,tbc,tbc
-FJ-57,Creation,2022-12-10,tbc,tbc,tbc
-TK-19,Creation,2023-02-03,tbc,tbc,tbc
-TK-19,6 month,2023-06-18,tbc,tbc,tbc
-PG-97,Creation,2022-10-04,tbc,tbc,tbc
-FZ-44,Creation,2022-10-11,tbc,tbc,tbc
-OD-46,Creation,2023-01-16,tbc,tbc,tbc
-JN-43,Creation,2023-02-15,tbc,tbc,tbc
-JN-43,6 month,2023-06-16,tbc,tbc,tbc
-JN-43,12 month,2023-12-09,tbc,tbc,tbc
-IX-79,Creation,2022-10-23,tbc,tbc,tbc
-UI-12,Creation,2022-11-12,tbc,tbc,tbc
-UI-12,6 month,2023-05-29,tbc,tbc,tbc
-UI-12,12 month,2023-12-24,tbc,tbc,tbc
-LT-67,Creation,2022-11-04,tbc,tbc,tbc
-KK-53,Creation,2022-12-08,tbc,tbc,tbc
-KK-53,6 month,2023-06-27,tbc,tbc,tbc
-LN-08,Creation,2022-11-17,tbc,tbc,tbc
-LN-08,6 month,2023-06-15,tbc,tbc,tbc
-LN-08,12 month,2023-12-16,tbc,tbc,tbc
-TL-86,Creation,2023-01-23,tbc,tbc,tbc
-TL-86,6 month,2023-06-06,tbc,tbc,tbc
-TL-86,12 month,2023-12-24,tbc,tbc,tbc
-YP-37,Creation,2022-12-29,tbc,tbc,tbc
-YP-37,6 month,2023-06-21,tbc,tbc,tbc
-YP-37,12 month,2023-12-12,tbc,tbc,tbc
-YG-20,Creation,2022-10-26,tbc,tbc,tbc
-YG-20,6 month,2023-06-04,tbc,tbc,tbc
-YG-20,12 month,2023-12-23,tbc,tbc,tbc
-SH-62,Creation,2023-02-18,tbc,tbc,tbc
-SH-62,6 month,2023-06-05,tbc,tbc,tbc
-ZI-60,Creation,2023-01-14,tbc,tbc,tbc
-ZI-60,6 month,2023-06-12,tbc,tbc,tbc
-ZI-60,12 month,2023-12-25,tbc,tbc,tbc
-MF-82,Creation,2022-12-11,tbc,tbc,tbc
-MF-82,6 month,2023-06-28,tbc,tbc,tbc
-MF-82,12 month,2023-12-21,tbc,tbc,tbc
-QA-58,Creation,2022-12-26,tbc,tbc,tbc
-JF-06,Creation,2023-02-01,tbc,tbc,tbc
-HB-09,Creation,2022-10-23,tbc,tbc,tbc
-HB-09,6 month,2023-06-15,tbc,tbc,tbc
-HB-09,12 month,2023-12-01,tbc,tbc,tbc
-GZ-96,Creation,2022-11-21,tbc,tbc,tbc
-GT-63,Creation,2022-12-08,tbc,tbc,tbc
-MQ-84,Creation,2023-01-06,tbc,tbc,tbc
-MQ-84,6 month,2023-06-02,tbc,tbc,tbc
-MQ-84,12 month,2023-12-28,tbc,tbc,tbc
-XF-08,Creation,2022-10-12,tbc,tbc,tbc
-XF-08,6 month,2023-06-26,tbc,tbc,tbc
-XF-08,12 month,2023-12-10,tbc,tbc,tbc
-CK-46,Creation,2022-10-02,tbc,tbc,tbc
-CK-46,6 month,2023-05-30,tbc,tbc,tbc
-CK-46,12 month,2023-12-11,tbc,tbc,tbc
-XO-89,Creation,2022-10-19,tbc,tbc,tbc
-XO-89,6 month,2023-06-02,tbc,tbc,tbc
-XO-89,12 month,2023-12-15,tbc,tbc,tbc
-FG-43,Creation,2023-01-15,tbc,tbc,tbc
-FG-43,6 month,2023-06-21,tbc,tbc,tbc
-FG-43,12 month,2023-12-16,tbc,tbc,tbc
-GT-50,Creation,2022-10-15,tbc,tbc,tbc
-GT-50,6 month,2023-06-16,tbc,tbc,tbc
-GT-50,12 month,2023-12-19,tbc,tbc,tbc
-GY-03,Creation,2022-11-16,tbc,tbc,tbc
-WZ-84,Creation,2022-11-03,tbc,tbc,tbc
-WZ-84,6 month,2023-06-27,tbc,tbc,tbc
-WZ-84,12 month,2023-12-12,tbc,tbc,tbc
-XE-56,Creation,2022-10-02,tbc,tbc,tbc
-XE-56,6 month,2023-06-16,tbc,tbc,tbc
-XE-56,12 month,2023-12-01,tbc,tbc,tbc
-MO-53,Creation,2022-12-02,tbc,tbc,tbc
-MO-53,6 month,2023-06-20,tbc,tbc,tbc
-FJ-56,Creation,2022-11-08,tbc,tbc,tbc
-FJ-56,6 month,2023-06-20,tbc,tbc,tbc
-FJ-56,12 month,2023-12-21,tbc,tbc,tbc
-IH-92,Creation,2022-12-19,tbc,tbc,tbc
-IH-92,6 month,2023-06-08,tbc,tbc,tbc
-IH-92,12 month,2023-12-08,tbc,tbc,tbc
-MP-55,Creation,2023-01-06,tbc,tbc,tbc
-MP-55,6 month,2023-06-28,tbc,tbc,tbc
-MP-55,12 month,2023-12-18,tbc,tbc,tbc
-OL-52,Creation,2022-11-30,tbc,tbc,tbc
-OL-52,6 month,2023-06-14,tbc,tbc,tbc
-OL-52,12 month,2023-12-09,tbc,tbc,tbc
-CR-55,Creation,2022-10-30,tbc,tbc,tbc
-CR-55,6 month,2023-06-02,tbc,tbc,tbc
-AD-60,Creation,2022-11-09,tbc,tbc,tbc
-HI-99,Creation,2023-01-24,tbc,tbc,tbc
-HI-99,6 month,2023-06-16,tbc,tbc,tbc
-HI-99,12 month,2023-12-18,tbc,tbc,tbc
-OB-62,Creation,2022-10-01,tbc,tbc,tbc
-OB-62,6 month,2023-06-18,tbc,tbc,tbc
-OB-62,12 month,2023-12-20,tbc,tbc,tbc
-YJ-55,Creation,2023-02-18,tbc,tbc,tbc
-UK-57,Creation,2022-11-28,tbc,tbc,tbc
-UK-57,6 month,2023-06-01,tbc,tbc,tbc
-UK-57,12 month,2023-12-07,tbc,tbc,tbc
-KF-80,Creation,2023-01-19,tbc,tbc,tbc
-KF-80,6 month,2023-05-30,tbc,tbc,tbc
-KF-80,12 month,2023-12-23,tbc,tbc,tbc
-BL-99,Creation,2022-10-14,tbc,tbc,tbc
-BL-99,6 month,2023-06-24,tbc,tbc,tbc
-BL-99,12 month,2023-12-03,tbc,tbc,tbc
-QE-05,Creation,2022-12-04,tbc,tbc,tbc
-QE-05,6 month,2023-06-23,tbc,tbc,tbc
-QE-05,12 month,2023-12-16,tbc,tbc,tbc
-GD-34,Creation,2022-10-06,tbc,tbc,tbc
-GD-34,6 month,2023-05-30,tbc,tbc,tbc
-GD-34,12 month,2023-12-17,tbc,tbc,tbc
-CC-68,Creation,2022-11-29,tbc,tbc,tbc
-CC-68,6 month,2023-06-16,tbc,tbc,tbc
-CC-68,12 month,2023-12-03,tbc,tbc,tbc
-EK-14,Creation,2022-11-11,tbc,tbc,tbc
-EK-14,6 month,2023-06-18,tbc,tbc,tbc
-EK-14,12 month,2023-12-18,tbc,tbc,tbc
-PO-85,Creation,2023-01-29,tbc,tbc,tbc
-PO-85,6 month,2023-05-30,tbc,tbc,tbc
-PO-85,12 month,2023-12-08,tbc,tbc,tbc
-FZ-67,Creation,2022-09-30,tbc,tbc,tbc
-MR-13,Creation,2022-11-13,tbc,tbc,tbc
-MR-13,6 month,2023-06-14,tbc,tbc,tbc
-MR-13,12 month,2023-12-29,tbc,tbc,tbc
-KP-35,Creation,2022-12-16,tbc,tbc,tbc
-KP-35,6 month,2023-06-17,tbc,tbc,tbc
-FZ-15,Creation,2023-01-23,tbc,tbc,tbc
-FZ-15,6 month,2023-06-12,tbc,tbc,tbc
-FZ-15,12 month,2023-12-01,tbc,tbc,tbc
-MT-67,Creation,2022-10-18,tbc,tbc,tbc
-UL-38,Creation,2023-01-30,tbc,tbc,tbc
-UL-38,6 month,2023-06-27,tbc,tbc,tbc
-LV-57,Creation,2022-10-22,tbc,tbc,tbc
-LV-57,6 month,2023-06-06,tbc,tbc,tbc
-LV-57,12 month,2023-12-10,tbc,tbc,tbc
-JV-27,Creation,2023-02-07,tbc,tbc,tbc
-JV-27,6 month,2023-06-16,tbc,tbc,tbc
-JV-27,12 month,2023-12-16,tbc,tbc,tbc
-HD-49,Creation,2022-10-14,tbc,tbc,tbc
-HD-49,6 month,2023-06-10,tbc,tbc,tbc
-HD-49,12 month,2023-12-15,tbc,tbc,tbc
-PE-31,Creation,2023-01-26,tbc,tbc,tbc
-QB-48,Creation,2022-12-16,tbc,tbc,tbc
-BX-87,Creation,2022-12-04,tbc,tbc,tbc
-BX-87,6 month,2023-05-31,tbc,tbc,tbc
-FP-94,Creation,2023-01-05,tbc,tbc,tbc
-FP-94,6 month,2023-06-12,tbc,tbc,tbc
-FP-94,12 month,2023-12-15,tbc,tbc,tbc
-FE-48,Creation,2023-02-10,tbc,tbc,tbc
-FE-48,6 month,2023-06-19,tbc,tbc,tbc
-FE-48,12 month,2023-12-03,tbc,tbc,tbc
-YB-98,Creation,2022-10-20,tbc,tbc,tbc
-YB-98,6 month,2023-06-08,tbc,tbc,tbc
-YQ-84,Creation,2023-02-05,tbc,tbc,tbc
-YQ-84,6 month,2023-06-09,tbc,tbc,tbc
-YQ-84,12 month,2023-12-31,tbc,tbc,tbc
-II-66,Creation,2022-11-23,tbc,tbc,tbc
-II-66,6 month,2023-06-01,tbc,tbc,tbc
-DN-48,Creation,2022-12-31,tbc,tbc,tbc
-DN-48,6 month,2023-06-18,tbc,tbc,tbc
-DN-48,12 month,2023-12-14,tbc,tbc,tbc
-DC-37,Creation,2022-11-28,tbc,tbc,tbc
-DC-37,6 month,2023-06-14,tbc,tbc,tbc
-RR-90,Creation,2023-02-22,tbc,tbc,tbc
-NF-33,Creation,2023-01-24,tbc,tbc,tbc
-NF-33,6 month,2023-05-29,tbc,tbc,tbc
-NF-33,12 month,2023-12-04,tbc,tbc,tbc
-TX-24,Creation,2022-10-23,tbc,tbc,tbc
-TX-24,6 month,2023-06-25,tbc,tbc,tbc
-TX-24,12 month,2023-12-15,tbc,tbc,tbc
-IE-10,Creation,2023-01-20,tbc,tbc,tbc
-IE-10,6 month,2023-05-30,tbc,tbc,tbc
-IE-10,12 month,2023-12-10,tbc,tbc,tbc
-DV-90,Creation,2023-01-15,tbc,tbc,tbc
-EE-71,Creation,2023-01-16,tbc,tbc,tbc
-WJ-31,Creation,2022-12-24,tbc,tbc,tbc
-WJ-31,6 month,2023-06-22,tbc,tbc,tbc
-NJ-66,Creation,2023-01-27,tbc,tbc,tbc
-NJ-66,6 month,2023-06-06,tbc,tbc,tbc
-NJ-66,12 month,2023-12-03,tbc,tbc,tbc
-RR-77,Creation,2023-02-17,tbc,tbc,tbc
-RR-77,6 month,2023-06-10,tbc,tbc,tbc
-RR-77,12 month,2023-12-21,tbc,tbc,tbc
-OB-60,Creation,2022-12-02,tbc,tbc,tbc
-OB-60,6 month,2023-06-25,tbc,tbc,tbc
-OB-60,12 month,2023-12-12,tbc,tbc,tbc
-AO-34,Creation,2022-11-20,tbc,tbc,tbc
-AV-56,Creation,2022-10-25,tbc,tbc,tbc
-AV-56,6 month,2023-06-09,tbc,tbc,tbc
-AV-56,12 month,2023-12-10,tbc,tbc,tbc
-EN-30,Creation,2022-12-13,tbc,tbc,tbc
-EN-30,6 month,2023-06-02,tbc,tbc,tbc
-EN-30,12 month,2023-12-04,tbc,tbc,tbc
-JK-53,Creation,2023-01-11,tbc,tbc,tbc
-JK-53,6 month,2023-06-15,tbc,tbc,tbc
-UD-66,Creation,2022-11-10,tbc,tbc,tbc
-UD-66,6 month,2023-06-12,tbc,tbc,tbc
-UD-66,12 month,2023-12-31,tbc,tbc,tbc
-SQ-15,Creation,2023-01-26,tbc,tbc,tbc
-SQ-15,6 month,2023-06-26,tbc,tbc,tbc
-SQ-15,12 month,2023-12-09,tbc,tbc,tbc
-MQ-22,Creation,2023-01-30,tbc,tbc,tbc
-QO-31,Creation,2023-01-22,tbc,tbc,tbc
-QO-31,6 month,2023-06-27,tbc,tbc,tbc
-QO-31,12 month,2023-12-20,tbc,tbc,tbc
-QT-08,Creation,2022-10-28,tbc,tbc,tbc
-QT-08,6 month,2023-06-21,tbc,tbc,tbc
-QT-08,12 month,2023-12-14,tbc,tbc,tbc
-RP-43,Creation,2022-10-13,tbc,tbc,tbc
-RP-43,6 month,2023-05-29,tbc,tbc,tbc
-RP-43,12 month,2023-12-15,tbc,tbc,tbc
-PP-64,Creation,2022-11-13,tbc,tbc,tbc
-PP-64,6 month,2023-06-03,tbc,tbc,tbc
-PP-64,12 month,2023-12-20,tbc,tbc,tbc
-CK-61,Creation,2022-11-24,tbc,tbc,tbc
-TD-82,Creation,2022-09-30,tbc,tbc,tbc
-TD-82,6 month,2023-06-11,tbc,tbc,tbc
-TD-82,12 month,2023-12-29,tbc,tbc,tbc
-PG-54,Creation,2022-11-12,tbc,tbc,tbc
-DW-44,Creation,2022-12-02,tbc,tbc,tbc
-DW-44,6 month,2023-05-31,tbc,tbc,tbc
-LJ-14,Creation,2022-11-20,tbc,tbc,tbc
-LJ-14,6 month,2023-06-13,tbc,tbc,tbc
-LJ-14,12 month,2023-12-24,tbc,tbc,tbc
-GQ-83,Creation,2022-10-09,tbc,tbc,tbc
-GQ-83,6 month,2023-06-15,tbc,tbc,tbc
-GQ-83,12 month,2023-12-29,tbc,tbc,tbc
-CT-45,Creation,2023-01-22,tbc,tbc,tbc
-CT-45,6 month,2023-06-09,tbc,tbc,tbc
-CT-45,12 month,2023-12-17,tbc,tbc,tbc
-VH-12,Creation,2023-01-15,tbc,tbc,tbc
-TX-26,Creation,2023-02-18,tbc,tbc,tbc
-UP-76,Creation,2022-10-26,tbc,tbc,tbc
-UP-76,6 month,2023-06-25,tbc,tbc,tbc
-UP-76,12 month,2023-12-28,tbc,tbc,tbc
-IH-50,Creation,2023-02-19,tbc,tbc,tbc
-IH-50,6 month,2023-05-29,tbc,tbc,tbc
-IH-50,12 month,2023-12-21,tbc,tbc,tbc
-WF-17,Creation,2022-10-11,tbc,tbc,tbc
-BK-66,Creation,2022-11-04,tbc,tbc,tbc
-BK-66,6 month,2023-06-16,tbc,tbc,tbc
-BK-66,12 month,2023-12-05,tbc,tbc,tbc
-IE-59,Creation,2023-01-13,tbc,tbc,tbc
-IE-59,6 month,2023-05-29,tbc,tbc,tbc
-IE-59,12 month,2023-12-30,tbc,tbc,tbc
-WG-48,Creation,2022-10-26,tbc,tbc,tbc
-FB-30,Creation,2022-12-01,tbc,tbc,tbc
-FB-30,6 month,2023-06-25,tbc,tbc,tbc
-FB-30,12 month,2023-12-13,tbc,tbc,tbc
-SN-91,Creation,2022-12-28,tbc,tbc,tbc
-SN-91,6 month,2023-06-02,tbc,tbc,tbc
-SN-91,12 month,2023-12-08,tbc,tbc,tbc
-LG-35,Creation,2022-11-27,tbc,tbc,tbc
-UN-99,Creation,2022-12-23,tbc,tbc,tbc
-UN-99,6 month,2023-06-09,tbc,tbc,tbc
-UN-99,12 month,2023-12-25,tbc,tbc,tbc
-ZY-62,Creation,2023-02-15,tbc,tbc,tbc
-FW-49,Creation,2023-02-08,tbc,tbc,tbc
-UE-16,Creation,2022-11-18,tbc,tbc,tbc
-VC-34,Creation,2023-01-22,tbc,tbc,tbc
-JG-84,Creation,2022-12-29,tbc,tbc,tbc
-RW-65,Creation,2022-11-29,tbc,tbc,tbc
-RW-65,6 month,2023-06-26,tbc,tbc,tbc
-TH-40,Creation,2023-02-25,tbc,tbc,tbc
-TH-40,6 month,2023-06-13,tbc,tbc,tbc
-TH-40,12 month,2023-12-21,tbc,tbc,tbc
-KX-58,Creation,2023-01-22,tbc,tbc,tbc
-KX-58,6 month,2023-06-04,tbc,tbc,tbc
-KX-58,12 month,2023-12-21,tbc,tbc,tbc
-KM-05,Creation,2023-02-05,tbc,tbc,tbc
-KM-05,6 month,2023-06-04,tbc,tbc,tbc
-KM-05,12 month,2023-12-18,tbc,tbc,tbc
-QD-64,Creation,2022-11-14,tbc,tbc,tbc
-QD-64,6 month,2023-06-28,tbc,tbc,tbc
-RQ-85,Creation,2022-12-13,tbc,tbc,tbc
-RQ-85,6 month,2023-06-11,tbc,tbc,tbc
-RQ-85,12 month,2023-12-29,tbc,tbc,tbc
-TO-29,Creation,2022-11-12,tbc,tbc,tbc
-PJ-20,Creation,2023-01-04,tbc,tbc,tbc
-PJ-20,6 month,2023-06-10,tbc,tbc,tbc
-DZ-31,Creation,2023-01-07,tbc,tbc,tbc
-DZ-31,6 month,2023-06-19,tbc,tbc,tbc
-DZ-31,12 month,2023-12-30,tbc,tbc,tbc
-MO-48,Creation,2023-02-04,tbc,tbc,tbc
-MO-48,6 month,2023-06-14,tbc,tbc,tbc
-MO-48,12 month,2023-12-19,tbc,tbc,tbc
-IJ-13,Creation,2022-10-17,tbc,tbc,tbc
-IJ-13,6 month,2023-06-03,tbc,tbc,tbc
-IJ-13,12 month,2023-12-20,tbc,tbc,tbc
-QQ-26,Creation,2023-01-04,tbc,tbc,tbc
-QQ-26,6 month,2023-06-14,tbc,tbc,tbc
-UK-24,Creation,2022-10-31,tbc,tbc,tbc
-UK-24,6 month,2023-06-02,tbc,tbc,tbc
-UK-24,12 month,2023-12-23,tbc,tbc,tbc
-OX-63,Creation,2022-11-19,tbc,tbc,tbc
-OX-63,6 month,2023-05-31,tbc,tbc,tbc
-OX-63,12 month,2023-12-18,tbc,tbc,tbc
-CE-21,Creation,2022-10-21,tbc,tbc,tbc
-CE-21,6 month,2023-06-05,tbc,tbc,tbc
-XG-26,Creation,2023-01-05,tbc,tbc,tbc
-MU-45,Creation,2022-11-06,tbc,tbc,tbc
-AK-61,Creation,2023-01-28,tbc,tbc,tbc
-AK-61,6 month,2023-06-01,tbc,tbc,tbc
-AK-61,12 month,2023-12-17,tbc,tbc,tbc
-NF-65,Creation,2022-09-29,tbc,tbc,tbc
-NF-65,6 month,2023-06-11,tbc,tbc,tbc
-NF-65,12 month,2023-12-03,tbc,tbc,tbc
-BN-49,Creation,2023-01-02,tbc,tbc,tbc
-CG-99,Creation,2022-10-19,tbc,tbc,tbc
-CG-99,6 month,2023-06-26,tbc,tbc,tbc
-CG-99,12 month,2023-12-12,tbc,tbc,tbc
-TB-35,Creation,2023-01-27,tbc,tbc,tbc
-TB-35,6 month,2023-06-23,tbc,tbc,tbc
-TB-35,12 month,2023-12-23,tbc,tbc,tbc
-NK-64,Creation,2023-02-07,tbc,tbc,tbc
-FQ-96,Creation,2022-12-06,tbc,tbc,tbc
-FQ-96,6 month,2023-06-16,tbc,tbc,tbc
-VR-42,Creation,2022-10-26,tbc,tbc,tbc
-VR-42,6 month,2023-06-22,tbc,tbc,tbc
-MP-69,Creation,2023-01-26,tbc,tbc,tbc
-TO-22,Creation,2023-01-23,tbc,tbc,tbc
-TO-22,6 month,2023-06-22,tbc,tbc,tbc
-WX-91,Creation,2022-12-21,tbc,tbc,tbc
-WX-91,6 month,2023-06-08,tbc,tbc,tbc
-US-03,Creation,2023-02-07,tbc,tbc,tbc
-US-03,6 month,2023-06-21,tbc,tbc,tbc
-US-03,12 month,2023-12-01,tbc,tbc,tbc
-GM-99,Creation,2022-11-20,tbc,tbc,tbc
-GM-99,6 month,2023-05-29,tbc,tbc,tbc
-GM-99,12 month,2023-12-14,tbc,tbc,tbc
-OK-33,Creation,2022-11-29,tbc,tbc,tbc
-OK-33,6 month,2023-06-10,tbc,tbc,tbc
-CJ-03,Creation,2022-12-17,tbc,tbc,tbc
-CJ-03,6 month,2023-06-11,tbc,tbc,tbc
-LV-82,Creation,2023-01-19,tbc,tbc,tbc
-LV-82,6 month,2023-06-14,tbc,tbc,tbc
-LV-82,12 month,2023-12-30,tbc,tbc,tbc
-XI-80,Creation,2022-09-29,tbc,tbc,tbc
-XI-80,6 month,2023-06-07,tbc,tbc,tbc
-VQ-14,Creation,2022-10-26,tbc,tbc,tbc
-VN-95,Creation,2022-11-20,tbc,tbc,tbc
-FE-12,Creation,2023-02-17,tbc,tbc,tbc
-QK-28,Creation,2022-10-13,tbc,tbc,tbc
-QK-28,6 month,2023-06-27,tbc,tbc,tbc
-QK-28,12 month,2023-12-15,tbc,tbc,tbc
-PO-89,Creation,2022-11-11,tbc,tbc,tbc
-PO-89,6 month,2023-06-08,tbc,tbc,tbc
-KJ-49,Creation,2023-02-24,tbc,tbc,tbc
-KJ-49,6 month,2023-06-24,tbc,tbc,tbc
-KJ-49,12 month,2023-12-08,tbc,tbc,tbc
-TP-24,Creation,2022-10-31,tbc,tbc,tbc
-MW-97,Creation,2023-02-02,tbc,tbc,tbc
-MW-97,6 month,2023-06-17,tbc,tbc,tbc
-MW-97,12 month,2023-12-07,tbc,tbc,tbc
-FR-53,Creation,2022-12-06,tbc,tbc,tbc
+unique_id,provider_id_integration,integration_outcome_type,integration_outcome_achieved_date,integration_social,integration_comms_language,integration_digital
+NB-83,,Creation,2022-11-07,tbc,tbc,tbc
+NB-83,anyone,6 month,2023-05-21,tbc,tbc,tbc
+NB-83,wear,12 month,2023-11-22,tbc,tbc,tbc
+KD-22,dream,Creation,2023-01-30,tbc,tbc,tbc
+KD-22,discussion,6 month,2023-06-04,tbc,tbc,tbc
+BW-90,,Creation,2023-02-23,tbc,tbc,tbc
+BW-90,,6 month,2023-05-22,tbc,tbc,tbc
+BW-90,,12 month,2023-11-21,tbc,tbc,tbc
+OT-83,open,Creation,2023-01-05,tbc,tbc,tbc
+OT-83,doctor,6 month,2023-05-19,tbc,tbc,tbc
+WQ-07,,Creation,2022-11-20,tbc,tbc,tbc
+GA-61,step,Creation,2022-11-04,tbc,tbc,tbc
+QP-86,,Creation,2022-10-08,tbc,tbc,tbc
+JV-17,well,Creation,2023-01-08,tbc,tbc,tbc
+JV-17,they,6 month,2023-06-05,tbc,tbc,tbc
+JV-17,police,12 month,2023-12-20,tbc,tbc,tbc
+XU-65,,Creation,2022-12-08,tbc,tbc,tbc
+XU-65,,6 month,2023-05-29,tbc,tbc,tbc
+LF-18,,Creation,2023-01-28,tbc,tbc,tbc
+LF-18,get,6 month,2023-05-18,tbc,tbc,tbc
+LF-18,car,12 month,2023-12-18,tbc,tbc,tbc
+JO-00,,Creation,2022-10-30,tbc,tbc,tbc
+JO-00,them,6 month,2023-05-28,tbc,tbc,tbc
+JO-00,western,12 month,2023-12-15,tbc,tbc,tbc
+FI-70,unit,Creation,2022-09-28,tbc,tbc,tbc
+NL-94,,Creation,2022-10-07,tbc,tbc,tbc
+NL-94,study,6 month,2023-05-21,tbc,tbc,tbc
+NL-94,,12 month,2023-11-25,tbc,tbc,tbc
+JC-47,,Creation,2022-12-28,tbc,tbc,tbc
+JC-47,today,6 month,2023-06-03,tbc,tbc,tbc
+JC-47,,12 month,2023-12-03,tbc,tbc,tbc
+FE-53,management,Creation,2023-02-17,tbc,tbc,tbc
+FE-53,,6 month,2023-05-22,tbc,tbc,tbc
+FE-53,fund,12 month,2023-12-13,tbc,tbc,tbc
+YU-67,country,Creation,2022-12-03,tbc,tbc,tbc
+YU-67,,6 month,2023-05-14,tbc,tbc,tbc
+OR-06,believe,Creation,2022-10-04,tbc,tbc,tbc
+OR-06,,6 month,2023-05-18,tbc,tbc,tbc
+MG-14,of,Creation,2023-01-08,tbc,tbc,tbc
+OZ-39,,Creation,2022-12-29,tbc,tbc,tbc
+OZ-39,,6 month,2023-05-23,tbc,tbc,tbc
+OZ-39,look,12 month,2023-12-10,tbc,tbc,tbc
+JH-86,state,Creation,2022-12-12,tbc,tbc,tbc
+JH-86,,6 month,2023-05-23,tbc,tbc,tbc
+JH-86,number,12 month,2023-11-30,tbc,tbc,tbc
+NM-71,,Creation,2023-01-29,tbc,tbc,tbc
+NM-71,conference,6 month,2023-06-04,tbc,tbc,tbc
+NM-71,,12 month,2023-12-14,tbc,tbc,tbc
+EO-17,,Creation,2023-01-23,tbc,tbc,tbc
+EO-17,,6 month,2023-06-01,tbc,tbc,tbc
+EO-17,,12 month,2023-12-14,tbc,tbc,tbc
+QI-15,,Creation,2022-12-10,tbc,tbc,tbc
+QI-15,mother,6 month,2023-05-15,tbc,tbc,tbc
+QI-15,debate,12 month,2023-12-14,tbc,tbc,tbc
+ZS-04,,Creation,2022-12-10,tbc,tbc,tbc
+ZS-04,opportunity,6 month,2023-06-03,tbc,tbc,tbc
+ZS-04,,12 month,2023-11-29,tbc,tbc,tbc
+GA-03,,Creation,2022-11-04,tbc,tbc,tbc
+GA-03,,6 month,2023-05-20,tbc,tbc,tbc
+GA-03,,12 month,2023-11-29,tbc,tbc,tbc
+PE-44,suggest,Creation,2022-10-21,tbc,tbc,tbc
+PZ-88,involve,Creation,2022-09-27,tbc,tbc,tbc
+PZ-88,class,6 month,2023-06-05,tbc,tbc,tbc
+PZ-88,,12 month,2023-12-03,tbc,tbc,tbc
+OM-13,letter,Creation,2022-12-18,tbc,tbc,tbc
+OM-13,soon,6 month,2023-06-01,tbc,tbc,tbc
+OM-13,what,12 month,2023-12-05,tbc,tbc,tbc
+PO-96,,Creation,2022-11-18,tbc,tbc,tbc
+PO-96,,6 month,2023-05-16,tbc,tbc,tbc
+PO-96,check,12 month,2023-11-29,tbc,tbc,tbc
+RC-47,,Creation,2022-12-12,tbc,tbc,tbc
+RC-47,garden,6 month,2023-05-27,tbc,tbc,tbc
+RC-47,,12 month,2023-12-03,tbc,tbc,tbc
+EK-73,town,Creation,2022-12-15,tbc,tbc,tbc
+EK-73,fall,6 month,2023-05-30,tbc,tbc,tbc
+EK-73,leg,12 month,2023-12-06,tbc,tbc,tbc
+OL-56,degree,Creation,2023-02-18,tbc,tbc,tbc
+OL-56,,6 month,2023-06-04,tbc,tbc,tbc
+NC-31,public,Creation,2022-10-25,tbc,tbc,tbc
+PM-37,,Creation,2023-02-12,tbc,tbc,tbc
+PM-37,recently,6 month,2023-05-15,tbc,tbc,tbc
+PM-37,onto,12 month,2023-12-06,tbc,tbc,tbc
+PD-33,,Creation,2022-12-12,tbc,tbc,tbc
+PD-33,she,6 month,2023-05-18,tbc,tbc,tbc
+RM-42,,Creation,2022-12-20,tbc,tbc,tbc
+RM-42,,6 month,2023-05-18,tbc,tbc,tbc
+RM-42,,12 month,2023-11-24,tbc,tbc,tbc
+JQ-06,,Creation,2023-01-28,tbc,tbc,tbc
+JQ-06,laugh,6 month,2023-05-21,tbc,tbc,tbc
+JQ-06,,12 month,2023-12-06,tbc,tbc,tbc
+WW-02,at,Creation,2022-12-19,tbc,tbc,tbc
+WW-02,,6 month,2023-05-23,tbc,tbc,tbc
+CM-00,,Creation,2022-12-19,tbc,tbc,tbc
+CM-00,check,6 month,2023-05-27,tbc,tbc,tbc
+YM-26,month,Creation,2023-01-27,tbc,tbc,tbc
+VF-98,,Creation,2022-12-10,tbc,tbc,tbc
+VF-98,call,6 month,2023-06-02,tbc,tbc,tbc
+MU-73,cold,Creation,2022-12-15,tbc,tbc,tbc
+MU-73,,6 month,2023-05-14,tbc,tbc,tbc
+MU-73,election,12 month,2023-11-23,tbc,tbc,tbc
+ZV-86,require,Creation,2022-12-03,tbc,tbc,tbc
+QE-51,half,Creation,2022-12-18,tbc,tbc,tbc
+QE-51,friend,6 month,2023-06-03,tbc,tbc,tbc
+QE-51,,12 month,2023-12-12,tbc,tbc,tbc
+GL-10,fly,Creation,2022-10-07,tbc,tbc,tbc
+GL-10,,6 month,2023-05-14,tbc,tbc,tbc
+ND-75,task,Creation,2022-10-06,tbc,tbc,tbc
+ND-75,shoulder,6 month,2023-05-15,tbc,tbc,tbc
+ND-75,,12 month,2023-12-20,tbc,tbc,tbc
+GG-13,,Creation,2022-12-03,tbc,tbc,tbc
+GG-13,hear,6 month,2023-06-03,tbc,tbc,tbc
+GY-42,,Creation,2023-01-11,tbc,tbc,tbc
+GY-42,,6 month,2023-05-28,tbc,tbc,tbc
+SK-94,true,Creation,2023-01-09,tbc,tbc,tbc
+SK-94,,6 month,2023-05-12,tbc,tbc,tbc
+SK-94,,12 month,2023-12-20,tbc,tbc,tbc
+FV-47,,Creation,2022-10-16,tbc,tbc,tbc
+FV-47,,6 month,2023-05-22,tbc,tbc,tbc
+FV-47,,12 month,2023-11-27,tbc,tbc,tbc
+GH-66,friend,Creation,2022-11-09,tbc,tbc,tbc
+GH-66,above,6 month,2023-05-18,tbc,tbc,tbc
+GH-66,better,12 month,2023-12-04,tbc,tbc,tbc
+DQ-46,rule,Creation,2022-11-04,tbc,tbc,tbc
+FS-73,,Creation,2023-01-13,tbc,tbc,tbc
+FS-73,camera,6 month,2023-05-11,tbc,tbc,tbc
+HM-43,at,Creation,2022-12-07,tbc,tbc,tbc
+HM-43,,6 month,2023-06-04,tbc,tbc,tbc
+JZ-48,mother,Creation,2023-01-16,tbc,tbc,tbc
+JZ-48,,6 month,2023-05-24,tbc,tbc,tbc
+JZ-48,,12 month,2023-12-05,tbc,tbc,tbc
+HI-35,,Creation,2023-02-22,tbc,tbc,tbc
+HI-35,,6 month,2023-06-02,tbc,tbc,tbc
+HI-35,,12 month,2023-11-23,tbc,tbc,tbc
+EP-70,understand,Creation,2022-10-29,tbc,tbc,tbc
+EP-70,during,6 month,2023-05-08,tbc,tbc,tbc
+EP-70,add,12 month,2023-11-25,tbc,tbc,tbc
+DK-94,,Creation,2022-10-18,tbc,tbc,tbc
+DK-94,,6 month,2023-05-15,tbc,tbc,tbc
+DK-94,,12 month,2023-12-17,tbc,tbc,tbc
+JQ-39,,Creation,2023-01-28,tbc,tbc,tbc
+MY-35,,Creation,2022-10-01,tbc,tbc,tbc
+MY-35,,6 month,2023-05-14,tbc,tbc,tbc
+SE-22,where,Creation,2022-12-07,tbc,tbc,tbc
+OJ-15,,Creation,2022-10-02,tbc,tbc,tbc
+OJ-15,our,6 month,2023-05-22,tbc,tbc,tbc
+TS-76,message,Creation,2023-01-10,tbc,tbc,tbc
+TS-76,,6 month,2023-06-01,tbc,tbc,tbc
+TS-76,hold,12 month,2023-12-06,tbc,tbc,tbc
+QH-38,change,Creation,2022-10-25,tbc,tbc,tbc
+QH-38,forward,6 month,2023-05-29,tbc,tbc,tbc
+QH-38,,12 month,2023-11-26,tbc,tbc,tbc
+PI-97,administration,Creation,2022-11-19,tbc,tbc,tbc
+PI-97,,6 month,2023-06-04,tbc,tbc,tbc
+PI-97,relate,12 month,2023-11-27,tbc,tbc,tbc
+BO-12,somebody,Creation,2023-02-17,tbc,tbc,tbc
+BO-12,,6 month,2023-05-22,tbc,tbc,tbc
+QI-92,difference,Creation,2022-11-01,tbc,tbc,tbc
+QI-92,final,6 month,2023-05-11,tbc,tbc,tbc
+QI-92,,12 month,2023-12-07,tbc,tbc,tbc
+VB-63,,Creation,2023-01-14,tbc,tbc,tbc
+VB-63,base,6 month,2023-05-29,tbc,tbc,tbc
+VB-63,,12 month,2023-11-21,tbc,tbc,tbc
+MU-65,,Creation,2022-10-11,tbc,tbc,tbc
+MU-65,,6 month,2023-05-16,tbc,tbc,tbc
+LQ-50,area,Creation,2022-10-19,tbc,tbc,tbc
+LQ-50,,6 month,2023-05-13,tbc,tbc,tbc
+NN-11,,Creation,2022-10-12,tbc,tbc,tbc
+NN-11,short,6 month,2023-05-15,tbc,tbc,tbc
+NN-11,,12 month,2023-12-02,tbc,tbc,tbc
+PN-22,attorney,Creation,2022-12-08,tbc,tbc,tbc
+LC-36,talk,Creation,2023-02-13,tbc,tbc,tbc
+TS-45,phone,Creation,2022-12-15,tbc,tbc,tbc
+TS-45,theory,6 month,2023-06-03,tbc,tbc,tbc
+TS-45,,12 month,2023-12-17,tbc,tbc,tbc
+AU-81,,Creation,2022-12-07,tbc,tbc,tbc
+AU-81,,6 month,2023-05-09,tbc,tbc,tbc
+AU-81,,12 month,2023-12-12,tbc,tbc,tbc
+XF-78,,Creation,2022-12-03,tbc,tbc,tbc
+XF-78,,6 month,2023-05-17,tbc,tbc,tbc
+XF-78,kind,12 month,2023-12-14,tbc,tbc,tbc
+KY-42,wonder,Creation,2023-01-12,tbc,tbc,tbc
+KY-42,interesting,6 month,2023-05-14,tbc,tbc,tbc
+KY-42,bank,12 month,2023-11-24,tbc,tbc,tbc
+LJ-69,,Creation,2023-01-25,tbc,tbc,tbc
+LJ-69,career,6 month,2023-06-05,tbc,tbc,tbc
+LJ-69,,12 month,2023-12-17,tbc,tbc,tbc
+AL-94,,Creation,2022-11-29,tbc,tbc,tbc
+YK-11,occur,Creation,2022-11-20,tbc,tbc,tbc
+FP-94,,Creation,2023-01-23,tbc,tbc,tbc
+IU-25,,Creation,2023-01-25,tbc,tbc,tbc
+IU-25,Mr,6 month,2023-05-31,tbc,tbc,tbc
+IU-25,,12 month,2023-11-27,tbc,tbc,tbc
+LN-77,near,Creation,2023-02-08,tbc,tbc,tbc
+LN-77,suggest,6 month,2023-05-10,tbc,tbc,tbc
+GE-81,team,Creation,2023-01-10,tbc,tbc,tbc
+GE-81,eight,6 month,2023-05-25,tbc,tbc,tbc
+GE-81,position,12 month,2023-12-16,tbc,tbc,tbc
+ZL-18,attention,Creation,2022-12-10,tbc,tbc,tbc
+ZL-18,,6 month,2023-05-20,tbc,tbc,tbc
+ZL-18,,12 month,2023-12-15,tbc,tbc,tbc
+EI-58,be,Creation,2022-11-01,tbc,tbc,tbc
+MU-40,,Creation,2022-11-22,tbc,tbc,tbc
+FM-89,,Creation,2022-10-21,tbc,tbc,tbc
+FM-89,,6 month,2023-05-17,tbc,tbc,tbc
+FM-89,study,12 month,2023-12-01,tbc,tbc,tbc
+JE-18,debate,Creation,2022-11-06,tbc,tbc,tbc
+JE-18,,6 month,2023-05-24,tbc,tbc,tbc
+JE-18,,12 month,2023-12-11,tbc,tbc,tbc
+RW-22,,Creation,2022-11-21,tbc,tbc,tbc
+RW-22,tonight,6 month,2023-05-10,tbc,tbc,tbc
+ML-74,,Creation,2022-11-02,tbc,tbc,tbc
+SW-00,,Creation,2022-12-25,tbc,tbc,tbc
+SW-00,Republican,6 month,2023-05-16,tbc,tbc,tbc
+SW-00,,12 month,2023-12-18,tbc,tbc,tbc
+OT-19,particular,Creation,2023-01-13,tbc,tbc,tbc
+OT-19,,6 month,2023-05-31,tbc,tbc,tbc
+OT-19,not,12 month,2023-11-21,tbc,tbc,tbc
+OU-47,,Creation,2023-01-10,tbc,tbc,tbc
+NB-74,,Creation,2022-11-14,tbc,tbc,tbc
+NB-74,,6 month,2023-05-16,tbc,tbc,tbc
+NB-74,,12 month,2023-12-03,tbc,tbc,tbc
+MK-28,drive,Creation,2022-11-29,tbc,tbc,tbc
+MK-28,,6 month,2023-06-01,tbc,tbc,tbc
+MK-28,,12 month,2023-11-24,tbc,tbc,tbc
+XC-80,,Creation,2022-10-01,tbc,tbc,tbc
+XC-80,top,6 month,2023-05-24,tbc,tbc,tbc
+XC-80,,12 month,2023-11-30,tbc,tbc,tbc
+OE-47,catch,Creation,2022-11-11,tbc,tbc,tbc
+OE-47,,6 month,2023-05-25,tbc,tbc,tbc
+OE-47,memory,12 month,2023-12-04,tbc,tbc,tbc
+DV-83,,Creation,2022-11-21,tbc,tbc,tbc
+DV-83,,6 month,2023-05-21,tbc,tbc,tbc
+DV-83,,12 month,2023-12-12,tbc,tbc,tbc
+BJ-78,,Creation,2022-10-07,tbc,tbc,tbc
+BJ-78,which,6 month,2023-05-17,tbc,tbc,tbc
+MH-24,ahead,Creation,2022-11-20,tbc,tbc,tbc
+PA-12,weight,Creation,2022-12-08,tbc,tbc,tbc
+PE-65,,Creation,2022-10-30,tbc,tbc,tbc
+PE-65,notice,6 month,2023-05-23,tbc,tbc,tbc
+PE-65,,12 month,2023-12-20,tbc,tbc,tbc
+UY-77,scientist,Creation,2023-01-14,tbc,tbc,tbc
+UY-77,deep,6 month,2023-05-21,tbc,tbc,tbc
+SQ-08,,Creation,2022-11-09,tbc,tbc,tbc
+SQ-08,candidate,6 month,2023-05-31,tbc,tbc,tbc
+SQ-08,,12 month,2023-11-25,tbc,tbc,tbc
+IP-97,such,Creation,2022-10-04,tbc,tbc,tbc
+SL-86,though,Creation,2023-01-26,tbc,tbc,tbc
+SL-86,,6 month,2023-05-26,tbc,tbc,tbc
+OL-85,another,Creation,2022-12-29,tbc,tbc,tbc
+OL-85,order,6 month,2023-05-30,tbc,tbc,tbc
+OL-85,,12 month,2023-12-20,tbc,tbc,tbc
+YL-47,series,Creation,2023-01-20,tbc,tbc,tbc
+CZ-69,film,Creation,2022-12-10,tbc,tbc,tbc
+CZ-69,know,6 month,2023-06-04,tbc,tbc,tbc
+HI-12,,Creation,2022-12-28,tbc,tbc,tbc
+HI-12,,6 month,2023-05-29,tbc,tbc,tbc
+HI-12,,12 month,2023-12-03,tbc,tbc,tbc
+TF-06,,Creation,2022-12-13,tbc,tbc,tbc
+TF-06,,6 month,2023-05-29,tbc,tbc,tbc
+YM-06,,Creation,2022-09-27,tbc,tbc,tbc
+QK-67,,Creation,2023-02-07,tbc,tbc,tbc
+QK-67,she,6 month,2023-05-16,tbc,tbc,tbc
+QK-67,,12 month,2023-12-17,tbc,tbc,tbc
+NJ-90,present,Creation,2022-11-17,tbc,tbc,tbc
+NJ-90,,6 month,2023-05-20,tbc,tbc,tbc
+NJ-90,,12 month,2023-12-08,tbc,tbc,tbc
+NX-68,,Creation,2023-02-04,tbc,tbc,tbc
+NX-68,,6 month,2023-06-05,tbc,tbc,tbc
+NX-68,,12 month,2023-11-29,tbc,tbc,tbc
+NY-47,well,Creation,2022-12-16,tbc,tbc,tbc
+NY-47,PM,6 month,2023-05-19,tbc,tbc,tbc
+NY-47,base,12 month,2023-11-25,tbc,tbc,tbc
+HR-63,,Creation,2022-10-26,tbc,tbc,tbc
+HR-63,,6 month,2023-05-31,tbc,tbc,tbc
+HR-63,truth,12 month,2023-11-26,tbc,tbc,tbc
+HF-74,,Creation,2022-10-13,tbc,tbc,tbc
+TW-14,,Creation,2022-12-08,tbc,tbc,tbc
+TW-14,,6 month,2023-05-10,tbc,tbc,tbc
+TW-14,right,12 month,2023-11-26,tbc,tbc,tbc
+CE-61,,Creation,2022-11-29,tbc,tbc,tbc
+CE-61,,6 month,2023-06-02,tbc,tbc,tbc
+CE-61,,12 month,2023-12-09,tbc,tbc,tbc
+YL-89,bed,Creation,2022-10-05,tbc,tbc,tbc
+AY-18,,Creation,2023-02-09,tbc,tbc,tbc
+AY-18,no,6 month,2023-05-22,tbc,tbc,tbc
+AY-18,all,12 month,2023-11-22,tbc,tbc,tbc
+LV-43,guy,Creation,2022-11-17,tbc,tbc,tbc
+LV-43,school,6 month,2023-05-18,tbc,tbc,tbc
+TF-68,,Creation,2023-02-24,tbc,tbc,tbc
+TF-68,mean,6 month,2023-06-03,tbc,tbc,tbc
+TF-68,,12 month,2023-12-05,tbc,tbc,tbc
+SB-32,true,Creation,2023-01-04,tbc,tbc,tbc
+JW-46,,Creation,2023-02-24,tbc,tbc,tbc
+JW-46,,6 month,2023-05-29,tbc,tbc,tbc
+RQ-00,fight,Creation,2022-12-16,tbc,tbc,tbc
+RQ-00,involve,6 month,2023-05-07,tbc,tbc,tbc
+RQ-00,,12 month,2023-12-11,tbc,tbc,tbc
+RR-41,attention,Creation,2023-02-12,tbc,tbc,tbc
+RR-41,,6 month,2023-05-30,tbc,tbc,tbc
+OM-22,,Creation,2022-11-24,tbc,tbc,tbc
+OM-22,,6 month,2023-06-03,tbc,tbc,tbc
+OM-22,,12 month,2023-11-24,tbc,tbc,tbc
+HJ-27,,Creation,2023-01-29,tbc,tbc,tbc
+HJ-27,scientist,6 month,2023-05-08,tbc,tbc,tbc
+HJ-27,,12 month,2023-12-03,tbc,tbc,tbc
+LD-31,very,Creation,2022-12-17,tbc,tbc,tbc
+LD-31,five,6 month,2023-05-14,tbc,tbc,tbc
+LD-31,evidence,12 month,2023-12-18,tbc,tbc,tbc
+KL-58,bit,Creation,2022-12-19,tbc,tbc,tbc
+GR-88,floor,Creation,2022-09-26,tbc,tbc,tbc
+GC-91,,Creation,2022-11-09,tbc,tbc,tbc
+GC-91,serious,6 month,2023-05-17,tbc,tbc,tbc
+GC-91,,12 month,2023-12-05,tbc,tbc,tbc
+HW-30,civil,Creation,2022-10-16,tbc,tbc,tbc
+DD-34,,Creation,2022-12-02,tbc,tbc,tbc
+ZQ-08,step,Creation,2022-10-08,tbc,tbc,tbc
+ZQ-08,,6 month,2023-05-27,tbc,tbc,tbc
+ZQ-08,raise,12 month,2023-12-13,tbc,tbc,tbc
+TF-80,,Creation,2022-11-06,tbc,tbc,tbc
+PW-08,occur,Creation,2023-02-02,tbc,tbc,tbc
+PW-08,find,6 month,2023-05-15,tbc,tbc,tbc
+SD-80,simple,Creation,2022-10-03,tbc,tbc,tbc
+OX-30,almost,Creation,2022-10-10,tbc,tbc,tbc
+QG-71,American,Creation,2023-01-04,tbc,tbc,tbc
+QG-71,off,6 month,2023-05-25,tbc,tbc,tbc
+QG-71,,12 month,2023-12-11,tbc,tbc,tbc
+FF-19,,Creation,2022-10-23,tbc,tbc,tbc
+FF-19,,6 month,2023-06-06,tbc,tbc,tbc
+FF-19,third,12 month,2023-11-24,tbc,tbc,tbc
+TA-34,,Creation,2023-01-01,tbc,tbc,tbc
+TA-34,,6 month,2023-05-26,tbc,tbc,tbc
+TA-34,,12 month,2023-12-16,tbc,tbc,tbc
+EK-45,,Creation,2022-11-14,tbc,tbc,tbc
+EK-45,,6 month,2023-05-22,tbc,tbc,tbc
+EK-45,,12 month,2023-12-05,tbc,tbc,tbc
+LM-45,,Creation,2023-01-25,tbc,tbc,tbc
+QW-76,,Creation,2022-12-20,tbc,tbc,tbc
+QW-76,couple,6 month,2023-05-11,tbc,tbc,tbc
+QW-76,,12 month,2023-11-25,tbc,tbc,tbc
+ML-22,somebody,Creation,2022-10-17,tbc,tbc,tbc
+ML-22,trouble,6 month,2023-05-22,tbc,tbc,tbc
+ML-22,,12 month,2023-12-17,tbc,tbc,tbc
+HV-19,another,Creation,2022-10-09,tbc,tbc,tbc
+HV-19,,6 month,2023-05-15,tbc,tbc,tbc
+HV-19,cover,12 month,2023-12-20,tbc,tbc,tbc
+MF-80,require,Creation,2023-01-02,tbc,tbc,tbc
+MF-80,,6 month,2023-05-31,tbc,tbc,tbc
+UJ-70,case,Creation,2022-10-31,tbc,tbc,tbc
+HX-97,vote,Creation,2022-11-16,tbc,tbc,tbc
+SH-29,,Creation,2022-11-29,tbc,tbc,tbc
+SH-29,,6 month,2023-05-27,tbc,tbc,tbc
+SH-29,form,12 month,2023-12-11,tbc,tbc,tbc
+EU-00,,Creation,2023-02-15,tbc,tbc,tbc
+LS-59,,Creation,2022-11-11,tbc,tbc,tbc
+RN-99,anyone,Creation,2022-12-26,tbc,tbc,tbc
+RN-99,quality,6 month,2023-06-01,tbc,tbc,tbc
+FV-43,because,Creation,2022-12-05,tbc,tbc,tbc
+FV-43,,6 month,2023-05-20,tbc,tbc,tbc
+FV-43,,12 month,2023-12-11,tbc,tbc,tbc
+CW-58,,Creation,2022-12-05,tbc,tbc,tbc
+CW-58,build,6 month,2023-05-22,tbc,tbc,tbc
+CW-58,,12 month,2023-11-21,tbc,tbc,tbc
+FV-77,general,Creation,2022-12-23,tbc,tbc,tbc
+FV-77,,6 month,2023-05-31,tbc,tbc,tbc
+FN-77,,Creation,2022-11-18,tbc,tbc,tbc
+FN-77,,6 month,2023-05-21,tbc,tbc,tbc
+FN-77,,12 month,2023-12-05,tbc,tbc,tbc
+QK-51,,Creation,2022-11-29,tbc,tbc,tbc
+QK-51,,6 month,2023-05-31,tbc,tbc,tbc
+KN-40,wind,Creation,2023-02-02,tbc,tbc,tbc
+KN-40,seek,6 month,2023-05-18,tbc,tbc,tbc
+KN-40,claim,12 month,2023-11-25,tbc,tbc,tbc
+AI-67,opportunity,Creation,2023-02-12,tbc,tbc,tbc
+MU-93,,Creation,2023-01-17,tbc,tbc,tbc
+MU-93,energy,6 month,2023-05-08,tbc,tbc,tbc
+GA-76,,Creation,2022-10-28,tbc,tbc,tbc
+GA-76,arrive,6 month,2023-05-14,tbc,tbc,tbc
+QM-62,full,Creation,2022-10-13,tbc,tbc,tbc
+QM-62,still,6 month,2023-05-13,tbc,tbc,tbc
+QM-62,,12 month,2023-12-01,tbc,tbc,tbc
+NU-63,,Creation,2022-11-09,tbc,tbc,tbc
+NU-63,,6 month,2023-05-22,tbc,tbc,tbc
+NU-63,station,12 month,2023-12-10,tbc,tbc,tbc
+FG-81,gas,Creation,2023-01-20,tbc,tbc,tbc
+FG-81,foreign,6 month,2023-05-20,tbc,tbc,tbc
+FG-81,,12 month,2023-12-03,tbc,tbc,tbc
+VQ-14,in,Creation,2023-01-04,tbc,tbc,tbc
+LW-80,,Creation,2022-09-27,tbc,tbc,tbc
+LW-80,of,6 month,2023-05-29,tbc,tbc,tbc
+LW-80,,12 month,2023-12-03,tbc,tbc,tbc
+TO-36,,Creation,2022-11-26,tbc,tbc,tbc
+TO-36,white,6 month,2023-05-21,tbc,tbc,tbc
+TO-36,,12 month,2023-11-26,tbc,tbc,tbc
+HB-78,,Creation,2022-12-22,tbc,tbc,tbc
+HB-78,Republican,6 month,2023-05-22,tbc,tbc,tbc
+HB-78,,12 month,2023-11-27,tbc,tbc,tbc
+IZ-19,,Creation,2022-11-18,tbc,tbc,tbc
+IZ-19,administration,6 month,2023-06-05,tbc,tbc,tbc
+IZ-19,some,12 month,2023-11-30,tbc,tbc,tbc
+FD-46,investment,Creation,2023-01-16,tbc,tbc,tbc
+FD-46,,6 month,2023-05-23,tbc,tbc,tbc
+FN-52,hundred,Creation,2022-10-29,tbc,tbc,tbc
+FN-52,,6 month,2023-05-12,tbc,tbc,tbc
+FN-52,hit,12 month,2023-11-23,tbc,tbc,tbc
+NQ-28,,Creation,2022-12-28,tbc,tbc,tbc
+DH-78,give,Creation,2022-10-31,tbc,tbc,tbc
+DH-78,,6 month,2023-05-28,tbc,tbc,tbc
+RW-02,,Creation,2022-12-20,tbc,tbc,tbc
+RW-02,,6 month,2023-05-10,tbc,tbc,tbc
+RW-02,new,12 month,2023-12-09,tbc,tbc,tbc
+BR-72,clear,Creation,2022-12-07,tbc,tbc,tbc
+BR-72,population,6 month,2023-06-02,tbc,tbc,tbc
+AS-46,,Creation,2022-11-23,tbc,tbc,tbc
+AS-46,improve,6 month,2023-06-03,tbc,tbc,tbc
+EB-25,admit,Creation,2023-01-15,tbc,tbc,tbc
+JF-08,,Creation,2022-11-05,tbc,tbc,tbc
+JF-08,,6 month,2023-05-15,tbc,tbc,tbc
+RO-20,,Creation,2022-12-24,tbc,tbc,tbc
+RO-20,,6 month,2023-05-27,tbc,tbc,tbc
+RO-20,although,12 month,2023-11-21,tbc,tbc,tbc
+OV-64,,Creation,2022-10-20,tbc,tbc,tbc
+OV-64,,6 month,2023-05-22,tbc,tbc,tbc
+IU-62,benefit,Creation,2023-02-01,tbc,tbc,tbc
+IU-62,,6 month,2023-05-15,tbc,tbc,tbc
+IU-62,wide,12 month,2023-12-17,tbc,tbc,tbc
+BW-37,,Creation,2023-01-16,tbc,tbc,tbc
+BW-37,,6 month,2023-06-02,tbc,tbc,tbc
+MS-11,,Creation,2022-12-05,tbc,tbc,tbc
+MS-11,game,6 month,2023-06-06,tbc,tbc,tbc
+XO-54,on,Creation,2022-12-12,tbc,tbc,tbc
+XO-54,reason,6 month,2023-05-26,tbc,tbc,tbc
+XO-54,,12 month,2023-11-22,tbc,tbc,tbc
+HD-17,,Creation,2023-02-15,tbc,tbc,tbc
+HD-17,recently,6 month,2023-06-06,tbc,tbc,tbc
+HD-17,,12 month,2023-12-01,tbc,tbc,tbc
+OX-88,guess,Creation,2022-10-18,tbc,tbc,tbc
+OX-88,class,6 month,2023-05-13,tbc,tbc,tbc
+OX-88,,12 month,2023-12-03,tbc,tbc,tbc
+LP-56,movie,Creation,2022-10-17,tbc,tbc,tbc
+LP-56,,6 month,2023-05-30,tbc,tbc,tbc
+LP-56,community,12 month,2023-12-15,tbc,tbc,tbc

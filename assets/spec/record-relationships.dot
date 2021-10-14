@@ -23,6 +23,21 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">provider_id_person</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">first_name</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">last_name</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">year_of_birth</TD>
             <TD ALIGN="CENTER">year</TD>
         </TR>
@@ -58,12 +73,17 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">provider_id_housing_entry</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">housing_entry_date</TD>
             <TD ALIGN="CENTER">date</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">housing_entry_accomodation</TD>
+            <TD ALIGN="LEFT">housing_entry_accommodation</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
     </TABLE>
@@ -83,12 +103,17 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">provider_id_housing_sustain</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">housing_sustainment_date</TD>
             <TD ALIGN="CENTER">date</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">housing_sustain_accomodation</TD>
+            <TD ALIGN="LEFT">housing_sustain_accommodation</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
     </TABLE>
@@ -108,6 +133,11 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">provider_id_baseline</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">ni_number</TD>
             <TD ALIGN="CENTER">string</TD>
         </TR>
@@ -123,7 +153,7 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">current_dependents_uk</TD>
+            <TD ALIGN="LEFT">current_dependants_uk</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
@@ -138,7 +168,7 @@ graph {
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">age_profile_of_dependents_uk</TD>
+            <TD ALIGN="LEFT">age_profile_of_dependants_uk</TD>
             <TD ALIGN="CENTER">list</TD>
         </TR>
         <TR>
@@ -204,11 +234,11 @@ graph {
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">wage_baseline</TD>
-            <TD ALIGN="CENTER">categorical</TD>
+            <TD ALIGN="CENTER">integer</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">eduction_training_status</TD>
+            <TD ALIGN="LEFT">education_training_status</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
@@ -234,6 +264,11 @@ graph {
         <TR>
             <TD>PK</TD>
             <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">provider_id_integration</TD>
             <TD ALIGN="CENTER">string</TD>
         </TR>
         <TR>
@@ -278,6 +313,11 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">provider_id_empl_inter</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">date_intermediate_employment_outcome</TD>
             <TD ALIGN="CENTER">date</TD>
         </TR>
@@ -299,6 +339,11 @@ graph {
         <TR>
             <TD>PK</TD>
             <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">provider_id_empl_entry</TD>
             <TD ALIGN="CENTER">string</TD>
         </TR>
         <TR>
@@ -329,11 +374,11 @@ graph {
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">wage_employment_entry</TD>
-            <TD ALIGN="CENTER">categorical</TD>
+            <TD ALIGN="CENTER">integer</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">eduction_training_status_entry</TD>
+            <TD ALIGN="LEFT">education_training_status_entry</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
@@ -363,6 +408,11 @@ graph {
         </TR>
         <TR>
             <TD></TD>
+            <TD ALIGN="LEFT">provider_id_empl_sustain</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
             <TD ALIGN="LEFT">employment_sustainment_date</TD>
             <TD ALIGN="CENTER">date</TD>
         </TR>
@@ -379,16 +429,16 @@ graph {
         <TR>
             <TD></TD>
             <TD ALIGN="LEFT">wage_employment_sustain</TD>
+            <TD ALIGN="CENTER">integer</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">education_training_status_sustain</TD>
             <TD ALIGN="CENTER">categorical</TD>
         </TR>
         <TR>
             <TD></TD>
-            <TD ALIGN="LEFT">eduction_training_status_sustain</TD>
-            <TD ALIGN="CENTER">categorical</TD>
-        </TR>
-        <TR>
-            <TD></TD>
-            <TD ALIGN="LEFT">employment_susatin_occupation</TD>
+            <TD ALIGN="LEFT">employment_sustain_occupation</TD>
             <TD ALIGN="CENTER">string</TD>
         </TR>
         <TR>
@@ -409,6 +459,11 @@ graph {
         <TR>
             <TD>PK</TD>
             <TD ALIGN="LEFT">unique_id</TD>
+            <TD ALIGN="CENTER">string</TD>
+        </TR>
+        <TR>
+            <TD></TD>
+            <TD ALIGN="LEFT">provider_id_last_seen</TD>
             <TD ALIGN="CENTER">string</TD>
         </TR>
         <TR>

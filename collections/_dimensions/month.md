@@ -1,4 +1,4 @@
 ---
 layout: dimension
-dimension_id: wage
+dimension_id: month
 ---
