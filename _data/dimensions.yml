@@ -211,6 +211,11 @@
     value: other
   id: housing_sustain_accommodation
 - dimensions:
+  - value: Renting - private sector
+  - value: Renting - Local authority or housing association
+  - value: Other safe and secure accommodation
+  id: housing_sustain_accomodation
+- dimensions:
   - value: tbc
   id: integration_comms_language
 - dimensions:
@@ -850,3 +855,10 @@
   - value: Do not identify as Transgender
   - value: Prefer not to say
   id: transgender
+- dimensions:
+  - value: tbc
+  id: wage_employment_entry
+- dimensions:
+  - value: tbc
+  - value: tbc
+  id: wage_employment_sustain

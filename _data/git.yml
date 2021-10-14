@@ -1,17 +1,11 @@
-git_committed_date: 2021-10-14 10:59 GMT
-git_committer_email: noreply@github.com
-git_committer_name: GitHub
+git_committed_date: 2021-10-14 12:08 GMT
+git_committer_email: james.hearn@socialfinance.org.uk
+git_committer_name: JamesHearn2
 git_dirty: false
-git_hexsha: 3ae0be6fd101dcea50a55c582cfcb02fbf1f15ad
-git_msg: "Update to spec  (#11)\n\n* updates to fields\r\n\r\n* Updated spelling errors\
-  \ in data records and dimensions\r\n\r\n* addition of first and last name to person\
-  \ form\r\n\r\n* Addition of provider ID to each form submitted (not a required field)\r\
-  \n\r\n* Deletion of wage dimensions as no longer needed + update to wage fields\
-  \ to reflect lastest decsions with it being an integar field\r\n\r\n* update to\
-  \ wage descriptions\r\n\r\n* update to provider ID field for all records\r\n\r\n\
-  * Final spelling updates and addition of reference codes for housing_sustain_accommodation\
-  \ dimensions\r\n\r\n* updates to spelling and grammer\r\n\r\n* Update to integration\
-  \ plan description & latest comments"
+git_hexsha: 14bc7a84d4e66bb7e47b7fac6d2febe872a45e3b
+git_msg: 'Merge branch ''main'' of https://github.com/SocialFinanceDigitalLabs/rtof-data-model
+
+  '
 git_tagrefs:
 - comitter_email: kaj@k-si.com
   comitter_name: Kaj Siebert
@@ -20,5 +14,31 @@ git_tagrefs:
 
     '
   tag: v1.0-beta.1
+- comitter_email: noreply@github.com
+  comitter_name: GitHub
+  date: 1634209162
+  message: "Update to spec  (#11)\n\n* updates to fields\r\n\r\n* Updated spelling\
+    \ errors in data records and dimensions\r\n\r\n* addition of first and last name\
+    \ to person form\r\n\r\n* Addition of provider ID to each form submitted (not\
+    \ a required field)\r\n\r\n* Deletion of wage dimensions as no longer needed +\
+    \ update to wage fields to reflect lastest decsions with it being an integar field\r\
+    \n\r\n* update to wage descriptions\r\n\r\n* update to provider ID field for all\
+    \ records\r\n\r\n* Final spelling updates and addition of reference codes for\
+    \ housing_sustain_accommodation dimensions\r\n\r\n* updates to spelling and grammer\r\
+    \n\r\n* Update to integration plan description & latest comments"
+  tag: v1.0.0
+- comitter_email: noreply@github.com
+  comitter_name: GitHub
+  date: 1634209162
+  message: "Update to spec  (#11)\n\n* updates to fields\r\n\r\n* Updated spelling\
+    \ errors in data records and dimensions\r\n\r\n* addition of first and last name\
+    \ to person form\r\n\r\n* Addition of provider ID to each form submitted (not\
+    \ a required field)\r\n\r\n* Deletion of wage dimensions as no longer needed +\
+    \ update to wage fields to reflect lastest decsions with it being an integar field\r\
+    \n\r\n* update to wage descriptions\r\n\r\n* update to provider ID field for all\
+    \ records\r\n\r\n* Final spelling updates and addition of reference codes for\
+    \ housing_sustain_accommodation dimensions\r\n\r\n* updates to spelling and grammer\r\
+    \n\r\n* Update to integration plan description & latest comments"
+  tag: v1.0.0-alpha
 git_tags: []
-git_version: 3ae0be6
+git_version: 14bc7a8
