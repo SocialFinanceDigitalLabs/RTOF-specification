@@ -44,7 +44,7 @@
     id: first_name
     name: First name
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
         type.
@@ -69,7 +69,7 @@
     id: last_name
     name: Last name
     primary_key: false
-    status: Pending consideration
+    status: Decided
     type:
       description: A string of Unicode characters as defined by the JSON Schema `string`
         type.

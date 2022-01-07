@@ -1,12 +1,11 @@
-git_committed_date: 2021-10-14 12:56 GMT
-git_committer_email: noreply@github.com
-git_committer_name: GitHub
+git_committed_date: 2022-01-07 13:11 GMT
+git_committer_email: 44439674+killiantroy@users.noreply.github.com
+git_committer_name: killiantroy
 git_dirty: false
-git_hexsha: 7b95135536be8237416c3a413d0db8bba8ad9394
-git_msg: 'Merge pull request #14 from SocialFinanceDigitalLabs/spec-update
+git_hexsha: e76b640016e738f92842c90b6cdd82d8c6b54b4d
+git_msg: 'Update person.yml
 
-
-  Spec update'
+  '
 git_tagrefs:
 - comitter_email: kaj@k-si.com
   comitter_name: Kaj Siebert
@@ -49,6 +48,5 @@ git_tagrefs:
 
     Spec update'
   tag: v1.0.1
-git_tags:
-- v1.0.1
-git_version: v1.0.1
+git_tags: []
+git_version: e76b640

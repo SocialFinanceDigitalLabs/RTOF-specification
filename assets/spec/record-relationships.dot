@@ -481,21 +481,21 @@ graph {
 
 
 
-"employment_entry" -- "person" [taillabel="0,1", headlabel="1", id="employment_entry--person"];
+"employment_sustain" -- "person" [taillabel="0,1", headlabel="1", id="employment_sustain--person"];
 
 "integration_plan" -- "person" [taillabel="0..N", headlabel="1", id="integration_plan--person"];
 
-"baseline" -- "person" [taillabel="0,1", headlabel="1", id="baseline--person"];
-
 "housing_sustain" -- "person" [taillabel="0,1", headlabel="1", id="housing_sustain--person"];
 
-"employment_sustain" -- "person" [taillabel="0,1", headlabel="1", id="employment_sustain--person"];
-
-"employment_intermediate" -- "person" [taillabel="0,1", headlabel="1", id="employment_intermediate--person"];
+"employment_entry" -- "person" [taillabel="0,1", headlabel="1", id="employment_entry--person"];
 
 "housing_entry" -- "person" [taillabel="0,1", headlabel="1", id="housing_entry--person"];
 
 "date_last_seen" -- "person" [taillabel="0,1", headlabel="1", id="date_last_seen--person"];
+
+"employment_intermediate" -- "person" [taillabel="0,1", headlabel="1", id="employment_intermediate--person"];
+
+"baseline" -- "person" [taillabel="0,1", headlabel="1", id="baseline--person"];
 
 
 }
